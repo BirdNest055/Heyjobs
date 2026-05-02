@@ -1,0 +1,2423 @@
+[
+  {
+    "name": "LEONI AG",
+    "strasse": "Marienstraße 7",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.leoni.com",
+    "mitarbeiter": "85794",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "I. K. Hofmann GmbH",
+    "strasse": "Lina-Ammon-Str. 19",
+    "plz": "90471",
+    "stadt": "Nürnberg",
+    "website": "www.hofmann.info",
+    "mitarbeiter": "16838",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Diehl Stiftung & Co. KG",
+    "strasse": "Stephanstraße 49",
+    "plz": "90478",
+    "stadt": "Nürnberg",
+    "website": "www.diehl.com",
+    "mitarbeiter": "16225",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Norma Lebensmittelfilialbetrieb Stiftung & Co. KG",
+    "strasse": "Heisterstr. 4",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.norma-online.de",
+    "mitarbeiter": "15000",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadt Nürnberg",
+    "strasse": "Fünferplatz 2",
+    "plz": "90408",
+    "stadt": "Nürnberg",
+    "website": "www.nuernberg.de",
+    "mitarbeiter": "12000",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "DATEV eG",
+    "strasse": "Paumgartnerstraße 6-14",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.datev.de",
+    "mitarbeiter": "8955",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "GfK SE",
+    "strasse": "Sophie-Germain-Straße 3-5",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.gfk.com",
+    "mitarbeiter": "8262",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bundesamt für Migration und Flüchtlinge",
+    "strasse": "Frankenstraße 210",
+    "plz": "90461",
+    "stadt": "Nürnberg",
+    "website": "www.BAMF.de",
+    "mitarbeiter": "8100",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Klinikum Nürnberg",
+    "strasse": "Prof.-Ernst-Nathan-Str. 1",
+    "plz": "90419",
+    "stadt": "Nürnberg",
+    "website": "www.klinikum-nuernberg.de",
+    "mitarbeiter": "6100",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Städtische Werke Nürnberg GmbH",
+    "strasse": "Am Plärrer 43",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.stwn.de",
+    "mitarbeiter": "4634",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dorfner GmbH & Co. KG",
+    "strasse": "Willstätterstr. 71",
+    "plz": "90449",
+    "stadt": "Nürnberg",
+    "website": "www.dorfner-gruppe.de",
+    "mitarbeiter": "4076",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sandoz Deutschland GmbH",
+    "strasse": "Sophie-Germain-Str. 3-5",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.novartis.com",
+    "mitarbeiter": "3900",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "AlphaConsult KG",
+    "strasse": "Sulzbacher Str. 9",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.hemmersbach.com",
+    "mitarbeiter": "3200",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Moritz Fürst GmbH & Co.KG",
+    "strasse": "Rathsbergstr. 26",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.fuerst-gruppe.de",
+    "mitarbeiter": "2770",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Electrolux Rothenburg GmbH Factory and Development",
+    "strasse": "Keßlerplatz 12",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.th-nuernberg.de",
+    "mitarbeiter": "2750",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Peter Kattenbeck GmbH",
+    "strasse": "Kafkastr. 6",
+    "plz": "90471",
+    "stadt": "Nürnberg",
+    "website": "www.kattenbeck.de",
+    "mitarbeiter": "2510",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Martha-Maria Krankenhaus gGmbH",
+    "strasse": "Heisterstraße 4A",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.feser-graf.de",
+    "mitarbeiter": "2504",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "N-ERGIE AG",
+    "strasse": "Am Plärrer 43",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.n-ergie.de",
+    "mitarbeiter": "2314",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Nordbayerische Zeitungs- und Zeitschriftenzustellgesellschaft mbH",
+    "strasse": "Sophie-Germain-Str. 10",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.novartis.com",
+    "mitarbeiter": "2119",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "VAG Verkehrs-AG",
+    "strasse": "Südliche Fürther Straße 5",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.vag.de",
+    "mitarbeiter": "2083",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "STAEDTLER SE",
+    "strasse": "Moosäckerstr. 3",
+    "plz": "90427",
+    "stadt": "Nürnberg",
+    "website": "www.staedtler.com",
+    "mitarbeiter": "2021",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Müller Medien GmbH und Co. KG",
+    "strasse": "Pretzfelder Straße 7-11",
+    "plz": "90425",
+    "stadt": "Nürnberg",
+    "website": "www.mueller-medien.com",
+    "mitarbeiter": "2000",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Electrolux Deutschland GmbH",
+    "strasse": "Fraunhoferstraße 10",
+    "plz": "90409",
+    "stadt": "Nürnberg",
+    "website": "www.nwsgmbh.de",
+    "mitarbeiter": "1927",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Baumüller Industrie GmbH & Co. KG",
+    "strasse": "Ostendstraße 80-90",
+    "plz": "90482",
+    "stadt": "Nürnberg",
+    "website": "www.baumueller.com",
+    "mitarbeiter": "1836",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "LEISTRITZ AG",
+    "strasse": "Markgrafenstraße 36-39",
+    "plz": "90459",
+    "stadt": "Nürnberg",
+    "website": "www.leistritz.com",
+    "mitarbeiter": "1774",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Nürnberger Lebensversicherung AG",
+    "strasse": "Ostendstr. 100",
+    "plz": "90482",
+    "stadt": "Nürnberg",
+    "website": "www.nuernberger.de",
+    "mitarbeiter": "1741",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Viatis Beteiligungs GmbH",
+    "strasse": "Sulzbacher Str. 9",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.hemmersbach.com",
+    "mitarbeiter": "1625",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sparkasse Nürnberg",
+    "strasse": "Lorenzer Platz 12",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.sparkasse-nuernberg.de",
+    "mitarbeiter": "1570",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Webhelp Holding Germany GmbH",
+    "strasse": "Sigmundstr. 200",
+    "plz": "90431",
+    "stadt": "Nürnberg",
+    "website": "www.semikron-danfoss.com",
+    "mitarbeiter": "1425",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bühler Motor GmbH",
+    "strasse": "Anne-Frank-Str. 33-35",
+    "plz": "90459",
+    "stadt": "Nürnberg",
+    "website": "www.buehlermotor.de",
+    "mitarbeiter": "1319",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bayernland eG",
+    "strasse": "Breslauer Str. 406",
+    "plz": "90471",
+    "stadt": "Nürnberg",
+    "website": "www.bayernland.de",
+    "mitarbeiter": "1318",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sebalder Treuhandgesellschaft mbH Steuerberatungsgesellschaft",
+    "strasse": "Äußere Sulzbacher Str. 100",
+    "plz": "90491",
+    "stadt": "Nürnberg",
+    "website": "www.roedl.de",
+    "mitarbeiter": "1308",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Webhelp Deutschland GmbH",
+    "strasse": "Tullnaustr. 20",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.concentrix.com",
+    "mitarbeiter": "1257",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Nürnberger Baugruppe GmbH + Co KG",
+    "strasse": "Rollnerstr. 180",
+    "plz": "90425",
+    "stadt": "Nürnberg",
+    "website": "www.baugruppe.de",
+    "mitarbeiter": "1255",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "BU Holding AG & Co. KG",
+    "strasse": "Burgschmietstr. 2-4",
+    "plz": "90419",
+    "stadt": "Nürnberg",
+    "website": "www.haushaltswerbung-in-franken.de",
+    "mitarbeiter": "1219",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Rudolf Wöhrl SE",
+    "strasse": "Beuthener Str. 25",
+    "plz": "90471",
+    "stadt": "Nürnberg",
+    "website": "www.teambank.de",
+    "mitarbeiter": "1157",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ZF Gusstechnologie GmbH",
+    "strasse": "Nopitschstr. 71",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.zf.com",
+    "mitarbeiter": "1050",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Federal-Mogul Nürnberg GmbH",
+    "strasse": "Nopitschstraße 67",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.federalmogul.com",
+    "mitarbeiter": "1038",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "N-ERGIE Netz GmbH",
+    "strasse": "Sandreuthstr. 21",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.n-ergie-netz.de",
+    "mitarbeiter": "1027",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "TA Triumph-Adler GmbH",
+    "strasse": "Südwestpark 23",
+    "plz": "90449",
+    "stadt": "Nürnberg",
+    "website": "www.triumph-adler.com",
+    "mitarbeiter": "1004",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Staedtler Mars GmbH & Co. KG",
+    "strasse": "Moosäckerstr. 3",
+    "plz": "90427",
+    "stadt": "Nürnberg",
+    "website": "www.staedtler.com",
+    "mitarbeiter": "1000",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "NürnbergMesse GmbH",
+    "strasse": "Messezentrum",
+    "plz": "90471",
+    "stadt": "Nürnberg",
+    "website": "www.nuernbergmesse.de",
+    "mitarbeiter": "981",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "OBI Baumarkt Franken GmbH & Co. KG",
+    "strasse": "Flughafenstraße 100",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.airport-nuernberg.de",
+    "mitarbeiter": "950",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "NWS Sicherheitsservice GmbH",
+    "strasse": "Fraunhoferstraße 10A",
+    "plz": "90409",
+    "stadt": "Nürnberg",
+    "website": "www.nwsgmbh.de",
+    "mitarbeiter": "850",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "TÜV Rheinland LGA Products GmbH",
+    "strasse": "Tillystr. 2",
+    "plz": "90431",
+    "stadt": "Nürnberg",
+    "website": "www.tuv.com",
+    "mitarbeiter": "844",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Kliniken Dr. Erler gGmbH",
+    "strasse": "Kontumazgarten 4-19",
+    "plz": "90429",
+    "stadt": "Nürnberg",
+    "website": "www.erler-klinik.de",
+    "mitarbeiter": "819",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ahead personal management GmbH & Co. KG",
+    "strasse": "Nimrodstr. 10",
+    "plz": "90441",
+    "stadt": "Nürnberg",
+    "website": "www.ahead-personal.com",
+    "mitarbeiter": "800",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "evosoft GmbH",
+    "strasse": "Marienbergstraße 76-82",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.evosoft.com",
+    "mitarbeiter": "800",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Geis Industrie - Service GmbH",
+    "strasse": "Marienstr. 9-11",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.nordbayern.de",
+    "mitarbeiter": "800",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Rödl & Partner GmbH Wirtschaftsprüfungsgesellschaft",
+    "strasse": "Äußere Sulzbacher Str. 100",
+    "plz": "90491",
+    "stadt": "Nürnberg",
+    "website": "www.roedl.de",
+    "mitarbeiter": "768",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "uniVersa Krankenversicherung a.G.",
+    "strasse": "Sulzbacher Str. 1-7",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.universa.de",
+    "mitarbeiter": "759",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "VR Bank Metropolregion Nürnberg eG",
+    "strasse": "Am Tullnaupark 2",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.vr-teilhaberbank.de",
+    "mitarbeiter": "706",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Hemmersbach GmbH & Co. KG",
+    "strasse": "Sulzbacher Str. 9",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.hemmersbach.com",
+    "mitarbeiter": "671",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "VIA optronics GmbH",
+    "strasse": "Sulzbacher Str. 1-7",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.universa.de",
+    "mitarbeiter": "663",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Omnibusverkehr Franken GmbH (OVF)",
+    "strasse": "Humboldtstraße 9",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.medic-center-nuernberg.de",
+    "mitarbeiter": "615",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Pamec Papp GmbH",
+    "strasse": "Schreiberhauer Str. 5",
+    "plz": "90475",
+    "stadt": "Nürnberg",
+    "website": "www.pamec-papp.de",
+    "mitarbeiter": "496",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "MR-Datentechnik Vertriebs- und Service GmbH",
+    "strasse": "Ostendstraße 80-90",
+    "plz": "90482",
+    "stadt": "Nürnberg",
+    "website": "www.baumueller.com",
+    "mitarbeiter": "468",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sopra Financial Technology GmbH",
+    "strasse": "Nordostpark 3-5",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.immowelt.de",
+    "mitarbeiter": "403",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Geis Eurocargo GmbH",
+    "strasse": "Laufertorgraben 6",
+    "plz": "90489",
+    "stadt": "Nürnberg",
+    "website": "www.umweltbank.de",
+    "mitarbeiter": "380",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SUXXEED Sales for Your Success GmbH",
+    "strasse": "Nordostpark 82",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.suxxeed.de",
+    "mitarbeiter": "307",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "duagon Germany GmbH",
+    "strasse": "Neuwieder Straße 1-7",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.duagon.com",
+    "mitarbeiter": "300",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bayern Innovativ - Bayerische Gesellschaft für Innovation und Wissenstransfer mbH",
+    "strasse": "Am Tullnaupark 8",
+    "plz": "90402",
+    "stadt": "Nürnberg",
+    "website": "www.bayern-innovativ.de",
+    "mitarbeiter": "299",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Paessler AG",
+    "strasse": "Thurn-und-Taxis-Straße 14",
+    "plz": "90411",
+    "stadt": "Nürnberg",
+    "website": "www.paessler.com",
+    "mitarbeiter": "298",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Berufsförderungswerk Nürnberg gGmbH",
+    "strasse": "Schleswiger Straße 101",
+    "plz": "90427",
+    "stadt": "Nürnberg",
+    "website": "www.bfw-nuernberg.de",
+    "mitarbeiter": "293",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ISO Software Systeme GmbH",
+    "strasse": "Eichendorffstraße 33",
+    "plz": "90491",
+    "stadt": "Nürnberg",
+    "website": "www.iso-gruppe.com",
+    "mitarbeiter": "285",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Küchen Quelle GmbH",
+    "strasse": "Ulmenstraße 52d",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.wilkon.de",
+    "mitarbeiter": "250",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "FRS Services GmbH",
+    "strasse": "Ulmenstr. 52",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.ihk-nuernberg.de",
+    "mitarbeiter": "231",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Gauff GmbH & Co. Engineering KG",
+    "strasse": "Passauer Straße 7",
+    "plz": "90480",
+    "stadt": "Nürnberg",
+    "website": "www.gauff.net",
+    "mitarbeiter": "200",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "OPPM Office Professional Personalmanagement GmbH",
+    "strasse": "Am Plärrer 25",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.office-personal.de",
+    "mitarbeiter": "169",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ERGO Krankenversicherung AG",
+    "strasse": "Forchheimer Str. 8",
+    "plz": "90425",
+    "stadt": "Nürnberg",
+    "website": "www.neumueller.org",
+    "mitarbeiter": "168",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Tempton Next Level Experts GmbH",
+    "strasse": "Ulmenstraße 52E",
+    "plz": "90443",
+    "stadt": "Nürnberg",
+    "website": "www.tempton.de",
+    "mitarbeiter": "151",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dr. Beck & Partner GbR",
+    "strasse": "Eichendorffstraße 1",
+    "plz": "90491",
+    "stadt": "Nürnberg",
+    "website": "www.ra-dr-beck.de",
+    "mitarbeiter": "150",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Gossen Metrawatt GmbH",
+    "strasse": "Südwestpark 15",
+    "plz": "90449",
+    "stadt": "Nürnberg",
+    "website": "www.gossenmetrawatt.de",
+    "mitarbeiter": "149",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dolby Germany GmbH",
+    "strasse": "Am Flachmoor 6",
+    "plz": "90475",
+    "stadt": "Nürnberg",
+    "website": "www.tgmkanis.com",
+    "mitarbeiter": "144",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "advantago GmbH & Co. KG",
+    "strasse": "Pretzfelder Straße 7-11",
+    "plz": "90425",
+    "stadt": "Nürnberg",
+    "website": "www.advantago.de",
+    "mitarbeiter": "126",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Siemens Healthcare GmbH",
+    "strasse": "Henkestr. 127",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.healthcare.siemens.de",
+    "mitarbeiter": "10880",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "strasse": "Schloßplatz 4",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.fau.de",
+    "mitarbeiter": "6400",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadt Erlangen",
+    "strasse": "Paul-Gossen-Str. 100",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.framatome.com",
+    "mitarbeiter": "2800",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Der Beck GmbH",
+    "strasse": "Am Weichselgarten 12",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.der-beck.de",
+    "mitarbeiter": "1500",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Fraunhofer-Institut für Integrierte Schaltungen IIS",
+    "strasse": "Am Wolfsmantel 33",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.iis.fraunhofer.de",
+    "mitarbeiter": "1300",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Malteser Waldkrankenhaus Erlangen gGmbH",
+    "strasse": "Rathsberger Str. 57",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.waldkrankenhaus.de",
+    "mitarbeiter": "1117",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Elektrobit Automotive GmbH",
+    "strasse": "Am Wolfsmantel 46",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.elektrobit.com",
+    "mitarbeiter": "1000",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "HEITEC AG",
+    "strasse": "Güterbahnhofstr. 5",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.heitec.de",
+    "mitarbeiter": "972",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Universitätsklinikum Erlangen",
+    "strasse": "Maximiliansplatz 2",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.uk-erlangen.de",
+    "mitarbeiter": "929",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Klinik Service GmbH Erlangen",
+    "strasse": "Katholischer Kirchenplatz 14",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.ksg-erlangen.de",
+    "mitarbeiter": "868",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Erlanger Stadtwerke AG",
+    "strasse": "Äußere Brucker Str. 33",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.estw.de",
+    "mitarbeiter": "805",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+    "strasse": "Hugenottenplatz 5",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.sparkasse-erlangen.de",
+    "mitarbeiter": "792",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sivantos GmbH",
+    "strasse": "Henri-Dunant-Straße 100",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.sivantos.com",
+    "mitarbeiter": "633",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "IG Franken Gebäudereinigung GmbH",
+    "strasse": "Dresdener Str. 10",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.franken.me",
+    "mitarbeiter": "620",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Mauss Bau GmbH & Co. KG",
+    "strasse": "Am Pestalozziring 1-2",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.davero.de",
+    "mitarbeiter": "550",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Primetals Technologies Germany GmbH",
+    "strasse": "Bunsenstr. 43",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.primetals.com",
+    "mitarbeiter": "450",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ZBVV - Zentral Boden Vermietung und Verwaltung GmbH",
+    "strasse": "Henkestr. 10",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.zbvv.de",
+    "mitarbeiter": "449",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ESS - Erlanger Sicherheits-Service GmbH",
+    "strasse": "Am Weichselgarten 9",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.ess-erlangen.de",
+    "mitarbeiter": "336",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Basel Dienstleistungen GmbH",
+    "strasse": "Dechsendorfer Str. 11",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.unifleisch.de",
+    "mitarbeiter": "303",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Thermo Fisher Scientific Messtechnik GmbH",
+    "strasse": "Frauenauracher Str. 96",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.thermofisher.com",
+    "mitarbeiter": "276",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "WaveLight GmbH",
+    "strasse": "Am Wolfsmantel 5",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.de.alcon.com",
+    "mitarbeiter": "270",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Orthopädie Forum GmbH",
+    "strasse": "Michael-Vogel-Straße 1d",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.orfo.de",
+    "mitarbeiter": "200",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "HYDROGENIOUS LOHC TECHNOLOGIES GMBH",
+    "strasse": "Am Pestalozziring 2",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.defacto-realations.de",
+    "mitarbeiter": "197",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Erlanger Stadtwerke Stadtverkehr GmbH",
+    "strasse": "Äußere Brucker Straße 33",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.estw.de",
+    "mitarbeiter": "165",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Beck GmbH & Co.KG",
+    "strasse": "Am Weichselgarten 12",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.der-beck.de",
+    "mitarbeiter": "162",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Feilo Sylvania Germany GmbH",
+    "strasse": "Graf-Zeppelin-Str. 9",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.sylvania-lighting.com",
+    "mitarbeiter": "162",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "E-Werk Kulturzentrum GmbH",
+    "strasse": "Fuchsenwiese 1",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.e-werk.de",
+    "mitarbeiter": "157",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ASTRUM IT GmbH",
+    "strasse": "Am Wolfsmantel 2",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.astrum-it.de",
+    "mitarbeiter": "150",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Wieland Lufttechnik GmbH & Co. KG",
+    "strasse": "Wetterkreuz 12",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.wieland-luft.de",
+    "mitarbeiter": "150",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "WESGO Ceramics GmbH",
+    "strasse": "Willi-Grasser-Str. 11",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.morgantechnicalceramics.com",
+    "mitarbeiter": "142",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Schmitt GmbH",
+    "strasse": "Wetterkreuz 3",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.schmitt-engineering.de",
+    "mitarbeiter": "141",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "GBI Holding AG",
+    "strasse": "Am Weichselgarten 11-13",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.gbi.ag",
+    "mitarbeiter": "135",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Cs2 ITEC GmbH & Co. KG",
+    "strasse": "Nägelsbachstr. 55a",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.gewobau-erlangen.de",
+    "mitarbeiter": "129",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "HumanOptics Holding AG",
+    "strasse": "Spardorfer Str. 150",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.humanoptics.com",
+    "mitarbeiter": "125",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "B + S Bernhardt + Schütz Personaldienstleistungen GmbH",
+    "strasse": "Hauptstr. 21",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.bsjobs.de",
+    "mitarbeiter": "120",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "hl-studios GmbH",
+    "strasse": "Reutleser Weg 6",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.hl-studios.de",
+    "mitarbeiter": "115",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Pflüger Lober Kuvert GmbH",
+    "strasse": "Am Pestalozziring 14",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.pflueger-lober.com",
+    "mitarbeiter": "113",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Autohaus Josef Pickel GmbH & Co. KG",
+    "strasse": "Frauenauracher Str. 95",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.autohaus-pickel-erlangen.de",
+    "mitarbeiter": "113",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "CORSCIENCE GmbH & Co. KG",
+    "strasse": "Hartmannstraße 65",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.corscience.com",
+    "mitarbeiter": "113",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Prinzing Gebäudetechnik GmbH",
+    "strasse": "Goerdelerstr. 21",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.prinzing-gt.de",
+    "mitarbeiter": "109",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "WAB LebensRaum gGmbH",
+    "strasse": "Dechsendorfer Straße 11",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.unifleisch.de",
+    "mitarbeiter": "107",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "STUBNERpersonalservice GmbH",
+    "strasse": "Universitätsstr. 16",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.stubner-personalservice.de",
+    "mitarbeiter": "104",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ROTEC Rohrtechnik GmbH",
+    "strasse": "Am Pestalozziring 18",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.rotec-erlangen.de",
+    "mitarbeiter": "101",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ERLAS Erlanger Lasertechnik GmbH",
+    "strasse": "Kraftwerkstr. 26",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.erlas.de",
+    "mitarbeiter": "96",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sanitätshaus OrthoPoint Rückl & Schick GmbH",
+    "strasse": "Tennenloher Straße 49",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.orthopoint.de",
+    "mitarbeiter": "94",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "INVENT Umwelt- und Verfahrenstechnik AG",
+    "strasse": "Schallershofer Straße 106",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.froer-group.de",
+    "mitarbeiter": "94",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Chemische Industrie Erlangen GmbH",
+    "strasse": "Rathenaustr. 18",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.ching-coatings.com",
+    "mitarbeiter": "84",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "BASYS Gesellschaft für Anwender- und Systemsoftware mbH",
+    "strasse": "Am Weichselgarten 4",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.develop-group.de",
+    "mitarbeiter": "83",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Gebäudereinigung Helbig GmbH",
+    "strasse": "Kreuzsteinstr. 16",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.helbig-erlangen.de",
+    "mitarbeiter": "81",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Thieme Compliance GmbH",
+    "strasse": "Am Weichselgarten 30a",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.thieme.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "HMV GmbH",
+    "strasse": "Henkestraße 10",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.hmv.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "softgate GmbH information technology services",
+    "strasse": "Allee am Röthelheimpark 43",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.soft-gate.de",
+    "mitarbeiter": "72",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Heinlein Bau und Raum GmbH & Co. KG",
+    "strasse": "Schallershofer Straße 122",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.heinlein-erlangen.de",
+    "mitarbeiter": "72",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Wabe Elektronik und Montageservice Erlangen GmbH",
+    "strasse": "Am Pestalozziring 6",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.wabe-erlangen.com",
+    "mitarbeiter": "70",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "GBI Hotelbau- und Betriebsgesellschaft mbH & Co.KG",
+    "strasse": "Am Weichselgarten 11-13",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.dorfhotels.com",
+    "mitarbeiter": "70",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dörsch + Leibl GmbH & Co. Klimatechnik KG",
+    "strasse": "Weinstraße 41",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.doersch-leibl.de",
+    "mitarbeiter": "69",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "MCF Mikrocomputer GmbH & Co. Firmware KG",
+    "strasse": "Bauhofstr. 5",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.suedwasser.com",
+    "mitarbeiter": "69",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Spirit Link GmbH",
+    "strasse": "Allee am Röthelheimpark 41",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.spiritlink.de",
+    "mitarbeiter": "66",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Scholten Malerfachbetrieb GmbH",
+    "strasse": "Sieglitzhofer Straße 11",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.maler-scholten.de",
+    "mitarbeiter": "65",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "VIA APPIA Mode GmbH",
+    "strasse": "Gundstr. 14",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.via-appia-mode.com",
+    "mitarbeiter": "62",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sioux Technologies GmbH",
+    "strasse": "Am Weichselgarten 36",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.sioux.eu",
+    "mitarbeiter": "59",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Intego GmbH",
+    "strasse": "Rathenaustr. 20",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.rudolf-kempe.de",
+    "mitarbeiter": "58",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Portegra GmbH",
+    "strasse": "Graf-Zeppelin-Str. 1",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.mavig.de",
+    "mitarbeiter": "40",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Tintschl AG",
+    "strasse": "Goerdelerstraße 21",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.tintschl.de",
+    "mitarbeiter": "25",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SLF Sportland Franken GmbH & Co. KG",
+    "strasse": "Henkestraße 77",
+    "plz": "91052",
+    "stadt": "Erlangen",
+    "website": "www.afra.de",
+    "mitarbeiter": "24",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "easycore GmbH",
+    "strasse": "Hartmannstr. 65",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.easycore.com",
+    "mitarbeiter": "14",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "LUKAS Hydraulik GmbH",
+    "strasse": "Schloßplatz 6",
+    "plz": "91054",
+    "stadt": "Erlangen",
+    "website": "www.interactive-one.de",
+    "mitarbeiter": "11",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "IFS Deutschland GmbH",
+    "strasse": "Am Weichselgarten 16",
+    "plz": "91058",
+    "stadt": "Erlangen",
+    "website": "www.ifs.com",
+    "mitarbeiter": "8",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Leuchtköpfe GmbH",
+    "strasse": "Wolfsstaudenring 27",
+    "plz": "91056",
+    "stadt": "Erlangen",
+    "website": "www.leuchtkoepfe.de",
+    "mitarbeiter": "6",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "NORMA Unternehmens Stiftung",
+    "strasse": "Manfred-Roth-Str. 7",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.norma-online.de",
+    "mitarbeiter": "18439",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Kennametal Holding GmbH",
+    "strasse": "Wehlauer Str. 73",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.kennametal.com",
+    "mitarbeiter": "8124",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "UVEX WINTER HOLDING GmbH & Co. KG",
+    "strasse": "Würzburger Straße 181",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.uvex-group.com",
+    "mitarbeiter": "2948",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadt Fürth",
+    "strasse": "Königstraße 88",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.fuerth.de",
+    "mitarbeiter": "2700",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Klinikum Fürth Anstalt des öffentlichen Rechts der Stadt Fürth",
+    "strasse": "Jakob-Henle-Str. 1",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.klinikum-fuerth.de",
+    "mitarbeiter": "2500",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "RWS GmbH",
+    "strasse": "Werkstr. 1",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.simba-dickie-group.com",
+    "mitarbeiter": "1423",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bayerische Landesamt für Statistik (LfStat)",
+    "strasse": "Nürnberger Str. 95",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.statistik.bayern.de",
+    "mitarbeiter": "800",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ebl-naturkost GmbH & Co. KG",
+    "strasse": "Am Grünen Weg 1",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.ebl-naturkost.de",
+    "mitarbeiter": "758",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Trolli GmbH",
+    "strasse": "Werkstr. 1",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.simba-dickie-group.com",
+    "mitarbeiter": "728",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "infra fürth holding gmbh",
+    "strasse": "Leyher Str. 69",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.infra-fuerth.de",
+    "mitarbeiter": "657",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Wolf ButterBack KG",
+    "strasse": "Magazinstr. 77",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.butterback.de",
+    "mitarbeiter": "580",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sparkasse Fürth",
+    "strasse": "Maxstr. 32",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.sparkasse-fuerth.de",
+    "mitarbeiter": "555",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Kennametal Produktions GmbH & Co. KG",
+    "strasse": "Wehlauer Straße 73",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.kennametal.com",
+    "mitarbeiter": "458",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dambacher Werkstätten für Behinderte Gemeinnützige GmbH",
+    "strasse": "Aldringerstr. 4",
+    "plz": "90768",
+    "stadt": "Fürth",
+    "website": "www.lebenshilfe-fuerth.de",
+    "mitarbeiter": "364",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "GS SCHENK GmbH",
+    "strasse": "Kronacher Str. 154",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.sgf1903.de",
+    "mitarbeiter": "356",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Georg Roth Stiftung & Co. Lebensmittelfilialbetrieb KG",
+    "strasse": "Manfred-Roth-Str. 7",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.norma-online.de",
+    "mitarbeiter": "300",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "infra fürth gmbh",
+    "strasse": "Leyher Straße 69",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.infra-fuerth.de",
+    "mitarbeiter": "277",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Direkt Gebäudeservice GmbH",
+    "strasse": "Nürnberger Str. 147",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.pillenstein.de",
+    "mitarbeiter": "271",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Mineralölhandel Hans Schmidt GmbH & Co. KG",
+    "strasse": "Mühltalstr. 24",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.oel-schmidt.de",
+    "mitarbeiter": "198",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Volkswagen Zentrum Fürth Pillenstein GmbH",
+    "strasse": "Nürnberger Str. 147",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.pillenstein.de",
+    "mitarbeiter": "190",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Autohaus Wilhelm Graf GmbH",
+    "strasse": "Schwabacher Str. 382",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.feser-graf.de",
+    "mitarbeiter": "180",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Lauer-Fischer GmbH",
+    "strasse": "Dr.-Mack-Straße 95",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.cgm.com",
+    "mitarbeiter": "174",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "cip marketing GmbH",
+    "strasse": "Gründlacher Straße 248",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.cip-marketing.com",
+    "mitarbeiter": "172",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "daum electronic gmbh",
+    "strasse": "Scherbsgraben 15",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.fuerthermare.de",
+    "mitarbeiter": "168",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SINTEC Informatik GmbH",
+    "strasse": "Ludwig-Quellen-Str. 18",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.sintec.de",
+    "mitarbeiter": "161",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Ober Scharrer Gruppe GmbH",
+    "strasse": "Dr.-Mack-Straße 88",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.osg.de",
+    "mitarbeiter": "148",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Analytik Institut Rietzler GmbH",
+    "strasse": "Dieter-Streng-Str. 5",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.rietzler-analytik.com",
+    "mitarbeiter": "147",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "LPKF WeldingQuipment GmbH",
+    "strasse": "Alfred-Nobel-Straße 55-57",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.lpkf.com",
+    "mitarbeiter": "140",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Marian Druckguss, GmbH",
+    "strasse": "Hafenstr. 39",
+    "plz": "90768",
+    "stadt": "Fürth",
+    "website": "www.marian-druckguss.com",
+    "mitarbeiter": "137",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "AV Transporte und Automobile GmbH",
+    "strasse": "Boxdorfer Str. 15",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.avtransporte.de",
+    "mitarbeiter": "134",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "RINGFOTO GmbH & Co. KG",
+    "strasse": "Benno-Strauß-Str. 39",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.ringfoto.de",
+    "mitarbeiter": "127",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "n:aip Deutschland GmbH",
+    "strasse": "Kaiserstr. 168-170",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.naip.de",
+    "mitarbeiter": "120",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "UVEX SPORTS GmbH & Co. KG",
+    "strasse": "Würzburger Straße 154",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.uvex-sports.com",
+    "mitarbeiter": "120",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Intertek Consumer Goods GmbH",
+    "strasse": "Würzburger Str. 152",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.intertek.de",
+    "mitarbeiter": "118",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "iba AG",
+    "strasse": "Königswarterstraße 44",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.iba-ag.com",
+    "mitarbeiter": "116",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Solectrix GmbH",
+    "strasse": "Werkstr. 1",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.simba-dickie-group.com",
+    "mitarbeiter": "111",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Competenza GmbH",
+    "strasse": "Flößaustr. 24a",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.competenza.com",
+    "mitarbeiter": "100",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Eckhard Köpsel GmbH Garten- und Landschaftsbau",
+    "strasse": "Mainstraße 40",
+    "plz": "90768",
+    "stadt": "Fürth",
+    "website": "www.gartenwelt-dauchenbeck.de",
+    "mitarbeiter": "99",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "APZ - Autoreisen Peterzelka GmbH",
+    "strasse": "Winklerstraße 31",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.apz-reisen.de",
+    "mitarbeiter": "91",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SCHULTHEISS Hoch- und Tiefbau GmbH",
+    "strasse": "Balbiererstraße 30",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.hoefer-und-sohn.de",
+    "mitarbeiter": "90",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Computec Media GmbH",
+    "strasse": "Dr.-Mack-Str. 83",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.computec.de",
+    "mitarbeiter": "86",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Kommunaler Betrieb für Informationstechnik KommunalBIT AöR",
+    "strasse": "Kaiserstraße 30",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.kommunalbit.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Guggenberger - Aschenauer Metallveredelungswerk GmbH",
+    "strasse": "Hans-Vogel-Straße 123",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.guggasch.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Schwemmer & Dorn + Co GmbH",
+    "strasse": "Stadelner Hauptstraße 34",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.gmoehling.com",
+    "mitarbeiter": "77",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "MIKROLAB-Entwicklungsgesellschaft für Elektroniksysteme mbH",
+    "strasse": "Dieter-Streng-Straße 1",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.mikrolab.com",
+    "mitarbeiter": "75",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "AluTec GmbH",
+    "strasse": "Boxdorfer Straße 27",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.alutec-guss.com",
+    "mitarbeiter": "74",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "evidia MVZ Radiologie Franken GmbH",
+    "strasse": "Benno-Strauß-Straße 1",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.evidia.de",
+    "mitarbeiter": "69",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "AIM Batterie Vertriebs GmbH",
+    "strasse": "Benno-Strauß-Straße 8",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.the-sunlight-group.com",
+    "mitarbeiter": "69",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Farben-Volz GmbH",
+    "strasse": "Magazinstraße 79-81",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.hesch.com",
+    "mitarbeiter": "53",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "DICKIE-SPIELZEUG GmbH & Co. KG",
+    "strasse": "Werkstraße 1",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.simba-dickie-group.com",
+    "mitarbeiter": "43",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "BIG Spielwarenfabrik GmbH & Co. KG",
+    "strasse": "Werkstr. 1",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.big.de",
+    "mitarbeiter": "41",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "protoform Konrad Hofmann GmbH",
+    "strasse": "Siemensstraße 45",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.protoform.de",
+    "mitarbeiter": "40",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Perola GmbH",
+    "strasse": "Ronhofer Hauptstr. 299",
+    "plz": "90765",
+    "stadt": "Fürth",
+    "website": "www.perola.eu",
+    "mitarbeiter": "35",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Medothic GmbH",
+    "strasse": "Flößaustraße 22",
+    "plz": "90763",
+    "stadt": "Fürth",
+    "website": "www.voltabox.ag",
+    "mitarbeiter": "34",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "BRANDAD Group AG",
+    "strasse": "Gebhardtstr. 13",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.htpm-gmbh.de/",
+    "mitarbeiter": "21",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Axinom GmbH",
+    "strasse": "Kurgartenstr. 37",
+    "plz": "90762",
+    "stadt": "Fürth",
+    "website": "www.axinom.de",
+    "mitarbeiter": "15",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SOHARD Software GmbH",
+    "strasse": "Würzburger Straße 197",
+    "plz": "90766",
+    "stadt": "Fürth",
+    "website": "www.sohard.de",
+    "mitarbeiter": "8",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sozialstiftung Bamberg",
+    "strasse": "Buger Str. 80",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.sozialstiftung-bamberg.de",
+    "mitarbeiter": "5151",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Wieland Holding GmbH",
+    "strasse": "Brennerstr. 10-14",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.wieland-electric.com",
+    "mitarbeiter": "2237",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Brose Fahrzeugteile SE & Co. KG, Bamberg",
+    "strasse": "Berliner Ring 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.brose.com",
+    "mitarbeiter": "2090",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SPS Germany GmbH",
+    "strasse": "Am Börstig 5",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.post.ch",
+    "mitarbeiter": "1987",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Caritas gGmbH St. Heinrich und Kunigunde",
+    "strasse": "Obere Königstr. 4b",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.caritas-ggmbh.de",
+    "mitarbeiter": "1565",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Otto-Friedrich-Universität Bamberg",
+    "strasse": "Kapuzinerstr. 16",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.uni-bamberg.de",
+    "mitarbeiter": "1481",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "mgo Zustell- und Service GmbH",
+    "strasse": "Gutenbergstr. 1",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.mgo-zus.de",
+    "mitarbeiter": "1428",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Elflein Holding GmbH",
+    "strasse": "Regnitzstr. 18b",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.elflein.de",
+    "mitarbeiter": "1136",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "scs supply chain solutions gmbh",
+    "strasse": "An der Weberei 4",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.supplycs.de",
+    "mitarbeiter": "956",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Wieland Electric GmbH",
+    "strasse": "Brennerstr. 10-14",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.wieland-electric.com",
+    "mitarbeiter": "908",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bamberger Lebenshilfe-Werkstätten gGmbH Werkstatt für behinderte Menschen (WfbM)",
+    "strasse": "Moosstr. 75",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.lebenshilfe-bamberg.de",
+    "mitarbeiter": "806",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Rudolf Zimmermann GmbH",
+    "strasse": "Rheinstr. 16",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.rzb.de",
+    "mitarbeiter": "752",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Elflein Transport Europe GmbH",
+    "strasse": "Regnitzstr. 18B",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.elflein.de",
+    "mitarbeiter": "670",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sparkasse Bamberg",
+    "strasse": "Carl-Meinelt-Str. 10",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.sparkasse-bamberg.de",
+    "mitarbeiter": "637",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Landratsamt Bamberg",
+    "strasse": "Ludwigstr. 23",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.landkreis-bamberg.de",
+    "mitarbeiter": "600",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "STWB Stadtwerke Bamberg GmbH",
+    "strasse": "Margaretendamm 28",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.stadtwerke-bamberg.de",
+    "mitarbeiter": "585",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Service Gesellschaft Sozialstiftung Bamberg mbH",
+    "strasse": "Buger Str. 80",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.sozialstiftung-bamberg.de",
+    "mitarbeiter": "560",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Diakonisches Werk - Innere Mission - Bamberg-Forchheim e.V.",
+    "strasse": "Heinrichsdamm 46",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.dwbf.de",
+    "mitarbeiter": "500",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Ofa Bamberg GmbH",
+    "strasse": "Willy-Lessing-Str. 2",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.vrbank-bamberg-forchheim.de",
+    "mitarbeiter": "500",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "RZB Rudolf Zimmermann, Bamberg GmbH",
+    "strasse": "Rheinstraße 16",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.rzb.de",
+    "mitarbeiter": "460",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Pilipp GmbH Einrichtungshaus",
+    "strasse": "Nürnberger Str. 243",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.moebel-pilipp.de",
+    "mitarbeiter": "445",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Harald Fuchs Bäckerei - Konditorei e.K.",
+    "strasse": "Rodezstr. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.baeckerei-fuchs.de",
+    "mitarbeiter": "400",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Mediengruppe Oberfranken - Zeitungsverlage GmbH & Co. KG",
+    "strasse": "Gutenbergstr. 1",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.mediengruppe-oberfranken.de",
+    "mitarbeiter": "395",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Omexom Frankenluk GmbH",
+    "strasse": "Pödeldorfer Str. 86",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.omexom.de",
+    "mitarbeiter": "349",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Auto-Scholz GmbH & Co. KG",
+    "strasse": "Kärntenstr. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.auto-scholz.de",
+    "mitarbeiter": "339",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dr. Pfleger Arzneimittel GmbH",
+    "strasse": "Von-Ketteler-Str. 1",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.rh-brillenglas.de",
+    "mitarbeiter": "332",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadt Bamberg",
+    "strasse": "Maximiliansplatz 3",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.stadt.bamberg.de",
+    "mitarbeiter": "316",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Trench Germany GmbH",
+    "strasse": "Nürnberger Str. 199",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.siemens.com",
+    "mitarbeiter": "314",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Arbeitsamt Bamberg",
+    "strasse": "Mannlehenweg 27",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.arbeitsagentur.de",
+    "mitarbeiter": "300",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Kolping-Berufsbildungs-gGmbH Bamberg",
+    "strasse": "Willy-Lessing-Str. 1",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.kolpingbildung.de",
+    "mitarbeiter": "297",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Sozialstiftung Bamberg Medizinisches Versorgungszentrum am Bruderwald gGmbH",
+    "strasse": "Buger Str. 80",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.sozialstiftung-bamberg.de",
+    "mitarbeiter": "293",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "VISIT Ambulante Pflege GmbH & Co. KG",
+    "strasse": "Würzburger Str. 65",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.visit-gruppe.de",
+    "mitarbeiter": "262",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Calimeros Gaststättenbetriebe GmbH",
+    "strasse": "Brennerstr. 17-19",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.weyermann.de",
+    "mitarbeiter": "245",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Anton Höllein GmbH",
+    "strasse": "Gundelsheimer Str. 120",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.firmengruppe-hoellein.de",
+    "mitarbeiter": "224",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadtwerke Bamberg Verkehrs- und Park GmbH",
+    "strasse": "Margaretendamm 28",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.stadtwerke-bamberg.de",
+    "mitarbeiter": "213",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Provinzialat der Karmeliten",
+    "strasse": "Pödeldorfer Str. 81",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.deb.de",
+    "mitarbeiter": "200",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "TCS Cards & Services GmbH",
+    "strasse": "Kronacher Str. 61",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.gnc-cardservices.de",
+    "mitarbeiter": "184",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "PERBILITY GmbH",
+    "strasse": "Starkenfeldstr. 21",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.perbility.de",
+    "mitarbeiter": "183",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Oberlandesgericht Bamberg",
+    "strasse": "Wilhelmsplatz 1",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.justiz.bayern.de",
+    "mitarbeiter": "174",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadtwerke Bamberg Energie- und Wasserversorgungs GmbH",
+    "strasse": "Margaretendamm 28",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.stadtwerke-bamberg.de",
+    "mitarbeiter": "169",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Autohaus Sperber GmbH & Co KG",
+    "strasse": "Ohmstr. 10a",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.autohaus-sperber.de",
+    "mitarbeiter": "168",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Computop Paygate GmbH",
+    "strasse": "Pödeldorfer Str. 86",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.omexom.de",
+    "mitarbeiter": "167",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Joseph-Stiftung, kirchliches Wohnungsunternehmen",
+    "strasse": "Hans-Birkmayr-Straße 65",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.joseph-stiftung.de",
+    "mitarbeiter": "153",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Stadtwerke Bamberg Stadtbus GmbH",
+    "strasse": "Margaretendamm 28",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.stadtwerke-bamberg.de",
+    "mitarbeiter": "148",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "IDEAL Automotive GmbH",
+    "strasse": "Margaretendamm 34",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.ideal-automotive.com",
+    "mitarbeiter": "143",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "KASPAR SCHULZ Brauereimaschinenfabrik & Apparatebauanstalt GmbH",
+    "strasse": "Kaspar-Schulz-Str. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.kaspar-schulz.de",
+    "mitarbeiter": "143",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "SCHULZ Unternehmensfamilie e.K.",
+    "strasse": "Kaspar-Schulz-Str. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.kaspar-schulz.de",
+    "mitarbeiter": "140",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Reifen-Wagner & Co. KG",
+    "strasse": "Gutenbergstr. 2",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.reifenwagner.com",
+    "mitarbeiter": "138",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dümler Logistik & Transport GmbH",
+    "strasse": "Erlichstr. 46a",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.baeckerei-loskarn.de",
+    "mitarbeiter": "132",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Heller-Bräu Trum GmbH",
+    "strasse": "Dominikanerstr. 6",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.schlenkerla.de",
+    "mitarbeiter": "118",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Auto-Scholz AHG GmbH & Co. KG",
+    "strasse": "Kronacher Str. 38",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.volkswagen.de",
+    "mitarbeiter": "117",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Dümler Spedition GmbH",
+    "strasse": "Laubanger 8",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.ccbuchner.de",
+    "mitarbeiter": "104",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bamberger Natursteinwerk Hermann Graser GmbH",
+    "strasse": "Dr.-Robert-Pfleger-Str. 25",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.bamberger-natursteinwerk.de",
+    "mitarbeiter": "102",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "upjers GmbH",
+    "strasse": "Bamberger Str. 8",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.mobam-edi.de",
+    "mitarbeiter": "102",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "EWOR GmbH",
+    "strasse": "Wattstr. 11",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.ewor.com",
+    "mitarbeiter": "91",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Innovative Sozialarbeit e.V.",
+    "strasse": "Laubanger 21",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.hundt-elektrosysteme.de",
+    "mitarbeiter": "91",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "atrain GmbH",
+    "strasse": "Hafenstr. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.hde-logistik.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "O. Sponsel & Co.",
+    "strasse": "Gutenbergstr. 4",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.sponsel.de",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "OEKA TECH Automotive GmbH",
+    "strasse": "Platz der Menschenrechte 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.alpha-ic.com",
+    "mitarbeiter": "80",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Bamberger Basketball GmbH",
+    "strasse": "Laubanger 10",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.gramss.de",
+    "mitarbeiter": "70",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "DiBaFo Servicegesellschaft mbH",
+    "strasse": "Pödeldorfer Str. 81",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.deb.de",
+    "mitarbeiter": "68",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Aktiv Markt Michael Stadter GmbH",
+    "strasse": "Gaustadter Hauptstr. 103",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.edeka.de",
+    "mitarbeiter": "55",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Entsorgungs- und Baubetrieb der Stadt Bamberg",
+    "strasse": "Margaretendamm 40",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.stadt.bamberg.de",
+    "mitarbeiter": "33",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Müller 7 GmbH",
+    "strasse": "Herzog-Max-Str. 44",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.ib-hoelzlein.de",
+    "mitarbeiter": "23",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "E.T.A. Hoffmann-Theater",
+    "strasse": "Kettenbrückstr. 1",
+    "plz": "96052",
+    "stadt": "Bamberg",
+    "website": "www.mhkw-ba.de",
+    "mitarbeiter": "9",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "ag4 medien GmbH",
+    "strasse": "Eisgrube 1a",
+    "plz": "96049",
+    "stadt": "Bamberg",
+    "website": "www.ag4medien.de",
+    "mitarbeiter": "8",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "AVM gGmbH",
+    "strasse": "Promenadestr. 8",
+    "plz": "96047",
+    "stadt": "Bamberg",
+    "website": "www.avm-institute.de",
+    "mitarbeiter": "7",
+    "quelle": "berufsstart.de"
+  },
+  {
+    "name": "Lebenshilfe Bamberg e.V.",
+    "strasse": "Moosstr. 75",
+    "plz": "96050",
+    "stadt": "Bamberg",
+    "website": "www.lebenshilfe-bamberg.de",
+    "mitarbeiter": "7",
+    "quelle": "berufsstart.de"
+  }
+]
