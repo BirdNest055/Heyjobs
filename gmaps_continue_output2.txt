@@ -1,0 +1,16 @@
+[18:19:59] ============================================================
+[18:19:59] Google Maps CONTINUE - Remaining Towns
+[18:19:59] ============================================================
+[18:19:59] All towns: 170, Completed: 127, Remaining: 43
+[18:19:59] Existing results: 9066
+[18:19:59]   -> Gremsdorf (18.6km, tier=4)
+[18:19:59]   -> Neunhof v. Wald (23.4km, tier=4)
+[18:19:59]   -> Gerhardshofen (25.1km, tier=4)
+[18:19:59]   -> Ottensoos (26.7km, tier=4)
+[18:19:59]   -> Willhermsdorf (27.0km, tier=4)
+[18:19:59]   ... and 38 more
+[18:19:59] Dedup set: 9066 unique names
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+[18:20:03] 
+--- Gremsdorf (18.6km, tier=4, 5 terms) ---
+[18:20:03]   Searching: 'Firma in Gremsdorf'

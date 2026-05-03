@@ -1,0 +1,82 @@
+[18:13:37] ============================================================
+[18:13:37] Google Maps CONTINUE - Remaining Towns
+[18:13:37] ============================================================
+[18:13:37] All towns: 170, Completed: 124, Remaining: 46
+[18:13:37] Existing results: 8922
+[18:13:37]   -> Erlenstegen (15.6km, tier=4)
+[18:13:37]   -> Laufamholz (16.9km, tier=4)
+[18:13:37]   -> Doos (17.0km, tier=4)
+[18:13:37]   -> Gremsdorf (18.6km, tier=4)
+[18:13:37]   -> Neunhof v. Wald (23.4km, tier=4)
+[18:13:37]   ... and 41 more
+[18:13:37] Dedup set: 8922 unique names
+[18:13:41] 
+--- Erlenstegen (15.6km, tier=4, 5 terms) ---
+[18:13:41]   Searching: 'Firma in Erlenstegen'
+[18:14:02]   Found 50 listings, 31 new | Total: 8953
+[18:14:05]   Searching: 'Unternehmen in Erlenstegen'
+[18:14:25]   Found 39 listings, 14 new | Total: 8967
+[18:14:28]   Searching: 'Gewerbe in Erlenstegen'
+[18:14:49]   Found 6 listings, 3 new | Total: 8970
+[18:14:52]   Searching: 'Handwerk in Erlenstegen'
+[18:15:12]   Found 36 listings, 6 new | Total: 8976
+[18:15:15]   Searching: 'Dienstleistung in Erlenstegen'
+[18:15:34]   Found 48 listings, 25 new | Total: 9001
+[18:15:38]   Town 'Erlenstegen' done. Total: 9001
+[18:15:38] 
+--- Laufamholz (16.9km, tier=4, 5 terms) ---
+[18:15:38]   Searching: 'Firma in Laufamholz'
+[18:15:42] ============================================================
+[18:15:42] Google Maps CONTINUE - Remaining Towns
+[18:15:42] ============================================================
+[18:15:42] All towns: 170, Completed: 125, Remaining: 45
+[18:15:42] Existing results: 9001
+[18:15:42]   -> Laufamholz (16.9km, tier=4)
+[18:15:42]   -> Doos (17.0km, tier=4)
+[18:15:42]   -> Gremsdorf (18.6km, tier=4)
+[18:15:42]   -> Neunhof v. Wald (23.4km, tier=4)
+[18:15:42]   -> Gerhardshofen (25.1km, tier=4)
+[18:15:42]   ... and 40 more
+[18:15:42] Dedup set: 9001 unique names
+[18:15:44]   ❌ Error: Page.query_selector: Target page, context or browser has been closed
+[18:15:44]   Browser crashed! Restarting...
+[18:15:55]   Searching: 'Unternehmen in Laufamholz'
+[18:16:16]   Found 51 listings, 32 new | Total: 9033
+[18:16:19]   Searching: 'Gewerbe in Laufamholz'
+[18:16:39]   Found 6 listings, 4 new | Total: 9037
+[18:16:42]   Searching: 'Handwerk in Laufamholz'
+[18:17:03]   Found 39 listings, 10 new | Total: 9047
+[18:17:06]   Searching: 'Dienstleistung in Laufamholz'
+[18:17:26]   Found 36 listings, 17 new | Total: 9064
+[18:17:29]   Town 'Laufamholz' done. Total: 9064
+[18:17:29] 
+--- Doos (17.0km, tier=4, 5 terms) ---
+[18:17:29]   Searching: 'Firma in Doos'
+[18:17:36]   Found 0 listings, 0 new | Total: 9064
+[18:17:39]   Searching: 'Unternehmen in Doos'
+[18:17:47]   Found 0 listings, 0 new | Total: 9064
+[18:17:50]   Searching: 'Gewerbe in Doos'
+[18:17:58]   Found 0 listings, 0 new | Total: 9064
+[18:18:01]   Searching: 'Handwerk in Doos'
+[18:18:09]   Found 0 listings, 0 new | Total: 9064
+[18:18:12]   Searching: 'Dienstleistung in Doos'
+[18:18:32]   Found 2 listings, 2 new | Total: 9066
+[18:18:35]   Town 'Doos' done. Total: 9066
+[18:18:35] 
+--- Gremsdorf (18.6km, tier=4, 5 terms) ---
+[18:18:35]   Searching: 'Firma in Gremsdorf'
+[18:19:59] ============================================================
+[18:19:59] Google Maps CONTINUE - Remaining Towns
+[18:19:59] ============================================================
+[18:19:59] All towns: 170, Completed: 127, Remaining: 43
+[18:19:59] Existing results: 9066
+[18:19:59]   -> Gremsdorf (18.6km, tier=4)
+[18:19:59]   -> Neunhof v. Wald (23.4km, tier=4)
+[18:19:59]   -> Gerhardshofen (25.1km, tier=4)
+[18:19:59]   -> Ottensoos (26.7km, tier=4)
+[18:19:59]   -> Willhermsdorf (27.0km, tier=4)
+[18:19:59]   ... and 38 more
+[18:19:59] Dedup set: 9066 unique names
+[18:20:03] 
+--- Gremsdorf (18.6km, tier=4, 5 terms) ---
+[18:20:03]   Searching: 'Firma in Gremsdorf'

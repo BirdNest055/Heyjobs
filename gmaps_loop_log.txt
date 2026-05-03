@@ -1,0 +1,2 @@
+[18:30:11] Starting town-by-town scraper loop
+[18:30:11] === Batch 1 ===

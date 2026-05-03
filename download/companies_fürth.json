@@ -1,0 +1,458 @@
+[
+  {
+    "mitarbeiter": "18439",
+    "name": "NORMA Unternehmens Stiftung",
+    "strasse": "Manfred-Roth-Str. 7",
+    "website": "www.norma-online.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "8124",
+    "name": "Kennametal Holding GmbH",
+    "strasse": "Wehlauer Str. 73",
+    "website": "www.kennametal.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "2948",
+    "name": "UVEX WINTER HOLDING GmbH & Co. KG",
+    "strasse": "Würzburger Straße 181",
+    "website": "www.uvex-group.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "2700",
+    "name": "Stadt Fürth",
+    "strasse": "Königstraße 88",
+    "website": "www.fuerth.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "2500",
+    "name": "Klinikum Fürth Anstalt des öffentlichen Rechts der Stadt Fürth",
+    "strasse": "Jakob-Henle-Str. 1",
+    "website": "www.klinikum-fuerth.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "1423",
+    "name": "RWS GmbH",
+    "strasse": "Werkstr. 1",
+    "website": "www.simba-dickie-group.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "800",
+    "name": "Bayerische Landesamt für Statistik (LfStat)",
+    "strasse": "Nürnberger Str. 95",
+    "website": "www.statistik.bayern.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "758",
+    "name": "ebl-naturkost GmbH & Co. KG",
+    "strasse": "Am Grünen Weg 1",
+    "website": "www.ebl-naturkost.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "728",
+    "name": "Trolli GmbH",
+    "strasse": "Werkstr. 1",
+    "website": "www.simba-dickie-group.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "657",
+    "name": "infra fürth holding gmbh",
+    "strasse": "Leyher Str. 69",
+    "website": "www.infra-fuerth.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "580",
+    "name": "Wolf ButterBack KG",
+    "strasse": "Magazinstr. 77",
+    "website": "www.butterback.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "555",
+    "name": "Sparkasse Fürth",
+    "strasse": "Maxstr. 32",
+    "website": "www.sparkasse-fuerth.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "458",
+    "name": "Kennametal Produktions GmbH & Co. KG",
+    "strasse": "Wehlauer Straße 73",
+    "website": "www.kennametal.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "364",
+    "name": "Dambacher Werkstätten für Behinderte Gemeinnützige GmbH",
+    "strasse": "Aldringerstr. 4",
+    "website": "www.lebenshilfe-fuerth.de",
+    "plz": "90768",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "356",
+    "name": "GS SCHENK GmbH",
+    "strasse": "Kronacher Str. 154",
+    "website": "www.sgf1903.de",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "300",
+    "name": "Georg Roth Stiftung & Co. Lebensmittelfilialbetrieb KG",
+    "strasse": "Manfred-Roth-Str. 7",
+    "website": "www.norma-online.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "277",
+    "name": "infra fürth gmbh",
+    "strasse": "Leyher Straße 69",
+    "website": "www.infra-fuerth.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "271",
+    "name": "Direkt Gebäudeservice GmbH",
+    "strasse": "Nürnberger Str. 147",
+    "website": "www.pillenstein.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "198",
+    "name": "Mineralölhandel Hans Schmidt GmbH & Co. KG",
+    "strasse": "Mühltalstr. 24",
+    "website": "www.oel-schmidt.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "190",
+    "name": "Volkswagen Zentrum Fürth Pillenstein GmbH",
+    "strasse": "Nürnberger Str. 147",
+    "website": "www.pillenstein.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "180",
+    "name": "Autohaus Wilhelm Graf GmbH",
+    "strasse": "Schwabacher Str. 382",
+    "website": "www.feser-graf.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "174",
+    "name": "Lauer-Fischer GmbH",
+    "strasse": "Dr.-Mack-Straße 95",
+    "website": "www.cgm.com",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "172",
+    "name": "cip marketing GmbH",
+    "strasse": "Gründlacher Straße 248",
+    "website": "www.cip-marketing.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "168",
+    "name": "daum electronic gmbh",
+    "strasse": "Scherbsgraben 15",
+    "website": "www.fuerthermare.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "161",
+    "name": "SINTEC Informatik GmbH",
+    "strasse": "Ludwig-Quellen-Str. 18",
+    "website": "www.sintec.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "148",
+    "name": "Ober Scharrer Gruppe GmbH",
+    "strasse": "Dr.-Mack-Straße 88",
+    "website": "www.osg.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "147",
+    "name": "Analytik Institut Rietzler GmbH",
+    "strasse": "Dieter-Streng-Str. 5",
+    "website": "www.rietzler-analytik.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "140",
+    "name": "LPKF WeldingQuipment GmbH",
+    "strasse": "Alfred-Nobel-Straße 55-57",
+    "website": "www.lpkf.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "137",
+    "name": "Marian Druckguss, GmbH",
+    "strasse": "Hafenstr. 39",
+    "website": "www.marian-druckguss.com",
+    "plz": "90768",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "134",
+    "name": "AV Transporte und Automobile GmbH",
+    "strasse": "Boxdorfer Str. 15",
+    "website": "www.avtransporte.de",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "127",
+    "name": "RINGFOTO GmbH & Co. KG",
+    "strasse": "Benno-Strauß-Str. 39",
+    "website": "www.ringfoto.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "120",
+    "name": "n:aip Deutschland GmbH",
+    "strasse": "Kaiserstr. 168-170",
+    "website": "www.naip.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "120",
+    "name": "UVEX SPORTS GmbH & Co. KG",
+    "strasse": "Würzburger Straße 154",
+    "website": "www.uvex-sports.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "118",
+    "name": "Intertek Consumer Goods GmbH",
+    "strasse": "Würzburger Str. 152",
+    "website": "www.intertek.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "116",
+    "name": "iba AG",
+    "strasse": "Königswarterstraße 44",
+    "website": "www.iba-ag.com",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "111",
+    "name": "Solectrix GmbH",
+    "strasse": "Werkstr. 1",
+    "website": "www.simba-dickie-group.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "100",
+    "name": "Competenza GmbH",
+    "strasse": "Flößaustr. 24a",
+    "website": "www.competenza.com",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "99",
+    "name": "Eckhard Köpsel GmbH Garten- und Landschaftsbau",
+    "strasse": "Mainstraße 40",
+    "website": "www.gartenwelt-dauchenbeck.de",
+    "plz": "90768",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "91",
+    "name": "APZ - Autoreisen Peterzelka GmbH",
+    "strasse": "Winklerstraße 31",
+    "website": "www.apz-reisen.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "90",
+    "name": "SCHULTHEISS Hoch- und Tiefbau GmbH",
+    "strasse": "Balbiererstraße 30",
+    "website": "www.hoefer-und-sohn.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "86",
+    "name": "Computec Media GmbH",
+    "strasse": "Dr.-Mack-Str. 83",
+    "website": "www.computec.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "80",
+    "name": "Kommunaler Betrieb für Informationstechnik KommunalBIT AöR",
+    "strasse": "Kaiserstraße 30",
+    "website": "www.kommunalbit.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "80",
+    "name": "Guggenberger - Aschenauer Metallveredelungswerk GmbH",
+    "strasse": "Hans-Vogel-Straße 123",
+    "website": "www.guggasch.de",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "77",
+    "name": "Schwemmer & Dorn + Co GmbH",
+    "strasse": "Stadelner Hauptstraße 34",
+    "website": "www.gmoehling.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "75",
+    "name": "MIKROLAB-Entwicklungsgesellschaft für Elektroniksysteme mbH",
+    "strasse": "Dieter-Streng-Straße 1",
+    "website": "www.mikrolab.com",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "74",
+    "name": "AluTec GmbH",
+    "strasse": "Boxdorfer Straße 27",
+    "website": "www.alutec-guss.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "69",
+    "name": "evidia MVZ Radiologie Franken GmbH",
+    "strasse": "Benno-Strauß-Straße 1",
+    "website": "www.evidia.de",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "69",
+    "name": "AIM Batterie Vertriebs GmbH",
+    "strasse": "Benno-Strauß-Straße 8",
+    "website": "www.the-sunlight-group.com",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "53",
+    "name": "Farben-Volz GmbH",
+    "strasse": "Magazinstraße 79-81",
+    "website": "www.hesch.com",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "43",
+    "name": "DICKIE-SPIELZEUG GmbH & Co. KG",
+    "strasse": "Werkstraße 1",
+    "website": "www.simba-dickie-group.com",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "41",
+    "name": "BIG Spielwarenfabrik GmbH & Co. KG",
+    "strasse": "Werkstr. 1",
+    "website": "www.big.de",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "40",
+    "name": "protoform Konrad Hofmann GmbH",
+    "strasse": "Siemensstraße 45",
+    "website": "www.protoform.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "35",
+    "name": "Perola GmbH",
+    "strasse": "Ronhofer Hauptstr. 299",
+    "website": "www.perola.eu",
+    "plz": "90765",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "34",
+    "name": "Medothic GmbH",
+    "strasse": "Flößaustraße 22",
+    "website": "www.voltabox.ag",
+    "plz": "90763",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "21",
+    "name": "BRANDAD Group AG",
+    "strasse": "Gebhardtstr. 13",
+    "website": "www.htpm-gmbh.de/",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "15",
+    "name": "Axinom GmbH",
+    "strasse": "Kurgartenstr. 37",
+    "website": "www.axinom.de",
+    "plz": "90762",
+    "stadt": "Fürth"
+  },
+  {
+    "mitarbeiter": "8",
+    "name": "SOHARD Software GmbH",
+    "strasse": "Würzburger Straße 197",
+    "website": "www.sohard.de",
+    "plz": "90766",
+    "stadt": "Fürth"
+  }
+]

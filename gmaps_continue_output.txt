@@ -1,0 +1,13 @@
+[18:15:42] ============================================================
+[18:15:42] Google Maps CONTINUE - Remaining Towns
+[18:15:42] ============================================================
+[18:15:42] All towns: 170, Completed: 125, Remaining: 45
+[18:15:42] Existing results: 9001
+[18:15:42]   -> Laufamholz (16.9km, tier=4)
+[18:15:42]   -> Doos (17.0km, tier=4)
+[18:15:42]   -> Gremsdorf (18.6km, tier=4)
+[18:15:42]   -> Neunhof v. Wald (23.4km, tier=4)
+[18:15:42]   -> Gerhardshofen (25.1km, tier=4)
+[18:15:42]   ... and 40 more
+[18:15:42] Dedup set: 9001 unique names
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root

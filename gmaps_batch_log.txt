@@ -1,0 +1,45 @@
+[18:47:05] Remaining: 36 towns, Existing: 9296 results
+[18:47:06] 
+=== Diespeck (27.9km, tier=4, 5 terms) ===
+[18:47:06]   Firma in Diespeck
+[18:47:21]   32 listings, 17 new | Total: 9313
+[18:47:24]   Unternehmen in Diespeck
+[18:47:39]   30 listings, 13 new | Total: 9326
+[18:47:42]   Gewerbe in Diespeck
+[18:47:58]   9 listings, 3 new | Total: 9329
+[18:48:01]   Handwerk in Diespeck
+[18:48:16]   10 listings, 1 new | Total: 9330
+[18:48:19]   Dienstleistung in Diespeck
+[18:48:34]   36 listings, 14 new | Total: 9344
+[18:48:37]   Town done. Total: 9344
+[18:48:37] 
+=== Strullendorf (29.9km, tier=4, 5 terms) ===
+[18:48:37]   Firma in Strullendorf
+[18:48:51]   35 listings, 32 new | Total: 9376
+[18:48:55]   Unternehmen in Strullendorf
+[18:49:09]   37 listings, 19 new | Total: 9395
+[18:49:12]   Gewerbe in Strullendorf
+[18:49:27]   11 listings, 10 new | Total: 9405
+[18:49:30]   Handwerk in Strullendorf
+[18:49:45]   29 listings, 17 new | Total: 9422
+[18:49:48]   Dienstleistung in Strullendorf
+[18:50:03]   31 listings, 14 new | Total: 9436
+[18:50:06]   Town done. Total: 9436
+[18:50:06] 
+=== Betzenstein (30.8km, tier=4, 5 terms) ===
+[18:50:06]   Firma in Betzenstein
+[18:50:21]   37 listings, 35 new | Total: 9471
+[18:50:24]   Unternehmen in Betzenstein
+[18:50:39]   28 listings, 16 new | Total: 9487
+[18:50:42]   Gewerbe in Betzenstein
+[18:50:57]   15 listings, 11 new | Total: 9498
+[18:51:00]   Handwerk in Betzenstein
+[18:51:15]   37 listings, 14 new | Total: 9512
+[18:51:18]   Dienstleistung in Betzenstein
+[18:51:33]   37 listings, 15 new | Total: 9527
+[18:51:36]   Town done. Total: 9527
+[18:51:36] 
+=== Rohr (31.2km, tier=4, 5 terms) ===
+[18:51:36]   Firma in Rohr
+[18:51:51]   0 listings, 0 new | Total: 9527
+[18:51:54]   Unternehmen in Rohr

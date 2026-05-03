@@ -1,0 +1,554 @@
+[
+  {
+    "mitarbeiter": "10880",
+    "name": "Siemens Healthcare GmbH",
+    "strasse": "Henkestr. 127",
+    "website": "www.healthcare.siemens.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "6400",
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "strasse": "Schloßplatz 4",
+    "website": "www.fau.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "2800",
+    "name": "Stadt Erlangen",
+    "strasse": "Paul-Gossen-Str. 100",
+    "website": "www.framatome.com",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "1500",
+    "name": "Der Beck GmbH",
+    "strasse": "Am Weichselgarten 12",
+    "website": "www.der-beck.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "1300",
+    "name": "Fraunhofer-Institut für Integrierte Schaltungen IIS",
+    "strasse": "Am Wolfsmantel 33",
+    "website": "www.iis.fraunhofer.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "1117",
+    "name": "Malteser Waldkrankenhaus Erlangen gGmbH",
+    "strasse": "Rathsberger Str. 57",
+    "website": "www.waldkrankenhaus.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "1000",
+    "name": "Elektrobit Automotive GmbH",
+    "strasse": "Am Wolfsmantel 46",
+    "website": "www.elektrobit.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "972",
+    "name": "HEITEC AG",
+    "strasse": "Güterbahnhofstr. 5",
+    "website": "www.heitec.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "929",
+    "name": "Universitätsklinikum Erlangen",
+    "strasse": "Maximiliansplatz 2",
+    "website": "www.uk-erlangen.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "868",
+    "name": "Klinik Service GmbH Erlangen",
+    "strasse": "Katholischer Kirchenplatz 14",
+    "website": "www.ksg-erlangen.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "805",
+    "name": "Erlanger Stadtwerke AG",
+    "strasse": "Äußere Brucker Str. 33",
+    "website": "www.estw.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "792",
+    "name": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+    "strasse": "Hugenottenplatz 5",
+    "website": "www.sparkasse-erlangen.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "633",
+    "name": "Sivantos GmbH",
+    "strasse": "Henri-Dunant-Straße 100",
+    "website": "www.sivantos.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "620",
+    "name": "IG Franken Gebäudereinigung GmbH",
+    "strasse": "Dresdener Str. 10",
+    "website": "www.franken.me",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "550",
+    "name": "Mauss Bau GmbH & Co. KG",
+    "strasse": "Am Pestalozziring 1-2",
+    "website": "www.davero.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "450",
+    "name": "Primetals Technologies Germany GmbH",
+    "strasse": "Bunsenstr. 43",
+    "website": "www.primetals.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "449",
+    "name": "ZBVV - Zentral Boden Vermietung und Verwaltung GmbH",
+    "strasse": "Henkestr. 10",
+    "website": "www.zbvv.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "336",
+    "name": "ESS - Erlanger Sicherheits-Service GmbH",
+    "strasse": "Am Weichselgarten 9",
+    "website": "www.ess-erlangen.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "303",
+    "name": "Basel Dienstleistungen GmbH",
+    "strasse": "Dechsendorfer Str. 11",
+    "website": "www.unifleisch.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "276",
+    "name": "Thermo Fisher Scientific Messtechnik GmbH",
+    "strasse": "Frauenauracher Str. 96",
+    "website": "www.thermofisher.com",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "270",
+    "name": "WaveLight GmbH",
+    "strasse": "Am Wolfsmantel 5",
+    "website": "www.de.alcon.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "200",
+    "name": "Orthopädie Forum GmbH",
+    "strasse": "Michael-Vogel-Straße 1d",
+    "website": "www.orfo.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "197",
+    "name": "HYDROGENIOUS LOHC TECHNOLOGIES GMBH",
+    "strasse": "Am Pestalozziring 2",
+    "website": "www.defacto-realations.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "165",
+    "name": "Erlanger Stadtwerke Stadtverkehr GmbH",
+    "strasse": "Äußere Brucker Straße 33",
+    "website": "www.estw.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "162",
+    "name": "Beck GmbH & Co.KG",
+    "strasse": "Am Weichselgarten 12",
+    "website": "www.der-beck.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "162",
+    "name": "Feilo Sylvania Germany GmbH",
+    "strasse": "Graf-Zeppelin-Str. 9",
+    "website": "www.sylvania-lighting.com",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "157",
+    "name": "E-Werk Kulturzentrum GmbH",
+    "strasse": "Fuchsenwiese 1",
+    "website": "www.e-werk.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "150",
+    "name": "ASTRUM IT GmbH",
+    "strasse": "Am Wolfsmantel 2",
+    "website": "www.astrum-it.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "150",
+    "name": "Wieland Lufttechnik GmbH & Co. KG",
+    "strasse": "Wetterkreuz 12",
+    "website": "www.wieland-luft.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "142",
+    "name": "WESGO Ceramics GmbH",
+    "strasse": "Willi-Grasser-Str. 11",
+    "website": "www.morgantechnicalceramics.com",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "141",
+    "name": "Schmitt GmbH",
+    "strasse": "Wetterkreuz 3",
+    "website": "www.schmitt-engineering.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "135",
+    "name": "GBI Holding AG",
+    "strasse": "Am Weichselgarten 11-13",
+    "website": "www.gbi.ag",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "129",
+    "name": "Cs2 ITEC GmbH & Co. KG",
+    "strasse": "Nägelsbachstr. 55a",
+    "website": "www.gewobau-erlangen.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "125",
+    "name": "HumanOptics Holding AG",
+    "strasse": "Spardorfer Str. 150",
+    "website": "www.humanoptics.com",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "120",
+    "name": "B + S Bernhardt + Schütz Personaldienstleistungen GmbH",
+    "strasse": "Hauptstr. 21",
+    "website": "www.bsjobs.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "115",
+    "name": "hl-studios GmbH",
+    "strasse": "Reutleser Weg 6",
+    "website": "www.hl-studios.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "113",
+    "name": "Pflüger Lober Kuvert GmbH",
+    "strasse": "Am Pestalozziring 14",
+    "website": "www.pflueger-lober.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "113",
+    "name": "Autohaus Josef Pickel GmbH & Co. KG",
+    "strasse": "Frauenauracher Str. 95",
+    "website": "www.autohaus-pickel-erlangen.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "113",
+    "name": "CORSCIENCE GmbH & Co. KG",
+    "strasse": "Hartmannstraße 65",
+    "website": "www.corscience.com",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "109",
+    "name": "Prinzing Gebäudetechnik GmbH",
+    "strasse": "Goerdelerstr. 21",
+    "website": "www.prinzing-gt.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "107",
+    "name": "WAB LebensRaum gGmbH",
+    "strasse": "Dechsendorfer Straße 11",
+    "website": "www.unifleisch.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "104",
+    "name": "STUBNERpersonalservice GmbH",
+    "strasse": "Universitätsstr. 16",
+    "website": "www.stubner-personalservice.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "101",
+    "name": "ROTEC Rohrtechnik GmbH",
+    "strasse": "Am Pestalozziring 18",
+    "website": "www.rotec-erlangen.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "96",
+    "name": "ERLAS Erlanger Lasertechnik GmbH",
+    "strasse": "Kraftwerkstr. 26",
+    "website": "www.erlas.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "94",
+    "name": "Sanitätshaus OrthoPoint Rückl & Schick GmbH",
+    "strasse": "Tennenloher Straße 49",
+    "website": "www.orthopoint.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "94",
+    "name": "INVENT Umwelt- und Verfahrenstechnik AG",
+    "strasse": "Schallershofer Straße 106",
+    "website": "www.froer-group.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "84",
+    "name": "Chemische Industrie Erlangen GmbH",
+    "strasse": "Rathenaustr. 18",
+    "website": "www.ching-coatings.com",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "83",
+    "name": "BASYS Gesellschaft für Anwender- und Systemsoftware mbH",
+    "strasse": "Am Weichselgarten 4",
+    "website": "www.develop-group.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "81",
+    "name": "Gebäudereinigung Helbig GmbH",
+    "strasse": "Kreuzsteinstr. 16",
+    "website": "www.helbig-erlangen.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "80",
+    "name": "Thieme Compliance GmbH",
+    "strasse": "Am Weichselgarten 30a",
+    "website": "www.thieme.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "80",
+    "name": "HMV GmbH",
+    "strasse": "Henkestraße 10",
+    "website": "www.hmv.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "72",
+    "name": "softgate GmbH information technology services",
+    "strasse": "Allee am Röthelheimpark 43",
+    "website": "www.soft-gate.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "72",
+    "name": "Heinlein Bau und Raum GmbH & Co. KG",
+    "strasse": "Schallershofer Straße 122",
+    "website": "www.heinlein-erlangen.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "70",
+    "name": "Wabe Elektronik und Montageservice Erlangen GmbH",
+    "strasse": "Am Pestalozziring 6",
+    "website": "www.wabe-erlangen.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "70",
+    "name": "GBI Hotelbau- und Betriebsgesellschaft mbH & Co.KG",
+    "strasse": "Am Weichselgarten 11-13",
+    "website": "www.dorfhotels.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "69",
+    "name": "Dörsch + Leibl GmbH & Co. Klimatechnik KG",
+    "strasse": "Weinstraße 41",
+    "website": "www.doersch-leibl.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "69",
+    "name": "MCF Mikrocomputer GmbH & Co. Firmware KG",
+    "strasse": "Bauhofstr. 5",
+    "website": "www.suedwasser.com",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "66",
+    "name": "Spirit Link GmbH",
+    "strasse": "Allee am Röthelheimpark 41",
+    "website": "www.spiritlink.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "65",
+    "name": "Scholten Malerfachbetrieb GmbH",
+    "strasse": "Sieglitzhofer Straße 11",
+    "website": "www.maler-scholten.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "62",
+    "name": "VIA APPIA Mode GmbH",
+    "strasse": "Gundstr. 14",
+    "website": "www.via-appia-mode.com",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "59",
+    "name": "Sioux Technologies GmbH",
+    "strasse": "Am Weichselgarten 36",
+    "website": "www.sioux.eu",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "58",
+    "name": "Intego GmbH",
+    "strasse": "Rathenaustr. 20",
+    "website": "www.rudolf-kempe.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "40",
+    "name": "Portegra GmbH",
+    "strasse": "Graf-Zeppelin-Str. 1",
+    "website": "www.mavig.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "25",
+    "name": "Tintschl AG",
+    "strasse": "Goerdelerstraße 21",
+    "website": "www.tintschl.de",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "24",
+    "name": "SLF Sportland Franken GmbH & Co. KG",
+    "strasse": "Henkestraße 77",
+    "website": "www.afra.de",
+    "plz": "91052",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "14",
+    "name": "easycore GmbH",
+    "strasse": "Hartmannstr. 65",
+    "website": "www.easycore.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "11",
+    "name": "LUKAS Hydraulik GmbH",
+    "strasse": "Schloßplatz 6",
+    "website": "www.interactive-one.de",
+    "plz": "91054",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "8",
+    "name": "IFS Deutschland GmbH",
+    "strasse": "Am Weichselgarten 16",
+    "website": "www.ifs.com",
+    "plz": "91058",
+    "stadt": "Erlangen"
+  },
+  {
+    "mitarbeiter": "6",
+    "name": "Leuchtköpfe GmbH",
+    "strasse": "Wolfsstaudenring 27",
+    "website": "www.leuchtkoepfe.de",
+    "plz": "91056",
+    "stadt": "Erlangen"
+  }
+]

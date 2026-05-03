@@ -1,0 +1,1162 @@
+[14:53:17] ============================================================
+[14:53:17] Google Maps Erlangen 50km Scraper
+[14:53:17] ============================================================
+[14:53:17] Towns: 170, Existing results: 86, Unique: 86
+[14:53:20] 
+--- Town 1/170: Erlangen (0.0km, tier=1, 28 terms) ---
+[14:53:20]   Searching: 'Firma in Erlangen'
+[14:53:41]   Found 36 listings, 6 new | Total unique: 92
+[14:53:44]   Searching: 'Unternehmen in Erlangen'
+[14:54:04]   Found 12 listings, 3 new | Total unique: 95
+[14:54:07]   Searching: 'GmbH in Erlangen'
+[14:54:27]   Found 36 listings, 21 new | Total unique: 116
+[14:54:31]   Searching: 'IT Firma in Erlangen'
+[14:54:50]   Found 37 listings, 8 new | Total unique: 124
+[14:54:53]   Searching: 'Software in Erlangen'
+[14:55:13]   Found 36 listings, 20 new | Total unique: 144
+[14:55:16]   Searching: 'Softwareentwicklung in Erlangen'
+[14:55:36]   Found 37 listings, 7 new | Total unique: 151
+[14:55:39]   Searching: 'Handwerk in Erlangen'
+[14:55:59]   Found 38 listings, 7 new | Total unique: 158
+[14:56:02]   Searching: 'Industrie in Erlangen'
+[14:56:22]   Found 34 listings, 14 new | Total unique: 172
+[14:56:25]   Searching: 'Handel in Erlangen'
+[14:56:45]   Found 35 listings, 32 new | Total unique: 204
+[14:56:48]   Searching: 'Dienstleistung in Erlangen'
+[14:57:08]   Found 36 listings, 25 new | Total unique: 229
+[14:57:11]   Searching: 'Gastronomie in Erlangen'
+[14:57:31]   Found 35 listings, 35 new | Total unique: 264
+[14:57:34]   Searching: 'Baufirma in Erlangen'
+[14:57:53]   Found 47 listings, 36 new | Total unique: 300
+[14:57:56]   Searching: 'Kfz Werkstatt in Erlangen'
+[14:58:16]   Found 38 listings, 37 new | Total unique: 337
+[14:58:19]   Searching: 'Steuerberater in Erlangen'
+[14:58:39]   Found 35 listings, 35 new | Total unique: 372
+[14:58:42]   Searching: 'Rechtsanwalt in Erlangen'
+[14:59:02]   Found 39 listings, 35 new | Total unique: 407
+[14:59:05]   Searching: 'Versicherung in Erlangen'
+[14:59:25]   Found 35 listings, 35 new | Total unique: 442
+[14:59:28]   Searching: 'Immobilien in Erlangen'
+[14:59:48]   Found 38 listings, 37 new | Total unique: 479
+[14:59:51]   Searching: 'Marketing Agentur in Erlangen'
+[15:00:11]   Found 40 listings, 39 new | Total unique: 518
+[15:00:14]   Searching: 'Logistik in Erlangen'
+[15:00:34]   Found 34 listings, 26 new | Total unique: 544
+[15:00:37]   Searching: 'Elektro in Erlangen'
+[15:00:56]   Found 39 listings, 36 new | Total unique: 580
+[15:00:59]   Searching: 'Metallbau in Erlangen'
+[15:01:19]   Found 8 listings, 8 new | Total unique: 588
+[15:01:22]   Searching: 'Maschinenbau in Erlangen'
+[15:01:42]   Found 27 listings, 19 new | Total unique: 607
+[15:01:45]   Searching: 'Kunststoff in Erlangen'
+[15:02:05]   Found 8 listings, 3 new | Total unique: 610
+[15:02:08]   Searching: 'Druckerei in Erlangen'
+[15:02:28]   Found 17 listings, 16 new | Total unique: 626
+[15:02:31]   Searching: 'Apotheke in Erlangen'
+[15:02:51]   Found 32 listings, 32 new | Total unique: 658
+[15:02:54]   Searching: 'Arztpraxis in Erlangen'
+[15:03:14]   Found 38 listings, 38 new | Total unique: 696
+[15:03:17]   Searching: 'Friseur in Erlangen'
+[15:12:16] ==================================================
+[15:12:16] Erlangen 50km Scraper - Towns 0 to 0
+[15:12:16] ==================================================
+[15:12:16] Existing: 696 unique businesses
+[15:12:19] 
+--- Town 1/170: Erlangen (0.0km, tier=1, 28 terms) ---
+[15:12:29]   'Friseur': 29 listings, 29 new | Total: 725
+[15:12:41]   'Bäckerei': 15 listings, 15 new | Total: 740
+[15:12:44]   Town done. Total: 740
+[15:12:44] 
+Done! 2 searches, 44 new, Total: 740
+[15:12:44] Phone: 630, Website: 565
+[15:17:58] === Erlangen 50km: Towns 1 to 1 ===
+[15:17:58] Starting with 740 existing results
+[15:17:58] 
+--- 2/170: Buckenhof (1.4km, tier=4, 5 remaining) ---
+[15:18:12]   'Firma': 27 raw, 22 new | Total: 762
+[15:18:23]   'Unternehmen': 27 raw, 17 new | Total: 779
+[15:18:34]   'Gewerbe': 2 raw, 1 new | Total: 780
+[15:18:44]   'Handwerk': 17 raw, 11 new | Total: 791
+[15:18:54]   'Dienstleistung': 26 raw, 19 new | Total: 810
+[15:18:57]   Town done: 70 new businesses
+[15:18:57] 
+=== Batch complete. Total: 810 businesses ===
+[15:19:13] === Erlangen 50km: Towns 2 to 6 ===
+[15:19:13] Starting with 810 existing results
+[15:19:13] 
+--- 3/170: Spardorf (1.8km, tier=4, 5 remaining) ---
+[15:19:27]   'Firma': 27 raw, 9 new | Total: 819
+[15:19:37]   'Unternehmen': 26 raw, 12 new | Total: 831
+[15:19:48]   'Gewerbe': 4 raw, 2 new | Total: 833
+[15:19:59]   'Handwerk': 26 raw, 13 new | Total: 846
+[15:20:09]   'Dienstleistung': 0 raw, 0 new | Total: 846
+[15:20:11]   Town done: 36 new businesses
+[15:20:11] 
+--- 4/170: Möhrendorf (1.9km, tier=4, 5 remaining) ---
+[15:20:25]   'Firma': 27 raw, 18 new | Total: 864
+[15:20:36]   'Unternehmen': 25 raw, 16 new | Total: 880
+[15:20:46]   'Gewerbe': 6 raw, 2 new | Total: 882
+[15:20:57]   'Handwerk': 26 raw, 16 new | Total: 898
+[15:21:07]   'Dienstleistung': 26 raw, 10 new | Total: 908
+[15:21:09]   Town done: 62 new businesses
+[15:21:09] 
+--- 5/170: Alterlangen (1.9km, tier=4, 5 remaining) ---
+[15:21:23]   'Firma': 27 raw, 4 new | Total: 912
+[15:21:34]   'Unternehmen': 29 raw, 22 new | Total: 934
+[15:21:45]   'Gewerbe': 2 raw, 2 new | Total: 936
+[15:21:55]   'Handwerk': 28 raw, 14 new | Total: 950
+[15:22:05]   'Dienstleistung': 28 raw, 9 new | Total: 959
+[15:22:08]   Town done: 51 new businesses
+[15:22:08] 
+--- 6/170: Büchenbach (2.4km, tier=4, 5 remaining) ---
+[15:22:21]   'Firma': 16 raw, 16 new | Total: 975
+[15:22:32]   'Unternehmen': 20 raw, 7 new | Total: 982
+[15:22:43]   'Gewerbe': 7 raw, 7 new | Total: 989
+[15:22:53]   'Handwerk': 27 raw, 21 new | Total: 1010
+[15:23:03]   'Dienstleistung': 28 raw, 16 new | Total: 1026
+[15:23:06]   Town done: 67 new businesses
+[15:23:06] 
+--- 7/170: Marloffstein (3.1km, tier=4, 5 remaining) ---
+[15:23:19]   'Firma': 28 raw, 10 new | Total: 1036
+[15:23:30]   'Unternehmen': 28 raw, 10 new | Total: 1046
+[15:23:41]   'Gewerbe': 4 raw, 0 new | Total: 1046
+[15:23:51]   'Handwerk': 14 raw, 2 new | Total: 1048
+[15:24:02]   'Dienstleistung': 20 raw, 5 new | Total: 1053
+[15:24:04]   Town done: 27 new businesses
+[15:24:04] 
+=== Batch complete. Total: 1053 businesses ===
+[15:26:05] === Erlangen 50km: Towns 7 to 14 ===
+[15:26:05] Starting with 1053 existing results
+[15:26:05] 
+--- 8/170: Bruck (3.1km, tier=4, 5 remaining) ---
+[15:26:19]   'Firma': 25 raw, 24 new | Total: 1077
+[15:26:30]   'Unternehmen': 20 raw, 7 new | Total: 1084
+[15:26:41]   'Gewerbe': 0 raw, 0 new | Total: 1084
+[15:26:51]   'Handwerk': 20 raw, 18 new | Total: 1102
+[15:27:01]   'Dienstleistung': 4 raw, 4 new | Total: 1106
+[15:27:04]   Town done: 53 new businesses
+[15:27:04] 
+--- 9/170: Uttenreuth (3.2km, tier=4, 5 remaining) ---
+[15:27:17]   'Firma': 26 raw, 9 new | Total: 1115
+[15:27:28]   'Unternehmen': 26 raw, 13 new | Total: 1128
+[15:27:39]   'Gewerbe': 10 raw, 8 new | Total: 1136
+[15:27:49]   'Handwerk': 27 raw, 2 new | Total: 1138
+[15:27:59]   'Dienstleistung': 28 raw, 11 new | Total: 1149
+[15:28:02]   Town done: 43 new businesses
+[15:28:02] 
+--- 10/170: Oberschöllenbach (3.3km, tier=4, 5 remaining) ---
+[15:28:15]   'Firma': 17 raw, 17 new | Total: 1166
+[15:28:26]   'Unternehmen': 27 raw, 17 new | Total: 1183
+[15:28:37]   'Gewerbe': 1 raw, 1 new | Total: 1184
+[15:28:47]   'Handwerk': 8 raw, 5 new | Total: 1189
+[15:28:58]   'Dienstleistung': 24 raw, 14 new | Total: 1203
+[15:29:00]   Town done: 54 new businesses
+[15:29:00] 
+--- 11/170: Tennenlohe (3.7km, tier=4, 5 remaining) ---
+[15:29:14]   'Firma': 26 raw, 14 new | Total: 1217
+[15:29:24]   'Unternehmen': 27 raw, 7 new | Total: 1224
+[15:29:35]   'Gewerbe': 4 raw, 3 new | Total: 1227
+[15:29:45]   'Handwerk': 25 raw, 13 new | Total: 1240
+[15:29:56]   'Dienstleistung': 20 raw, 9 new | Total: 1249
+[15:29:58]   Town done: 46 new businesses
+[15:29:58] 
+--- 12/170: Kosbach (4.0km, tier=4, 5 remaining) ---
+[15:30:12]   'Firma': 6 raw, 5 new | Total: 1254
+[15:30:22]   'Unternehmen': 20 raw, 7 new | Total: 1261
+[15:30:33]   'Gewerbe': 2 raw, 2 new | Total: 1263
+[15:30:44]   'Handwerk': 8 raw, 2 new | Total: 1265
+[15:30:54]   'Dienstleistung': 23 raw, 7 new | Total: 1272
+[15:30:56]   Town done: 23 new businesses
+[15:30:56] 
+--- 13/170: Frauenaurach (4.3km, tier=4, 5 remaining) ---
+[15:31:10]   'Firma': 27 raw, 12 new | Total: 1284
+[15:31:21]   'Unternehmen': 26 raw, 6 new | Total: 1290
+[15:31:32]   'Gewerbe': 4 raw, 3 new | Total: 1293
+[15:31:42]   'Handwerk': 20 raw, 8 new | Total: 1301
+[15:31:52]   'Dienstleistung': 20 raw, 4 new | Total: 1305
+[15:31:54]   Town done: 33 new businesses
+[15:31:54] 
+--- 14/170: Poxdorf bei Erlangen (5.8km, tier=4, 5 remaining) ---
+[15:32:08]   'Firma': 0 raw, 0 new | Total: 1305
+[15:32:19]   'Unternehmen': 26 raw, 21 new | Total: 1326
+[15:32:30]   'Gewerbe': 0 raw, 0 new | Total: 1326
+[15:32:40]   'Handwerk': 25 raw, 15 new | Total: 1341
+[15:32:50]   'Dienstleistung': 28 raw, 15 new | Total: 1356
+[15:32:53]   Town done: 51 new businesses
+[15:32:53] 
+--- 15/170: Effeltrich (6.1km, tier=4, 5 remaining) ---
+[15:33:06]   'Firma': 25 raw, 23 new | Total: 1379
+[15:33:17]   'Unternehmen': 20 raw, 13 new | Total: 1392
+[15:33:28]   'Gewerbe': 3 raw, 1 new | Total: 1393
+[15:33:38]   'Handwerk': 25 raw, 16 new | Total: 1409
+[15:33:49]   'Dienstleistung': 27 raw, 7 new | Total: 1416
+[15:33:51]   Town done: 60 new businesses
+[15:33:51] 
+=== Batch complete. Total: 1416 businesses ===
+[15:39:33] === Erlangen 50km: Towns 15 to 24 ===
+[15:39:33] Starting with 1416 existing results
+[15:39:33] 
+--- 16/170: Langensendelbach (6.2km, tier=4, 5 remaining) ---
+[15:39:47]   'Firma': 28 raw, 14 new | Total: 1430
+[15:39:57]   'Unternehmen': 20 raw, 10 new | Total: 1440
+[15:40:08]   'Gewerbe': 5 raw, 4 new | Total: 1444
+[15:40:18]   'Handwerk': 29 raw, 10 new | Total: 1454
+[15:40:29]   'Dienstleistung': 25 raw, 13 new | Total: 1467
+[15:40:31]   Town done: 51 new businesses
+[15:40:31] 
+--- 17/170: Kleinsendelbach (6.5km, tier=4, 5 remaining) ---
+[15:40:45]   'Firma': 27 raw, 20 new | Total: 1487
+[15:40:55]   'Unternehmen': 25 raw, 11 new | Total: 1498
+[15:41:06]   'Gewerbe': 5 raw, 5 new | Total: 1503
+[15:41:17]   'Handwerk': 25 raw, 11 new | Total: 1514
+[15:41:27]   'Dienstleistung': 26 raw, 16 new | Total: 1530
+[15:41:29]   Town done: 63 new businesses
+[15:41:29] 
+--- 18/170: Wolkersdorf (7.5km, tier=4, 5 remaining) ---
+[15:41:43]   'Firma': 25 raw, 25 new | Total: 1555
+[15:41:54]   'Unternehmen': 20 raw, 6 new | Total: 1561
+[15:42:05]   'Gewerbe': 12 raw, 11 new | Total: 1572
+[15:42:15]   'Handwerk': 20 raw, 17 new | Total: 1589
+[15:42:25]   'Dienstleistung': 27 raw, 20 new | Total: 1609
+[15:42:27]   Town done: 79 new businesses
+[15:42:27] 
+--- 19/170: Hetzles (7.9km, tier=4, 5 remaining) ---
+[15:42:41]   'Firma': 14 raw, 8 new | Total: 1617
+[15:42:52]   'Unternehmen': 26 raw, 11 new | Total: 1628
+[15:43:03]   'Gewerbe': 2 raw, 2 new | Total: 1630
+[15:43:13]   'Handwerk': 27 raw, 7 new | Total: 1637
+[15:43:24]   'Dienstleistung': 25 raw, 14 new | Total: 1651
+[15:43:26]   Town done: 42 new businesses
+[15:43:26] 
+--- 20/170: Röttenbach (9.1km, tier=4, 5 remaining) ---
+[15:43:40]   'Firma': 25 raw, 25 new | Total: 1676
+[15:43:50]   'Unternehmen': 20 raw, 7 new | Total: 1683
+[15:44:01]   'Gewerbe': 12 raw, 9 new | Total: 1692
+[15:44:11]   'Handwerk': 25 raw, 16 new | Total: 1708
+[15:44:22]   'Dienstleistung': 6 raw, 6 new | Total: 1714
+[15:44:24]   Town done: 63 new businesses
+[15:44:24] 
+--- 21/170: Herzogenaurach (9.3km, tier=3, 13 remaining) ---
+[15:44:38]   'Firma': 25 raw, 25 new | Total: 1739
+[15:44:48]   'Unternehmen': 24 raw, 13 new | Total: 1752
+[15:44:59]   'GmbH': 19 raw, 6 new | Total: 1758
+[15:45:10]   'Handwerk': 20 raw, 14 new | Total: 1772
+[15:45:20]   'Dienstleistung': 20 raw, 16 new | Total: 1788
+[15:45:30]   'Gastronomie': 20 raw, 20 new | Total: 1808
+[15:45:40]   'Baufirma': 20 raw, 15 new | Total: 1823
+[15:45:51]   'IT': 27 raw, 18 new | Total: 1841
+[15:46:01]   'Steuerberater': 13 raw, 12 new | Total: 1853
+[15:46:12]   'Kfz': 21 raw, 16 new | Total: 1869
+[15:46:22]   'Elektro': 11 raw, 8 new | Total: 1877
+[15:46:32]   'Friseur': 21 raw, 20 new | Total: 1897
+[15:46:42]   'Bäckerei': 8 raw, 7 new | Total: 1904
+[15:46:45]   Town done: 190 new businesses
+[15:46:45] 
+--- 22/170: Neunhof (9.5km, tier=4, 5 remaining) ---
+[15:46:58]   'Firma': 27 raw, 27 new | Total: 1931
+[15:47:09]   'Unternehmen': 28 raw, 19 new | Total: 1950
+[15:47:20]   'Gewerbe': 0 raw, 0 new | Total: 1950
+[15:47:31]   'Handwerk': 28 raw, 22 new | Total: 1972
+[15:47:41]   'Dienstleistung': 19 raw, 17 new | Total: 1989
+[15:47:43]   Town done: 85 new businesses
+[15:47:43] 
+--- 23/170: Obermichelbach (9.8km, tier=4, 5 remaining) ---
+[15:47:57]   'Firma': 27 raw, 27 new | Total: 2016
+[15:48:08]   'Unternehmen': 26 raw, 10 new | Total: 2026
+[15:48:18]   'Gewerbe': 0 raw, 0 new | Total: 2026
+[15:48:29]   'Handwerk': 27 raw, 19 new | Total: 2045
+[15:48:39]   'Dienstleistung': 27 raw, 14 new | Total: 2059
+[15:48:41]   Town done: 70 new businesses
+[15:48:41] 
+--- 24/170: Kunreuth (9.9km, tier=4, 5 remaining) ---
+[15:48:55]   'Firma': 16 raw, 15 new | Total: 2074
+[15:49:06]   'Unternehmen': 27 raw, 17 new | Total: 2091
+[15:49:17]   'Gewerbe': 7 raw, 5 new | Total: 2096
+[15:49:27]   'Handwerk': 3 raw, 0 new | Total: 2096
+[15:52:47] === Erlangen 50km: Towns 24 to 33 ===
+[15:52:47] Starting with 2096 existing results
+[15:52:47] 
+--- 25/170: Kraftshof (10.1km, tier=4, 5 remaining) ---
+[15:53:01]   'Firma': 29 raw, 22 new | Total: 2118
+[15:53:12]   'Unternehmen': 27 raw, 9 new | Total: 2127
+[15:53:23]   'Gewerbe': 3 raw, 0 new | Total: 2127
+[15:53:33]   'Handwerk': 27 raw, 13 new | Total: 2140
+[15:53:44]   'Dienstleistung': 25 raw, 16 new | Total: 2156
+[15:53:46]   Town done: 60 new businesses
+[15:53:46] 
+--- 26/170: Heßdorf (10.3km, tier=4, 5 remaining) ---
+[15:54:00]   'Firma': 19 raw, 15 new | Total: 2171
+[15:54:10]   'Unternehmen': 4 raw, 1 new | Total: 2172
+[15:54:21]   'Gewerbe': 2 raw, 1 new | Total: 2173
+[15:54:31]   'Handwerk': 26 raw, 16 new | Total: 2189
+[15:54:42]   'Dienstleistung': 20 raw, 9 new | Total: 2198
+[15:54:44]   Town done: 42 new businesses
+[15:54:44] 
+--- 27/170: Tuchenbach (10.3km, tier=4, 5 remaining) ---
+[15:54:58]   'Firma': 2 raw, 0 new | Total: 2198
+[15:55:09]   'Unternehmen': 16 raw, 12 new | Total: 2210
+[15:55:19]   'Gewerbe': 4 raw, 4 new | Total: 2214
+[15:55:30]   'Handwerk': 23 raw, 16 new | Total: 2230
+[15:55:40]   'Dienstleistung': 24 raw, 9 new | Total: 2239
+[15:55:42]   Town done: 41 new businesses
+[15:55:42] 
+--- 28/170: Vach (10.3km, tier=4, 5 remaining) ---
+[15:55:56]   'Firma': 29 raw, 28 new | Total: 2267
+[15:56:07]   'Unternehmen': 27 raw, 17 new | Total: 2284
+[15:56:18]   'Gewerbe': 2 raw, 2 new | Total: 2286
+[15:56:28]   'Handwerk': 27 raw, 16 new | Total: 2302
+[15:56:38]   'Dienstleistung': 25 raw, 22 new | Total: 2324
+[15:56:41]   Town done: 85 new businesses
+[15:56:41] 
+--- 29/170: Großgründlach (10.5km, tier=4, 5 remaining) ---
+[15:56:54]   'Firma': 27 raw, 25 new | Total: 2349
+[15:57:05]   'Unternehmen': 29 raw, 13 new | Total: 2362
+[15:57:16]   'Gewerbe': 0 raw, 0 new | Total: 2362
+[15:57:26]   'Handwerk': 27 raw, 13 new | Total: 2375
+[15:57:37]   'Dienstleistung': 20 raw, 11 new | Total: 2386
+[15:57:39]   Town done: 62 new businesses
+[15:57:39] 
+--- 30/170: Hammerbach (10.5km, tier=4, 5 remaining) ---
+[15:57:53]   'Firma': 9 raw, 7 new | Total: 2393
+[15:58:03]   'Unternehmen': 29 raw, 17 new | Total: 2410
+[15:58:14]   'Gewerbe': 1 raw, 1 new | Total: 2411
+[15:58:25]   'Handwerk': 4 raw, 0 new | Total: 2411
+[15:58:35]   'Dienstleistung': 26 raw, 12 new | Total: 2423
+[15:58:37]   Town done: 37 new businesses
+[15:58:37] 
+--- 31/170: Hammersbach (10.5km, tier=4, 5 remaining) ---
+[15:58:51]   'Firma': 27 raw, 21 new | Total: 2444
+[15:59:02]   'Unternehmen': 27 raw, 11 new | Total: 2455
+[15:59:13]   'Gewerbe': 8 raw, 4 new | Total: 2459
+[15:59:23]   'Handwerk': 26 raw, 17 new | Total: 2476
+[15:59:33]   'Dienstleistung': 10 raw, 3 new | Total: 2479
+[15:59:35]   Town done: 56 new businesses
+[15:59:35] 
+--- 32/170: Untermichelbach (10.6km, tier=4, 5 remaining) ---
+[15:59:49]   'Firma': 8 raw, 2 new | Total: 2481
+[16:00:00]   'Unternehmen': 5 raw, 1 new | Total: 2482
+[16:00:11]   'Gewerbe': 1 raw, 1 new | Total: 2483
+[16:00:21]   'Handwerk': 3 raw, 1 new | Total: 2484
+[16:00:31]   'Dienstleistung': 7 raw, 5 new | Total: 2489
+[16:00:34]   Town done: 10 new businesses
+[16:00:34] 
+--- 33/170: Veitsbronn (10.9km, tier=4, 5 remaining) ---
+[16:00:48]   'Firma': 26 raw, 18 new | Total: 2507
+[16:00:58]   'Unternehmen': 23 raw, 8 new | Total: 2515
+[16:01:09]   'Gewerbe': 4 raw, 3 new | Total: 2518
+[16:01:19]   'Handwerk': 20 raw, 7 new | Total: 2525
+[16:01:30]   'Dienstleistung': 28 raw, 21 new | Total: 2546
+[16:01:32]   Town done: 57 new businesses
+[16:01:32] 
+--- 34/170: Weisendorf (11.4km, tier=4, 5 remaining) ---
+[16:01:46]   'Firma': 27 raw, 24 new | Total: 2570
+[16:01:57]   'Unternehmen': 20 raw, 10 new | Total: 2580
+[16:02:07]   'Gewerbe': 7 raw, 6 new | Total: 2586
+[16:02:18]   'Handwerk': 26 raw, 13 new | Total: 2599
+[16:02:28]   'Dienstleistung': 20 raw, 11 new | Total: 2610
+[16:02:30]   Town done: 64 new businesses
+[16:02:30] 
+=== Batch complete. Total: 2610 businesses ===
+[16:03:35] === Erlangen 50km: Towns 34 to 43 ===
+[16:03:35] Starting with 2610 existing results
+[16:03:35] 
+--- 35/170: Adelsdorf (12.0km, tier=4, 5 remaining) ---
+[16:03:49]   'Firma': 24 raw, 23 new | Total: 2633
+[16:03:59]   'Unternehmen': 20 raw, 8 new | Total: 2641
+[16:04:10]   'Gewerbe': 4 raw, 2 new | Total: 2643
+[16:04:21]   'Handwerk': 20 raw, 13 new | Total: 2656
+[16:04:31]   'Dienstleistung': 25 raw, 20 new | Total: 2676
+[16:04:33]   Town done: 66 new businesses
+[16:04:33] 
+--- 36/170: Igelsdorf (12.5km, tier=4, 5 remaining) ---
+[16:04:47]   'Firma': 9 raw, 2 new | Total: 2678
+[16:04:57]   'Unternehmen': 19 raw, 6 new | Total: 2684
+[16:05:08]   'Gewerbe': 0 raw, 0 new | Total: 2684
+[16:05:19]   'Handwerk': 9 raw, 2 new | Total: 2686
+[16:05:29]   'Dienstleistung': 20 raw, 7 new | Total: 2693
+[16:05:31]   Town done: 17 new businesses
+[16:05:31] 
+--- 37/170: Puschendorf (12.5km, tier=4, 5 remaining) ---
+[16:05:45]   'Firma': 10 raw, 7 new | Total: 2700
+[16:05:56]   'Unternehmen': 26 raw, 17 new | Total: 2717
+[16:06:07]   'Gewerbe': 7 raw, 7 new | Total: 2724
+[16:06:17]   'Handwerk': 25 raw, 14 new | Total: 2738
+[16:06:27]   'Dienstleistung': 20 raw, 8 new | Total: 2746
+[16:06:29]   Town done: 53 new businesses
+[16:06:29] 
+--- 38/170: Seukendorf (12.6km, tier=4, 5 remaining) ---
+[16:06:43]   'Firma': 29 raw, 25 new | Total: 2771
+[16:06:54]   'Unternehmen': 28 raw, 12 new | Total: 2783
+[16:07:05]   'Gewerbe': 4 raw, 3 new | Total: 2786
+[16:07:15]   'Handwerk': 26 raw, 13 new | Total: 2799
+[16:07:26]   'Dienstleistung': 27 raw, 10 new | Total: 2809
+[16:07:28]   Town done: 63 new businesses
+[16:07:28] 
+--- 39/170: Igensdorf (12.6km, tier=4, 5 remaining) ---
+[16:07:42]   'Firma': 24 raw, 20 new | Total: 2829
+[16:07:52]   'Unternehmen': 27 raw, 17 new | Total: 2846
+[16:08:03]   'Gewerbe': 10 raw, 7 new | Total: 2853
+[16:08:13]   'Handwerk': 10 raw, 2 new | Total: 2855
+[16:08:24]   'Dienstleistung': 3 raw, 1 new | Total: 2856
+[16:08:26]   Town done: 47 new businesses
+[16:08:26] 
+--- 40/170: Heroldsberg (13.0km, tier=4, 5 remaining) ---
+[16:08:40]   'Firma': 26 raw, 26 new | Total: 2882
+[16:08:51]   'Unternehmen': 19 raw, 5 new | Total: 2887
+[16:09:01]   'Gewerbe': 12 raw, 7 new | Total: 2894
+[16:09:12]   'Handwerk': 24 raw, 19 new | Total: 2913
+[16:09:22]   'Dienstleistung': 24 raw, 13 new | Total: 2926
+[16:09:24]   Town done: 70 new businesses
+[16:09:24] 
+--- 41/170: Stadeln (13.0km, tier=4, 5 remaining) ---
+[16:09:38]   'Firma': 28 raw, 23 new | Total: 2949
+[16:09:49]   'Unternehmen': 28 raw, 16 new | Total: 2965
+[16:10:00]   'Gewerbe': 0 raw, 0 new | Total: 2965
+[16:10:10]   'Handwerk': 21 raw, 14 new | Total: 2979
+[16:10:20]   'Dienstleistung': 29 raw, 19 new | Total: 2998
+[16:10:23]   Town done: 72 new businesses
+[16:10:23] 
+--- 42/170: Ronhof (13.1km, tier=4, 5 remaining) ---
+[16:10:36]   'Firma': 0 raw, 0 new | Total: 2998
+[16:10:47]   'Unternehmen': 27 raw, 21 new | Total: 3019
+[16:10:58]   'Gewerbe': 1 raw, 0 new | Total: 3019
+[16:11:08]   'Handwerk': 14 raw, 7 new | Total: 3026
+[16:11:18]   'Dienstleistung': 27 raw, 12 new | Total: 3038
+[16:11:21]   Town done: 40 new businesses
+[16:11:21] 
+--- 43/170: Fürth (13.3km, tier=2, 28 remaining) ---
+[16:11:34]   'Firma': 26 raw, 17 new | Total: 3055
+[16:11:45]   'Unternehmen': 28 raw, 14 new | Total: 3069
+[16:11:56]   'GmbH': 28 raw, 15 new | Total: 3084
+[16:12:06]   'IT Firma': 29 raw, 25 new | Total: 3109
+[16:12:17]   'Software': 26 raw, 16 new | Total: 3125
+[16:12:27]   'Softwareentwicklung': 29 raw, 7 new | Total: 3132
+[16:12:37]   'Handwerk': 29 raw, 18 new | Total: 3150
+[16:12:48]   'Industrie': 20 raw, 7 new | Total: 3157
+[16:12:58]   'Handel': 20 raw, 18 new | Total: 3175
+[16:13:08]   'Dienstleistung': 28 raw, 15 new | Total: 3190
+[16:13:19]   'Gastronomie': 18 raw, 18 new | Total: 3208
+[16:13:29]   'Baufirma': 26 raw, 21 new | Total: 3229
+[16:14:23] === Erlangen 50km: Towns 43 to 52 ===
+[16:14:23] Starting with 3229 existing results
+[16:14:23] 
+--- 44/170: Kalchreuth (13.4km, tier=4, 5 remaining) ---
+[16:14:37]   'Firma': 25 raw, 15 new | Total: 3244
+[16:14:48]   'Unternehmen': 28 raw, 18 new | Total: 3262
+[16:14:59]   'Gewerbe': 7 raw, 3 new | Total: 3265
+[16:15:09]   'Handwerk': 18 raw, 9 new | Total: 3274
+[16:15:19]   'Dienstleistung': 20 raw, 7 new | Total: 3281
+[16:15:21]   Town done: 52 new businesses
+[16:15:21] 
+--- 45/170: Hemhofen (13.6km, tier=4, 5 remaining) ---
+[16:15:35]   'Firma': 20 raw, 16 new | Total: 3297
+[16:15:46]   'Unternehmen': 20 raw, 7 new | Total: 3304
+[16:15:57]   'Gewerbe': 8 raw, 5 new | Total: 3309
+[16:16:07]   'Handwerk': 27 raw, 13 new | Total: 3322
+[16:16:17]   'Dienstleistung': 20 raw, 6 new | Total: 3328
+[16:16:20]   Town done: 47 new businesses
+[16:16:20] 
+--- 46/170: Schniegling (14.0km, tier=4, 5 remaining) ---
+[16:16:33]   'Firma': 27 raw, 22 new | Total: 3350
+[16:16:44]   'Unternehmen': 27 raw, 16 new | Total: 3366
+[16:16:55]   'Gewerbe': 4 raw, 2 new | Total: 3368
+[16:17:05]   'Handwerk': 29 raw, 16 new | Total: 3384
+[16:17:16]   'Dienstleistung': 0 raw, 0 new | Total: 3384
+[16:17:18]   Town done: 56 new businesses
+[16:17:18] 
+--- 47/170: Forchheim (14.1km, tier=3, 13 remaining) ---
+[16:17:32]   'Firma': 26 raw, 24 new | Total: 3408
+[16:17:42]   'Unternehmen': 26 raw, 13 new | Total: 3421
+[16:17:53]   'GmbH': 20 raw, 4 new | Total: 3425
+[16:18:04]   'Handwerk': 25 raw, 21 new | Total: 3446
+[16:18:14]   'Dienstleistung': 20 raw, 19 new | Total: 3465
+[16:18:24]   'Gastronomie': 20 raw, 19 new | Total: 3484
+[16:18:35]   'Baufirma': 26 raw, 22 new | Total: 3506
+[16:18:45]   'IT': 27 raw, 20 new | Total: 3526
+[16:18:55]   'Steuerberater': 28 raw, 25 new | Total: 3551
+[16:19:05]   'Kfz': 20 raw, 20 new | Total: 3571
+[16:19:16]   'Elektro': 27 raw, 22 new | Total: 3593
+[16:19:26]   'Friseur': 20 raw, 19 new | Total: 3612
+[16:19:36]   'Bäckerei': 13 raw, 8 new | Total: 3620
+[16:19:39]   Town done: 236 new businesses
+[16:19:39] 
+--- 48/170: Eschenau (14.1km, tier=4, 5 remaining) ---
+[16:19:52]   'Firma': 6 raw, 3 new | Total: 3623
+[16:20:03]   'Unternehmen': 26 raw, 16 new | Total: 3639
+[16:20:14]   'Gewerbe': 6 raw, 6 new | Total: 3645
+[16:20:24]   'Handwerk': 20 raw, 10 new | Total: 3655
+[16:20:34]   'Dienstleistung': 20 raw, 6 new | Total: 3661
+[16:20:37]   Town done: 41 new businesses
+[16:20:37] 
+--- 49/170: Eckental (14.5km, tier=3, 13 remaining) ---
+[16:20:50]   'Firma': 27 raw, 4 new | Total: 3665
+[16:21:01]   'Unternehmen': 27 raw, 7 new | Total: 3672
+[16:21:12]   'GmbH': 27 raw, 4 new | Total: 3676
+[16:21:22]   'Handwerk': 26 raw, 12 new | Total: 3688
+[16:21:33]   'Dienstleistung': 26 raw, 7 new | Total: 3695
+[16:21:43]   'Gastronomie': 20 raw, 18 new | Total: 3713
+[16:21:53]   'Baufirma': 20 raw, 8 new | Total: 3721
+[16:22:04]   'IT': 20 raw, 11 new | Total: 3732
+[16:22:14]   'Steuerberater': 19 raw, 17 new | Total: 3749
+[16:22:24]   'Kfz': 20 raw, 16 new | Total: 3765
+[16:22:34]   'Elektro': 8 raw, 7 new | Total: 3772
+[16:22:45]   'Friseur': 14 raw, 12 new | Total: 3784
+[16:22:55]   'Bäckerei': 4 raw, 0 new | Total: 3784
+[16:22:57]   Town done: 123 new businesses
+[16:22:57] 
+--- 50/170: Siegelsdorf (15.3km, tier=4, 5 remaining) ---
+[16:23:11]   'Firma': 26 raw, 3 new | Total: 3787
+[16:23:22]   'Unternehmen': 22 raw, 2 new | Total: 3789
+[16:23:33]   'Gewerbe': 4 raw, 1 new | Total: 3790
+[16:23:43]   'Handwerk': 11 raw, 1 new | Total: 3791
+[16:23:53]   'Dienstleistung': 25 raw, 8 new | Total: 3799
+[16:23:55]   Town done: 15 new businesses
+[16:23:55] 
+--- 51/170: Gosberg (15.6km, tier=4, 5 remaining) ---
+[16:24:09]   'Firma': 0 raw, 0 new | Total: 3799
+[16:24:20]   'Unternehmen': 16 raw, 10 new | Total: 3809
+[16:25:12] === Erlangen 50km: Towns 52 to 61 ===
+[16:25:12] Starting with 3809 existing results
+[16:25:12] 
+--- 53/170: Johannis (16.0km, tier=4, 5 remaining) ---
+[16:25:26]   'Firma': 11 raw, 10 new | Total: 3819
+[16:25:37]   'Unternehmen': 16 raw, 9 new | Total: 3828
+[16:25:47]   'Gewerbe': 0 raw, 0 new | Total: 3828
+[16:25:58]   'Handwerk': 0 raw, 0 new | Total: 3828
+[16:26:08]   'Dienstleistung': 4 raw, 3 new | Total: 3831
+[16:26:10]   Town done: 22 new businesses
+[16:26:10] 
+--- 54/170: Furth im Wald (16.1km, tier=4, 5 remaining) ---
+[16:26:24]   'Firma': 27 raw, 26 new | Total: 3857
+[16:26:35]   'Unternehmen': 25 raw, 13 new | Total: 3870
+[16:26:46]   'Gewerbe': 19 raw, 12 new | Total: 3882
+[16:26:56]   'Handwerk': 26 raw, 23 new | Total: 3905
+[16:27:06]   'Dienstleistung': 25 raw, 16 new | Total: 3921
+[16:27:08]   Town done: 90 new businesses
+[16:27:08] 
+--- 55/170: Eggolsheim (16.4km, tier=4, 5 remaining) ---
+[16:27:22]   'Firma': 25 raw, 24 new | Total: 3945
+[16:27:33]   'Unternehmen': 26 raw, 12 new | Total: 3957
+[16:27:44]   'Gewerbe': 2 raw, 2 new | Total: 3959
+[16:27:54]   'Handwerk': 27 raw, 19 new | Total: 3978
+[16:28:04]   'Dienstleistung': 26 raw, 11 new | Total: 3989
+[16:28:07]   Town done: 68 new businesses
+[16:28:07] 
+--- 56/170: Gostenhof (16.4km, tier=4, 5 remaining) ---
+[16:28:21]   'Firma': 27 raw, 26 new | Total: 4015
+[16:28:31]   'Unternehmen': 21 raw, 12 new | Total: 4027
+[16:28:42]   'Gewerbe': 11 raw, 5 new | Total: 4032
+[16:28:53]   'Handwerk': 27 raw, 18 new | Total: 4050
+[16:29:03]   'Dienstleistung': 26 raw, 17 new | Total: 4067
+[16:29:05]   Town done: 78 new businesses
+[16:29:05] 
+--- 57/170: Boxdorf (16.4km, tier=4, 5 remaining) ---
+[16:29:19]   'Firma': 29 raw, 8 new | Total: 4075
+[16:29:30]   'Unternehmen': 24 raw, 6 new | Total: 4081
+[16:29:41]   'Gewerbe': 0 raw, 0 new | Total: 4081
+[16:29:51]   'Handwerk': 20 raw, 6 new | Total: 4087
+[16:30:01]   'Dienstleistung': 28 raw, 22 new | Total: 4109
+[16:30:03]   Town done: 42 new businesses
+[16:30:03] 
+--- 58/170: Wöhrd (16.6km, tier=4, 5 remaining) ---
+[16:30:17]   'Firma': 26 raw, 18 new | Total: 4127
+[16:30:28]   'Unternehmen': 26 raw, 3 new | Total: 4130
+[16:30:39]   'Gewerbe': 3 raw, 1 new | Total: 4131
+[16:30:49]   'Handwerk': 20 raw, 10 new | Total: 4141
+[16:31:00]   'Dienstleistung': 20 raw, 13 new | Total: 4154
+[16:31:02]   Town done: 45 new businesses
+[16:31:02] 
+--- 59/170: Schwaig (16.8km, tier=4, 5 remaining) ---
+[16:31:16]   'Firma': 26 raw, 23 new | Total: 4177
+[16:31:26]   'Unternehmen': 25 raw, 6 new | Total: 4183
+[16:31:37]   'Gewerbe': 8 raw, 5 new | Total: 4188
+[16:31:48]   'Handwerk': 26 raw, 23 new | Total: 4211
+[16:31:58]   'Dienstleistung': 26 raw, 16 new | Total: 4227
+[16:32:00]   Town done: 73 new businesses
+[16:32:00] 
+--- 60/170: Nürnberg (16.9km, tier=1, 28 remaining) ---
+[16:32:14]   'Firma': 27 raw, 5 new | Total: 4232
+[16:32:25]   'Unternehmen': 21 raw, 9 new | Total: 4241
+[16:32:36]   'GmbH': 20 raw, 9 new | Total: 4250
+[16:32:46]   'IT Firma': 24 raw, 21 new | Total: 4271
+[16:32:56]   'Software': 26 raw, 17 new | Total: 4288
+[16:33:07]   'Softwareentwicklung': 26 raw, 8 new | Total: 4296
+[16:33:17]   'Handwerk': 17 raw, 4 new | Total: 4300
+[16:33:27]   'Industrie': 21 raw, 10 new | Total: 4310
+[16:33:37]   'Handel': 20 raw, 18 new | Total: 4328
+[16:33:48]   'Dienstleistung': 20 raw, 7 new | Total: 4335
+[16:33:58]   'Gastronomie': 18 raw, 18 new | Total: 4353
+[16:34:08]   'Baufirma': 21 raw, 18 new | Total: 4371
+[16:34:19]   'Kfz Werkstatt': 21 raw, 21 new | Total: 4392
+[16:34:29]   'Steuerberater': 21 raw, 20 new | Total: 4412
+[16:34:39]   'Rechtsanwalt': 20 raw, 19 new | Total: 4431
+[16:34:50]   'Versicherung': 21 raw, 20 new | Total: 4451
+[16:35:00]   'Immobilien': 18 raw, 17 new | Total: 4468
+[16:35:10]   'Marketing Agentur': 22 raw, 17 new | Total: 4485
+[16:36:01] === Erlangen 50km: Towns 62 to 71 ===
+[16:36:01] Starting with 4485 existing results
+[16:36:01] 
+--- 63/170: Lederergasse (17.1km, tier=4, 5 remaining) ---
+[16:36:15]   'Firma': 27 raw, 27 new | Total: 4512
+[16:36:26]   'Unternehmen': 20 raw, 15 new | Total: 4527
+[16:36:37]   'Gewerbe': 2 raw, 2 new | Total: 4529
+[16:36:47]   'Handwerk': 0 raw, 0 new | Total: 4529
+[16:36:57]   'Dienstleistung': 8 raw, 8 new | Total: 4537
+[16:36:59]   Town done: 52 new businesses
+[16:36:59] 
+--- 64/170: Mögeldorf (17.2km, tier=4, 5 remaining) ---
+[16:37:13]   'Firma': 27 raw, 26 new | Total: 4563
+[16:37:24]   'Unternehmen': 26 raw, 15 new | Total: 4578
+[16:37:35]   'Gewerbe': 4 raw, 2 new | Total: 4580
+[16:37:45]   'Handwerk': 20 raw, 9 new | Total: 4589
+[16:37:55]   'Dienstleistung': 20 raw, 12 new | Total: 4601
+[16:37:58]   Town done: 64 new businesses
+[16:37:58] 
+--- 65/170: Höchstadt an der Aisch (17.8km, tier=3, 13 remaining) ---
+[16:38:11]   'Firma': 24 raw, 23 new | Total: 4624
+[16:38:22]   'Unternehmen': 20 raw, 8 new | Total: 4632
+[16:38:33]   'GmbH': 23 raw, 10 new | Total: 4642
+[16:38:43]   'Handwerk': 28 raw, 22 new | Total: 4664
+[16:38:54]   'Dienstleistung': 6 raw, 2 new | Total: 4666
+[16:39:04]   'Gastronomie': 19 raw, 18 new | Total: 4684
+[16:39:14]   'Baufirma': 20 raw, 10 new | Total: 4694
+[16:39:25]   'IT': 0 raw, 0 new | Total: 4694
+[16:39:35]   'Steuerberater': 9 raw, 9 new | Total: 4703
+[16:39:45]   'Kfz': 16 raw, 13 new | Total: 4716
+[16:39:56]   'Elektro': 11 raw, 9 new | Total: 4725
+[16:40:06]   'Friseur': 17 raw, 16 new | Total: 4741
+[16:40:16]   'Bäckerei': 7 raw, 6 new | Total: 4747
+[16:40:19]   Town done: 146 new businesses
+[16:40:19] 
+--- 66/170: Vogelherd (17.8km, tier=4, 5 remaining) ---
+[16:40:32]   'Firma': 11 raw, 11 new | Total: 4758
+[16:40:43]   'Unternehmen': 27 raw, 17 new | Total: 4775
+[16:40:54]   'Gewerbe': 0 raw, 0 new | Total: 4775
+[16:41:04]   'Handwerk': 5 raw, 3 new | Total: 4778
+[16:41:14]   'Dienstleistung': 20 raw, 19 new | Total: 4797
+[16:41:17]   Town done: 50 new businesses
+[16:41:17] 
+--- 67/170: Zirndorf (17.9km, tier=4, 5 remaining) ---
+[16:41:31]   'Firma': 26 raw, 25 new | Total: 4822
+[16:41:41]   'Unternehmen': 27 raw, 13 new | Total: 4835
+[16:41:52]   'Gewerbe': 8 raw, 7 new | Total: 4842
+[16:42:03]   'Handwerk': 26 raw, 19 new | Total: 4861
+[16:42:13]   'Dienstleistung': 20 raw, 17 new | Total: 4878
+[16:42:15]   Town done: 81 new businesses
+[16:42:15] 
+--- 68/170: Ammerndorf (17.9km, tier=4, 5 remaining) ---
+[16:42:29]   'Firma': 16 raw, 14 new | Total: 4892
+[16:42:40]   'Unternehmen': 27 raw, 18 new | Total: 4910
+[16:42:50]   'Gewerbe': 7 raw, 7 new | Total: 4917
+[16:43:01]   'Handwerk': 28 raw, 12 new | Total: 4929
+[16:43:11]   'Dienstleistung': 26 raw, 11 new | Total: 4940
+[16:43:13]   Town done: 62 new businesses
+[16:43:13] 
+--- 69/170: Gräfenberg (18.1km, tier=4, 5 remaining) ---
+[16:43:27]   'Firma': 27 raw, 25 new | Total: 4965
+[16:43:38]   'Unternehmen': 25 raw, 12 new | Total: 4977
+[16:43:49]   'Gewerbe': 8 raw, 7 new | Total: 4984
+[16:43:59]   'Handwerk': 28 raw, 17 new | Total: 5001
+[16:44:09]   'Dienstleistung': 25 raw, 11 new | Total: 5012
+[16:44:12]   Town done: 72 new businesses
+[16:44:12] 
+--- 70/170: Schweinau (18.2km, tier=4, 5 remaining) ---
+[16:44:25]   'Firma': 28 raw, 25 new | Total: 5037
+[16:44:36]   'Unternehmen': 29 raw, 19 new | Total: 5056
+[16:44:47]   'Gewerbe': 0 raw, 0 new | Total: 5056
+[16:44:57]   'Handwerk': 28 raw, 13 new | Total: 5069
+[16:45:08]   'Dienstleistung': 28 raw, 18 new | Total: 5087
+[16:45:10]   Town done: 75 new businesses
+[16:45:10] 
+--- 71/170: Kleinreuth bei Schweinau (18.5km, tier=4, 5 remaining) ---
+[16:45:24]   'Firma': 30 raw, 29 new | Total: 5116
+[16:45:34]   'Unternehmen': 25 raw, 4 new | Total: 5120
+[16:45:45]   'Gewerbe': 0 raw, 0 new | Total: 5120
+[16:45:56]   'Handwerk': 21 raw, 9 new | Total: 5129
+[16:46:50] === Erlangen 50km: Towns 72 to 81 ===
+[16:46:50] Starting with 5129 existing results
+[16:46:50] 
+--- 73/170: Großreuth bei Schweinau (18.7km, tier=4, 5 remaining) ---
+[16:47:03]   'Firma': 27 raw, 16 new | Total: 5145
+[16:47:14]   'Unternehmen': 19 raw, 3 new | Total: 5148
+[16:47:25]   'Gewerbe': 3 raw, 0 new | Total: 5148
+[16:47:35]   'Handwerk': 27 raw, 14 new | Total: 5162
+[16:47:46]   'Dienstleistung': 28 raw, 11 new | Total: 5173
+[16:47:48]   Town done: 44 new businesses
+[16:47:48] 
+--- 74/170: Reundorf (18.8km, tier=4, 5 remaining) ---
+[16:48:02]   'Firma': 9 raw, 9 new | Total: 5182
+[16:48:13]   'Unternehmen': 20 raw, 14 new | Total: 5196
+[16:48:23]   'Gewerbe': 1 raw, 1 new | Total: 5197
+[16:48:34]   'Handwerk': 12 raw, 6 new | Total: 5203
+[16:48:44]   'Dienstleistung': 27 raw, 18 new | Total: 5221
+[16:48:46]   Town done: 48 new businesses
+[16:48:46] 
+--- 75/170: Mühlhausen (19.1km, tier=4, 5 remaining) ---
+[16:49:00]   'Firma': 27 raw, 27 new | Total: 5248
+[16:49:11]   'Unternehmen': 20 raw, 4 new | Total: 5252
+[16:49:22]   'Gewerbe': 3 raw, 3 new | Total: 5255
+[16:49:32]   'Handwerk': 29 raw, 26 new | Total: 5281
+[16:49:42]   'Dienstleistung': 20 raw, 14 new | Total: 5295
+[16:49:45]   Town done: 74 new businesses
+[16:49:45] 
+--- 76/170: Cadolzburg (19.3km, tier=4, 5 remaining) ---
+[16:49:58]   'Firma': 27 raw, 14 new | Total: 5309
+[16:50:09]   'Unternehmen': 27 raw, 10 new | Total: 5319
+[16:50:20]   'Gewerbe': 0 raw, 0 new | Total: 5319
+[16:50:30]   'Handwerk': 20 raw, 10 new | Total: 5329
+[16:50:40]   'Dienstleistung': 27 raw, 19 new | Total: 5348
+[16:50:43]   Town done: 53 new businesses
+[16:50:43] 
+--- 77/170: Oberasbach (19.3km, tier=4, 5 remaining) ---
+[16:50:56]   'Firma': 27 raw, 25 new | Total: 5373
+[16:51:07]   'Unternehmen': 20 raw, 10 new | Total: 5383
+[16:51:18]   'Gewerbe': 0 raw, 0 new | Total: 5383
+[16:51:29]   'Handwerk': 22 raw, 11 new | Total: 5394
+[16:51:39]   'Dienstleistung': 26 raw, 19 new | Total: 5413
+[16:51:41]   Town done: 65 new businesses
+[16:51:41] 
+--- 78/170: Schmausenbuck (19.5km, tier=4, 5 remaining) ---
+[16:51:55]   'Firma': 3 raw, 3 new | Total: 5416
+[16:52:06]   'Unternehmen': 26 raw, 10 new | Total: 5426
+[16:52:16]   'Gewerbe': 3 raw, 0 new | Total: 5426
+[16:52:27]   'Handwerk': 3 raw, 0 new | Total: 5426
+[16:52:37]   'Dienstleistung': 5 raw, 0 new | Total: 5426
+[16:52:39]   Town done: 13 new businesses
+[16:52:39] 
+--- 79/170: Röthenbach bei Schweinau (19.5km, tier=4, 5 remaining) ---
+[16:52:53]   'Firma': 31 raw, 26 new | Total: 5452
+[16:53:04]   'Unternehmen': 20 raw, 8 new | Total: 5460
+[16:53:15]   'Gewerbe': 3 raw, 1 new | Total: 5461
+[16:53:25]   'Handwerk': 27 raw, 12 new | Total: 5473
+[16:53:35]   'Dienstleistung': 20 raw, 10 new | Total: 5483
+[16:53:38]   Town done: 57 new businesses
+[16:53:38] 
+--- 80/170: Gibitzenhof (19.7km, tier=4, 5 remaining) ---
+[16:53:51]   'Firma': 27 raw, 15 new | Total: 5498
+[16:54:02]   'Unternehmen': 20 raw, 14 new | Total: 5512
+[16:54:13]   'Gewerbe': 3 raw, 1 new | Total: 5513
+[16:54:24]   'Handwerk': 20 raw, 12 new | Total: 5525
+[16:54:34]   'Dienstleistung': 20 raw, 11 new | Total: 5536
+[16:54:36]   Town done: 53 new businesses
+[16:54:36] 
+--- 81/170: Pommersfelden (19.9km, tier=4, 5 remaining) ---
+[16:54:50]   'Firma': 18 raw, 17 new | Total: 5553
+[16:55:01]   'Unternehmen': 25 raw, 15 new | Total: 5568
+[16:55:12]   'Gewerbe': 6 raw, 6 new | Total: 5574
+[16:55:22]   'Handwerk': 26 raw, 12 new | Total: 5586
+[16:55:32]   'Dienstleistung': 27 raw, 10 new | Total: 5596
+[16:55:35]   Town done: 60 new businesses
+[16:55:35] 
+--- 82/170: Hasenbuck (19.9km, tier=4, 5 remaining) ---
+[16:55:48]   'Firma': 0 raw, 0 new | Total: 5596
+[16:55:59]   'Unternehmen': 27 raw, 6 new | Total: 5602
+[16:56:10]   'Gewerbe': 5 raw, 4 new | Total: 5606
+[16:56:20]   'Handwerk': 26 raw, 9 new | Total: 5615
+[16:56:31]   'Dienstleistung': 20 raw, 9 new | Total: 5624
+[16:56:33]   Town done: 28 new businesses
+[16:56:33] 
+=== Batch complete. Total: 5624 businesses ===
+[16:57:35] === Erlangen 50km: Towns 82 to 91 ===
+[16:57:35] Starting with 5624 existing results
+[16:57:35] 
+--- 83/170: Gebersdorf (20.2km, tier=4, 5 remaining) ---
+[16:57:49]   'Firma': 26 raw, 18 new | Total: 5642
+[16:58:00]   'Unternehmen': 28 raw, 13 new | Total: 5655
+[16:58:11]   'Gewerbe': 4 raw, 1 new | Total: 5656
+[16:58:21]   'Handwerk': 27 raw, 11 new | Total: 5667
+[16:58:32]   'Dienstleistung': 20 raw, 12 new | Total: 5679
+[16:58:34]   Town done: 55 new businesses
+[16:58:34] 
+--- 84/170: Stein (20.7km, tier=4, 5 remaining) ---
+[16:58:48]   'Firma': 8 raw, 8 new | Total: 5687
+[16:58:58]   'Unternehmen': 14 raw, 8 new | Total: 5695
+[16:59:09]   'Gewerbe': 0 raw, 0 new | Total: 5695
+[16:59:20]   'Handwerk': 29 raw, 24 new | Total: 5719
+[16:59:30]   'Dienstleistung': 26 raw, 20 new | Total: 5739
+[16:59:32]   Town done: 60 new businesses
+[16:59:32] 
+--- 85/170: Stein bei Nürnberg (20.7km, tier=4, 5 remaining) ---
+[16:59:46]   'Firma': 26 raw, 14 new | Total: 5753
+[16:59:57]   'Unternehmen': 26 raw, 15 new | Total: 5768
+[17:00:08]   'Gewerbe': 4 raw, 2 new | Total: 5770
+[17:00:18]   'Handwerk': 27 raw, 8 new | Total: 5778
+[17:00:28]   'Dienstleistung': 27 raw, 7 new | Total: 5785
+[17:00:31]   Town done: 46 new businesses
+[17:00:31] 
+--- 86/170: Rangierbahnhof-Siedlung (21.0km, tier=4, 5 remaining) ---
+[17:00:45]   'Firma': 2 raw, 2 new | Total: 5787
+[17:00:55]   'Unternehmen': 25 raw, 12 new | Total: 5799
+[17:01:06]   'Gewerbe': 0 raw, 0 new | Total: 5799
+[17:01:17]   'Handwerk': 16 raw, 5 new | Total: 5804
+[17:01:27]   'Dienstleistung': 20 raw, 8 new | Total: 5812
+[17:01:29]   Town done: 27 new businesses
+[17:01:29] 
+--- 87/170: Altenfurt (21.2km, tier=4, 5 remaining) ---
+[17:01:43]   'Firma': 29 raw, 26 new | Total: 5838
+[17:01:54]   'Unternehmen': 27 raw, 15 new | Total: 5853
+[17:02:05]   'Gewerbe': 6 raw, 2 new | Total: 5855
+[17:02:15]   'Handwerk': 27 raw, 10 new | Total: 5865
+[17:02:25]   'Dienstleistung': 26 raw, 16 new | Total: 5881
+[17:02:28]   Town done: 69 new businesses
+[17:02:28] 
+--- 88/170: Emskirchen (21.5km, tier=4, 5 remaining) ---
+[17:02:41]   'Firma': 27 raw, 27 new | Total: 5908
+[17:02:52]   'Unternehmen': 27 raw, 13 new | Total: 5921
+[17:03:03]   'Gewerbe': 8 raw, 8 new | Total: 5929
+[17:03:13]   'Handwerk': 27 raw, 15 new | Total: 5944
+[17:03:24]   'Dienstleistung': 24 raw, 13 new | Total: 5957
+[17:03:26]   Town done: 76 new businesses
+[17:03:26] 
+--- 89/170: Lauf an der Pegnitz (22.2km, tier=3, 13 remaining) ---
+[17:03:40]   'Firma': 18 raw, 18 new | Total: 5975
+[17:03:50]   'Unternehmen': 27 raw, 13 new | Total: 5988
+[17:04:01]   'GmbH': 23 raw, 9 new | Total: 5997
+[17:04:12]   'Handwerk': 27 raw, 25 new | Total: 6022
+[17:04:22]   'Dienstleistung': 28 raw, 26 new | Total: 6048
+[17:04:32]   'Gastronomie': 20 raw, 20 new | Total: 6068
+[17:04:43]   'Baufirma': 30 raw, 21 new | Total: 6089
+[17:04:53]   'IT': 29 raw, 22 new | Total: 6111
+[17:05:03]   'Steuerberater': 27 raw, 21 new | Total: 6132
+[17:05:14]   'Kfz': 20 raw, 19 new | Total: 6151
+[17:05:24]   'Elektro': 24 raw, 17 new | Total: 6168
+[17:05:34]   'Friseur': 20 raw, 20 new | Total: 6188
+[17:05:45]   'Bäckerei': 11 raw, 6 new | Total: 6194
+[17:05:47]   Town done: 237 new businesses
+[17:05:47] 
+--- 90/170: Rückersdorf bei Nürnberg (22.4km, tier=4, 5 remaining) ---
+[17:06:01]   'Firma': 27 raw, 27 new | Total: 6221
+[17:06:11]   'Unternehmen': 0 raw, 0 new | Total: 6221
+[17:06:22]   'Gewerbe': 19 raw, 6 new | Total: 6227
+[17:06:33]   'Handwerk': 11 raw, 4 new | Total: 6231
+[17:06:43]   'Dienstleistung': 29 raw, 14 new | Total: 6245
+[17:06:45]   Town done: 51 new businesses
+[17:06:45] 
+--- 91/170: Hiltpoltstein (23.4km, tier=4, 5 remaining) ---
+[17:06:59]   'Firma': 26 raw, 25 new | Total: 6270
+[17:07:10]   'Unternehmen': 27 raw, 14 new | Total: 6284
+[17:07:21]   'Gewerbe': 2 raw, 1 new | Total: 6285
+[17:07:31]   'Handwerk': 12 raw, 7 new | Total: 6292
+[17:08:26] === Erlangen 50km: Towns 92 to 106 ===
+[17:08:27] Starting with 6292 existing results
+[17:08:27] 
+--- 93/170: Großhabersdorf (23.5km, tier=4, 5 remaining) ---
+[17:08:40]   'Firma': 26 raw, 22 new | Total: 6314
+[17:08:51]   'Unternehmen': 25 raw, 13 new | Total: 6327
+[17:09:02]   'Gewerbe': 8 raw, 6 new | Total: 6333
+[17:09:12]   'Handwerk': 28 raw, 10 new | Total: 6343
+[17:09:22]   'Dienstleistung': 27 raw, 13 new | Total: 6356
+[17:09:25]   Town done: 64 new businesses
+[17:09:25] 
+--- 94/170: Roßtal (23.8km, tier=4, 5 remaining) ---
+[17:09:39]   'Firma': 26 raw, 26 new | Total: 6382
+[17:09:49]   'Unternehmen': 26 raw, 15 new | Total: 6397
+[17:10:00]   'Gewerbe': 5 raw, 4 new | Total: 6401
+[17:10:10]   'Handwerk': 28 raw, 22 new | Total: 6423
+[17:10:21]   'Dienstleistung': 26 raw, 10 new | Total: 6433
+[17:10:23]   Town done: 77 new businesses
+[17:10:23] 
+--- 95/170: Ebermannstadt (24.1km, tier=3, 13 remaining) ---
+[17:10:37]   'Firma': 28 raw, 28 new | Total: 6461
+[17:10:48]   'Unternehmen': 27 raw, 11 new | Total: 6472
+[17:10:58]   'GmbH': 20 raw, 5 new | Total: 6477
+[17:11:09]   'Handwerk': 27 raw, 17 new | Total: 6494
+[17:11:19]   'Dienstleistung': 20 raw, 9 new | Total: 6503
+[17:11:30]   'Gastronomie': 20 raw, 18 new | Total: 6521
+[17:11:40]   'Baufirma': 6 raw, 3 new | Total: 6524
+[17:11:50]   'IT': 28 raw, 13 new | Total: 6537
+[17:12:00]   'Steuerberater': 4 raw, 4 new | Total: 6541
+[17:12:11]   'Kfz': 14 raw, 13 new | Total: 6554
+[17:12:21]   'Elektro': 2 raw, 1 new | Total: 6555
+[17:12:32]   'Friseur': 8 raw, 8 new | Total: 6563
+[17:12:42]   'Bäckerei': 6 raw, 4 new | Total: 6567
+[17:12:44]   Town done: 134 new businesses
+[17:12:44] 
+--- 96/170: Katzwang (24.1km, tier=4, 5 remaining) ---
+[17:12:58]   'Firma': 26 raw, 23 new | Total: 6590
+[17:13:09]   'Unternehmen': 26 raw, 14 new | Total: 6604
+[17:13:20]   'Gewerbe': 4 raw, 2 new | Total: 6606
+[17:13:30]   'Handwerk': 26 raw, 13 new | Total: 6619
+[17:13:40]   'Dienstleistung': 20 raw, 13 new | Total: 6632
+[17:13:43]   Town done: 65 new businesses
+[17:13:43] 
+--- 97/170: Hirschaid (24.2km, tier=4, 5 remaining) ---
+[17:13:56]   'Firma': 24 raw, 23 new | Total: 6655
+[17:14:07]   'Unternehmen': 27 raw, 15 new | Total: 6670
+[17:14:18]   'Gewerbe': 8 raw, 4 new | Total: 6674
+[17:14:28]   'Handwerk': 26 raw, 20 new | Total: 6694
+[17:14:39]   'Dienstleistung': 20 raw, 6 new | Total: 6700
+[17:14:41]   Town done: 68 new businesses
+[17:14:41] 
+--- 98/170: Fischbach bei Nürnberg (24.9km, tier=4, 5 remaining) ---
+[17:14:55]   'Firma': 26 raw, 26 new | Total: 6726
+[17:15:05]   'Unternehmen': 20 raw, 4 new | Total: 6730
+[17:15:16]   'Gewerbe': 21 raw, 11 new | Total: 6741
+[17:15:27]   'Handwerk': 28 raw, 19 new | Total: 6760
+[17:15:37]   'Dienstleistung': 20 raw, 6 new | Total: 6766
+[17:15:39]   Town done: 66 new businesses
+[17:15:39] 
+--- 99/170: Reichenschwand (25.0km, tier=4, 5 remaining) ---
+[17:15:53]   'Firma': 26 raw, 26 new | Total: 6792
+[17:16:04]   'Unternehmen': 27 raw, 12 new | Total: 6804
+[17:16:15]   'Gewerbe': 4 raw, 1 new | Total: 6805
+[17:16:25]   'Handwerk': 25 raw, 8 new | Total: 6813
+[17:16:35]   'Dienstleistung': 4 raw, 1 new | Total: 6814
+[17:16:38]   Town done: 48 new businesses
+[17:16:38] 
+--- 100/170: Kornburg (25.0km, tier=4, 5 remaining) ---
+[17:16:51]   'Firma': 14 raw, 12 new | Total: 6826
+[17:17:02]   'Unternehmen': 26 raw, 16 new | Total: 6842
+[17:17:13]   'Gewerbe': 3 raw, 1 new | Total: 6843
+[17:17:23]   'Handwerk': 27 raw, 12 new | Total: 6855
+[17:17:34]   'Dienstleistung': 28 raw, 15 new | Total: 6870
+[17:17:36]   Town done: 56 new businesses
+[17:17:36] 
+--- 101/170: Worzeldorf (25.0km, tier=4, 5 remaining) ---
+[17:17:50]   'Firma': 8 raw, 5 new | Total: 6875
+[17:18:01]   'Unternehmen': 28 raw, 16 new | Total: 6891
+[17:18:11]   'Gewerbe': 3 raw, 1 new | Total: 6892
+[17:18:22]   'Handwerk': 9 raw, 0 new | Total: 6892
+[17:19:12] === Erlangen 50km: Towns 107 to 121 ===
+[17:19:12] Starting with 6892 existing results
+[17:19:12] 
+--- 108/170: Buch Schwabach (28.0km, tier=4, 5 remaining) ---
+[17:19:26]   'Firma': 23 raw, 17 new | Total: 6909
+[17:19:36]   'Unternehmen': 20 raw, 6 new | Total: 6915
+[17:19:47]   'Gewerbe': 4 raw, 0 new | Total: 6915
+[17:19:58]   'Handwerk': 14 raw, 10 new | Total: 6925
+[17:20:08]   'Dienstleistung': 22 raw, 11 new | Total: 6936
+[17:20:10]   Town done: 44 new businesses
+[17:20:10] 
+--- 109/170: Baudenbach (28.1km, tier=4, 5 remaining) ---
+[17:20:24]   'Firma': 18 raw, 18 new | Total: 6954
+[17:20:35]   'Unternehmen': 11 raw, 4 new | Total: 6958
+[17:20:46]   'Gewerbe': 5 raw, 5 new | Total: 6963
+[17:20:56]   'Handwerk': 8 raw, 6 new | Total: 6969
+[17:21:06]   'Dienstleistung': 25 raw, 16 new | Total: 6985
+[17:21:09]   Town done: 49 new businesses
+[17:21:09] 
+--- 110/170: Feucht (28.6km, tier=4, 5 remaining) ---
+[17:21:22]   'Firma': 26 raw, 25 new | Total: 7010
+[17:21:33]   'Unternehmen': 20 raw, 3 new | Total: 7013
+[17:21:44]   'Gewerbe': 8 raw, 8 new | Total: 7021
+[17:21:54]   'Handwerk': 27 raw, 22 new | Total: 7043
+[17:22:05]   'Dienstleistung': 14 raw, 13 new | Total: 7056
+[17:22:07]   Town done: 71 new businesses
+[17:22:07] 
+--- 111/170: Schwarzenbruck (28.7km, tier=4, 5 remaining) ---
+[17:22:21]   'Firma': 27 raw, 27 new | Total: 7083
+[17:22:31]   'Unternehmen': 27 raw, 13 new | Total: 7096
+[17:22:42]   'Gewerbe': 5 raw, 4 new | Total: 7100
+[17:22:53]   'Handwerk': 27 raw, 19 new | Total: 7119
+[17:23:03]   'Dienstleistung': 20 raw, 11 new | Total: 7130
+[17:23:05]   Town done: 74 new businesses
+[17:23:05] 
+--- 112/170: Waischenfeld (29.4km, tier=4, 5 remaining) ---
+[17:23:19]   'Firma': 25 raw, 24 new | Total: 7154
+[17:23:30]   'Unternehmen': 26 raw, 13 new | Total: 7167
+[17:23:41]   'Gewerbe': 7 raw, 6 new | Total: 7173
+[17:23:51]   'Handwerk': 12 raw, 6 new | Total: 7179
+[17:24:01]   'Dienstleistung': 25 raw, 7 new | Total: 7186
+[17:24:04]   Town done: 56 new businesses
+[17:24:04] 
+--- 113/170: Schwabach (29.6km, tier=3, 13 remaining) ---
+[17:24:17]   'Firma': 28 raw, 16 new | Total: 7202
+[17:24:28]   'Unternehmen': 20 raw, 4 new | Total: 7206
+[17:24:39]   'GmbH': 26 raw, 7 new | Total: 7213
+[17:24:49]   'Handwerk': 18 raw, 12 new | Total: 7225
+[17:25:00]   'Dienstleistung': 15 raw, 6 new | Total: 7231
+[17:25:10]   'Gastronomie': 20 raw, 20 new | Total: 7251
+[17:25:20]   'Baufirma': 27 raw, 20 new | Total: 7271
+[17:25:31]   'IT': 27 raw, 19 new | Total: 7290
+[17:25:41]   'Steuerberater': 20 raw, 19 new | Total: 7309
+[17:25:51]   'Kfz': 20 raw, 19 new | Total: 7328
+[17:26:02]   'Elektro': 25 raw, 23 new | Total: 7351
+[17:26:12]   'Friseur': 20 raw, 20 new | Total: 7371
+[17:26:22]   'Bäckerei': 12 raw, 11 new | Total: 7382
+[17:26:25]   Town done: 196 new businesses
+[17:26:25] 
+--- 114/170: Neustadt an der Aisch (29.8km, tier=3, 13 remaining) ---
+[17:26:38]   'Firma': 23 raw, 20 new | Total: 7402
+[17:26:49]   'Unternehmen': 20 raw, 7 new | Total: 7409
+[17:27:00]   'GmbH': 20 raw, 7 new | Total: 7416
+[17:27:10]   'Handwerk': 27 raw, 19 new | Total: 7435
+[17:27:21]   'Dienstleistung': 20 raw, 14 new | Total: 7449
+[17:27:31]   'Gastronomie': 20 raw, 20 new | Total: 7469
+[17:27:41]   'Baufirma': 28 raw, 19 new | Total: 7488
+[17:27:52]   'IT': 25 raw, 18 new | Total: 7506
+[17:28:02]   'Steuerberater': 19 raw, 17 new | Total: 7523
+[17:28:12]   'Kfz': 20 raw, 18 new | Total: 7541
+[17:28:23]   'Elektro': 10 raw, 2 new | Total: 7543
+[17:28:33]   'Friseur': 16 raw, 16 new | Total: 7559
+[17:28:43]   'Bäckerei': 7 raw, 6 new | Total: 7565
+[17:28:46]   Town done: 183 new businesses
+[17:28:46] 
+--- 115/170: Engelthal (29.8km, tier=4, 5 remaining) ---
+[17:28:59]   'Firma': 15 raw, 14 new | Total: 7579
+[17:29:10]   'Unternehmen': 6 raw, 1 new | Total: 7580
+[17:29:57] === Erlangen 50km: Towns 122 to 136 ===
+[17:29:57] Starting with 7580 existing results
+[17:29:57] 
+--- 123/170: Ippesheim (31.8km, tier=4, 5 remaining) ---
+[17:30:11]   'Firma': 25 raw, 25 new | Total: 7605
+[17:30:21]   'Unternehmen': 24 raw, 12 new | Total: 7617
+[17:30:32]   'Gewerbe': 10 raw, 3 new | Total: 7620
+[17:30:42]   'Handwerk': 8 raw, 2 new | Total: 7622
+[17:30:53]   'Dienstleistung': 6 raw, 4 new | Total: 7626
+[17:30:55]   Town done: 46 new businesses
+[17:30:55] 
+--- 124/170: Langenfeld (32.0km, tier=4, 5 remaining) ---
+[17:31:09]   'Firma': 27 raw, 27 new | Total: 7653
+[17:31:20]   'Unternehmen': 20 raw, 13 new | Total: 7666
+[17:31:30]   'Gewerbe': 17 raw, 17 new | Total: 7683
+[17:31:41]   'Handwerk': 22 raw, 21 new | Total: 7704
+[17:31:51]   'Dienstleistung': 20 raw, 17 new | Total: 7721
+[17:31:53]   Town done: 95 new businesses
+[17:31:53] 
+--- 125/170: Hersbruck (32.4km, tier=3, 13 remaining) ---
+[17:32:07]   'Firma': 26 raw, 25 new | Total: 7746
+[17:32:18]   'Unternehmen': 25 raw, 11 new | Total: 7757
+[17:32:29]   'GmbH': 24 raw, 6 new | Total: 7763
+[17:32:39]   'Handwerk': 0 raw, 0 new | Total: 7763
+[17:32:49]   'Dienstleistung': 20 raw, 13 new | Total: 7776
+[17:33:00]   'Gastronomie': 21 raw, 21 new | Total: 7797
+[17:33:10]   'Baufirma': 25 raw, 17 new | Total: 7814
+[17:33:20]   'IT': 26 raw, 16 new | Total: 7830
+[17:33:31]   'Steuerberater': 12 raw, 12 new | Total: 7842
+[17:33:41]   'Kfz': 20 raw, 17 new | Total: 7859
+[17:33:51]   'Elektro': 15 raw, 9 new | Total: 7868
+[17:34:02]   'Friseur': 15 raw, 14 new | Total: 7882
+[17:34:12]   'Bäckerei': 8 raw, 5 new | Total: 7887
+[17:34:14]   Town done: 166 new businesses
+[17:34:14] 
+--- 126/170: Happurg (32.5km, tier=4, 5 remaining) ---
+[17:34:28]   'Firma': 20 raw, 13 new | Total: 7900
+[17:34:39]   'Unternehmen': 28 raw, 20 new | Total: 7920
+[17:34:50]   'Gewerbe': 3 raw, 1 new | Total: 7921
+[17:35:00]   'Handwerk': 25 raw, 13 new | Total: 7934
+[17:35:10]   'Dienstleistung': 25 raw, 13 new | Total: 7947
+[17:35:13]   Town done: 60 new businesses
+[17:35:13] 
+--- 127/170: Dietenhofen (32.7km, tier=4, 5 remaining) ---
+[17:35:27]   'Firma': 27 raw, 26 new | Total: 7973
+[17:35:37]   'Unternehmen': 20 raw, 6 new | Total: 7979
+[17:35:48]   'Gewerbe': 4 raw, 4 new | Total: 7983
+[17:35:59]   'Handwerk': 24 raw, 14 new | Total: 7997
+[17:36:09]   'Dienstleistung': 26 raw, 14 new | Total: 8011
+[17:36:11]   Town done: 64 new businesses
+[17:36:11] 
+--- 128/170: Memmelsdorf (33.3km, tier=4, 5 remaining) ---
+[17:36:25]   'Firma': 27 raw, 27 new | Total: 8038
+[17:36:36]   'Unternehmen': 26 raw, 14 new | Total: 8052
+[17:36:47]   'Gewerbe': 6 raw, 5 new | Total: 8057
+[17:36:57]   'Handwerk': 26 raw, 14 new | Total: 8071
+[17:37:07]   'Dienstleistung': 28 raw, 13 new | Total: 8084
+[17:37:10]   Town done: 73 new businesses
+[17:37:10] 
+--- 129/170: Sugenheim (33.3km, tier=4, 5 remaining) ---
+[17:37:23]   'Firma': 10 raw, 8 new | Total: 8092
+[17:37:34]   'Unternehmen': 26 raw, 19 new | Total: 8111
+[17:37:45]   'Gewerbe': 0 raw, 0 new | Total: 8111
+[17:37:55]   'Handwerk': 26 raw, 17 new | Total: 8128
+[17:38:06]   'Dienstleistung': 25 raw, 11 new | Total: 8139
+[17:38:08]   Town done: 55 new businesses
+[17:38:08] 
+--- 130/170: Georgensgmünd (33.5km, tier=4, 5 remaining) ---
+[17:38:22]   'Firma': 27 raw, 27 new | Total: 8166
+[17:38:32]   'Unternehmen': 26 raw, 8 new | Total: 8174
+[17:38:43]   'Gewerbe': 13 raw, 10 new | Total: 8184
+[17:38:54]   'Handwerk': 25 raw, 21 new | Total: 8205
+[17:39:04]   'Dienstleistung': 20 raw, 14 new | Total: 8219
+[17:39:06]   Town done: 80 new businesses
+[17:39:06] 
+--- 131/170: Rednitzhembach (33.6km, tier=4, 5 remaining) ---
+[17:39:20]   'Firma': 27 raw, 24 new | Total: 8243
+[17:39:31]   'Unternehmen': 20 raw, 3 new | Total: 8246
+[17:39:42]   'Gewerbe': 10 raw, 7 new | Total: 8253
+[17:39:52]   'Handwerk': 25 raw, 17 new | Total: 8270
+[17:40:41] === Erlangen 50km: Towns 137 to 156 ===
+[17:40:41] Starting with 8270 existing results
+[17:40:41] 
+--- 138/170: Pfeffenhausen (35.1km, tier=4, 5 remaining) ---
+[17:40:55]   'Firma': 6 raw, 6 new | Total: 8276
+[17:41:06]   'Unternehmen': 27 raw, 21 new | Total: 8297
+[17:41:17]   'Gewerbe': 6 raw, 5 new | Total: 8302
+[17:41:27]   'Handwerk': 24 raw, 16 new | Total: 8318
+[17:41:37]   'Dienstleistung': 26 raw, 16 new | Total: 8334
+[17:41:40]   Town done: 64 new businesses
+[17:41:40] 
+--- 139/170: Velden (35.2km, tier=4, 5 remaining) ---
+[17:41:53]   'Firma': 28 raw, 28 new | Total: 8362
+[17:42:04]   'Unternehmen': 27 raw, 18 new | Total: 8380
+[17:42:15]   'Gewerbe': 10 raw, 8 new | Total: 8388
+[17:42:25]   'Handwerk': 25 raw, 19 new | Total: 8407
+[17:42:36]   'Dienstleistung': 20 raw, 15 new | Total: 8422
+[17:42:38]   Town done: 88 new businesses
+[17:42:38] 
+--- 140/170: Aufseß (35.3km, tier=4, 5 remaining) ---
+[17:42:52]   'Firma': 19 raw, 18 new | Total: 8440
+[17:43:03]   'Unternehmen': 25 raw, 10 new | Total: 8450
+[17:43:14]   'Gewerbe': 9 raw, 3 new | Total: 8453
+[17:43:24]   'Handwerk': 26 raw, 11 new | Total: 8464
+[17:43:34]   'Dienstleistung': 25 raw, 7 new | Total: 8471
+[17:43:37]   Town done: 49 new businesses
+[17:43:37] 
+--- 141/170: Burgebrach (35.5km, tier=4, 5 remaining) ---
+[17:43:50]   'Firma': 25 raw, 24 new | Total: 8495
+[17:44:01]   'Unternehmen': 25 raw, 9 new | Total: 8504
+[17:44:12]   'Gewerbe': 0 raw, 0 new | Total: 8504
+[17:44:22]   'Handwerk': 26 raw, 20 new | Total: 8524
+[17:44:32]   'Dienstleistung': 27 raw, 15 new | Total: 8539
+[17:44:35]   Town done: 68 new businesses
+[17:44:35] 
+--- 142/170: Oberreichenbach (36.0km, tier=4, 5 remaining) ---
+[17:44:48]   'Firma': 27 raw, 27 new | Total: 8566
+[17:44:59]   'Unternehmen': 27 raw, 14 new | Total: 8580
+[17:45:10]   'Gewerbe': 10 raw, 6 new | Total: 8586
+[17:45:21]   'Handwerk': 26 raw, 11 new | Total: 8597
+[17:45:31]   'Dienstleistung': 26 raw, 8 new | Total: 8605
+[17:45:33]   Town done: 66 new businesses
+[17:45:33] 
+--- 143/170: Kammerstein (36.0km, tier=4, 5 remaining) ---
+[17:45:47]   'Firma': 2 raw, 2 new | Total: 8607
+[17:45:58]   'Unternehmen': 25 raw, 18 new | Total: 8625
+[17:46:09]   'Gewerbe': 7 raw, 3 new | Total: 8628
+[17:46:19]   'Handwerk': 28 raw, 10 new | Total: 8638
+[17:46:29]   'Dienstleistung': 27 raw, 10 new | Total: 8648
+[17:46:32]   Town done: 43 new businesses
+[17:46:32] 
+--- 144/170: Büchenbach bei Roth (36.1km, tier=4, 5 remaining) ---
+[17:46:45]   'Firma': 28 raw, 11 new | Total: 8659
+[17:46:56]   'Unternehmen': 20 raw, 4 new | Total: 8663
+[17:47:07]   'Gewerbe': 27 raw, 8 new | Total: 8671
+[17:47:17]   'Handwerk': 28 raw, 8 new | Total: 8679
+[17:47:28]   'Dienstleistung': 26 raw, 12 new | Total: 8691
+[17:47:30]   Town done: 43 new businesses
+[17:47:30] 
+--- 145/170: Zapfendorf (36.8km, tier=4, 5 remaining) ---
+[17:47:44]   'Firma': 27 raw, 27 new | Total: 8718
+[17:47:54]   'Unternehmen': 28 raw, 14 new | Total: 8732
+[17:48:05]   'Gewerbe': 11 raw, 5 new | Total: 8737
+[17:48:16]   'Handwerk': 26 raw, 22 new | Total: 8759
+[17:48:26]   'Dienstleistung': 27 raw, 12 new | Total: 8771
+[17:48:28]   Town done: 80 new businesses
+[17:48:28] 
+--- 146/170: Rügland (36.8km, tier=4, 5 remaining) ---
+[17:48:42]   'Firma': 18 raw, 16 new | Total: 8787
+[17:48:53]   'Unternehmen': 25 raw, 19 new | Total: 8806
+[17:49:04]   'Gewerbe': 3 raw, 0 new | Total: 8806
+[17:49:14]   'Handwerk': 27 raw, 13 new | Total: 8819
+[17:49:24]   'Dienstleistung': 6 raw, 2 new | Total: 8821
+[17:49:27]   Town done: 50 new businesses
+[17:49:27] 
+--- 147/170: Gundelsheim (37.0km, tier=4, 5 remaining) ---
+[17:49:40]   'Firma': 24 raw, 24 new | Total: 8845
+[17:49:51]   'Unternehmen': 25 raw, 12 new | Total: 8857
+[17:50:02]   'Gewerbe': 10 raw, 7 new | Total: 8864
+[17:50:12]   'Handwerk': 27 raw, 19 new | Total: 8883
+[17:50:23]   'Dienstleistung': 25 raw, 13 new | Total: 8896
+[17:50:25]   Town done: 75 new businesses
+[17:50:25] 
+--- 148/170: Bruckberg (37.6km, tier=4, 5 remaining) ---
+[17:50:39]   'Firma': 26 raw, 26 new | Total: 8922

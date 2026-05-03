@@ -1,0 +1,6 @@
+[18:25:00] Remaining: 42 towns, Existing: 9125 results
+[18:25:00] Processing 5 towns this run
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+[18:25:04] 
+=== Neunhof v. Wald (23.4km, tier=4, 5 terms) ===
+[18:25:04]   Searching: 'Firma in Neunhof v. Wald'

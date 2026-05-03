@@ -1,0 +1,10 @@
+Starting headless browser...
+Navigating...
+Title: Firma in Wilhermsdorf - Google Maps
+Found 31 listings
+  - Pinselfabrik Müller GmbH
+  - Emil Müller GmbH
+  - Gerhard Binder GmbH
+  - Scheiderer GmbH
+  - Ulfalux Lackfabrikation GmbH
+SUCCESS!
