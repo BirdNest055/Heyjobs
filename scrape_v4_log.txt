@@ -1,0 +1,10 @@
+======================================================================
+Junior IT-Jobs Scraper v4 - QUELLENNAH
+CloakBrowser + DuckDuckGo + Website-Navigation
+======================================================================
+
+[1] Lade Arbeitgeber...
+  1146 Arbeitgeber (228 IT-Priorität)
+  Bereits verarbeitet: 0
+  0 existierende Jobs
+  [BROWSER] CloakBrowser gestartet
