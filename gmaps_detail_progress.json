@@ -197,7 +197,11 @@
     "Hersbruck|Arzt",
     "Hersbruck|Friseur",
     "Hersbruck|Bäckerei",
-    "Hersbruck|Gastronomie"
+    "Hersbruck|Gastronomie",
+    "Neustadt an der Aisch|IT",
+    "Neustadt an der Aisch|Software",
+    "Neustadt an der Aisch|Ingenieurbüro",
+    "Neustadt an der Aisch|Consulting"
   ],
   "cities_done": [
     "Erlangen",
