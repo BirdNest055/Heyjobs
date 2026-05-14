@@ -306,7 +306,8 @@
     "Altdorf bei Nürnberg|Apotheke",
     "Altdorf bei Nürnberg|Arzt",
     "Altdorf bei Nürnberg|Friseur",
-    "Altdorf bei Nürnberg|Bäckerei"
+    "Altdorf bei Nürnberg|Bäckerei",
+    "Altdorf bei Nürnberg|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -330,6 +331,7 @@
     "Eckental",
     "Eckental",
     "Ebermannstadt",
-    "Roth"
+    "Roth",
+    "Altdorf bei Nürnberg"
   ]
 }
