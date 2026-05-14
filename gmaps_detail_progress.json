@@ -66,12 +66,34 @@
     "Fürth|Friseur",
     "Fürth|Bäckerei",
     "Fürth|Gastronomie",
-    "Bamberg|IT"
+    "Bamberg|IT",
+    "Bamberg|Software",
+    "Bamberg|Ingenieurbüro",
+    "Bamberg|Consulting",
+    "Bamberg|Marketing",
+    "Bamberg|Steuerberater",
+    "Bamberg|Rechtsanwalt",
+    "Bamberg|Architekt",
+    "Bamberg|Handwerk",
+    "Bamberg|Elektro",
+    "Bamberg|Metallbau",
+    "Bamberg|Maschinenbau",
+    "Bamberg|Baufirma",
+    "Bamberg|Kfz",
+    "Bamberg|Immobilien",
+    "Bamberg|Versicherung",
+    "Bamberg|Logistik",
+    "Bamberg|Apotheke",
+    "Bamberg|Arzt",
+    "Bamberg|Friseur",
+    "Bamberg|Bäckerei",
+    "Bamberg|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
     "Nürnberg",
     "Fürth",
-    "Fürth"
+    "Fürth",
+    "Bamberg"
   ]
 }
