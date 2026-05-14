@@ -1,358 +1,270 @@
 #!/usr/bin/env python3
-"""
-Employer Enrichment V4 - No API needed!
-- Uses DuckDuckGo HTML search (via requests) for finding websites
-- Uses direct HTTP scraping for email extraction from impressum/kontakt
-- No z-ai-web-dev-sdk, no rate limits!
-"""
+"""Website Enrichment V4 - fast version: search first, download second, skip impressum."""
+import json, re, time, os, sys, subprocess, tempfile
+from datetime import datetime
+import urllib.request, urllib.parse, urllib.error, socket
 
-import json, time, re, os, sys, random
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin, quote_plus
-import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+RESULTS_FILE = '/home/z/my-project/gmaps_erlangen_results.json'
+ENRICH_FILE = '/home/z/my-project/website_enrichment.json'
+HTML_DIR = '/home/z/my-project/download/website_html'
+LOG_FILE = '/home/z/my-project/enrich_v4_log.txt'
+TARGET_CITIES = ['Bamberg', 'Erlangen', 'Nürnberg']
 
-SEARCH_RESULTS = '/home/z/my-project/website_search_results.json'
-EMAIL_RESULTS = '/home/z/my-project/email_results.json'
-INPUT_FILE = '/home/z/my-project/search_needed.json'
-
-# Config
-DDG_DELAY = 1.5           # seconds between DDG searches
-SCRAPE_DELAY = 0.3         # seconds between HTTP scrapes
-SCRAPE_TIMEOUT = 8
-MAX_CONTACT_URLS = 5
-
-EMAIL_REGEX = re.compile(r'[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}')
-UNWANTED = ['example.com', 'test.com', 'domain.com', 'mustermann', '.png', '.jpg', '.gif', '.svg', '.css', '.js', 'noreply', 'no-reply', 'mailer-daemon', 'postmaster', 'sentry', 'wixpress', 'googleapis', 'cloudfront', 'amazonaws', 'gravatar', 'wordpress', 'schema.org', 'w3.org', '2x.webp', '3x.webp', 'email.protected', 'e-mail', 'example@', 'your.', 'sentry.io', 'cookielaw']
-
-JOB_BOARDS = ['indeed', 'stepstone', 'kununu', 'glassdoor', 'xing.com', 'linkedin.com', 'arbeitsagentur', 'stellenanzeigen', 'jobware', 'monster.de', 'meinestadt', 'ausbildung', 'jobtuple', 'stellenonline', 'jobsuche', 'jobtraffic', 'stellenwerk']
-
-USER_AGENTS = [
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+SKIP_DOMAINS = [
+    'facebook.com','instagram.com','twitter.com','linkedin.com','youtube.com',
+    'wikipedia.org','maps.google','gelbeseiten.de','yelp.de','tripadvisor',
+    'firmenwissen.de','northdata','kompass','wlw.de','cylex.de','hotfrog',
+    'cybo.com','dascleverle','kundeu.com','mojomox','opening-hours',
+    'unternehmensregister.de','indofolio','bizdb','de.lusha','checkfacebook',
+    'booking.com','11880.com','dasoertliche.de','check24.de','bloomberg.com',
+    'crunchbase.com','glassdoor.com','kununu.com','indeed.com','stepstone.de',
+    'meisterkarte.de','handwerksuche','diebestenderstadt.de','google.com',
+    'provenexpert.com','dastelefonbuch.de','woobi.de','cylex-branchenbuch',
+    'branchenbuch24.net','webwiki.de','mittelstandswiki.de','jevee.de',
+    'bayerischewirtschaft.de','ratemyarea.com','tellows.de','compuware.com',
+    'wlb.de','lokal.blue','meinestadt.de','frag-die-ihk.de','ihk-nuernberg.de',
+    'hellowork.com','stellenonline.de','jobware.de','arbeitsagentur.de',
+    'azubiyo.de','ausbildung.de','bixploit.com','gebaeudereiniger-portal.de',
 ]
 
-def get_headers():
-    return {
-        'User-Agent': random.choice(USER_AGENTS),
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'de-DE,de;q=0.9,en;q=0.5',
-        'Accept-Encoding': 'gzip, deflate',
-    }
+def log(msg):
+    ts = datetime.now().strftime('%H:%M:%S')
+    print(f"[{ts}] {msg}", flush=True)
+    with open(LOG_FILE, 'a') as f:
+        f.write(f"[{ts}] {msg}\n")
 
-def is_valid_email(email):
-    email = email.lower().strip()
-    if len(email) < 6: return False
-    return not any(u in email for u in UNWANTED)
+def safe_filename(name):
+    name = re.sub(r'[^\w\s\-.]', '', name)
+    name = re.sub(r'\s+', '_', name.strip())
+    return name[:80]
 
-def is_job_board(url):
-    return any(d in url.lower() for d in JOB_BOARDS)
-
-def search_ddg(query, num_results=8):
-    """Search DuckDuckGo HTML version - no API needed!"""
-    results = []
+def search_website(name, city):
+    """Search for company website using z-ai web search API."""
+    query = f'{name} {city}'
     try:
-        url = f"https://html.duckduckgo.com/html/?q={quote_plus(query)}"
-        resp = requests.get(url, headers=get_headers(), timeout=15, verify=False)
-        if resp.status_code == 200:
-            soup = BeautifulSoup(resp.text, 'html.parser')
-            for result in soup.find_all('div', class_='result'):
-                title_elem = result.find('a', class_='result__a')
-                snippet_elem = result.find('a', class_='result__snippet')
-                if title_elem:
-                    href = title_elem.get('href', '')
-                    # DDG redirects through their own URL, extract the actual URL
-                    if 'uddg=' in href:
-                        actual_url = href.split('uddg=')[1].split('&')[0]
-                        from urllib.parse import unquote
-                        actual_url = unquote(actual_url)
-                    else:
-                        actual_url = href
-                    
-                    results.append({
-                        'url': actual_url,
-                        'title': title_elem.get_text(strip=True),
-                        'snippet': snippet_elem.get_text(strip=True) if snippet_elem else '',
-                    })
+        tmp = tempfile.mktemp(suffix='.json')
+        result = subprocess.run(
+            ['z-ai', 'function', '-n', 'web_search', '-a', 
+             json.dumps({"query": query, "num": 5}), '-o', tmp],
+            capture_output=True, text=True, timeout=15
+        )
+        
+        if result.returncode != 0:
+            return None
+        
+        with open(tmp) as f:
+            results = json.load(f)
+        
+        try:
+            os.unlink(tmp)
+        except:
+            pass
+        
+        if not results:
+            return None
+        
+        for item in results:
+            url = item.get('url', '')
+            host = item.get('host_name', '').lower()
+            if not url.startswith('http'):
+                continue
+            if any(s in url.lower() or s in host for s in SKIP_DOMAINS):
+                continue
+            return url
+        
+        # If all results are filtered, try quoted query
+        query2 = f'"{name}" {city} website'
+        tmp = tempfile.mktemp(suffix='.json')
+        result = subprocess.run(
+            ['z-ai', 'function', '-n', 'web_search', '-a',
+             json.dumps({"query": query2, "num": 3}), '-o', tmp],
+            capture_output=True, text=True, timeout=15
+        )
+        if result.returncode == 0:
+            with open(tmp) as f:
+                results2 = json.load(f)
+            try:
+                os.unlink(tmp)
+            except:
+                pass
+            if results2:
+                for item in results2:
+                    url = item.get('url', '')
+                    host = item.get('host_name', '').lower()
+                    if not url.startswith('http'):
+                        continue
+                    if any(s in url.lower() or s in host for s in SKIP_DOMAINS):
+                        continue
+                    return url
+        return None
+        
+    except subprocess.TimeoutExpired:
+        return None
     except Exception as e:
-        pass  # Silent fail
-    return results
+        return None
 
-def search_google_light(query, num_results=5):
-    """Fallback: Google search via requests"""
-    results = []
+def download_and_extract(website, safe_name):
+    """Download HTML, save, and extract email. Fast version."""
     try:
-        url = f"https://www.google.com/search?q={quote_plus(query)}&num={num_results}&hl=de"
-        headers = get_headers()
-        headers['Accept'] = 'text/html'
-        resp = requests.get(url, headers=headers, timeout=10, verify=False)
-        if resp.status_code == 200:
-            soup = BeautifulSoup(resp.text, 'html.parser')
-            for g in soup.find_all('div'):
-                links = g.find_all('a', href=True)
-                for link in links:
-                    href = link['href']
-                    if href.startswith('/url?q='):
-                        actual = href.split('/url?q=')[1].split('&')[0]
-                        from urllib.parse import unquote
-                        actual = unquote(actual)
-                        if actual.startswith('http') and 'google' not in actual:
-                            results.append({
-                                'url': actual,
-                                'title': link.get_text(strip=True),
-                            })
+        req = urllib.request.Request(website, headers={
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0',
+            'Accept': 'text/html,application/xhtml+xml,*/*',
+            'Accept-Language': 'de-DE,de;q=0.9,en;q=0.5',
+        })
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            ct = resp.headers.get('Content-Type','')
+            if 'text/html' not in ct:
+                return None, '', 0
+            data = resp.read(500000)  # Max 500KB
+            final_url = resp.url
+    except Exception:
+        return None, '', 0
+    
+    # Save HTML
+    html_path = os.path.join(HTML_DIR, f"{safe_name}.html")
+    with open(html_path, 'wb') as f:
+        f.write(data)
+    
+    # Extract email
+    try:
+        text = data.decode('utf-8', errors='replace')
     except:
-        pass
-    return results
-
-def find_website(name, stadt=''):
-    """Find employer website using search engines."""
-    queries = []
-    if stadt:
-        queries.append(f"{name} {stadt} website")
-    queries.append(f"{name} Germany official site")
-    queries.append(f'"{name}" homepage')
+        text = data.decode('latin-1', errors='replace')
     
-    for query in queries:
-        results = search_ddg(query)
-        
-        if results:
-            # Try to find non-job-board result
-            for r in results:
-                url = r.get('url', '')
-                if url and url.startswith('http') and not is_job_board(url):
-                    return url, 'ddg'
-            
-            # Fallback to first result
-            if results[0].get('url', '').startswith('http'):
-                return results[0]['url'], 'ddg_fallback'
-        
-        time.sleep(1)
-    
-    return '', 'not_found'
-
-def extract_emails(html):
-    """Multi-strategy email extraction from HTML."""
     emails = set()
+    for m in re.finditer(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', text):
+        e = m.group(0).lower()
+        if not any(x in e for x in ['.png','.jpg','.gif','.svg','.css','.js','example.com','email.com','domain.com','sentry','wixpress','googlemail']):
+            emails.add(e)
     
-    # 1. Direct regex on raw HTML
-    for m in EMAIL_REGEX.finditer(html):
-        e = m.group(0).lower().strip()
-        if is_valid_email(e): emails.add(e)
+    for m in re.finditer(r'mailto:([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', text, re.I):
+        emails.add(m.group(1).lower())
     
-    # 2. mailto: links
-    for m in re.finditer(r'mailto:([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})', html, re.I):
-        e = m.group(1).lower().strip()
-        if is_valid_email(e): emails.add(e)
+    skip_emails = ['sage','wordpress','admin@localhost','test@','noreply@','example@','webmaster@','postmaster@','donotreply@']
+    emails = {e for e in emails if not any(s in e for s in skip_emails)}
     
-    # 3. (at) / [at] obfuscation
-    for m in re.finditer(r'([a-zA-Z0-9._%+\-]+)\s*[\(\[]\s*at\s*[\)\]]\s*([a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})', html, re.I):
-        try:
-            e = f"{m.group(1)}@{m.group(2)}".lower().strip()
-            if is_valid_email(e): emails.add(e)
-        except: pass
+    # Prefer bewerbung/hr/info emails
+    pref = [e for e in emails if any(k in e for k in ['bewerb','hr','recruit','karrier','job','career'])]
+    if pref: return final_url, pref[0], len(data)
+    pref2 = [e for e in emails if any(k in e for k in ['info','kontakt','contact'])]
+    if pref2: return final_url, pref2[0], len(data)
+    valid = sorted(emails)
+    email = valid[0] if valid else ''
     
-    # 4. Clean text extraction
-    try:
-        soup = BeautifulSoup(html, 'html.parser')
-        for tag in soup(['script', 'style', 'noscript']):
-            tag.decompose()
-        text = soup.get_text(separator=' ')
-        for m in EMAIL_REGEX.finditer(text):
-            e = m.group(0).lower().strip()
-            if is_valid_email(e): emails.add(e)
-    except: pass
+    # If no email on main page, try impressum quickly (just 2 paths)
+    if not email:
+        for path in ['/impressum', '/kontakt']:
+            try:
+                imp_url = final_url.rstrip('/') + path
+                req2 = urllib.request.Request(imp_url, headers={
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0',
+                })
+                with urllib.request.urlopen(req2, timeout=6) as resp2:
+                    if 'text/html' in resp2.headers.get('Content-Type',''):
+                        imp_data = resp2.read(300000)
+                        imp_text = imp_data.decode('utf-8', errors='replace')
+                        imp_emails = set()
+                        for m in re.finditer(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', imp_text):
+                            em = m.group(0).lower()
+                            if not any(x in em for x in ['.png','.jpg','.gif','.svg','.css','.js','example.com','sentry','wixpress']):
+                                imp_emails.add(em)
+                        imp_emails = {e for e in imp_emails if not any(s in e for s in skip_emails)}
+                        if imp_emails:
+                            pref2 = [e for e in imp_emails if any(k in e for k in ['info','kontakt','contact'])]
+                            email = pref2[0] if pref2 else sorted(imp_emails)[0]
+                            # Save impressum page too
+                            imp_path = os.path.join(HTML_DIR, f"{safe_name}_imp{path.replace('/','_')}.html")
+                            with open(imp_path, 'wb') as f:
+                                f.write(imp_data)
+                            break
+            except Exception:
+                continue
     
-    return list(emails)
-
-def categorize_email(email):
-    email = email.lower()
-    bewerbung_kw = ['bewerbung', 'karriere', 'career', 'recruiting', 'jobs', 'hr', 'talent', 'personal', 'bewerb']
-    kontakt_kw = ['kontakt', 'contact', 'info', 'impressum', 'office', 'mail', 'service']
-    if any(k in email for k in bewerbung_kw): return 'bewerbung'
-    if any(k in email for k in kontakt_kw): return 'kontakt'
-    return 'general'
-
-def get_contact_urls(base_url, html=''):
-    """Generate impressum/kontakt URLs (required by German law!)."""
-    try:
-        p = urlparse(base_url)
-        domain_base = f"{p.scheme}://{p.hostname}"
-    except:
-        domain_base = base_url.rstrip('/')
-    
-    urls = [
-        f"{domain_base}/impressum",
-        f"{domain_base}/kontakt",
-        f"{domain_base}/Impressum",
-        f"{domain_base}/Kontakt",
-        f"{domain_base}/de/impressum",
-        f"{domain_base}/de/kontakt",
-        f"{domain_base}/karriere",
-        f"{domain_base}/career",
-        f"{domain_base}/about",
-        f"{domain_base}/ueber-uns",
-    ]
-    
-    # Find links in HTML
-    if html:
-        try:
-            soup = BeautifulSoup(html, 'html.parser')
-            for a in soup.find_all('a', href=True):
-                href = a['href'].lower()
-                text = a.get_text().lower()
-                if any(k in href or k in text for k in ['impressum', 'kontakt', 'contact', 'legal', 'datenschutz']):
-                    full = urljoin(base_url, a['href'])
-                    if full not in urls:
-                        urls.insert(0, full)
-        except: pass
-    
-    return urls[:MAX_CONTACT_URLS + 2]
-
-def scrape_url(url):
-    """Scrape a URL and return (html, emails)."""
-    try:
-        resp = requests.get(url, headers=get_headers(), timeout=SCRAPE_TIMEOUT, allow_redirects=True, verify=False)
-        if resp.status_code == 200:
-            return resp.text, extract_emails(resp.text)
-    except: pass
-    return '', []
-
-def enrich_employer(employer, skip_website_search=False):
-    """Full enrichment: find website + extract emails."""
-    name = employer.get('name', '').strip()
-    stadt = employer.get('stadt', '').strip()
-    current_website = employer.get('current_website', '').strip()
-    
-    result = {
-        'name': name,
-        'website': current_website,
-        'emails': [],
-        'bewerbung_email': '',
-        'kontakt_email': '',
-        'scraped_from': [],
-        'source': 'existing' if current_website else 'not_found'
-    }
-    
-    # Step 1: Find website if missing
-    website = current_website
-    if not website and not skip_website_search:
-        website, source = find_website(name, stadt)
-        result['website'] = website
-        result['source'] = source
-        time.sleep(DDG_DELAY)
-    
-    # Step 2: Scrape for emails
-    if website:
-        all_emails = []
-        
-        # Main page
-        html, emails = scrape_url(website)
-        all_emails.extend(emails)
-        result['scraped_from'].append(website)
-        time.sleep(SCRAPE_DELAY)
-        
-        # Impressum/Kontakt if no emails found
-        if not all_emails:
-            contact_urls = get_contact_urls(website, html)
-            for curl in contact_urls[:4]:
-                if curl == website: continue
-                _, cemails = scrape_url(curl)
-                all_emails.extend(cemails)
-                result['scraped_from'].append(curl)
-                if cemails: break
-                time.sleep(SCRAPE_DELAY)
-        
-        # Deduplicate and categorize
-        unique = list(dict.fromkeys([e.lower() for e in all_emails if is_valid_email(e)]))
-        result['emails'] = unique
-        
-        bewerbung = next((e for e in unique if categorize_email(e) == 'bewerbung'), '')
-        kontakt = next((e for e in unique if categorize_email(e) == 'kontakt'), '')
-        if not kontakt and unique:
-            kontakt = unique[0]
-        
-        result['bewerbung_email'] = bewerbung
-        result['kontakt_email'] = kontakt
-    
-    return result
+    return final_url, email, len(data)
 
 def main():
-    start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
-    count = int(sys.argv[2]) if len(sys.argv) > 2 else 50
+    start_idx = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    batch_size = int(sys.argv[2]) if len(sys.argv) > 2 else 25
     
-    print(f"=== Employer Enrichment V4 (DuckDuckGo + HTTP Scraping) ===")
-    print(f"Processing {start} to {start+count-1}")
+    log("=" * 50)
+    log(f"Website Enrichment V4 | start={start_idx} batch={batch_size}")
     
-    # Load employers
-    with open(INPUT_FILE, 'r') as f:
-        employers = json.load(f)
+    with open(RESULTS_FILE) as f:
+        all_results = json.load(f)
     
-    # Deduplicate
-    seen = {}
-    unique = []
-    for e in employers:
-        key = e['name'].lower().strip()
-        if key not in seen:
-            seen[key] = e
-            unique.append(e)
+    filtered = [r for r in all_results if r.get('city') in TARGET_CITIES]
     
-    print(f"{len(employers)} entries → {len(unique)} unique")
+    enrichment = {}
+    if os.path.exists(ENRICH_FILE):
+        with open(ENRICH_FILE) as f:
+            enrichment = json.load(f)
     
-    # Load existing results
-    results = {}
-    if os.path.exists(SEARCH_RESULTS):
-        with open(SEARCH_RESULTS, 'r') as f:
-            results = json.load(f)
+    need = [r for r in filtered if r.get('name','').strip() and r['name'].strip() not in enrichment]
+    need.sort(key=lambda x: x.get('city',''))
+    log(f"Need enrichment: {len(need)}")
     
-    # Count how many already have emails
-    with_emails = sum(1 for v in results.values() if v.get('emails') and len(v['emails']) > 0)
-    with_websites = sum(1 for v in results.values() if v.get('website'))
-    print(f"Existing: {len(results)} results ({with_websites} websites, {with_emails} with emails)")
+    batch = need[start_idx:start_idx + batch_size]
+    if not batch:
+        log("Nothing to process!")
+        return
     
-    # Get pending
-    pending = [e for e in unique if e['name'].lower().strip() not in results]
-    slice_items = pending[start:start+count]
-    print(f"Pending total: {len(pending)}, processing: {len(slice_items)}")
+    ok = fail = no_web = 0
     
-    total_w = 0
-    total_e = 0
-    start_time = time.time()
-    
-    for i, employer in enumerate(slice_items):
-        result = enrich_employer(employer)
+    for i, firm in enumerate(batch):
+        name = firm.get('name','').strip()
+        city = firm.get('city','')
+        safe = safe_filename(name)
         
-        key = employer['name'].lower().strip()
-        results[key] = result
+        try:
+            log(f"[{i+1}/{len(batch)}] {name} ({city})")
+            
+            # Step 1: Search for website
+            website = search_website(name, city)
+            
+            if not website:
+                no_web += 1
+                enrichment[name] = {
+                    'website':'','html_file':'','email':'',
+                    'status':'no_website',
+                    'at':datetime.now().isoformat()[:19]
+                }
+                with open(ENRICH_FILE,'w') as f: json.dump(enrichment,f,ensure_ascii=False)
+                continue
+            
+            # Step 2: Download and extract
+            final_url, email, html_size = download_and_extract(website, safe)
+            
+            if final_url:
+                ok += 1
+                log(f"  OK: {final_url[:60]} | {html_size}b | email={email or '-'}")
+                enrichment[name] = {
+                    'website': final_url,
+                    'html_file': f"website_html/{safe}.html",
+                    'email': email,
+                    'html_size': html_size,
+                    'status': 'success',
+                    'at': datetime.now().isoformat()[:19]
+                }
+            else:
+                fail += 1
+                enrichment[name] = {
+                    'website': website, 'html_file':'', 'email':'',
+                    'status':'html_fail',
+                    'at':datetime.now().isoformat()[:19]
+                }
+            
+            with open(ENRICH_FILE,'w') as f: json.dump(enrichment,f,ensure_ascii=False)
         
-        if result.get('website'): total_w += 1
-        if result.get('emails'): total_e += 1
-        
-        # Progress
-        elapsed = time.time() - start_time
-        status = "W" if result.get('website') else "-"
-        status += "E" if result.get('emails') else "-"
-        email_preview = result['emails'][0] if result.get('emails') else ''
-        website = result.get('website', '')[:40]
-        print(f"  [{i+1}/{len(slice_items)}] {status} {employer['name'][:45]:<45} | {website:<40} | {email_preview}")
-        
-        # Save every 10
-        if (i + 1) % 10 == 0:
-            with open(SEARCH_RESULTS, 'w') as f:
-                json.dump(results, f, ensure_ascii=False)
-            print(f"  → Saved {len(results)} | {total_w}W {total_e}E | {elapsed:.0f}s")
+        except Exception as e:
+            log(f"  ERROR: {str(e)[:80]}")
+            enrichment[name] = {
+                'website':'','html_file':'','email':'',
+                'status':'error','error':str(e)[:100],
+                'at':datetime.now().isoformat()[:19]
+            }
+            with open(ENRICH_FILE,'w') as f: json.dump(enrichment,f,ensure_ascii=False)
     
-    # Final save
-    with open(SEARCH_RESULTS, 'w') as f:
-        json.dump(results, f, ensure_ascii=False)
-    
-    w = sum(1 for v in results.values() if v.get('website'))
-    e = sum(1 for v in results.values() if v.get('emails') and len(v['emails']) > 0)
-    print(f"\n=== DONE ===")
-    print(f"Total results: {len(results)} | Websites: {w} ({w/len(results)*100:.1f}%) | E-Mails: {e} ({e/len(results)*100:.1f}%)")
+    log(f"\nDone! OK:{ok} Fail:{fail} NoWeb:{no_web} | Total enriched:{len(enrichment)}")
 
 if __name__ == '__main__':
     main()

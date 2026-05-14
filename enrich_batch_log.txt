@@ -1,0 +1,11 @@
+[10:21:07] ============================================================
+[10:21:07] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:21:07] ============================================================
+[10:21:07] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:21:07] Already enriched: 16
+[10:21:07] Need enrichment: 1130
+[10:21:07] Processing batch: 0 to 49
+[10:21:07] 
+[1/50] Friedrich Hofmann GmbH Erlangen (Erlangen)
+[10:21:07]   Searching: Friedrich Hofmann GmbH Erlangen Erlangen
+[10:21:08]   Found: https://hofmann-denkt.de/

@@ -1,0 +1,4 @@
+[11:31:11] === z-ai Enrichment | start=0 batch=5 ===
+[11:31:11] Need enrichment: 930
+[11:31:11] [1/5] Friedrich Hofmann GmbH Erlangen (Erlangen)
+[11:31:48] [2/5] Geis Industrie-Service GmbH | Röthelheimpark Erlangen (Erlangen)

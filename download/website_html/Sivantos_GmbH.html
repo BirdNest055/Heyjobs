@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="utf-8">
+	<link rel="preconnect" href="//media.sivantos.com/" crossorigin>
+	<link rel="preconnect" href="//sivantos-media.azureedge.net/" crossorigin>
+
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			dataLayer.push({
+				wsaBrand: "sivantos", //Dynamic
+				wsaMarket: "global", //Dynamic
+				wsaTargetAudience: "b2b", //Dynamic
+				wsaBusinessArea: "corp",
+				pageLanguage: "en", //Dynamic
+				wsaRegion: "global",
+				wsaPlatform: "none_wp" //Dynamic
+			});
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("consent", "default", {
+				ad_storage: "denied",
+				analytics_storage: "denied",
+				functionality_storage: "denied",
+				personalization_storage: "denied",
+				security_storage: "granted",
+				ad_user_data: "denied",
+				ad_personalization: "denied",
+				wait_for_update: 2000,
+			});
+			gtag("set", "ads_data_redaction", true);
+		</script>
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="019a58fe-c257-7f39-b6a6-f201de3707fc" crossorigin=""></script>
+        <script type="text/javascript">
+            function getCookie(cookieName) {
+                const cookies = "; " + document.cookie;
+                const cookieValues = cookies.split("; " + cookieName + "\x3d");
+                if (2 === cookieValues.length) return cookieValues.pop().split(";").shift()
+            }
+            function OptanonWrapper() {
+                if (typeof window.handleOneTrustConsentUpdate === 'function') {
+                    window.handleOneTrustConsentUpdate();
+                }
+                if (window.OneTrust && typeof OneTrust.OnConsentChanged === 'function') {
+                    OneTrust.OnConsentChanged(function () {
+                        if (typeof window.handleOneTrustConsentUpdate === 'function') {
+                            window.handleOneTrustConsentUpdate();
+                        }
+                    });
+                }
+            }
+
+            OptanonWrapper();
+
+            function getActiveGroups() {
+                const groups = (window.OptanonActiveGroups || "").split(",");
+                return groups.filter(Boolean);
+            }
+
+            function buildConsentState(groups) {
+                const hasPerformance = groups.indexOf("C0002") !== -1;
+                const hasFunctional = groups.indexOf("C0003") !== -1;
+                const hasAdvertising = groups.indexOf("C0004") !== -1;
+                const hasPersonalization = groups.indexOf("C0005") !== -1;
+                const hasNecessary = groups.indexOf("C0001") !== -1;
+
+                return {
+                    ad_storage: hasAdvertising ? "granted" : "denied",
+                    ad_personalization: hasAdvertising ? "granted" : "denied",
+                    ad_user_data: hasAdvertising ? "granted" : "denied",
+                    analytics_storage: hasPerformance ? "granted" : "denied",
+                    functionality_storage: (hasFunctional || hasNecessary) ? "granted" : "denied",
+                    personalization_storage: hasPersonalization ? "granted" : "denied",
+                    security_storage: "granted",
+                    wait_for_update: 2000
+                };
+            }
+
+            window.handleOneTrustConsentUpdate = function () {
+                const consentDefaults = {
+                    ad_storage: "denied",
+                    analytics_storage: "denied",
+                    functionality_storage: "denied",
+                    personalization_storage: "denied",
+                    security_storage: "granted",
+                    ad_user_data: "denied",
+                    ad_personalization: "denied",
+                    wait_for_update: 2000
+                };
+                const activeGroups = getActiveGroups();
+                const consentState = buildConsentState(activeGroups);
+                gtag("consent", "update", consentState);
+                window.dataLayer.push({
+                    event: "consent_update",
+                    optanonActiveGroups: activeGroups.join(","),
+                    consentDefaults: consentDefaults,
+                    consentState: consentState
+                });
+                // Select HTML elements and apply conditional display based on consent
+                const gdprInfoBoxes = document.getElementsByClassName("gdpr-info-box");
+                const ytPlayerContainer = document.getElementsByClassName('youtube-player');
+                if(-1 === window.OnetrustActiveGroups.indexOf(",C0004,")) {
+                    for (let i = 0; i < ytPlayerContainer.length; i++) {
+                        gdprInfoBoxes[i].style.cssText = "display: flex;";
+                        ytPlayerContainer[i].style.display = "none";
+                    }
+                }
+                const cookieName = "OptanonAlertBoxClosed";
+                // Banner 'Accept All' CTA
+                const oneTrustAcceptButton = document.getElementById("onetrust-accept-btn-handler");
+                // Preference Center 'Accept All' and 'Save Settings'
+                const acceptRecommendedButton = document.getElementById("accept-recommended-btn-handler");
+                const savePreferencesButton = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+                const cookie = getCookie(cookieName);
+                // Page reload after consent confirmed
+                !cookie && gdprInfoBoxes && oneTrustAcceptButton.addEventListener("click",
+                        function() {
+                            location.reload()
+                        });
+                acceptRecommendedButton && acceptRecommendedButton.addEventListener("click", function() {
+                    location.reload()
+                });
+                savePreferencesButton.addEventListener("click", function() {
+                    location.reload()
+                })
+            };
+        </script>
+        
+        <script>!function(){"use strict";function e(e,t,o){return void 0===t&&(t=""),"cookie"===e?function(e){for(var t=0,o=document.cookie.split(";");t<o.length;t++){var r=o[t].split("=");if(r[0].trim()===e)return r[1]}}(t):"localStorage"===e?(r=t,localStorage.getItem(r)):"jsVariable"===e?window[t]:"cssSelector"===e?(n=t,i=o,a=document.querySelector(n),i?null==a?void 0:a.getAttribute(i):null==a?void 0:a.textContent):void console.warn("invalid uid source",e);var r,n,i,a}!function(t,o,r,n,i,a,c,l,s,u){var d,v,E,I;try{v=l&&(E=navigator.userAgent,(I=/Version\/([0-9\._]+)(.*Mobile)?.*Safari.*/.exec(E))&&parseFloat(I[1])>=16.4)?e(l,"sst_value",""):void 0}catch(e){console.error(e)}var g=t;g[n]=g[n]||[],g[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=o.getElementsByTagName(r)[0],T=v?"&bi="+encodeURIComponent(v):"",_=o.createElement(r),f=v?"kp"+c:c;_.async=!0,_.src="https://sst.sivantos.com/"+f+".js?id=GTM-MRJZSZF7"+T,null===(d=m.parentNode)||void 0===d||d.insertBefore(_,m)}(window,document,"script","dataLayer",0,0,"uifbvnhu","cookie")}();</script>
+        
+
+		<script type="text/javascript" src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets//js/svg4everybody.legacy.min.js"></script>
+
+  <meta name='robots' content='max-image-preview:large' />
+
+
+<meta name="description" content="Sivantos Group is a leading manufacturer of hearing aids whose roots go back almost 140 years. We value potential and help people live better lives."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.sivantos.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Welcome to Sivantos Group!" />
+<meta property="og:description" content="Sivantos Group is a leading manufacturer of hearing aids whose roots go back almost 140 years. We value potential and help people live better lives." />
+<meta property="og:url" content="https://www.sivantos.com/" />
+<meta property="og:site_name" content="Sivantos" />
+<meta property="og:image" content="/wp-content/uploads/sites/139/2018/04/home_fb.jpg" />
+<meta property="og:image:secure_url" content="/wp-content/uploads/sites/139/2018/04/home_fb.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Sivantos Group is a leading manufacturer of hearing aids whose roots go back almost 140 years. We value potential and help people live better lives." />
+<meta name="twitter:title" content="Sivantos Group - Home" />
+<meta name="twitter:image" content="/wp-content/uploads/sites/139/2018/04/home_fb.jpg" />
+<meta name="google-site-verification" content="NlOdhHgtmji_OtUeNtfJ7YnTiUiSwvUoRDHmz1h8qGo" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.sivantos.com/#website","url":"https://www.sivantos.com/","name":"01 Global Sivantos","inLanguage":"en-US","description":"Just another Signia Sites site","potentialAction":{"@type":"SearchAction","target":"https://www.sivantos.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.sivantos.com/#webpage","url":"https://www.sivantos.com/","name":"Sivantos Group - Home","isPartOf":{"@id":"https://www.sivantos.com/#website"},"inLanguage":"en-US","datePublished":"2017-06-21T13:46:33+00:00","dateModified":"2021-02-11T08:26:43+00:00","description":"Sivantos Group is a leading manufacturer of hearing aids whose roots go back almost 140 years. We value potential and help people live better lives."}]}</script>
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='needhelp_wp_admin_css-css'  href='https://www.sivantos.com/wp-content/plugins/need-help/admin-styles.css?ver=20160921' type='text/css' media='all' />
+<link rel='stylesheet' id='adl_style-css'  href='https://www.sivantos.com/wp-content/plugins/sivantos-agile-doclib/css/style.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://www.sivantos.com/wp-content/themes/sivantos-signia-master/style.css?ver=5.8.8' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/js/jquery-3.4.1.min.js?ver=5.8.8' id='jquery-js'></script>
+<script type='text/javascript' src='https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/js/slick.min.js?ver=5.8.8' id='slick-js'></script>
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.9';
+</script>
+		<style>
+			#wpadminbar {
+				background: #fff !important;
+				border-bottom: 1px solid #eee;
+			}
+
+			a.ab-item {
+				color: #333 !important;
+			}
+
+			.ab-label {
+				color: #333 !important;
+			}
+
+			#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before {
+				color: #333 !important;
+			}
+
+			#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
+				background-color: #fff;
+			}
+
+			#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item, #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+				background: #eee;
+			}
+
+			#wpadminbar .quicklinks .menupop ul.ab-sub-secondary, #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+				display: none;
+			}
+		</style>
+		<link rel="icon" href="/wp-content/uploads/sites/138/2017/07/favicon-96x96.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/sites/138/2017/07/favicon-96x96.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/sites/138/2017/07/favicon-96x96.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/sites/138/2017/07/favicon-96x96.png" />
+
+
+  <meta name="monitoring" content="yes"/>
+  <meta name="audience" content="b2b">
+  <meta name="DC.Language" content="en"/>
+  <meta name="Country" content="global"/>
+  <script id="SIVCEDDL_081">SIV = {};
+SIV.digitalData = {"pageInstanceID":12,"page":{"pageInfo":{"pageID":12,"referringUrl":null,"destinationUrl":"https://www.sivantos.com/","geoRegion":"global","language":"en","pageName":"signia:global:en/","onsiteSearchTerm":null,"onsiteSearchResult":null},"category":{"pageType":"brandpage"},"attributes":{"pageFullUrl":"https://www.sivantos.com/","pageTitle":"Sivantos Group - Home"}},"user":[{"profile":[{"profileInfo":{"profileID":"6a05b8038b3cb4.31769422"},"attributes":{"userLocation":"external","userIP":"47.243.211.0","userLoggedIn":false}}]}],"misc":{"issued":"Thursday, 14-May-2026 11:54:43 UTC","issuer":"Cache manager","channel":"signia|global","targetGroup":"b2b","server":"www.sivantos.com","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","jsEnabled":false,"cookieVersion":81,"visitorOrigin":"US"}};</script>
+  <meta name="DC.Type" content="brandpage" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sivantos Group - Home - Sivantos</title>
+  	<link rel="apple-touch-icon" sizes="57x57" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-57x57.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="60x60" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-60x60.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="72x72" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-72x72.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="76x76" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-76x76.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="114x114" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-114x114.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="120x120" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-120x120.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="144x144" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-144x144.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="152x152" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-152x152.png?20220510103414">
+  	<link rel="apple-touch-icon" sizes="180x180" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/apple-touch-icon-180x180.png?20220510103414">
+  	<link rel="icon" type="image/png" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/favicon-32x32.png?20220510103414" sizes="32x32">
+  	<link rel="icon" type="image/png" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/favicon-194x194.png?20220510103414" sizes="194x194">
+  	<link rel="icon" type="image/png" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/favicon-96x96.png?20220510103414" sizes="96x96">
+  	<link rel="icon" type="image/png" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/android-chrome-192x192.png?20220510103414" sizes="192x192">
+  	<link rel="icon" type="image/png" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/favicon-16x16.png?20220510103414" sizes="16x16">
+  	<link rel="manifest" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/manifest.json?20220510103414">
+  	<link rel="mask-icon" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/safari-pinned-tab.svg?20220510103414" color="#5bbad5">
+  	<meta name="msapplication-TileColor" content="#ffffff">
+  	<meta name="msapplication-TileImage" content="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/favicons/mstile-144x144.png?20220510103414">
+
+
+  <meta name="theme-color" content="#ffffff"> 
+  <!--[if lt IE 9]>
+    <script src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/js/html5shiv.min.js"></script>
+    <![endif]-->
+
+		<link rel="stylesheet" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/css/main.min.css?20241018140126">
+        <link rel="stylesheet" href="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/css/consent.css?20241018140126">
+</head>
+
+<body class="no-js no-svg no-transition theme-sivantos">
+
+<noscript><iframe src="https://sst.sivantos.com/ns.html?id=GTM-MRJZSZF7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="icon-gplus" viewBox="0 0 35 35">
+          <path clip-path="url(#SVGID_2_)" fill="currentColor" d="M17.5 35c9.62 0 17.42-7.83 17.42-17.5S27.12 0 17.5 0 0.08 7.84 0.08 17.5 7.88 35 17.5 35"/>
+          <rect x="25.19" y="8.75" fill="#FFFFFF" width="1.15" height="8.13"/>
+          <rect x="21.72" y="12.23" fill="#FFFFFF" width="8.09" height="1.16"/>
+          <path fill="#FFFFFF" d="M17.58 19.65c-0.55-0.39-1.6-1.34-1.6-1.89 0-0.65 0.19-0.97 1.16-1.74 1-0.79 1.71-1.89 1.71-3.17 0-1.53-0.68-3.51-1.95-3.51h1.92l1.36-0.58h-6.06c-2.72 0-5.27 1.86-5.27 4.26 0 2.45 1.85 4.32 4.62 4.32 0.19 0 0.38-0.05 0.56-0.07 -0.18 0.35-0.31 0.71-0.31 1.11 0 0.68 0.36 1.22 0.82 1.67 -0.35 0-0.68 0-1.05 0 -3.37 0-5.96 2.15-5.96 4.39 0 2.2 2.84 3.57 6.21 3.57 3.84 0 5.96-2.19 5.96-4.39C19.7 21.85 19.18 20.79 17.58 19.65M14.34 16.6c-1.56-0.05-3.05-1.75-3.32-3.81 -0.27-2.06 0.78-3.64 2.34-3.59 1.56 0.05 3.05 1.7 3.32 3.76C16.95 15.02 15.9 16.65 14.34 16.6M13.73 27.02c-2.33 0-4.01-1.48-4.01-3.26 0-1.74 2.08-3.19 4.41-3.17 0.54 0.01 1.05 0.09 1.51 0.24 1.26 0.88 2.17 1.38 2.42 2.39 0.05 0.2 0.07 0.41 0.07 0.63C18.14 25.64 17 27.02 13.73 27.02"/>
+      </symbol>
+      <symbol id="icon-facebook" viewBox="0 0 35 35">
+          <path clip-path="url(#SVGID_2_)" fill="currentColor" d="M17.5 35c9.62 0 17.42-7.83 17.42-17.5S27.12 0 17.5 0 0.08 7.84 0.08 17.5 7.88 35 17.5 35"/>
+          <path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M19.04 28V18.42h3.1l0.47-3.73h-3.56v-2.38c0-1.08 0.29-1.82 1.78-1.82l1.9 0V7.15c-0.33-0.05-1.46-0.15-2.77-0.15 -2.75 0-4.63 1.74-4.63 4.93v2.75h-3.11v3.73h3.11v9.58H19.04z"/>
+      </symbol>
+      <symbol id="icon-xing" viewBox="0 0 35 35">
+          <path clip-path="url(#SVGID_2_)" fill="currentColor" d="M17.5 35c9.62 0 17.417-7.835 17.417-17.5S27.12 0 17.5 0C7.88 0 .084 7.835.084 17.5S7.88 35 17.5 35"/>
+          <path fill="#FFF" d="M24.035 27.212l-4.28-7.584 6.65-11.753h-4.476l-6.654 11.753 4.286 7.584zM8.307 21.363l3.327-5.522-2.494-4.434h4.22l2.494 4.435-3.327 5.523z"/>
+      </symbol>
+      <symbol id="icon-youtube" viewBox="0 0 35 35">
+          <path clip-path="url(#SVGID_2_)" fill="currentColor" d="M17.5 35c9.62 0 17.416-7.835 17.416-17.5S27.12 0 17.5 0 .083 7.835.083 17.5 7.88 35 17.5 35"/>
+          <path clip-path="url(#SVGID_2_)" fill="#FFF" d="M27.328 13.49s-.195-1.383-.797-1.992c-.76-.8-1.616-.803-2.01-.85-2.806-.203-7.017-.203-7.017-.203h-.008s-4.21 0-7.018.203c-.392.047-1.247.05-2.01.85-.6.61-.797 1.99-.797 1.99s-.2 1.625-.2 3.248v1.522c0 1.624.2 3.248.2 3.248s.196 1.382.797 1.99c.763.8 1.766.774 2.212.857 1.604.155 6.82.202 6.82.202s4.214-.006 7.02-.21c.393-.046 1.248-.05 2.01-.85.602-.608.797-1.99.797-1.99s.2-1.624.2-3.248v-1.522c.002-1.622-.2-3.246-.2-3.246"/>
+          <path fill="#9C9E9F" d="M20.072 17.5l-5.143-2.983v5.966z"/>
+      </symbol>
+      <symbol id="icon-twitter" viewBox="0 0 35 35">
+          <path clip-path="url(#SVGID_2_)" fill="currentColor" d="M17.5 35c9.62 0 17.416-7.835 17.416-17.5S27.12 0 17.5 0 .083 7.835.083 17.5 7.88 35 17.5 35"/>
+          <path clip-path="url(#SVGID_2_)" fill="#FFF" d="M27.545 11.514c-.72.317-1.49.534-2.3.63a4.002 4.002 0 0 0 1.76-2.222 7.923 7.923 0 0 1-2.542.972 3.975 3.975 0 0 0-2.918-1.27c-2.21 0-4 1.802-4 4.02 0 .317.034.625.103.918a11.325 11.325 0 0 1-8.245-4.202 4.014 4.014 0 0 0-.542 2.024 4.02 4.02 0 0 0 1.78 3.345 3.96 3.96 0 0 1-1.81-.503v.05a4.018 4.018 0 0 0 3.207 3.94 3.902 3.902 0 0 1-1.805.072 3.997 3.997 0 0 0 3.735 2.788 8 8 0 0 1-5.923 1.664 11.28 11.28 0 0 0 6.133 1.81c7.36 0 11.382-6.127 11.382-11.44 0-.174-.003-.345-.013-.518a8.18 8.18 0 0 0 1.998-2.08"/>
+      </symbol>
+      <symbol id="arrow-select" viewbox="0 0 16 10">
+          <path fill="currentColor" d="M15.72 1.993L13.9.173 8 6.068 2.117.185l-1.82 1.82L8 9.714l7.72-7.72z"/>
+      </symbol>
+      <symbol id="arrow-big" viewbox="0 0 25 25">
+          <path fill="currentColor" d="M9.996 12.572L0 22.47 2.532 25 15 12.57 2.532.145 0 2.666"/>
+      </symbol>
+      <symbol id="arrow-small" viewbox="0 0 5 8">
+          <path fill="currentColor" d="M.922.186L0 1.11l2.988 2.988-2.98 2.98L.93 8l3.904-3.902z"/>
+      </symbol>
+      <symbol id="button-play" viewbox="0 0 50 50">
+          <circle fill="#E2001A" cx="25" cy="25" r="25"/>
+          <path fill="#FFF" d="M16.877 8.537v30.79l26.282-15.66z"/>
+      </symbol>
+      <symbol id="button-play-big" viewbox="0 0 110 110">
+          <circle fill="#E2001A" cx="55" cy="55" r="55"/>
+          <path fill="#FFF" d="M36.672 18.178v67.817L94.558 51.5z"/>
+      </symbol>
+      <symbol id="hearing-test" viewbox="0 0 20 20">
+          <path fill="currentColor" d="M8.9 17.538l.75-4.575.77 3.293c.075.337.542.375.67.05l.694-1.774.648 1.51c.11.25.447.29.61.07l.59-.803h1.145v-.705H13.45a.354.354 0 0 0-.285.144l-.328.447-.744-1.733a.352.352 0 0 0-.652.01l-.587 1.507-.908-4.02c-.086-.38-.63-.36-.69.02L8.5 15.626l-.77-2.86c-.086-.342-.567-.36-.677-.022l-.573 1.86H5.222v.705h1.535a.34.34 0 0 0 .302-.225l.285-.964.865 3.446c.094.373.63.348.69-.028m-8.497-4.65c0-.9.73-1.63 1.63-1.63H4.29v7.29H2.034c-.9 0-1.63-.73-1.63-1.63v-4.03zm19.194 0c0-.9-.73-1.63-1.63-1.63H15.71v7.29h2.256c.9 0 1.63-.73 1.63-1.63v-4.03zM1.702 10C1.886 5.192 5.235 1.452 10 1.452c4.765 0 8.116 3.74 8.298 8.548H16.88c-.205-3.933-3.31-6.174-6.88-6.167C6.432 3.826 3.323 6.067 3.12 10H1.702z"/>
+      </symbol>
+      <symbol id="dispenser-search" viewbox="0 0 20 20">
+          <path fill="currentColor" d="M9.647 9.438a2.633 2.633 0 0 1-2.642-2.625 2.634 2.634 0 0 1 2.642-2.626 2.635 2.635 0 0 1 2.644 2.626 2.635 2.635 0 0 1-2.643 2.625m.032-8.194c-3.116 0-5.62 2.503-5.68 5.618 0 2.99 1.893 6.044 5.13 11.173l.55.855.915-1.465c3.053-5.008 4.702-7.756 4.702-10.564A5.603 5.603 0 0 0 9.68 1.245"/>
+      </symbol>
+  </svg>  <script>
+    document.documentElement.className += ' wf-active';
+    document.body.className = document.body.className.replace(/(^|\s)no-js(\s|$)/, "$1is-js$2")
+    if (typeof SVGRect != "undefined") {
+      document.body.className = document.body.className.replace(/(^|\s)no-svg(\s|$)/, "$1is-svg$2")
+    }
+    if (window.TransitionEvent) {
+      document.body.className = document.body.className.replace(/(^|\s)no-transition(\s|$)/, "$1is-transition$2");
+    }
+  </script>
+  <header role="banner" class="top-header">
+    <div class="text-link mobile-menu">
+        <a id="nav-burger" href="#"><span class="the-burger"></span><div></div></a>
+        <div class="logo">
+            <a href="https://www.sivantos.com">
+                <img src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/img/logoWO.svg" alt="logo" class="moving">
+            </a>
+        </div>
+    </div>    <nav role="navigation" class="main-nav">
+        <div class="logo">
+            <a href="https://www.sivantos.com">
+                <img src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/img/logoWO.svg" alt="logo" class="moving">
+                <img src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/img/logo.svg" alt="logo" class="fixed">
+            </a>
+        </div>
+        <ul>
+    
+    
+    
+        </ul>
+        <div class="search-form">
+            <form method="GET" action="https://www.sivantos.com/?page_id=17" id="searchform">
+                <input type="text" name="q" id="q" placeholder="" value="">
+                <button type="submit" class="loupe" value="Suche" aria-label="Suche" name="Search">
+                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10" cx="29.155" cy="19.172" r="12.518"/>
+                        <path fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10" d="M20 28L7.174 40.826"/>
+                    </svg>
+                </button>
+            </form>
+        </div>        <div class="additional-nav">
+            <ul>
+                <li class="search">
+                    <button type="button" class="loupe" value="Suche" aria-label="Suche" name="Search">
+                        <svg id="search" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                            <circle fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10" cx="29.155" cy="19.172" r="12.518"/>
+                            <path fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10" d="M20 28L7.174 40.826"/>
+                        </svg>
+                    </button>
+                </li>
+                <li class="language-selection">
+                    
+                </li>
+            </ul>
+        </div>
+    
+    </nav>
+  </header>
+
+  <main class="page">
+
+<a name="66" class="c-anchor"></a>
+
+<div class="top-stage ">
+        <div class="top-stage-slider">
+                <div class="top-stage-slider__item">
+                        <div class="top-stage-image">
+                                <div class="ts-position-wrapper">
+                                    <img src="/wp-content/uploads/sites/139/2018/04/antenna_chamber_holding_head_3840x2160px-1248x702.jpg"
+                                         srcset="/wp-content/uploads/sites/139/2018/04/antenna_chamber_holding_head_3840x2160px-1560x878.jpg 1560w, /wp-content/uploads/sites/139/2018/04/antenna_chamber_holding_head_3840x2160px-1248x702.jpg 1248w,/wp-content/uploads/sites/139/2018/04/antenna_chamber_holding_head_3840x2160px-975x548.jpg 975w,/wp-content/uploads/sites/139/2018/04/antenna_chamber_holding_head_3840x2160px-780x439.jpg 780w"
+                                         sizes="100vw"
+                                         alt="image" class="object-fit-cover">
+                                </div>
+                        </div>
+                    <div class="top-stage-content-wrapper">
+                        <div class="top-stage-content-wrapper-inner">
+                                <div class="top-stage-brand-logo">
+                                    <img src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/img/siemens_square_en.svg" alt="Siemens Brand">
+                                </div>
+                            <div class="top-stage-content sivWhite">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="top-stage-slider__indicator"><span></span></div>
+
+    <span class="top-stage__scroll-icon">
+    </span>
+</div>
+
+<a name="69" class="c-anchor"></a>
+
+<section class="slice-content ">
+    <div class="slice slice-full slice-one-column">
+    <div class="column">
+        <figure><img src="/"
+                     srcset=" 1560w,  1248w,  780w"
+                     sizes="100%"
+                     alt="">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="slice slice-full-text slice-small">
+    <h2 style="text-align: center;">A new company</h2>
+
+</div>
+<div class="slice slice-two-columns">
+    <div class="column ">
+        <p>On March 1, 2019, Singapore-headquartered Sivantos Group joined forces with Lynge/Denmark-based Widex to form WS Audiology. Please visit <a href="https://www.wsa.com">wsa.com</a> for access to all relevant information about our current company where we strive to unlock human potential by making wonderful sound part of everyone&#8217;s life.</p>
+<p>&nbsp;</p>
+
+        
+    </div>
+    <div class="column ">
+        <p>Until January 2015, Sivantos Group was a Siemens business unit. That’s when we became an independent entity. Ever since, Sivantos has worked hard to reshape the industry in terms of innovation with cutting-edge products, services, and channels. Finally, in 2019, we merged with Widex to continue on our path as WS Audiology.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+    </div>
+</div>
+</section>
+<button class="to-top js-to-top">
+	<svg viewBox="0 0 11 11" class="to-top__arrow">
+		<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-small"> </use>
+	</svg>
+</button>
+</main>
+<div class="breadcrumb-container">
+    <ul class="breadcrumb-items" itemscope itemtype="http://schema.org/BreadcrumbList">
+    </ul>
+</div>
+<footer role="contentinfo">
+		<nav class="footer-nav">
+		    <div class="footer-nav-container">
+		        <ul class="nav-links">
+		        </ul>
+		        <ul class="social-links">
+		        </ul>
+		    </div>
+		</nav>	<div class="footer-meta">
+		<div class="corporate">
+		    <ul>
+	                <li><a href="https://www.sivantos.com/corporate-information/" target="">About this website</a></li>
+	                <li><a href="https://www.sivantos.com/terms-of-use/en/" target="">Terms of Use</a></li>
+	                <li><a href="https://www.sivantos.com/privacy-policy/" target="">Privacy Notice</a></li>
+	                <li><a href="https://www.sivantos.com/cookie-policy/en/" target="">Cookie Policy</a></li>
+	                <li><a href="https://www.sivantos.com/cookie-preferences/" target="">Cookie Preferences</a></li>
+	        </ul>
+	        <span>&copy; 2015 - 2026, WS Audiology A/S</span>
+		</div>
+	</div>
+</footer>
+	<script src="//media.sivantos.com/includes/js/ote.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="https://www.sivantos.com/wp-content/themes/sivantos-sivantos-corporate/assets/js/main.min.js"></script><script type='text/javascript' src='https://www.sivantos.com/wp-includes/js/wp-embed.min.js?ver=5.8.8' id='wp-embed-js'></script>
+
+
+
+</body>
+</html>

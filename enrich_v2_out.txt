@@ -1,0 +1,8 @@
+[10:35:22] ==================================================
+[10:35:22] Website Enrichment V2 | start=0 batch=1146
+[10:35:22] Need enrichment: 1058
+[10:35:22] [1/1058] Brose Bamberg - Brose Fahrzeugteile (Bamberg)
+[10:35:24]   OK: https://www.brose.com/de-de/bamberg/ | 46173b | email=bamberg@brose.com
+[10:35:26] [2/1058] Antolin Bamberg (Bamberg)
+[10:35:29]   OK: https://www.antolin.com/en/grupo-antolin-opens-its-plant-and-technical-center-bamberg | 51689b | email=press@antolin.com
+[10:35:31] [3/1058] Ofa Bamberg GmbH (Bamberg)

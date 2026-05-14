@@ -1,0 +1,1516 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+	<meta charset="UTF-8">
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/favicon-16x16.png">
+	<link rel="manifest" href="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="https://www.winner-spedition.de/wp-content/themes/winner/assets/images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="de" href="https://www.winner-spedition.de/" />
+<link rel="alternate" hreflang="en" href="https://www.winner-spedition.de/en/" />
+<link rel="alternate" hreflang="pl" href="https://www.winner-spedition.de/pl/" />
+<link rel="alternate" hreflang="it" href="https://www.winner-spedition.de/it/" />
+<link rel="alternate" hreflang="x-default" href="https://www.winner-spedition.de/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Home - Winner Spedition</title><link rel="preload" data-rocket-preload as="image" href="https://www.winner-spedition.de/wp-content/uploads/2019/09/home-bg.jpg" fetchpriority="high">
+	<link rel="canonical" href="https://www.winner-spedition.de/" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Winner Spedition" />
+	<meta property="og:description" content="Seit 1946 Ihr Transport- und Logistikexperte für Langgut Wir, die Winner Spedition, sind ein in dritter Generation geführtes, mittelständisches Familienunternehmen mit 17 Niederlassungen in Deutschlands Top-Wirtschaftszentren und Tochtergesellschaften in Italien, Polen, Tschechien und Österreich. Unsere Kernkompetenz ist der Transport und die Logistik von Langprodukten. Unser Portfolio haben wir über die Jahre stetig weiterentwickelt und setzen [&hellip;]" />
+	<meta property="og:url" content="https://www.winner-spedition.de/" />
+	<meta property="og:site_name" content="Winner Spedition" />
+	<meta property="article:modified_time" content="2026-02-17T10:33:01+00:00" />
+	<meta property="og:image" content="https://scontent-frt3-2.cdninstagram.com/v/t51.29350-15/334609317_145942065048963_1367683109904526890_n.jpg?_nc_cat=103&#038;ccb=1-7&#038;_nc_sid=8ae9d6&#038;_nc_ohc=GUndNhAG0zEAX83EKE3&#038;_nc_ht=scontent-frt3-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AfAr0MFulWHPRd6RATUUC9vS9Ykb6pCf29fyW5VpKXMmtA&#038;oe=640ED666" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.winner-spedition.de\/","url":"https:\/\/www.winner-spedition.de\/","name":"Home - Winner Spedition","isPartOf":{"@id":"https:\/\/www.winner-spedition.de\/#website"},"about":{"@id":"https:\/\/www.winner-spedition.de\/#organization"},"datePublished":"2019-09-24T14:32:31+00:00","dateModified":"2026-02-17T10:33:01+00:00","breadcrumb":{"@id":"https:\/\/www.winner-spedition.de\/#breadcrumb"},"inLanguage":"de","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.winner-spedition.de\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.winner-spedition.de\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite"}]},{"@type":"WebSite","@id":"https:\/\/www.winner-spedition.de\/#website","url":"https:\/\/www.winner-spedition.de\/","name":"Winner Spedition","description":"Spedition &amp; Logistik seit 1946","publisher":{"@id":"https:\/\/www.winner-spedition.de\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.winner-spedition.de\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"de"},{"@type":"Organization","@id":"https:\/\/www.winner-spedition.de\/#organization","name":"Winner Spedition","url":"https:\/\/www.winner-spedition.de\/","logo":{"@type":"ImageObject","inLanguage":"de","@id":"https:\/\/www.winner-spedition.de\/#\/schema\/logo\/image\/","url":"https:\/\/www.winner-spedition.de\/wp-content\/uploads\/2019\/09\/Winner_Logo.png","contentUrl":"https:\/\/www.winner-spedition.de\/wp-content\/uploads\/2019\/09\/Winner_Logo.png","width":324,"height":68,"caption":"Winner Spedition"},"image":{"@id":"https:\/\/www.winner-spedition.de\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.winner-spedition.de' />
+<link rel="alternate" type="application/rss+xml" title="Winner Spedition &raquo; Feed" href="https://www.winner-spedition.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Winner Spedition &raquo; Kommentar-Feed" href="https://www.winner-spedition.de/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Winner Spedition &raquo; Kommentar-Feed zu Home" href="https://www.winner-spedition.de/home/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.winner-spedition.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.winner-spedition.de%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.winner-spedition.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.winner-spedition.de%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='bootstrap-grid-css' href='https://www.winner-spedition.de/wp-content/themes/winner/assets/css/bootstrap-grid.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css-css' href='https://www.winner-spedition.de/wp-content/themes/winner/assets/css/slick.min.css?ver=6.9.4' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.winner-spedition.de/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='twe-preview-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/3r-elementor-timeline-widget/assets/css/style.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css' href='https://www.winner-spedition.de/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://www.winner-spedition.de/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-hello-theme-style-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/themes/winner/style.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-icon-box-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=4.0.8' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3715-css' href='https://www.winner-spedition.de/wp-content/uploads/elementor/css/post-3715.css?ver=1778726111' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='font-awesome-5-all-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.0.8' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='jet-elements-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=1778726112' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='jet-instagram-gallery-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/jet-elements/assets/css/addons/jet-instagram-gallery.css?ver=1778726112' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='jet-instagram-gallery-skin-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/jet-elements/assets/css/skin/jet-instagram-gallery.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://www.winner-spedition.de/wp-content/uploads/elementor/css/post-8.css?ver=1778726111' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-69-css' href='https://www.winner-spedition.de/wp-content/uploads/elementor/css/post-69.css?ver=1778726111' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='borlabs-cookie-custom-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://www.winner-spedition.de/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1778726112' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1778726112' type='text/css' media='all' />
+<script type="text/javascript" id="jquery-core-js-extra">
+/* <![CDATA[ */
+var pp = {"ajax_url":"https://www.winner-spedition.de/wp-admin/admin-ajax.php"};
+//# sourceURL=jquery-core-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.0.8" id="font-awesome-4-shim-js"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" nowprocket type="text/javascript" src="https://www.winner-spedition.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.4-34" id="borlabs-cookie-config-js"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" nowprocket type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-prioritize.min.js?ver=3.4" id="borlabs-cookie-prioritize-js"></script>
+<link rel="https://api.w.org/" href="https://www.winner-spedition.de/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.winner-spedition.de/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.winner-spedition.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://www.winner-spedition.de/' />
+<meta name="generator" content="WPML ver:4.9.2.1 stt:1,3,27,40;" />
+<meta name="generator" content="Elementor 4.0.8; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<script nowprocket data-borlabs-cookie-script-blocker-ignore>
+if ('0' === '1' && ('0' === '1' || '1' === '1')) {
+    window['gtag_enable_tcf_support'] = true;
+}
+window.dataLayer = window.dataLayer || [];
+if (typeof gtag !== 'function') {
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+}
+gtag('set', 'developer_id.dYjRjMm', true);
+if ('0' === '1' || '1' === '1') {
+    if (window.BorlabsCookieGoogleConsentModeDefaultSet !== true) {
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+        let defaultValues = {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'functionality_storage': 'denied',
+            'personalization_storage': 'denied',
+            'security_storage': 'denied',
+            'wait_for_update': 500,
+        };
+        gtag('consent', 'default', { ...defaultValues, ...consentsFromCookie });
+    }
+    window.BorlabsCookieGoogleConsentModeDefaultSet = true;
+    let borlabsCookieConsentChangeHandler = function () {
+        window.dataLayer = window.dataLayer || [];
+        if (typeof gtag !== 'function') { function gtag(){dataLayer.push(arguments);} }
+
+        let getCookieValue = function (name) {
+            return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+        };
+        let cookieValue = getCookieValue('borlabs-cookie-gcs');
+        let consentsFromCookie = {};
+        if (cookieValue !== '') {
+            consentsFromCookie = JSON.parse(decodeURIComponent(cookieValue));
+        }
+
+        consentsFromCookie.analytics_storage = BorlabsCookie.Consents.hasConsent('google-analytics') ? 'granted' : 'denied';
+
+        BorlabsCookie.CookieLibrary.setCookie(
+            'borlabs-cookie-gcs',
+            JSON.stringify(consentsFromCookie),
+            BorlabsCookie.Settings.automaticCookieDomainAndPath.value ? '' : BorlabsCookie.Settings.cookieDomain.value,
+            BorlabsCookie.Settings.cookiePath.value,
+            BorlabsCookie.Cookie.getPluginCookie().expires,
+            BorlabsCookie.Settings.cookieSecure.value,
+            BorlabsCookie.Settings.cookieSameSite.value
+        );
+    }
+    document.addEventListener('borlabs-cookie-consent-saved', borlabsCookieConsentChangeHandler);
+    document.addEventListener('borlabs-cookie-handle-unblock', borlabsCookieConsentChangeHandler);
+}
+if ('0' === '1') {
+    gtag("js", new Date());
+    gtag("config", "UA-113616618-1", {"anonymize_ip": true});
+
+    (function (w, d, s, i) {
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s);
+        j.async = true;
+        j.src =
+            "https://www.googletagmanager.com/gtag/js?id=" + i;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "UA-113616618-1");
+}
+</script>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+				<meta name="generator" content="WP Rocket 3.21.3" data-wpr-features="wpr_minify_js wpr_oci wpr_minify_css wpr_desktop" /></head>
+<body class="home wp-singular page-template-default page page-id-2 wp-custom-logo wp-theme-winner elementor-default elementor-kit-3715 elementor-page elementor-page-2" data-lang="de">
+
+	<div  class="modal fade" id="bewerbung" tabindex="-1" role="dialog">
+	  <div  class="modal-dialog modal-xl" role="document">
+	    <div  class="modal-content">
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      <div class="modal-body">
+		      
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+							<p class='gform_required_legend'>„<span class="gfield_required gfield_required_asterisk">*</span>“ zeigt erforderliche Felder an</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/#gf_1' data-formid='1' novalidate>
+        <div id='gf_progressbar_wrapper_1' class='gf_progressbar_wrapper' data-start-at-zero=''>
+        	<p class="gf_progressbar_title">Schritt <span class='gf_step_current_page'>1</span> von <span class='gf_step_page_count'>2</span><span class='gf_step_page_name'></span>
+        	</p>
+            <div class='gf_progressbar gf_progressbar_blue' aria-hidden='true'>
+                <div class='gf_progressbar_percentage percentbar_blue percentbar_50' style='width:50%;'><span>50%</span></div>
+            </div></div>
+                        <div class='gform-body gform_body'><div id='gform_page_1_1' class='gform_page ' data-js='page-field-id-0' >
+					<div class='gform_page_fields'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_4" class="gfield gfield--type-section gfield--input-type-section gsection field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><h3 class="gsection_title">Bewerbungsformular</h3></div><div id="field_1_1" class="gfield gfield--type-text gfield--input-type-text field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'>Ich bewerbe mich als</label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'   tabindex='49'   aria-invalid="false"   /></div></div><div id="field_1_35" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_35'>für den Standort<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_35' id='input_1_35' class='large gfield_select' tabindex='50'   aria-required="true" aria-invalid="false" ><option value='' >Bitte auswählen</option><option value='Achim-Uphusen' >Achim-Uphusen</option><option value='Berlin' >Berlin</option><option value='Barsinghausen' >Barsinghausen</option><option value='Bexbach' >Bexbach</option><option value='Bitterfeld' >Bitterfeld</option><option value='Bremen' >Bremen</option><option value='Coswig' >Coswig</option><option value='Eichenzell' >Eichenzell</option><option value='Erlangen' >Erlangen</option><option value='Kessin' >Kessin</option><option value='Hamburg' >Hamburg</option><option value='Hemer' >Hemer</option><option value='Hockenheim' >Hockenheim</option><option value='Illingen' >Illingen</option><option value='Iserlohn' >Iserlohn</option><option value='Iserlohn und Hemer' >Iserlohn und Hemer</option><option value='Rackwitz' >Rackwitz</option><option value='Willich' >Willich</option></select></div></div><fieldset id="field_1_2" class="gfield gfield--type-radio gfield--type-choice gfield--input-type-radio gf_list_2col gf_left_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label' >Anrede</legend><div class='ginput_container ginput_container_radio'><div class='gfield_radio' id='input_1_2'>
+			<div class='gchoice gchoice_1_2_0'>
+					<input class='gfield-choice-input' name='input_2' type='radio' value='Herr'  id='choice_1_2_0' onchange='gformToggleRadioOther( this )'  tabindex='51'  />
+					<label for='choice_1_2_0' id='label_1_2_0' class='gform-field-label gform-field-label--type-inline'>Herr</label>
+			</div>
+			<div class='gchoice gchoice_1_2_1'>
+					<input class='gfield-choice-input' name='input_2' type='radio' value='Frau'  id='choice_1_2_1' onchange='gformToggleRadioOther( this )'  tabindex='52'  />
+					<label for='choice_1_2_1' id='label_1_2_1' class='gform-field-label gform-field-label--type-inline'>Frau</label>
+			</div></div></div></fieldset><div id="field_1_3" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_3'>Titel</label><div class='ginput_container ginput_container_text'><input name='input_3' id='input_1_3' type='text' value='' class='large'   tabindex='53'   aria-invalid="false"   /></div></div><div id="field_1_5" class="gfield gfield--type-text gfield--input-type-text gf_left_half gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_5'>Vorname<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_5' id='input_1_5' type='text' value='' class='large'   tabindex='54'  aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_6" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_6'>Nachname<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_6' id='input_1_6' type='text' value='' class='large'   tabindex='55'  aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_7" class="gfield gfield--type-text gfield--input-type-text gf_left_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_7'>Straße</label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='large'   tabindex='56'   aria-invalid="false"   /></div></div><div id="field_1_8" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_8'>Hausnr.</label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='large'   tabindex='57'   aria-invalid="false"   /></div></div><div id="field_1_9" class="gfield gfield--type-text gfield--input-type-text gf_left_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_9'>PLZ</label><div class='ginput_container ginput_container_text'><input name='input_9' id='input_1_9' type='text' value='' class='large'   tabindex='58'   aria-invalid="false"   /></div></div><div id="field_1_10" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_10'>Ort</label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_1_10' type='text' value='' class='large'   tabindex='59'   aria-invalid="false"   /></div></div><div id="field_1_31" class="gfield gfield--type-email gfield--input-type-email gf_left_half gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_31'>E-Mail<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_31' id='input_1_31' type='email' value='' class='medium' tabindex='60'   aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_12" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_12'>Telefon</label><div class='ginput_container ginput_container_text'><input name='input_12' id='input_1_12' type='text' value='' class='large'   tabindex='61'   aria-invalid="false"   /></div></div><div id="field_1_14" class="gfield gfield--type-date gfield--input-type-date gfield--input-type-datepicker gfield--datepicker-no-icon gf_left_third gfield--width-third field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_14'>Geburtstag</label><div class='ginput_container ginput_container_date'>
+                            <input name='input_14' id='input_1_14' type='text' value='' class='datepicker gform-datepicker dmy_dot datepicker_no_icon gdatepicker-no-icon' tabindex='62'  placeholder='tt.mm.jjjj' aria-describedby="input_1_14_date_format" aria-invalid="false" />
+                            <span id='input_1_14_date_format' class='screen-reader-text'>TT Punkt MM Punkt JJJJ</span>
+                        </div>
+                        <input type='hidden' id='gforms_calendar_icon_input_1_14' class='gform_hidden' value='https://www.winner-spedition.de/wp-content/plugins/gravityforms/images/datepicker/datepicker.svg'/></div><div id="field_1_15" class="gfield gfield--type-date gfield--input-type-date gfield--input-type-datepicker gfield--datepicker-no-icon gf_middle_third gfield--width-third field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_15'>Frühester Eintrittstermin</label><div class='ginput_container ginput_container_date'>
+                            <input name='input_15' id='input_1_15' type='text' value='' class='datepicker gform-datepicker dmy_dot datepicker_no_icon gdatepicker-no-icon' tabindex='63'  placeholder='tt.mm.jjjj' aria-describedby="input_1_15_date_format" aria-invalid="false" />
+                            <span id='input_1_15_date_format' class='screen-reader-text'>TT Punkt MM Punkt JJJJ</span>
+                        </div>
+                        <input type='hidden' id='gforms_calendar_icon_input_1_15' class='gform_hidden' value='https://www.winner-spedition.de/wp-content/plugins/gravityforms/images/datepicker/datepicker.svg'/></div><div id="field_1_16" class="gfield gfield--type-text gfield--input-type-text gf_right_third gfield--width-third field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_16'>Gehaltsvorstellung</label><div class='ginput_container ginput_container_text'><input name='input_16' id='input_1_16' type='text' value='' class='large'   tabindex='64'   aria-invalid="false"   /></div></div><div id="field_1_17" class="gfield gfield--type-textarea gfield--input-type-textarea field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_17'>Grund meiner Bewerbung</label><div class='ginput_container ginput_container_textarea'><textarea name='input_17' id='input_1_17' class='textarea medium' tabindex='65'     aria-invalid="false"   rows='10' cols='50'></textarea></div></div></div>
+                    </div>
+                    <div class='gform-page-footer gform_page_footer top_label'>
+                         <input type='button' id='gform_next_button_1_34' class='gform_next_button gform-theme-button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='next' value='Weiter' tabindex='66' /> 
+                    </div>
+                </div>
+                <div id='gform_page_1_2' class='gform_page' data-js='page-field-id-34' style='display:none;'>
+                    <div class='gform_page_fields'>
+                        <div id='gform_fields_1_2' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_18" class="gfield gfield--type-textarea gfield--input-type-textarea field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_18'>Ihre Ausbildung</label><div class='ginput_container ginput_container_textarea'><textarea name='input_18' id='input_1_18' class='textarea medium' tabindex='67'     aria-invalid="false"   rows='10' cols='50'></textarea></div></div><div id="field_1_19" class="gfield gfield--type-section gfield--input-type-section gsection field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><h3 class="gsection_title">Ihre Qualifikation</h3></div><div id="field_1_20" class="gfield gfield--type-select gfield--input-type-select gf_left_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_20'>Deutsch</label><div class='ginput_container ginput_container_select'><select name='input_20' id='input_1_20' class='large gfield_select' tabindex='68'    aria-invalid="false" ><option value='' >---</option><option value='Grundkenntnisse' >Grundkenntnisse</option><option value='Gut' >Gut</option><option value='Sehr gut' >Sehr gut</option><option value='Muttersprache' >Muttersprache</option></select></div></div><div id="field_1_21" class="gfield gfield--type-select gfield--input-type-select gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_21'>Englisch</label><div class='ginput_container ginput_container_select'><select name='input_21' id='input_1_21' class='large gfield_select' tabindex='69'    aria-invalid="false" ><option value='' >---</option><option value='Grundkenntnisse' >Grundkenntnisse</option><option value='Gut' >Gut</option><option value='Sehr gut' >Sehr gut</option><option value='Muttersprache' >Muttersprache</option></select></div></div><div id="field_1_22" class="gfield gfield--type-text gfield--input-type-text gf_left_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_22'>Weitere Sprachen</label><div class='ginput_container ginput_container_text'><input name='input_22' id='input_1_22' type='text' value='' class='large'   tabindex='70'   aria-invalid="false"   /></div></div><div id="field_1_23" class="gfield gfield--type-text gfield--input-type-text gf_right_half gfield--width-half field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_23'>EDV- und weitere Kenntnisse</label><div class='ginput_container ginput_container_text'><input name='input_23' id='input_1_23' type='text' value='' class='large'   tabindex='71'   aria-invalid="false"   /></div></div><div id="field_1_24" class="gfield gfield--type-section gfield--input-type-section gsection field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><h3 class="gsection_title">Anhänge</h3></div><div id="field_1_32" class="gfield gfield--type-fileupload gfield--input-type-fileupload field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='gform_browse_button_1_32'>Datei-Upload</label><div class='ginput_container ginput_container_fileupload'><div id='gform_multifile_upload_1_32' data-settings='{&quot;runtimes&quot;:&quot;html5,flash,html4&quot;,&quot;browse_button&quot;:&quot;gform_browse_button_1_32&quot;,&quot;container&quot;:&quot;gform_multifile_upload_1_32&quot;,&quot;drop_element&quot;:&quot;gform_drag_drop_area_1_32&quot;,&quot;filelist&quot;:&quot;gform_preview_1_32&quot;,&quot;unique_names&quot;:true,&quot;file_data_name&quot;:&quot;file&quot;,&quot;url&quot;:&quot;https:\/\/www.winner-spedition.de\/?gf_page=b3988b214cc771b&quot;,&quot;flash_swf_url&quot;:&quot;https:\/\/www.winner-spedition.de\/wp-includes\/js\/plupload\/plupload.flash.swf&quot;,&quot;silverlight_xap_url&quot;:&quot;https:\/\/www.winner-spedition.de\/wp-includes\/js\/plupload\/plupload.silverlight.xap&quot;,&quot;filters&quot;:{&quot;mime_types&quot;:[{&quot;title&quot;:&quot;Erlaubte Dateitypen&quot;,&quot;extensions&quot;:&quot;doc,docx,pdf,jpg,png,jpeg,gif&quot;}],&quot;max_file_size&quot;:&quot;104857600b&quot;},&quot;multipart&quot;:true,&quot;urlstream_upload&quot;:false,&quot;multipart_params&quot;:{&quot;form_id&quot;:1,&quot;field_id&quot;:32,&quot;_gform_file_upload_nonce_1_32&quot;:&quot;2c0383cfa0&quot;},&quot;gf_vars&quot;:{&quot;max_files&quot;:0,&quot;message_id&quot;:&quot;gform_multifile_messages_1_32&quot;,&quot;disallowed_extensions&quot;:[&quot;php&quot;,&quot;asp&quot;,&quot;aspx&quot;,&quot;cmd&quot;,&quot;csh&quot;,&quot;bat&quot;,&quot;html&quot;,&quot;htm&quot;,&quot;hta&quot;,&quot;jar&quot;,&quot;exe&quot;,&quot;com&quot;,&quot;js&quot;,&quot;lnk&quot;,&quot;htaccess&quot;,&quot;phar&quot;,&quot;phtml&quot;,&quot;ps1&quot;,&quot;ps2&quot;,&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;,&quot;py&quot;,&quot;rb&quot;,&quot;tmp&quot;]}}' class='gform_fileupload_multifile'>
+										<div id='gform_drag_drop_area_1_32' class='gform_drop_area gform-theme-field-control'>
+											<span class='gform_drop_instructions'>Ziehe Dateien hier her oder </span>
+											<button type='button' id='gform_browse_button_1_32' class='button gform_button_select_files gform-theme-button gform-theme-button--control' aria-describedby="gfield_upload_rules_1_32 gfield_description_1_32" tabindex='72' >Wähle Dateien aus</button>
+										</div>
+									</div><span class='gfield_description gform_fileupload_rules' id='gfield_upload_rules_1_32'>Akzeptierte Dateitypen: doc, docx, pdf, jpg, png, jpeg, gif, Max. Dateigröße: 100 MB.</span><ul class='validation_message--hidden-on-empty gform-ul-reset' id='gform_multifile_messages_1_32'></ul> <div id='gform_preview_1_32' class='ginput_preview_list'></div></div><div class='gfield_description' id='gfield_description_1_32'>Erlaubte Dateitypen: doc, docx, pdf, jpg, png, jpeg, gif</div></div><div id="field_1_30" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_30' id='input_1_30' type='hidden' class='gform_hidden'  aria-invalid="false" value='Nein' /></div></div><div id="field_1_33" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_33' id='input_1_33' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><fieldset id="field_1_29" class="gfield gfield--type-checkbox gfield--type-choice gfield--input-type-checkbox gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label screen-reader-text gfield_label_before_complex' ><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></legend><div class='ginput_container ginput_container_checkbox'><div class='gfield_checkbox ' id='input_1_29'><div class='gchoice gchoice_1_29_1'>
+								<input class='gfield-choice-input' name='input_29.1' type='checkbox'  value='Ich stimme zu'  id='choice_1_29_1' tabindex='73'  />
+								<label for='choice_1_29_1' id='label_1_29_1' class='gform-field-label gform-field-label--type-inline'>Ich habe die <a href="/datenschutz/" target="_blank">Datenschutzerklärung</a> zur Kenntnis genommen. Ich stimme einer elektronischen Speicherung und Verarbeitung meiner eingegebenen Daten zur Beantwortung meiner Anfrage zu. Hinweis: Die Einwilligung und Speicherung kann jederzeit für die Zukunft per E-Mail an datenschutz@winner-spedition.de widerrufen werden.</label>
+							</div></div></div></fieldset></div></div>
+        <div class='gform-page-footer gform_page_footer top_label'><input type='submit' id='gform_previous_button_1' class='gform_previous_button gform-theme-button gform-theme-button--secondary button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='previous' value='Zurück' tabindex='74' /> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Jetzt bewerben' tabindex='75' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=49&amp;theme=gravity-theme&amp;styles=[]&amp;hash=f0e43fb451f29a398e7574a210ea7954' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='EUR' value='PFGV/b2eoXfRUphLH4YC4kT9Mxh6J1vpiTXO7zQAJG/z2FySzKYF0fn7FHGNCUKJhNs05QOyyOyNdtWXgh3LdtIwi7+DHyqbzN7Tf0MmubXrcfA=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCIzNVwiOltcIjU0OGZhNDhiYWYyYjUyZmM2MTFkMmE5YTA5ZGI3OGE2XCIsXCIyZmRmMWQyMTc2ZGFjNDI1NGYwZjdhYzc5YjZkMDg4NVwiLFwiMGJkNTlmYWIxNTIxYWRlZDBhOTY3ZTMwMzQzZTYwYWVcIixcIjFkYWY3Yzg3Nzc1YzkwMDFiODRhZTk1Njk1ZDczYmI4XCIsXCI0MzNiNzk1Njc0NmFhMGYxNjY4MGVhM2FkOTBhZjA5N1wiLFwiZDAwYTU0NzYxOGE3MjJiMjI0YzRmYTNkMzllMjAxYjFcIixcIjlkMDRlNGQyNTQ0YWYxZGU2MDQyYjBjOTM4MDZjMTU0XCIsXCJiNWIwMTc0ZmU2YmQ1MTMyOGFhNTNjZTJiZTdiZDFhNVwiLFwiYjRhMDA4NTAwYjViZDAwNGVhMjY1MjM5OWNkYmVkMDJcIixcIjRhN2JiMTg4Njk5ZDdlMzNkYTRlNTQ2YTFiMjJjNTM2XCIsXCI3NTY0NWEyODQwZWI4MDg4Y2YyY2JhNjUxYjU0MDNlNVwiLFwiYWRiN2EzODZiODJiNGIxNmJiY2VlMDdiNmIxOWZiOWJcIixcIjg3MDRhNTk1ODc2MGU2NTYwZWFjMTZmNzg3OWJiNTUzXCIsXCIwYTI1MTM5MWNkMzViMzAyZTRhMzQ1OTdmNTc0YWExMVwiLFwiNWZlYjkxMTgxODEzNGU0N2FhZjYzNzQ3NzRlYmI0ODdcIixcImIyN2UwZTJiODAyOWNjN2U2ZTQyOWQ3MWNmNjYwOGUxXCIsXCJmMGZmZmNiNmRiNzAzOWY3YjU1NjI2N2ZlNDNjNzVhM1wiLFwiNzZmNmI2OGZiMTE4ODg2OWE0MzZjYzFkNWM0ZjdlYTNcIixcImIzMjc4MWMyZDhmNTQ1NTJkMzYzMmFhNWFlODcwZDUxXCJdfSIsIjQ4ZjYyZjk2YzIxOTYwYTc3ZmRhN2ZhYmZlMWVhNzI1Il0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='2' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            <input type='hidden' name='gform_uploaded_files' id='gform_uploaded_files_1' value='' />
+        </div>
+             </div></div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='Dieser iframe enthält die erforderliche Logik um Gravity Forms Formulare mit AJAX zu handhaben.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.winner-spedition.de/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.winner-spedition.de/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	
+	<style>
+		.alert-box .alert-wrap > strong {
+			margin-bottom: 13px;
+		}
+
+		.alert-box .alert-wrap p {
+			font-size: 13px;
+			margin-bottom: 1em;
+		}
+
+		.alert-box .alert-wrap p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.alert-box .alert-wrap a.btn-aus {
+			background: #fff;
+			padding: 6px 12px;
+			border-radius: 6px;
+			font-size: 18px;
+			color: #ad111c;
+			display: inline-block;
+			margin-bottom: 13px;
+		}
+	</style>
+
+	
+		<header  data-elementor-type="header" data-elementor-id="8" class="elementor elementor-8 elementor-location-header" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-6068ac7 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6068ac7" data-element_type="section" data-e-type="section" id="header-inner" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f8e1f30" data-id="f8e1f30" data-element_type="column" data-e-type="column" id="header-logo" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5f66711 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5f66711" data-element_type="widget" data-e-type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://www.winner-spedition.de">
+			<img width="324" height="68" src="https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo.png" class="attachment-full size-full wp-image-37" alt="" srcset="https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo.png 324w, https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo-300x63.png 300w" sizes="(max-width: 324px) 100vw, 324px" />				</a>
+											</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-a6bbc25" data-id="a6bbc25" data-element_type="column" data-e-type="column" id="header-nav" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-751ea39 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="751ea39" data-element_type="section" data-e-type="section" id="header-wrapper-inner" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d2d0cc2" data-id="d2d0cc2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cb0585b elementor-widget elementor-widget-heading" data-id="cb0585b" data-element_type="widget" data-e-type="widget" id="slogan" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Spedition &amp; Logistik seit 1946</div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-30a15b2" data-id="30a15b2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f84fac0 elementor-nav-menu__align-end elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="f84fac0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menü" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-f84fac0" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://www.winner-spedition.de/ueber-uns/" class="elementor-item">Über uns</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="https://www.winner-spedition.de/leistungen/" class="elementor-item">Leistungen</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="https://www.winner-spedition.de/leistungen/langgut/" class="elementor-sub-item">WINNERnetzwerk</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="https://www.winner-spedition.de/leistungen/winner-via-eisenbahn/" class="elementor-sub-item">WINNER via Eisenbahn</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://www.winner-spedition.de/leistungen/winner-via-strasse/" class="elementor-sub-item">WINNER via Straße</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"><a href="https://www.winner-spedition.de/leistungen/winner-via-europa/" class="elementor-sub-item">WINNER via Europa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://www.winner-spedition.de/leistungen/winner-services/" class="elementor-sub-item">WINNERservices</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9973"><a href="#" class="elementor-item elementor-item-anchor">News</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9974"><a href="https://www.winner-spedition.de/mauterhoehung/" class="elementor-sub-item">Mauterhöhung</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4935"><a href="https://www.winner-spedition.de/nachhaltigkeit/" class="elementor-item">Nachhaltigkeit</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26"><a href="https://www.winner-spedition.de/karriere/" class="elementor-item">Karriere</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10219"><a href="https://www.winner-spedition.de/karriere/" class="elementor-sub-item">Stellenangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10218"><a href="https://www.winner-spedition.de/karriere/ausbildung/" class="elementor-sub-item">Ausbildungsplätze</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://www.winner-spedition.de/kontakt/" class="elementor-item">Kontakt</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566"><a href="https://www.winner-spedition.de/anfrage/" class="elementor-item">Service</a></li>
+<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-de wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-3-de"><a href="https://www.winner-spedition.de/" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-3-de" class="elementor-item"><span class="wpml-ls-display">DE</span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-en"><a href="https://www.winner-spedition.de/en/" title="Wechseln zu EN" aria-label="Wechseln zu EN" class="elementor-sub-item"><span class="wpml-ls-display">EN</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-pl wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-pl"><a href="https://www.winner-spedition.de/pl/" title="Wechseln zu PL" aria-label="Wechseln zu PL" class="elementor-sub-item"><span class="wpml-ls-display">PL</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-it wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-it"><a href="https://www.winner-spedition.de/it/" title="Wechseln zu IT" aria-label="Wechseln zu IT" class="elementor-sub-item"><span class="wpml-ls-display">IT</span></a></li>
+</ul>
+</li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menü Umschalter" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-f84fac0" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://www.winner-spedition.de/ueber-uns/" class="elementor-item" tabindex="-1">Über uns</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="https://www.winner-spedition.de/leistungen/" class="elementor-item" tabindex="-1">Leistungen</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="https://www.winner-spedition.de/leistungen/langgut/" class="elementor-sub-item" tabindex="-1">WINNERnetzwerk</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="https://www.winner-spedition.de/leistungen/winner-via-eisenbahn/" class="elementor-sub-item" tabindex="-1">WINNER via Eisenbahn</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://www.winner-spedition.de/leistungen/winner-via-strasse/" class="elementor-sub-item" tabindex="-1">WINNER via Straße</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"><a href="https://www.winner-spedition.de/leistungen/winner-via-europa/" class="elementor-sub-item" tabindex="-1">WINNER via Europa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://www.winner-spedition.de/leistungen/winner-services/" class="elementor-sub-item" tabindex="-1">WINNERservices</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9973"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">News</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9974"><a href="https://www.winner-spedition.de/mauterhoehung/" class="elementor-sub-item" tabindex="-1">Mauterhöhung</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4935"><a href="https://www.winner-spedition.de/nachhaltigkeit/" class="elementor-item" tabindex="-1">Nachhaltigkeit</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26"><a href="https://www.winner-spedition.de/karriere/" class="elementor-item" tabindex="-1">Karriere</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10219"><a href="https://www.winner-spedition.de/karriere/" class="elementor-sub-item" tabindex="-1">Stellenangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10218"><a href="https://www.winner-spedition.de/karriere/ausbildung/" class="elementor-sub-item" tabindex="-1">Ausbildungsplätze</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://www.winner-spedition.de/kontakt/" class="elementor-item" tabindex="-1">Kontakt</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566"><a href="https://www.winner-spedition.de/anfrage/" class="elementor-item" tabindex="-1">Service</a></li>
+<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-de wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-3-de"><a href="https://www.winner-spedition.de/" aria-current="page" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-3-de" class="elementor-item" tabindex="-1"><span class="wpml-ls-display">DE</span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-en"><a href="https://www.winner-spedition.de/en/" title="Wechseln zu EN" aria-label="Wechseln zu EN" class="elementor-sub-item" tabindex="-1"><span class="wpml-ls-display">EN</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-pl wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-pl"><a href="https://www.winner-spedition.de/pl/" title="Wechseln zu PL" aria-label="Wechseln zu PL" class="elementor-sub-item" tabindex="-1"><span class="wpml-ls-display">PL</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-it wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-it"><a href="https://www.winner-spedition.de/it/" title="Wechseln zu IT" aria-label="Wechseln zu IT" class="elementor-sub-item" tabindex="-1"><span class="wpml-ls-display">IT</span></a></li>
+</ul>
+</li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</header>
+		
+<main  id="main" class="site-main post-2 page type-page status-publish hentry" role="main">
+	<div  class="page-content">
+				<div  data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-39c2323a elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="39c2323a" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.winner-spedition.de\/wp-content\/uploads\/2022\/10\/winner-image-film-short540p-60.mp4&quot;,&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;b79ec9f&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}],&quot;background_privacy_mode&quot;:&quot;yes&quot;}">
+								<div class="elementor-background-video-container elementor-hidden-mobile">
+													<video class="elementor-background-video-hosted" role="presentation" autoplay muted playsinline loop></video>
+											</div>
+									<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-27cedd2f" data-id="27cedd2f" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a0271fc elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="a0271fc" data-element_type="section" data-e-type="section" id="home-first" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;648bc4f&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1f02dd4" data-id="1f02dd4" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b15edcc elementor-widget elementor-widget-heading" data-id="b15edcc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Seit 1946 Ihr Transport- und Logistikexperte für Langgut</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0a1584c elementor-widget elementor-widget-text-editor" data-id="0a1584c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p class="p1"><span class="s1">Wir, die Winner Spedition, sind ein in dritter Generation geführtes, mittelständisches Familienunternehmen mit 17 Niederlassungen in Deutschlands Top-Wirtschaftszentren und Tochtergesellschaften in Italien, Polen, Tschechien und Österreich. Unsere Kernkompetenz ist der Transport und die Logistik von Langprodukten.</span></p><p>Unser Portfolio haben wir über die Jahre stetig weiterentwickelt und setzen heute neben der flächendeckenden Verteilung in Deutschland zusätzlich weitere Schwerpunkte im kombinierten Verkehr und den europäischen Landverkehren. Von der klassischen Stückgutsendung über Teilpartien bis hin zur Komplettladung (FTL) transportieren wir täglich Ihre Sendungen europaweit auf höchstem Niveau.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-563fb2a" data-id="563fb2a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-bef735c elementor-widget elementor-widget-leistungen" data-id="bef735c" data-element_type="widget" data-e-type="widget" data-widget_type="leistungen.default">
+				<div class="elementor-widget-container">
+					    	    	<div class="leistungen">
+	    	<div class="leistungen-inner">
+		    	
+		    			    	
+		    	<a href="https://www.winner-spedition.de/leistungen/winnernetzwerk/" class="leistung red">
+			    	<div class="leistung-title">
+				    	<i class="fa fa-chevron-right"></i>WINNERnetzwerk			    	</div>
+			    	<div class="leistung-teaser">
+				    				    	</div>
+			    	<div class="leistung-content"></div>
+		    	</a>
+		    	
+		    			    	
+		    	<a href="https://www.winner-spedition.de/leistungen/winner-via-eisenbahn/" class="leistung red">
+			    	<div class="leistung-title">
+				    	<i class="fa fa-chevron-right"></i>WINNER via Eisenbahn			    	</div>
+			    	<div class="leistung-teaser">
+				    				    	</div>
+			    	<div class="leistung-content"></div>
+		    	</a>
+		    	
+		    			    	
+		    	<a href="https://www.winner-spedition.de/leistungen/winner-via-strasse/" class="leistung red">
+			    	<div class="leistung-title">
+				    	<i class="fa fa-chevron-right"></i>WINNER via Straße			    	</div>
+			    	<div class="leistung-teaser">
+				    				    	</div>
+			    	<div class="leistung-content"></div>
+		    	</a>
+		    	
+		    			    	
+		    	<a href="https://www.winner-spedition.de/leistungen/winner-via-europa/" class="leistung red">
+			    	<div class="leistung-title">
+				    	<i class="fa fa-chevron-right"></i>WINNER via Europa			    	</div>
+			    	<div class="leistung-teaser">
+				    				    	</div>
+			    	<div class="leistung-content"></div>
+		    	</a>
+		    	
+		    			    	
+		    	<a href="https://www.winner-spedition.de/leistungen/winner-services" class="leistung red">
+			    	<div class="leistung-title">
+				    	<i class="fa fa-chevron-right"></i>WINNERservices			    	</div>
+			    	<div class="leistung-teaser">
+				    				    	</div>
+			    	<div class="leistung-content"></div>
+		    	</a>
+		    	
+		    			    	
+	    	</div>
+	    	<a href="https://www.winner-spedition.de/anfrage/">
+		    	Anfrage stellen	    	</a>
+    	</div>
+    	    
+    				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6b87ad8 angle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b87ad8" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;4399f3e&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-00bd19d" data-id="00bd19d" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-75a14e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="75a14e2" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;055179a&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-484b96b" data-id="484b96b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-446bb88 elementor-widget elementor-widget-text-editor" data-id="446bb88" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h2>Wir sind spezialisiert auf Langgut Transporte</h2><p>Klassisches Sammelgut gehört bei uns zum Tagesgeschäft. Zur Höchstform laufen wir aber dann auf, wenn wir unsere Spezialisierung beweisen können. Unsere Mitarbeiter bewegen hochwertige Halbzeuge wie Rohre, Stangen und Profile aus Stahl- und NE-Metallen ebenso zuverlässig wie Massivdielen, Kunststoffprodukte oder Bauteile für den Beton- und Fassadenbau.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-07ad827" data-id="07ad827" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8978984 elementor-section-height-min-height min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="8978984" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;5bc11e3&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c4e7e55" data-id="c4e7e55" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-196715c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="196715c" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;a62fbeb&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c9220fe" data-id="c9220fe" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9b27669 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b27669" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;a18ed77&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d717010" data-id="d717010" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5a50982 elementor-widget elementor-widget-text-editor" data-id="5a50982" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h2>Unser Netzwerk</h2><p>Wir sind dort, wo unsere Kunden uns brauchen. Deshalb haben wir uns neben unserer Zentrale in der Wirtschaftsregion Südwestfalen für Standorte in der Nähe der wichtigsten Industriezentren Deutschlands entschieden.</p><p>Unser leistungsstarkes und maßgeschneidertes, eigenes Netzwerk überzeugt mit einheitlichen Standards und wird von einer umfassenden IT gestützt. Durch unsere Spezialisierung auf den Transport und das Handling von Langgut sind wir den Umgang mit nicht systemkonformen Gütern gewohnt. Diese einzigartige Langgutphilsophie wird konsequent an allen Standorten gelebt und täglich praktiziert. Dadurch sichern wir die Qualität unserer Leistungen in punkto Transparenz, Effizienz, Pünktlichkeit und Flexibilität.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a96642a angle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a96642a" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;09bad9c&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ceb483" data-id="4ceb483" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-172f6de elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="172f6de" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;88ff6d1&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-768d625" data-id="768d625" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-db224a6 elementor-widget elementor-widget-template" data-id="db224a6" data-element_type="widget" data-e-type="widget" data-widget_type="template.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-template">
+					<div data-elementor-type="section" data-elementor-id="1333" class="elementor elementor-1333" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-inner-section elementor-element elementor-element-172f6de elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="172f6de" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;88ff6d1&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-768d625" data-id="768d625" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-53708e6 elementor-widget elementor-widget-jet-map" data-id="53708e6" data-element_type="widget" data-e-type="widget" data-widget_type="jet-map.default">
+				<div class="elementor-widget-container">
+					<div class="jet-map-message"><div class="jet-map-message__dammy-map"></div><span class="jet-map-message__text">You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started</span></div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ba05148 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba05148" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;e4091f9&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7666318" data-id="7666318" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-053c259 elementor-widget elementor-widget-heading" data-id="053c259" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Unsere Werte</h2>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b51dc95" data-id="b51dc95" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a8abe8a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a8abe8a" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;fe77892&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5832819" data-id="5832819" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-929ced7" data-id="929ced7" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2d0c5d1 elementor-widget elementor-widget-be-timeline" data-id="2d0c5d1" data-element_type="widget" data-e-type="widget" data-widget_type="be-timeline.default">
+				<div class="elementor-widget-container">
+					<ul class="be-pack timeline "><li class="timeline-inverted"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Loyalität</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir betrachten Loyalität als Basis für eine vertrauensvolle Zusammenarbeit zwischen Mitarbeitern, Kunden und Lieferanten.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			<li class="timeline-right"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Vielseitigkeit</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir schätzen unsere Vielfalt. Jeden Menschen behandeln wir gleichermaßen mit Respekt und Toleranz. Die Zusammenarbeit zwischen Mitarbeitern unterschiedlicher Positionen ermöglicht vielseitige Meinungen und Ideen, die uns helfen, stärker zu werden.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			<li class="timeline-inverted"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Wertschätzung</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir begegnen uns mit Wertschätzung und pflegen eine offene Kommunikation mit gegenseitigem Vertrauen. Somit finden wir gemeinsam konstruktive Lösungen.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			<li class="timeline-right"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Nachhaltigkeit</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir tragen mit unseren Entscheidungen zum langfristigen Unternehmenserfolg bei. Mit unseren Auszubildenden und einer gezielten Personalentwicklung sichern wir bestehende Arbeitsplätze und investieren in zukünftiges Wachstum.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			<li class="timeline-inverted"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Professionalität</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir fühlen uns unserem Umfeld verpflichtet. Professionelles Denken und Handeln bedeutet für uns, eingegangene Verpflichtungen zu erfüllen und Prozesse kontinuierlich weiter zu entwickeln.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			<li class="timeline-right"> 
+			<div class="tl-circ"></div>
+		 <div class="timeline-panel">
+		   <div class="tl-heading">
+			 <div class="tl-content">
+
+			    
+						
+						<div class="be-desc">
+							<h2 class="be-title">Agilität</h2>							<div class="be-content"><p class="p1"><span class="s1">Wir agieren vorausschauend und kundenorientiert. In einer sich stetig wandelnden Umwelt, reagieren wir schnell, verbindlich und dynamisch auf Veränderungen.</span></p></div>						</div>
+
+					
+				</div>
+
+			</div>
+		</div>
+			</li>
+			 
+      </ul>
+
+					</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-22d9306 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="22d9306" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;16c3501&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4d3d315" data-id="4d3d315" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5e10e39 elementor-widget elementor-widget-news" data-id="5e10e39" data-element_type="widget" data-e-type="widget" data-widget_type="news.default">
+				<div class="elementor-widget-container">
+					
+    	<div class="news">
+    		<div class="bootstrap-wrapper">
+    			<div class="container">
+	    			<div class="row">
+
+	    				
+	    					
+	    						<div class="col-lg-6">
+		    						<section class="seitenbox">
+										<div class="content-wrapper">
+											<div class="content">
+												<h4>Mein Laster: Dieser junge Mann macht seinen Kindheitstraum zum Beruf</h4>
+												<p>Lars Stricker, Azubi bei WINNER ist in diesem Monat auf dem Titel des Magazins &#8222;Märkisch Aktiv Winter 2020&#8220; und spricht über seinen Ausbildung als Berufskraftfahrer.<br />
+Wir bedanken uns bei &#8222;Märkisch Aktiv&#8220; für den Besuch und den daraus resultierenden Artikel inklusive Fotos. </p>
+											</div>
+											<a class="link-wrapper hvr-shutter-in-vertical" href="https://www.winner-spedition.de/mein-laster/">
+												<span class="link">
+													<i class="fas fa-chevron-right" aria-hidden="true"></i>
+													mehr												</span>
+											</a>
+										</div>
+									</section>
+								</div>
+
+	    					
+	    						<div class="col-lg-6">
+		    						<section class="seitenbox">
+										<div class="content-wrapper">
+											<div class="content">
+												<h4>WINNER SPEDITION WIRD NEUER SILVER-PARTNER DER LOGISTICS HALL OF FAME</h4>
+												<p>Die Winner-Spedition aus Iserlohn unterstützt die Logistics Hall of Fame ab sofort als Silver-Partner.</p>
+											</div>
+											<a class="link-wrapper hvr-shutter-in-vertical" href="https://www.winner-spedition.de/silver-partner-logistics-hall-of-fame/">
+												<span class="link">
+													<i class="fas fa-chevron-right" aria-hidden="true"></i>
+													mehr												</span>
+											</a>
+										</div>
+									</section>
+								</div>
+
+	    					
+	    				
+	    				
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+    
+    				</div>
+				</div>
+				<div class="elementor-element elementor-element-099fee6 elementor-widget elementor-widget-heading" data-id="099fee6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Instagram: <a href="https://www.instagram.com/winner_spedition/" target="_blank">@winner_spedition</a></h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-64b16b1 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-jet-instagram-gallery" data-id="64b16b1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;columns&quot;:&quot;4&quot;}" data-widget_type="jet-instagram-gallery.default">
+				<div class="elementor-widget-container">
+					 <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="instagram-jet-elements" data-borlabs-cookie-content="PGRpdiBjbGFzcz0iZWxlbWVudG9yLWpldC1pbnN0YWdyYW0tZ2FsbGVyeSBqZXQtZWxlbWVudHMiPgo8ZGl2IGNsYXNzPSJqZXQtaW5zdGFncmFtLWdhbGxlcnlfX2luc3RhbmNlX19ibG9ja2VkIGxheW91dC10eXBlLWdyaWQgY29sLXJvdyBkaXNhYmxlLWNvbHMtZ2FwIGRpc2FibGUtcm93cy1nYXAgc2hvdy1vdmVybGF5LW9uLWhvdmVyIGNvbHVtbi1kZXNrdG9wLTQgY29sdW1uLXRhYmxldC0yIGNvbHVtbi1tb2JpbGUtMSIgIGRhdGEtc2V0dGluZ3M9J3smcXVvdDtsYXlvdXRUeXBlJnF1b3Q7OiZxdW90O2dyaWQmcXVvdDssJnF1b3Q7Y29sdW1ucyZxdW90Ozo0LCZxdW90O2NvbHVtbnNUYWJsZXQmcXVvdDs6MCwmcXVvdDtjb2x1bW5zTW9iaWxlJnF1b3Q7OjB9Jz48ZGl2IGNsYXNzPSJqZXQtaW5zdGFncmFtLWdhbGxlcnlfX2l0ZW0iPjxkaXYgY2xhc3M9ImpldC1pbnN0YWdyYW0tZ2FsbGVyeV9faW5uZXIiPkVycm9yIHZhbGlkYXRpbmcgYXBwbGljYXRpb248L2Rpdj48L2Rpdj48L2Rpdj4KPC9kaXY+PGRpdiBjbGFzcz0iZWxlbWVudG9yLWpldC1pbnN0YWdyYW0tZ2FsbGVyeSBqZXQtZWxlbWVudHMgaW5zdGEtcGxhY2Vob2xkZXIgYm9ybGFicy1jb29raWUtcHJlZmVyZW5jZSI+PC9kaXY+"><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-instagram-jet-elements"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/cb-instagram-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Instagram</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+			</div>
+</main>
+
+		<footer data-elementor-type="footer" data-elementor-id="69" class="elementor elementor-69 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-cabd1da elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cabd1da" data-element_type="section" data-e-type="section" id="prefooter" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;e5cfa2e&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bb2462a" data-id="bb2462a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-0ebfa7a elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ebfa7a" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;3215786&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-narrow">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-aef0ace" data-id="aef0ace" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d11d5f5 elementor-widget elementor-widget-text-editor" data-id="d11d5f5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h1 style="text-align: center; color: #005987;"><em>#bea<b style="color: #ad111c;">WINNER</b></em></h1>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f20d14a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f20d14a" data-element_type="section" data-e-type="section" id="footer" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;3563472&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-40c7323" data-id="40c7323" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-d8c224d elementor-section-full_width elementor-section-content-bottom elementor-section-height-default elementor-section-height-default" data-id="d8c224d" data-element_type="section" data-e-type="section" id="footer-top-col" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;88c81ab&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-narrow">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-098b4d2" data-id="098b4d2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f523304 elementor-widget elementor-widget-image" data-id="f523304" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="324" height="68" src="https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo.png" class="attachment-full size-full wp-image-37" alt="" srcset="https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo.png 324w, https://www.winner-spedition.de/wp-content/uploads/2019/09/Winner_Logo-300x63.png 300w" sizes="(max-width: 324px) 100vw, 324px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5c4b834" data-id="5c4b834" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ab390c0 elementor-widget elementor-widget-heading" data-id="ab390c0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Spedition &amp; Logistik</h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-70848b0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="70848b0" data-element_type="section" data-e-type="section" id="footer-mid-col" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;77ddea3&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-07159db" data-id="07159db" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-baf1099 elementor-widget elementor-widget-text-editor" data-id="baf1099" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Winner Spedition GmbH &amp; Co. KG<br />Brinkhofstraße 41<br />D-58642 Iserlohn</p><p>Tel.: +49 (0) 23 74 / 931-0<br />E-Mail: <a href="mailto:info@winner-spedition.de">info@winner-spedition.de</a></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-782d478" data-id="782d478" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ebce365 elementor-button-info elementor-widget elementor-widget-button" data-id="ebce365" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.winner-spedition.de/anfrage/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Anfrage stellen</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-87602e2 elementor-button-info elementor-widget elementor-widget-button" data-id="87602e2" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.winner-spedition.de/downloads/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Downloads</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b13027b" data-id="b13027b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0fb42c7 elementor-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0fb42c7" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://portal.winner-spedition.de" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-unlock-alt"></i>						</span>
+										<span class="elementor-icon-list-text">Auftragserfassung</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://portal.winner-spedition.de" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-unlock-alt"></i>						</span>
+										<span class="elementor-icon-list-text">Sendungsverfolgung</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b2f6441" data-id="b2f6441" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b0e815 elementor-position-inline-start elementor-view-default elementor-mobile-position-block-start elementor-widget elementor-widget-icon-box" data-id="5b0e815" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="https://de-de.facebook.com/winnerspedition/" target="_blank" class="elementor-icon" tabindex="-1" aria-label="Besuchen Sie uns auch auf &lt;u&gt;Facebook.&lt;/u&gt;">
+				<i aria-hidden="true" class="fab fa-facebook-square"></i>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<a href="https://de-de.facebook.com/winnerspedition/" target="_blank" >
+							Besuchen Sie uns auch auf <u>Facebook.</u>						</a>
+					</h5>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7af08ca elementor-position-inline-start elementor-view-default elementor-mobile-position-block-start elementor-widget elementor-widget-icon-box" data-id="7af08ca" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="https://www.instagram.com/winner_spedition/" target="_blank" class="elementor-icon" tabindex="-1" aria-label="@winner_spedition">
+				<i aria-hidden="true" class="fab fa-instagram"></i>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<a href="https://www.instagram.com/winner_spedition/" target="_blank" >
+							@winner_spedition						</a>
+					</h5>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-8648061 elementor-widget elementor-widget-shortcode" data-id="8648061" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"><span class="borlabs-cookie-open-dialog-preferences brlbs-cmpnt-container" data-borlabs-cookie-title="Cookie-Einstellungen" data-borlabs-cookie-type="button" ></span></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-34238b4 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="34238b4" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;_id&quot;:&quot;d2b17a5&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:&quot;1&quot;,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8dc04fc" data-id="8dc04fc" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-38bf890 elementor-widget elementor-widget-text-editor" data-id="38bf890" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>© 2020 WINNER Spedition GmbH &amp; Co. KG</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-469f13e" data-id="469f13e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4242e07 elementor-nav-menu__align-end elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-widget elementor-widget-nav-menu" data-id="4242e07" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menü" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-4242e07" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="https://www.winner-spedition.de/impressum/" class="elementor-item">Impressum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-175"><a rel="privacy-policy" href="https://www.winner-spedition.de/datenschutz/" class="elementor-item">Datenschutz</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-4242e07" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="https://www.winner-spedition.de/impressum/" class="elementor-item" tabindex="-1">Impressum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-175"><a rel="privacy-policy" href="https://www.winner-spedition.de/datenschutz/" class="elementor-item" tabindex="-1">Datenschutz</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/winner/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="importmap" id="wp-importmap">
+{"imports":{"borlabs-cookie-core":"https://www.winner-spedition.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.4"}}
+</script>
+<script type="module" src="https://www.winner-spedition.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.4" id="borlabs-cookie-core-js-module" data-cfasync="false" data-no-minify="1" data-no-optimize="1"></script>
+<script type="module" src="https://www.winner-spedition.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-legacy-backward-compatibility.min.js?ver=3.4" id="borlabs-cookie-legacy-backward-compatibility-js-module"></script>
+<!--googleoff: all--><div data-nosnippet data-borlabs-cookie-consent-required='true' id='BorlabsCookieBox'></div><div id='BorlabsCookieWidget' class='brlbs-cmpnt-container'></div><!--googleon: all-->			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link data-minify="1" rel='stylesheet' id='dashicons-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1778726112' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='gform_basic-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=1778726112' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.10.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-2-css' href='https://www.winner-spedition.de/wp-content/uploads/elementor/css/post-2.css?ver=1778726111' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1333-css' href='https://www.winner-spedition.de/wp-content/uploads/elementor/css/post-1333.css?ver=1778726111' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='jet-map-css' href='https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/plugins/jet-elements/assets/css/addons/jet-map.css?ver=1778726112' type='text/css' media='all' />
+<script data-minify="1" type="text/javascript" src="https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/themes/winner/assets/js/matchheight.js?ver=1773282930" id="matchheight-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/themes/winner/assets/js/popper.min.js?ver=6.9.4" id="popper-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/themes/winner/assets/js/bootstrap-5.min.js?ver=6.9.4" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/themes/winner/assets/js/slick.min.js?ver=6.9.4" id="slick-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/themes/winner/assets/js/js.cookie.min.js?ver=6.9.4" id="cookie-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.winner-spedition.de/wp-content/cache/min/1/wp-content/themes/winner/assets/js/scripts.js?ver=1773282930" id="scripts-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.8" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" id="elementor-frontend-modules-js-before">
+/* <![CDATA[ */
+(function() {
+    const allFbWidgets = document.querySelectorAll('div.elementor-widget[data-widget_type^="facebook"]');
+    for (let fb of allFbWidgets) {
+        fb.dataset.widget_type = 'brlabs_' + fb.dataset.widget_type;
+    }
+})();
+(function() {
+    const allYtWidgets = document.querySelectorAll('div.elementor-widget-video[data-widget_type^="video."][data-settings*="youtube_url"]');
+    for (let yt of allYtWidgets) {
+        if (yt.dataset.brlbsUnblocked === 'true') {
+            continue;
+        }
+        yt.dataset.widget_type = 'brlbs_' + yt.dataset.widget_type;
+        yt.dataset.settings = yt.dataset.settings.replace('show_image_overlay', 'brlbs_dont_show_image_overlay');
+    }
+})();
+(function() {
+    window.addEventListener( 'elementor/frontend/init', function() {
+        let first = true;
+        elementorFrontend.hooks.addAction('frontend/element_ready/global', () => {
+            if (first === true) {
+                first = false;
+                const allYoutubeBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]');
+                if (allYoutubeBgs.length > 0) {
+                    const ytApiReadyOriginal = elementorFrontend.utils.youtube.onApiReady;
+                    let waitingYtCounter = 0;
+                    elementorFrontend.utils.youtube.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_yt_unblocked', () => {
+                            ytApiReadyOriginal.call(elementorFrontend.utils.youtube, callback);
+                        });
+                        if (++waitingYtCounter === allYoutubeBgs.length) {
+                            elementorFrontend.utils.youtube.onApiReady = ytApiReadyOriginal;
+                            window.brlbsElementorBgVideoYtUnblockReady = { state: true };
+                        }
+                    }
+                }
+
+                const allVimeoBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]');
+                if (allVimeoBgs.length > 0) {
+                    const vimeoApiReadyOriginal = elementorFrontend.utils.vimeo.onApiReady;
+                    let waitingVimeoCounter = 0;
+                    elementorFrontend.utils.vimeo.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_vimeo_unblocked', () => {
+                            vimeoApiReadyOriginal.call(elementorFrontend.utils.vimeo, callback);
+                        });
+                        if (++waitingVimeoCounter === allVimeoBgs.length) {
+                            elementorFrontend.utils.vimeo.onApiReady = vimeoApiReadyOriginal;
+                            window.brlbsElementorBgVideoVimeoUnblockReady = { state: true };
+                        }
+                    }
+                }
+            }
+        });
+    });
+})();
+//# sourceURL=elementor-frontend-modules-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.8" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen","a11yCarouselPrevSlideMessage":"Vorheriger Slide","a11yCarouselNextSlideMessage":"N\u00e4chster Slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobil Hochformat","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobil Querformat","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Hochformat","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Querformat","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.0.8","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/www.winner-spedition.de\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/www.winner-spedition.de\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/www.winner-spedition.de\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"7bc2fcf93e","atomicFormsSendForm":"a96711987e"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2,"title":"Home%20-%20Winner%20Spedition","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.8" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js?ver=2.0.2" id="jet-tween-js-js"></script>
+<script type="text/javascript" id="jet-elements-js-extra">
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https://www.winner-spedition.de/wp-admin/admin-ajax.php","isMobile":"false","templateApiUrl":"https://www.winner-spedition.de/wp-json/jet-elements-api/v1/elementor-template","devMode":"false","mapboxToken":"","messages":{"invalidMail":"Please specify a valid e-mail"}};
+//# sourceURL=jet-elements-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.8.1.1" id="jet-elements-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/jet-elements/assets/js/addons/jet-instagram-gallery.min.js?ver=2.8.1.1" id="jet-instagram-gallery-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/jet-elements/assets/js/lib/salvattore/salvattore.min.js?ver=1.0.9" id="jet-salvattore-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-05-13 12:34:37+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Notifications":["Benachrichtigungen"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.1" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Di","wednesday":"Mi","thursday":"Do","friday":"Fr","saturday":"Sa","sunday":"So"},"months":{"january":"Januar","february":"Februar","march":"M\u00e4rz","april":"April","may":"Mai","june":"Juni","july":"Juli","august":"August","september":"September","october":"Oktober","november":"November","december":"Dezember"},"firstDay":1,"iconText":"Datum ausw\u00e4hlen"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Dieser Dateityp kann nicht hochgeladen werden. Zul\u00e4ssig sind die folgenden:","delete_file":"Diese Datei l\u00f6schen","in_progress":"In Bearbeitung","file_exceeds_limit":"Maximale Dateigr\u00f6\u00dfe \u00fcberschritten","illegal_extension":"Dateityp nicht zul\u00e4ssig.","max_reached":"Maximale Dateianzahl erreicht","unknown_error":"Ein Problem ist beim Speichern der Datei auf dem Server aufgetreten.","currently_uploading":"Bitte warte bis alle Dateien vollst\u00e4ndig hochgeladen wurden.","cancel":"Abbrechen","cancel_upload":"Upload abbrechen","cancelled":"Abgebrochen","error":"Fehler","message":"Nachricht"},"vars":{"images_url":"https://www.winner-spedition.de/wp-content/plugins/gravityforms/images"}};
+var gf_legacy = {"is_legacy":""};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2,"code":"EUR"},"base_url":"https://www.winner-spedition.de/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://www.winner-spedition.de/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"6f3ee047b8e5013348bf00737076379a","strings":{"newRowAdded":"Neue Zeile hinzugef\u00fcgt.","rowRemoved":"Zeile entfernt","formSaved":"Das Formular wurde gespeichert. Der Inhalt beinhaltet den Link zum Zur\u00fcckkehren und Vervollst\u00e4ndigen des Formulars."}};
+//# sourceURL=gform_gravityforms-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.1" id="gform_gravityforms-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/js/datepicker-legacy.min.js?ver=2.10.1" id="gform_datepicker_legacy-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.10.1" id="gform_datepicker_init-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/plupload/moxie.min.js?ver=1.3.5.1" id="moxiejs-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-includes/js/plupload/plupload.min.js?ver=2.1.9" id="plupload-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4f8b3915c1c1e1a6800825abd64b03cb" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"6f3ee047b8e5013348bf00737076379a"},"ajax":{"ajaxurl":"https://www.winner-spedition.de/wp-admin/admin-ajax.php","ajax_submission_nonce":"2388040b65","i18n":{"step_announcement":"Schritt %1$s von %2$s, %3$s","unknown_error":"Bei der Bearbeitung deiner Anfrage ist ein unbekannter Fehler aufgetreten. Bitte versuche es erneut.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"7958696cb6"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.winner-spedition.de/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=25ebbbc2c63c6c71b95c9eb867a9072b" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/jet-elements/assets/js/addons/jet-map.min.js?ver=2.8.1.1" id="jet-map-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.4" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.winner-spedition.de\/wp-admin\/admin-ajax.php","nonce":"8be46f7751","urls":{"assets":"https:\/\/www.winner-spedition.de\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.winner-spedition.de\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"de_DE","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.winner-spedition.de\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.0.4" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://www.winner-spedition.de/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.0.4" id="pro-elements-handlers-js"></script>
+<template id="brlbs-cmpnt-cb-template-vimeo-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="vimeo-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-vimeo"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-vimeo-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Vimeo</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerVimeo = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getVimeoId = url => (url.match(/vimeo\.com\/(?:.*\/)?([0-9]+)/) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        if (true !== true) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const vimeoId = getVimeoId(settings.background_video_link);
+        if (vimeoId == null) {
+            return null;
+        }
+        return 'url("https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/vimeo_' + vimeoId + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-vimeo-content-blocker');
+    for (let videoContainer of allBackgroundContainerVimeo) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvVmltZW9VbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9fdmltZW9fdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-youtube-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="youtube-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-youtube"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-youtube-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>YouTube</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerYt = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getYouTubeId = url => (url.match(new RegExp("(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})")) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        const thumbnailQuality = 'hqdefault';
+        if (thumbnailQuality === 'none' || videoContainer.dataset.settings == null) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const ytId = getYouTubeId(settings.background_video_link);
+        if (ytId == null) {
+            return null;
+        }
+        return 'url("https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/yt_' + ytId + '_' + thumbnailQuality + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-youtube-content-blocker');
+    for (let videoContainer of allBackgroundContainerYt) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvWXRVbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9feXRfdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-elementor-recaptcha">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="elementor-recaptcha" data-borlabs-cookie-content="PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgY29uc3QgZWxlbWVudG9yRm9ybSA9IGRvY3VtZW50LmN1cnJlbnRTY3JpcHQuY2xvc2VzdCgnZm9ybS5lbGVtZW50b3ItZm9ybScpOwogICAgaWYgKGVsZW1lbnRvckZvcm0gPT0gbnVsbCkgewogICAgICAgIHJldHVybjsKICAgIH0KICAgIGVsZW1lbnRvckZvcm0ucXVlcnlTZWxlY3RvckFsbCgnLmVsZW1lbnRvci1maWVsZC10eXBlLXN1Ym1pdCBidXR0b24nKS5mb3JFYWNoKGJ0biA9PiBidG4uZGlzYWJsZWQgPSBmYWxzZSk7Cn0pKCk7Cjwvc2NyaXB0Pg=="><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-elementor-recaptcha"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/bct-google-recaptcha-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie müssen den Inhalt von <strong>reCAPTCHA</strong> laden, um das Formular abzuschicken. Bitte beachten Sie, dass dabei Daten mit Drittanbietern ausgetauscht werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-elementor-recaptcha");
+    const divsToInsertBlocker = document.querySelectorAll('.elementor-field-type-recaptcha_v3 .elementor-field,.elementor-field-type-recaptcha .elementor-field');
+    for (const div of divsToInsertBlocker) {
+        const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(cb);
+
+        const elementorForm = div.closest('form.elementor-form');
+        if (elementorForm != null) {
+            elementorForm.querySelectorAll('.elementor-field-type-submit button').forEach(btn => btn.disabled = true);
+        }
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-facebook-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="facebook-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-facebook"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/cb-facebook-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Facebook</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+        const template = document.querySelector("#brlbs-cmpnt-cb-template-facebook-content-blocker");
+        const divsToInsertBlocker = document.querySelectorAll('div.fb-video[data-href*="//www.facebook.com/"], div.fb-post[data-href*="//www.facebook.com/"]');
+        for (const div of divsToInsertBlocker) {
+            const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+            div.replaceWith(blocked);
+        }
+})()
+</script><template id="brlbs-cmpnt-cb-template-gravity-forms-recaptcha">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="gravity-forms-recaptcha" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-recaptcha-gravity-forms"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/bct-google-recaptcha-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie müssen den Inhalt von <strong>reCAPTCHA</strong> laden, um das Formular abzuschicken. Bitte beachten Sie, dass dabei Daten mit Drittanbietern ausgetauscht werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-gravity-forms-recaptcha");
+    const divsToInsertBlocker = document.querySelectorAll('div.ginput_container.ginput_recaptcha');
+    for (const div of divsToInsertBlocker) {
+        const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(cb);
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-instagram">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="instagram" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-instagram"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/cb-instagram-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Instagram</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-instagram");
+    const divsToInsertBlocker = document.querySelectorAll('blockquote.instagram-media[data-instgrm-permalink*="instagram.com/"],blockquote.instagram-media[data-instgrm-version]');
+    for (const div of divsToInsertBlocker) {
+        const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+        div.replaceWith(blocked);
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-google-maps-jet-elements">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="google-maps-jet-elements" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-google-maps-jet-elements"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-google-maps-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Google Maps</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-google-maps-jet-elements");
+    const divsToInsertBlocker = document.querySelectorAll('[data-widget_type="jet-map.default"] .jet-map');
+    for (const div of divsToInsertBlocker) {
+        const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(cb);
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-x-alias-twitter-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="x-alias-twitter-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-x"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.winner-spedition.de/wp-content/uploads/borlabs-cookie/1/cb-twitter-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>X</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+        const template = document.querySelector("#brlbs-cmpnt-cb-template-x-alias-twitter-content-blocker");
+        const divsToInsertBlocker = document.querySelectorAll('blockquote.twitter-tweet,blockquote.twitter-video');
+        for (const div of divsToInsertBlocker) {
+            const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+            div.replaceWith(blocked);
+        }
+})()
+</script>		<script>
+		(function() {
+			'use strict';
+			var parentSelector = '.menu-item.wpml-ls-current-language.menu-item-has-children';
+			
+			function toggleSubmenu(link, forceClose) {
+				var isExpanded = link.getAttribute('aria-expanded') === 'true';
+				if (forceClose || isExpanded) {
+					link.setAttribute('aria-expanded', 'false');
+				} else {
+					link.setAttribute('aria-expanded', 'true');
+				}
+			}
+			
+			function handleKeydown(e) {
+				var key = e.key || e.keyCode;
+				if (key === 'Enter' || key === ' ' || key === 13 || key === 32) {
+					e.preventDefault();
+					toggleSubmenu(this);
+				} else if (key === 'Escape' || key === 'Esc' || key === 27) {
+					if (this.getAttribute('aria-expanded') === 'true') {
+						e.preventDefault();
+						toggleSubmenu(this, true);
+					}
+				}
+			}
+			
+			function handleBlur(e) {
+				var link = this;
+				var parent = link.closest(parentSelector);
+				if (!parent) return;
+				
+				setTimeout(function() {
+					if (!parent.contains(document.activeElement)) {
+						toggleSubmenu(link, true);
+					}
+				}, 100);
+			}
+			
+			function init() {
+				var parents = document.querySelectorAll(parentSelector);
+				for (var i = 0; i < parents.length; i++) {
+					var link = parents[i].querySelector('a[aria-expanded]');
+					if (link) {
+						link.addEventListener('keydown', handleKeydown);
+						link.addEventListener('blur', handleBlur);
+					}
+				}
+			}
+			
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', init);
+			} else {
+				init();
+			}
+		})();
+		</script>
+		<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+
+
+	<script>
+		(function($, elementor, borlabs) {
+
+		function init() {
+			init_gmaps();
+			init_instagram_gallery();
+		}
+
+	    function init_gmaps() {
+	    	// Google Maps
+	        if (borlabs.checkCookieConsent('googlemaps')) {
+	            jQuery.getScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBtuarWTgCwUTK2iGPF5EHVyLkog047F4Y&ver=6.0.2', () => {
+	                if ($('div[data-widget_type="jet-map.default"]').length) {
+	                    $('div[data-widget_type="jet-map.default"]').toArray().forEach((e) => {
+	                        elementor.hooks.doAction('frontend/element_ready/jet-map.default', $(e), jQuery)
+	                    })
+	                }
+	            })
+	        } else {
+	        	if($('div[data-widget_type="jet-map.default"]').length) {
+	        		$('div[data-widget_type="jet-map.default"] .jet-map').addClass('borlabs-cookie-preference');
+                }
+	        }
+	    }
+
+		function init_instagram_gallery() {
+			if (borlabs.checkCookieConsent('instagram')) {
+				const elements = $('.jet-instagram-gallery__instance__blocked');
+				if (elements.length) {
+					elements.toArray().forEach((e) => {
+						$(e).removeClass('jet-instagram-gallery__instance__blocked')
+						.addClass('jet-instagram-gallery__instance');
+						$(e).parent().next().css('display', 'none');
+						elementor.hooks.doAction('frontend/element_ready/jet-instagram-gallery.default', $(e), jQuery)
+					});
+				}
+			}
+		}
+
+		$( window ).on( 'elementor/frontend/init', init );
+
+	})(window.jQuery, window.elementorFrontend, window.BorlabsCookie);
+	</script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1778726112 -->

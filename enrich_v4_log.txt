@@ -1,0 +1,53 @@
+[11:11:43] ==================================================
+[11:11:43] Website Enrichment V4 | start=0 batch=25
+[11:11:44] Need enrichment: 1032
+[11:11:44] [1/25] Brauerei Mahrs (Bamberg)
+[11:11:56]   OK: https://www.mahrs.de | 169604b | email=info@mahrs.de
+[11:11:56] [2/25] 100% Bamberg e.K. (Bamberg)
+[11:11:59]   OK: https://www.100prozentbamberg.de | 435999b | email=info@freilich-hallstadt.de
+[11:11:59] [3/25] Kuhn GmbH (Bamberg)
+[11:12:12]   OK: https://kuhn-gmbh.de | 500000b | email=-
+[11:12:12] [4/25] Müllheizkraftwerk Bamberg (Bamberg)
+[11:12:16]   OK: https://mhkw-ba.de | 21266b | email=info@mhkw.bamberg.de
+[11:12:16] [5/25] upjers GmbH (Bamberg)
+[11:12:21]   OK: https://company.upjers.com | 19262b | email=-
+[11:12:21] [6/25] OKAL Musterhaus Bamberg (Bamberg)
+[11:12:28]   OK: https://www.okal.de/okal-in-ihrer-naehe/musterhaeuser/muster | 85317b | email=-
+[11:12:28] [7/25] STADTBAU GMBH BAMBERG (Bamberg)
+[11:12:32]   OK: https://stadtbau-bamberg.de | 121212b | email=info@stadtbau-bamberg.de
+[11:12:32] [8/25] Stadt Bamberg (Bamberg)
+[11:12:39]   OK: https://www.stadt.bamberg.de | 85959b | email=-
+[11:12:39] [9/25] Technisches Rathaus Bamberg (Bamberg)
+[11:12:43]   OK: https://www.stadt.bamberg.de/B%C3%BCrgerservice/Beh%C3%B6rde | 72819b | email=-
+[11:12:43] [10/25] Staatliches Bauamt Bamberg (Bamberg)
+[11:12:49]   OK: https://www.stbaba.bayern.de | 60033b | email=-
+[11:12:49] [11/25] Bamberger Kühlhaus GmbH & Co. KG (Bamberg)
+[11:12:53]   OK: https://bkr-regus.de/en/home-en-2 | 56645b | email=-
+[11:12:53] [12/25] Wolfgang Grader (Bamberg)
+[11:13:01]   OK: https://www.gruenes-bamberg.de/platz-18-wolfgang-grader/ | 110781b | email=fraktion@gruenes-bamberg.de
+[11:13:01] [13/25] Marketing Gruppe Bamberg GmbH (Bamberg)
+[11:13:06]   OK: https://mg-bamberg.com | 500000b | email=info@mgbamberg.de
+[11:13:06] [14/25] Evernest Bamberg - Jakob Immobilien (Bamberg)
+[11:13:11]   OK: https://www.evernest.com/de/unsere-makler/bamberg/ | 285100b | email=info@evernest.com
+[11:13:11] [15/25] VEIT Immobilien - Immobilienmakler Bamberg (Bamberg)
+[11:13:14]   OK: https://www.veit-immobilien.de | 32635b | email=info@veit-immobilien.de
+[11:13:14] [16/25] Stadtplanungsamt (Bamberg)
+[11:13:21]   OK: https://www.stadt.bamberg.de/index.php?NavID=1829.185 | 93871b | email=-
+[11:13:21] [17/25] Handwerkskammer für Oberfranken - Bildungszentrum Bamberg (Bamberg)
+[11:13:24]   OK: https://www.hwk-oberfranken.de/artikel/das-neue-bildungszent | 65028b | email=info@hwk-oberfranken.de
+[11:13:24] [18/25] Lagarde Höfe Bamberg (Bamberg)
+[11:13:26] [19/25] Immobilien Zimmermann (Bamberg)
+[11:13:32]   OK: https://www.zimmermann-immobilien.de/startseite | 13003b | email=-
+[11:13:32] [20/25] Immobilienkanzlei Kerstin Hübner (Bamberg)
+[11:13:41]   OK: https://www.immobilienkanzleihuebner.de | 13098b | email=-
+[11:13:41] [21/25] Lagarde (Bamberg)
+[11:13:45]   OK: https://lagarde1.de | 103514b | email=hallo@lagarde1.de
+[11:13:45] [22/25] Christian Heber (Bamberg)
+[11:13:46] [23/25] Arbeitsgericht Bamberg (Bamberg)
+[11:13:51]   OK: https://www.arbg.bayern.de/die-arbeitsgerichtsbarkeit-in-bay | 69026b | email=poststelle@arbg-ba.bayern.de
+[11:13:51] [24/25] E C+C Großmarkt (Bamberg)
+[11:13:54]   OK: https://edeka-foodservice.de/edeka-foodservice-in-meiner-nae | 70812b | email=info@edeka-foodservice.de
+[11:13:54] [25/25] Volker Maisel Immobilien, Kunst & Denkmalpflege (Bamberg)
+[11:13:58]   OK: https://www.atelier-maisel.de | 9457b | email=-
+[11:13:58] 
+Done! OK:23 Fail:2 NoWeb:0 | Total enriched:139

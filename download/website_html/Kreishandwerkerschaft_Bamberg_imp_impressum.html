@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="de-de" dir="ltr">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<base href="http://www.khs-bamberg.de/impressum" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Kreishandwerkerschaft, Bamberg, Innung, Handwerk, Handwerksbetrieb" />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="Die Kreishandwerkerschaft Bamberg betreut die ihr angeschlossenen Innungen und vertritt sowohl die Interessen jedes einzelnen Mitgliedsbetriebes als auch die Interessen des Gesamthandwerkes." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Impressum</title>
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/plugins/system/cookiehint/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="http://www.khs-bamberg.de/templates/a4joomla-countryside3r/css/template-grey.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css?75bf1c61bf9a0604d6a3be487080432a" rel="stylesheet" type="text/css" />
+	<link href="/media/com_finder/css/finder.css?75bf1c61bf9a0604d6a3be487080432a" rel="stylesheet" type="text/css" />
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"13f5736c93ced11a41143fd9506e71cf","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="/media/jui/js/jquery.min.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.autocomplete.min.js?75bf1c61bf9a0604d6a3be487080432a" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Werte eingeben oder ausw\u00e4hlen","placeholder_text_single":"Wert ausw\u00e4hlen","no_results_text":"Keine Ergebnisse gefunden!"});
+		}
+	});
+	
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword100');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Suche ...')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform100').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced100');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword100').autocomplete({
+		serviceUrl: '/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});
+	</script>
+
+
+	<link rel="stylesheet" href="/templates/a4joomla-countryside3r/css/icomoon2.css" type="text/css" />
+
+<style type="text/css">
+ #logo h2 {
+    font-size:32px;
+	margin-top:5px;
+ }
+ #logo h3 {
+	margin-top:-5px;
+ }
+ #hsocial {
+	margin-top:20px;
+ } 
+ #topmenu {
+	margin-top:0px;
+ } 
+ #slideshow-mod {
+  padding-top:0px;
+ } 
+</style>
+
+<!--[if lt IE 9]>
+	<script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 7]>
+	<script src="/templates/a4joomla-countryside3r/js/lte-ie7.js"></script>
+<![endif]-->
+
+<!-- BEGIN Advanced Google Analytics - http://deconf.com/advanced-google-analytics-joomla/ -->
+<script type="text/javascript">
+(function($){
+    $(window).load(function() {
+            $('a').filter(function() {
+				return this.href.match(/.*\.(zip|mp3|mpeg|pdf|doc*|ppt*|xls*|jpeg|png|gif|tiff)/);
+            }).click(function(e) {
+                ga('send','event', 'download', 'click', this.href);
+            });
+            $('a[href^="mailto"]').click(function(e) {
+                ga('send','event', 'email', 'send', this.href);
+             });
+            var loc = location.host.split('.');
+            while (loc.length > 2) { loc.shift(); }
+            loc = loc.join('.');
+            var localURLs = [
+                              loc,
+                              'www.khs-bamberg.de'
+                            ];
+            $('a[href^="http"]').filter(function() {
+                for (var i = 0; i < localURLs.length; i++) {
+                    if (this.href.indexOf(localURLs[i]) == -1) return this.href;
+                }
+            }).click(function(e) {
+                ga('send','event', 'outbound', 'click', this.href);
+            });
+    });
+})(jQuery);
+</script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55200947-1', 'khs-bamberg.de');  
+  
+ga('require', 'displayfeatures');
+ga('set', 'anonymizeIp', true);
+ga('set', 'dimension2', 'Seite allgemein');
+ga('set', 'dimension3', '2014');
+ga('set', 'dimension4', 'guest');
+ga('send', 'pageview');
+</script>
+<!-- END Advanced Google Analytics -->
+
+
+</head>
+<body>
+<aside>
+<div id="redim-cookiehint">
+	<div class="cookiecontent">
+		Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies verwenden.	</div>
+	<div class="cookiebuttons">
+			<button id="cookiehintsubmit" type="button" class="btn">Ok</button>
+	</div>
+	<div class="clr"></div>
+</div>	
+<script type="text/javascript">
+window.addEventListener('load',	
+	function () {
+		jQuery('#cookiehintsubmit').on('click', function () {
+			document.cookie = 'reDimCookieHint=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;';
+			jQuery('#redim-cookiehint').fadeOut();
+		})
+	}
+);
+</script>	
+</aside>
+
+
+
+<div id="header" class="container">      
+		<div class="row">
+			<div id="logo" class="span5">
+									<a href="http://www.khs-bamberg.de/"><img src="/images/headers/KHS.png"  border="0" alt="" /></a>
+				 
+			</div>
+			<div id="headerright" class="span7">
+								<div id="hsocial" class="row">
+											<div id="search" class="span3 pull-right clearfix">
+									<div class="moduletable">
+							<h3>Suchen</h3>
+						
+<div class="finder">
+	<form id="mod-finder-searchform100" action="/component/finder/search" method="get" class="form-search" role="search">
+		<label for="mod-finder-searchword100" class="element-invisible finder">Suchen</label><input type="text" name="q" id="mod-finder-searchword100" class="search-query input-medium" size="25" value="" placeholder="Suche ..."/>
+						<input type="hidden" name="Itemid" value="112" />	</form>
+</div>
+		</div>
+	  
+						</div>
+										<div id="soci" class="span4 pull-right">
+																																																																																										</div>
+				</div>	
+			</div>
+		</div>
+					<div id="topmenu" class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<div class="container">
+													<span class="brand hidden-tablet hidden-desktop">MENU</span>
+						 
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-downarrow"></span>
+						</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav menu  nav-dropdown">
+<li class="item-101"><a href="/" title="Herzlich Willkommen bei der Kreishandwerkerschaft Bamberg" >Startseite</a></li><li class="item-118"><a href="/kontakt" >Kontakt</a></li><li class="item-114"><a href="/kreishandwerkerschaft-bamberg" >Kreishandwerkerschaft</a></li><li class="item-108 deeper dropdown parent"><a class=" dropdown-toggle" data-toggle="dropdown" href="/innung-bamberg" >Innungen<b class="caret"></b></a><ul class="dropdown-menu"><li class="item-119 deeper dropdown-submenu parent"><a href="/innung-bamberg/baecker/vorstandschaft-und-kontakt" >Bäcker</a><ul class="dropdown-menu"><li class="item-137"><a href="/innung-bamberg/baecker/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-152"><a href="/innung-bamberg/baecker/formulare-downloads" >Formulare und Downloads</a></li><li class="item-319"><a href="/innung-bamberg/baecker/mitglieder-der-baecker-innung-bamberg-forchheim" >Mitglieder der Bäcker-Innung Bamberg/Forchheim</a></li></ul></li><li class="item-120 deeper dropdown-submenu parent"><a href="/innung-bamberg/bau/vorstandschaft-und-kontakt" >Bau</a><ul class="dropdown-menu"><li class="item-161"><a href="/innung-bamberg/bau/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-177"><a href="/innung-bamberg/bau/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-318"><a href="/innung-bamberg/bau/mitgliedsbetriebe" >Mitglieder der Bau-Innung Bamberg</a></li></ul></li><li class="item-121 deeper dropdown-submenu parent"><a href="/innung-bamberg/bekleidung/vorstandschaft-und-kontakt" >Bekleidung</a><ul class="dropdown-menu"><li class="item-162"><a href="/innung-bamberg/bekleidung/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-178"><a href="/innung-bamberg/bekleidung/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-320"><a href="/innung-bamberg/bekleidung/mitglieder-der-innung-des-bekleidungshandwerks-bamberg-forchheim" >Mitglieder der Innung des Bekleidungshandwerks Bamberg/Forchheim</a></li></ul></li><li class="item-122 deeper dropdown-submenu parent"><a href="/innung-bamberg/bildhauer-steinmetz/vorstandschaft-und-kontakt" >Bildhauer und Steinmetze</a><ul class="dropdown-menu"><li class="item-163"><a href="/innung-bamberg/bildhauer-steinmetz/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-187"><a href="/innung-bamberg/bildhauer-steinmetz/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-321"><a href="/innung-bamberg/bildhauer-steinmetz/mitglieder-der-steinmetz-und-bildhauer-innung-bamberg" >Mitglieder der Steinmetz- und Bildhauer-Innung Bamberg</a></li></ul></li><li class="item-123 deeper dropdown-submenu parent"><a href="/innung-bamberg/brauer-maelzer/vorstandschaft-und-kontakt" >Brauer und Mälzer</a><ul class="dropdown-menu"><li class="item-164"><a href="/innung-bamberg/brauer-maelzer/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li></ul></li><li class="item-124 deeper dropdown-submenu parent"><a href="/innung-bamberg/dachdecker/vorstandschaft-und-kontakt" >Dachdecker</a><ul class="dropdown-menu"><li class="item-165"><a href="/innung-bamberg/dachdecker/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-179"><a href="/innung-bamberg/dachdecker/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-322"><a href="/innung-bamberg/dachdecker/mitglieder-der-dachdecker-innung-bamberg-forchheim" >Mitglieder der Dachdecker-Innung Bamberg/Forchheim</a></li></ul></li><li class="item-125 deeper dropdown-submenu parent"><a href="/innung-bamberg/elektro/vorstandschaft-und-kontakt" >Elektro</a><ul class="dropdown-menu"><li class="item-166"><a href="/innung-bamberg/elektro/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-180"><a href="/innung-bamberg/elektro/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-323"><a href="/innung-bamberg/elektro/mitglieder-der-elektro-innung-bamberg" >Mitglieder der Elektro-Innung Bamberg</a></li></ul></li><li class="item-126 deeper dropdown-submenu parent"><a href="/innung-bamberg/fleischer/vorstandschaft-und-kontakt" >Fleischer</a><ul class="dropdown-menu"><li class="item-167"><a href="/innung-bamberg/fleischer/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li></ul></li><li class="item-127 deeper dropdown-submenu parent"><a href="/innung-bamberg/friseur/vorstandschaft-und-kontakt" >Friseur</a><ul class="dropdown-menu"><li class="item-168"><a href="/innung-bamberg/friseur/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-182"><a href="/innung-bamberg/friseur/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-328"><a href="/innung-bamberg/friseur/mitglieder-der-friseur-innung-bamberg-coburg-lichtenfels" >Mitglieder der Friseur-Innung Bamberg - Coburg - Lichtenfels</a></li><li class="item-332"><a href="/innung-bamberg/friseur/ueberbetriebliche-lehrlingsunterweisung" >Überbetriebliche Lehrlingsunterweisung</a></li></ul></li><li class="item-128 deeper dropdown-submenu parent"><a href="/innung-bamberg/maler/vorstandschaft-und-kontakt" >Maler</a><ul class="dropdown-menu"><li class="item-169"><a href="/innung-bamberg/maler/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li></ul></li><li class="item-130 deeper dropdown-submenu parent"><a href="/innung-bamberg/metall/vorstandschaft-und-kontakt" >Metall</a><ul class="dropdown-menu"><li class="item-171"><a href="/innung-bamberg/metall/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-184"><a href="/innung-bamberg/metall/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-330"><a href="/innung-bamberg/metall/mitglieder-der-metall-innung-bamberg" >Mitglieder der Metall-Innung Bamberg</a></li></ul></li><li class="item-131 deeper dropdown-submenu parent"><a href="/innung-bamberg/mueller/vorstandschaft-und-kontakt" >Müller</a><ul class="dropdown-menu"><li class="item-172"><a href="/innung-bamberg/mueller/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li></ul></li><li class="item-132 deeper dropdown-submenu parent"><a href="/innung-bamberg/shk/vorstandschaft-und-kontakt" >SHK</a><ul class="dropdown-menu"><li class="item-173"><a href="/innung-bamberg/shk/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-186"><a href="/innung-bamberg/shk/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-329"><a href="/innung-bamberg/shk/mitglieder-der-innung-sanitaer-heizungs-und-klimatechnik-bamberg" >Mitglieder der Innung Sanitär-, Heizungs- und Klimatechnik Bamberg</a></li></ul></li><li class="item-133 deeper dropdown-submenu parent"><a href="/innung-bamberg/schreiner/vorstandschaft-und-kontakt" >Schreiner</a><ul class="dropdown-menu"><li class="item-174"><a href="/innung-bamberg/schreiner/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-185"><a href="/innung-bamberg/schreiner/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-326"><a href="/innung-bamberg/schreiner/mitglieder-der-schreiner-innung-bamberg" >Mitglieder der Schreiner-Innung Bamberg</a></li></ul></li><li class="item-134 deeper dropdown-submenu parent"><a href="/innung-bamberg/textilreiniger/vorstandschaft-und-kontakt" >Textilreiniger</a><ul class="dropdown-menu"><li class="item-175"><a href="/innung-bamberg/textilreiniger/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-188"><a href="/innung-bamberg/textilreiniger/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-325"><a href="/innung-bamberg/textilreiniger/mitglieder-der-textilreiniger-innung-ober-und-unterfranken" >Mitglieder der Textilreiniger-Innung Ober- und Unterfranken</a></li></ul></li><li class="item-135 deeper dropdown-submenu parent"><a href="/innung-bamberg/zimmerer/vorstandschaft-und-kontakt" >Zimmerer</a><ul class="dropdown-menu"><li class="item-176"><a href="/innung-bamberg/zimmerer/vorstandschaft-und-kontakt" >Vorstandschaft und Kontakt</a></li><li class="item-189"><a href="/innung-bamberg/zimmerer/formulare-und-downloads" >Formulare und Downloads</a></li><li class="item-324"><a href="/innung-bamberg/zimmerer/mitglieder-der-zimmerer-innung-bamberg" >Mitglieder der Zimmerer-Innung Bamberg</a></li></ul></li><li class="item-136"><a href="/innung-bamberg/weitere-innungen" >Weitere Innungen</a></li></ul></li><li class="item-156 deeper dropdown parent"><a class=" dropdown-toggle" data-toggle="dropdown" href="/downloads" >Downloads<b class="caret"></b></a><ul class="dropdown-menu"><li class="item-157"><a href="/downloads/allgemein" >Allgemein</a></li><li class="item-158"><a href="/downloads/baecker" >Bäcker</a></li><li class="item-200"><a href="/downloads/bau" >Bau</a></li><li class="item-201"><a href="/downloads/bekleidung" >Bekleidung</a></li><li class="item-202"><a href="/downloads/dachdecker" >Dachdecker</a></li><li class="item-203"><a href="/downloads/elektro" >Elektro</a></li><li class="item-204"><a href="/downloads/fleischer" >Fleischer</a></li><li class="item-205"><a href="/downloads/friseur" >Friseur</a></li><li class="item-207"><a href="/downloads/metall" >Metall</a></li><li class="item-208"><a href="/downloads/schreiner" >Schreiner</a></li><li class="item-209"><a href="/downloads/shk" >SHK</a></li><li class="item-210"><a href="/downloads/steinmetz" >Steinmetz</a></li><li class="item-211"><a href="/downloads/textilreiniger" >Textilreiniger</a></li><li class="item-212"><a href="/downloads/zimmerer" >Zimmerer</a></li></ul></li><li class="item-115 deeper dropdown parent"><a class=" dropdown-toggle" data-toggle="dropdown" href="/handwerkskammer-fuer-oberfranken" >Handwerkskammer Oberfranken<b class="caret"></b></a><ul class="dropdown-menu"><li class="item-155"><a href="/handwerkskammer-fuer-oberfranken/sachverstaendige" >Sachverständige</a></li></ul></li></ul>
+
+						</div>
+					</div>
+				</div>
+			</div> 
+				
+</div>
+
+
+
+
+
+	<div id="wrap" class="container">
+
+					<div id="pathway">
+				
+<div class="breadcrumb">
+<span class="showHere">Aktuelle Seite: </span><a href="/" class="pathway">Startseite</a> <img src="/templates/a4joomla-countryside3r/images/system/arrow.png" alt="" /> <span>Impressum</span></div>
+
+			</div>
+		 
+				<div id="cbody" class="row-fluid">
+							<div id="sidebar" class="span3">     
+							<div class="moduletable">
+							<h3>Anmeldung</h3>
+						<form action="/impressum" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-user hasTooltip" title="Benutzername"></span>
+							<label for="modlgn-username" class="element-invisible">Benutzername</label>
+						</span>
+						<input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="Benutzername" />
+					</div>
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-lock hasTooltip" title="Passwort">
+							</span>
+								<label for="modlgn-passwd" class="element-invisible">Passwort							</label>
+						</span>
+						<input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Passwort" />
+					</div>
+							</div>
+		</div>
+										<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Angemeldet bleiben</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn">Anmelden</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+							<li>
+					<a href="/component/users/?view=remind">
+					</a>
+				</li>
+				<li>
+					<a href="/component/users/?view=reset">
+					</a>
+				</li>
+			</ul>
+		<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aHR0cDovL3d3dy5raHMtYmFtYmVyZy5kZS9pbXByZXNzdW0=" />
+		<input type="hidden" name="13f5736c93ced11a41143fd9506e71cf" value="1" />	</div>
+	</form>
+		</div>
+			<div class="moduletable">
+							<h3>Artikel</h3>
+						<ul class="latestnews mod-list">
+	<li itemscope itemtype="https://schema.org/Article">
+		<a href="/" itemprop="url">
+			<span itemprop="name">
+				Willkommen			</span>
+		</a>
+	</li>
+</ul>
+		</div>
+	    
+				</div>
+						<div id="content60" class="span9">    
+				  
+				<div id="content">
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="de-DE" />
+				
+<div class="icons">
+	
+					<div class="pull-right">
+				<ul class="actions">
+											<li class="print-icon"> <a href="/impressum?tmpl=component&amp;print=1" title="Eintrag ausdrucken < Impressum >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Drucken	</a> </li>
+																			</ul>
+			</div>
+		
+	</div>
+			<div class="page-header">
+		<h2 itemprop="name">
+												<a href="/impressum" itemprop="url"> Impressum</a>
+									</h2>
+							</div>
+	
+			<div class="article-info muted">
+			<dl class="article-info">
+			<dt class="article-info-term">Details</dt>
+
+									
+							<dd class="published">
+					<span class="icon-calendar"></span>
+					<time datetime="2014-08-16T10:13:13+02:00" itemprop="datePublished">
+						Veröffentlicht: 16. August 2014					</time>
+				</dd>
+			
+											
+										</dl>
+		</div>
+	
+	
+		
+						<div itemprop="articleBody">
+		<p> </p>
+<p><strong>Kreishandwerkerschaft Bamberg<br />Körperschaft des öffentlichen Rechts<br />Schillerplatz 4<br />96047 Bamberg</strong></p>
+<p> </p>
+<table style="height: 505px; width: 610px;">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 278.9px;">
+<p><strong>Geschäftsstelle<br /></strong>Schillerplatz 4<br />96047 Bamberg<br />Tel.: 0951 980200<br />Fax: 0951 9802020<br />E-Mail: <span id="cloak595165c4b63a8f280634e793732bb9af">Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein!</span><script type='text/javascript'>
+				document.getElementById('cloak595165c4b63a8f280634e793732bb9af').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy595165c4b63a8f280634e793732bb9af = '&#105;nf&#111;' + '&#64;';
+				addy595165c4b63a8f280634e793732bb9af = addy595165c4b63a8f280634e793732bb9af + 'khs-b&#97;mb&#101;rg' + '&#46;' + 'd&#101;';
+				var addy_text595165c4b63a8f280634e793732bb9af = '&#105;nf&#111;' + '&#64;' + 'khs-b&#97;mb&#101;rg' + '&#46;' + 'd&#101;';document.getElementById('cloak595165c4b63a8f280634e793732bb9af').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy595165c4b63a8f280634e793732bb9af + '\' rel="alternate">'+addy_text595165c4b63a8f280634e793732bb9af+'<\/a>';
+		</script><a><br /></a>Internet: <a href="http://www.khs-bamberg.de/">www.khs-bamberg.de</a></p>
+<p><strong><br />Geschäftsführung<br /></strong>Hendrik Beck<strong><br /></strong></p>
+<p><strong><br />Geschäftszeiten<br /></strong>Montag bis Donnerstag:<br />08.00 Uhr - 12.00 Uhr<br />13.00 Uhr - 16.00 Uhr<br />Freitag:<br />8.00 Uhr - 13.00 Uhr</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+<td style="vertical-align: top; width: 313.1px;">
+<p><strong>Vorstandschaft</strong></p>
+<p><strong>Manfred Amon</strong><br />Kreishandwerksmeister<br />Heganger 12<br />96103 Hallstadt<br />Tel.: 0951 965090</p>
+<p><strong>Alfred Seel</strong><br />stellvertretender Kreishandwerksmeister<br />Lugbank 8<br />96049 Bamberg<br />Tel.: 0951 57985</p>
+<p><strong>Hubert Reinfelder<br /></strong>Obermeister<br />Sturzstraße 16<br />96049 Bamberg<br />Tel.: 0951 61959</p>
+<p><strong>Thomas Ludwig<br /></strong>Obermeister<br />Am Sportplatz 6<br />96138 Burgebrach<br />Tel.: 09546 920920</p>
+<p><strong>Leo Voran<br /></strong>Obermeister<br />Raiffeisenweg 6<br />96138 Burgebrach<br />Tel.: 09546 921060</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">Die Kreishandwerkerschaft wird gerichtlich und außergerichtlich vertreten durch die Vorstände gemeinsam.<br /><br />Rechtsaufsichtsbehörde ist die Handwerkskammer für Oberfranken, Kerschensteinerstraße 7, 95448 Bayreuth.<br /> Internet: <a href="http://www.hwk-oberfranken.de/">www.hwk-oberfranken.de</a></p>
+<p><span style="text-decoration: underline;"><br />Bildnachweis:</span><br /><br />Fotolia_7951969_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© Horst Schmidt">© Horst Schmidt</span></span>/Fotolia.com<br />Fotolia_29111539_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© contrastwerkstatt">© contrastwerkstatt</span></span>/Fotolia.com<br />Fotolia_41484552_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© contrastwerkstatt">© contrastwerkstatt</span></span>/Fotolia.com<br />Fotolia_50109701_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© bigshotd3">© bigshotd3</span></span>/Fotolia.com<br />Fotolia_50263812_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© contrastwerkstatt">© contrastwerkstatt</span></span>/Fotolia.com<br />Fotolia_54535145_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© kartos">© kartos</span></span>/Fotolia.com<br />Fotolia_58791652_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© Gina Sanders">© Gina Sanders</span></span>/Fotolia.com<br />Fotolia_60404568_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© Kzenon">© Kzenon</span></span>/Fotolia.com<br />Fotolia_62539965_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© wideonet">© wideonet</span></span>/Fotolia.com<br />Fotolia_65917000_M.jpg: <span class="conten-view-title-block"><span id="content-view-title-contributor" class="trunc-string" title="© apops">© apops</span></span>/Fotolia.com<br /><br /><br /><span style="text-decoration: underline;">Realisiert und entwickelt wurde dieser Internetauftritt von:<br /><br /></span>Information &amp; Technology Systems<br />Thomas Kreil<br />Ziegelaue 4<br />95502 Himmelkron<br />E-Mail: <span id="cloak0f303d2d72d59d66c4f8a9fbdb686dbe">Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein!</span><script type='text/javascript'>
+				document.getElementById('cloak0f303d2d72d59d66c4f8a9fbdb686dbe').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy0f303d2d72d59d66c4f8a9fbdb686dbe = 'k&#111;nt&#97;kt' + '&#64;';
+				addy0f303d2d72d59d66c4f8a9fbdb686dbe = addy0f303d2d72d59d66c4f8a9fbdb686dbe + 'kr&#101;&#105;l-&#111;nl&#105;n&#101;' + '&#46;' + 'd&#101;';
+				var addy_text0f303d2d72d59d66c4f8a9fbdb686dbe = 'k&#111;nt&#97;kt' + '&#64;' + 'kr&#101;&#105;l-&#111;nl&#105;n&#101;' + '&#46;' + 'd&#101;';document.getElementById('cloak0f303d2d72d59d66c4f8a9fbdb686dbe').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy0f303d2d72d59d66c4f8a9fbdb686dbe + '\'>'+addy_text0f303d2d72d59d66c4f8a9fbdb686dbe+'<\/a>';
+		</script><a href="mailto:kontakt@kreil-online.de" rel="alternate"><br /></a>Internet: <a title="http://www.kreil-online.de" href="http://www.kreil-online.de" rel="alternate">http://www.kreil-online.de</a></p> 	</div>
+
+	
+								 </div>
+ 
+				</div> 
+				    
+			</div>
+								</div>
+		 
+  
+<!--end of wrap-->
+	</div>
+    
+
+
+
+	 
+	<div id="footer" class="container">  
+			
+					<div class="moduletable">
+
+		
+			<ul class="nav menu nav-pills">
+<li class="item-112 current active"><a href="/impressum" >Impressum</a></li><li class="item-113"><a href="/datenschutz" >Datenschutz</a></li><li class="item-217"><a href="/sitemap" >Sitemap</a></li></ul>
+
+		</div>
+
+	    
+			</div>
+	 
+
+
+</body>
+</html>

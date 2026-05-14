@@ -1,0 +1,552 @@
+[10:35:22] ==================================================
+[10:35:22] Website Enrichment V2 | start=0 batch=1146
+[10:35:22] Need enrichment: 1058
+[10:35:22] [1/1058] Brose Bamberg - Brose Fahrzeugteile (Bamberg)
+[10:35:24]   OK: https://www.brose.com/de-de/bamberg/ | 46173b | email=bamberg@brose.com
+[10:35:26] [2/1058] Antolin Bamberg (Bamberg)
+[10:35:29]   OK: https://www.antolin.com/en/grupo-antolin-opens-its-plant-and-technical-center-bamberg | 51689b | email=press@antolin.com
+[10:35:31] [3/1058] Ofa Bamberg GmbH (Bamberg)
+[10:38:35] ==================================================
+[10:38:35] Website Enrichment V2 | start=0 batch=20
+[10:38:35] Need enrichment: 1056
+[10:38:35] [1/20] Ofa Bamberg GmbH (Bamberg)
+[10:38:40]   OK: https://www.ofa.de/de-de/ | 124366b | email=info@ofa.de
+[10:38:42] [2/20] Saint-Gobain Glassolutions Isolierglas-Center GmbH, Standort Bamberg (Bamberg)
+[10:42:44] ==================================================
+[10:42:44] Website Enrichment V2 | start=0 batch=25
+[10:42:44] Need enrichment: 1055
+[10:42:44] [1/25] Saint-Gobain Glassolutions Isolierglas-Center GmbH, Standort Bamberg (Bamberg)
+[10:42:46]   OK: https://www.isolierglascenter.de/ | 85307b | email=sgic@saint-gobain.com
+[10:42:48] [2/25] RZB Rudolf Zimmermann, Bamberg GmbH (Bamberg)
+[10:46:52] ==================================================
+[10:46:52] Website Enrichment V2 | start=0 batch=20
+[10:46:52] Need enrichment: 1054
+[10:46:52] [1/20] RZB Rudolf Zimmermann, Bamberg GmbH (Bamberg)
+[10:47:01] [2/20] Bosch (Bamberg)
+[10:47:46]   OK: https://www.bosch.de/unternehmen/bosch-in-deutschland/bamberg/ | 132942b | email=-
+[10:47:48] [3/20] Heinr. Leicht GmbH & Co. KG (Bamberg)
+[10:47:49]   OK: https://www.heinrich-leicht.de/ | 12402b | email=info@heinrich-leicht.de
+[10:47:51] [4/20] Liebig Maschinenbau GmbH (Bamberg)
+[10:48:03] [5/20] UG Systems GmbH & Co. KG (Bamberg)
+[10:48:55] ==================================================
+[10:48:55] Website Enrichment V2 | start=0 batch=20
+[10:48:55] Need enrichment: 1050
+[10:48:55] [1/20] UG Systems GmbH & Co. KG (Bamberg)
+[10:49:03] ==================================================
+[10:49:03] Website Enrichment V2 | start=0 batch=20
+[10:49:04] Need enrichment: 1050
+[10:49:04] [1/20] UG Systems GmbH & Co. KG (Bamberg)
+[10:49:49] [2/20] Metallform Bamberg GmbH (Bamberg)
+[10:49:57] [2/20] Metallform Bamberg GmbH (Bamberg)
+[10:50:01] [3/20] Brumma GmbH & co.KG (Bamberg)
+[10:50:03]   OK: https://www.heinz-brumma.de/ | 180998b | email=info@heinz-brumma.de
+[10:50:05] [4/20] Herbst Transporte (Bamberg)
+[10:50:08]   OK: https://herbst-bamberg.de/ | 110662b | email=datenschutzbeauftragter@herbst-bamberg.de
+[10:50:10] [5/20] BKM Mannesmann Bamberg Fachbetrieb (Bamberg)
+[10:50:19] [6/20] Firmengruppe Veit (Bamberg)
+[10:50:31]   OK: https://firmengruppe-veit.de/ | 100900b | email=info@firmengruppe-veit.de
+[10:50:33] [7/20] Oppelt Energie- und Gebäudetechnik GmbH (Bamberg)
+[10:50:36]   OK: https://oppelt-shk.de/ | 23760b | email=info@oppelt-shk.de
+[10:50:38] [8/20] SPS Germany GmbH (Bamberg)
+[10:50:40]   OK: https://www.spsglobal.com/de/transparenzinformation-sps-bamberg | 378158b | email=datenschutz@sph-consulting.de
+[10:50:42] [9/20] SteelCo.Tech Bamberg GmbH (Bamberg)
+[10:50:44]   OK: https://steelco.tech/de/ | 28558b | email=info@steelco.tech
+[10:50:46] [10/20] Anton Höllein GmbH (Bamberg)
+[10:50:49]   OK: https://www.anton-hoellein.de/ | 102479b | email=info@anton-hoellein-gmbh.de
+[10:50:51] [11/20] GEKA Bamberg (Bamberg)
+[10:50:52] [3/20] Brumma GmbH & co.KG (Bamberg)
+[10:50:56] [4/20] Herbst Transporte (Bamberg)
+[10:50:58] ==================================================
+[10:50:58] Website Enrichment V2 | start=0 batch=20
+[10:50:58] Need enrichment: 1047
+[10:50:58] [1/20] Herbst Transporte (Bamberg)
+[10:50:58]   OK: https://herbst-bamberg.de/ | 110662b | email=datenschutzbeauftragter@herbst-bamberg.de
+[10:51:00]   OK: https://herbst-bamberg.de/ | 110662b | email=datenschutzbeauftragter@herbst-bamberg.de
+[10:51:00] [5/20] BKM Mannesmann Bamberg Fachbetrieb (Bamberg)
+[10:51:02] [2/20] BKM Mannesmann Bamberg Fachbetrieb (Bamberg)
+[10:51:05] ==================================================
+[10:51:05] Website Enrichment V2 | start=0 batch=20
+[10:51:06] Need enrichment: 1045
+[10:51:06] [1/20] Firmengruppe Veit (Bamberg)
+[10:51:06] [3/20] Firmengruppe Veit (Bamberg)
+[10:51:09]   OK: https://firmengruppe-veit.de/ | 100900b | email=info@firmengruppe-veit.de
+[10:51:11] [4/20] Oppelt Energie- und Gebäudetechnik GmbH (Bamberg)
+[10:51:11] [2/20] Oppelt Energie- und Gebäudetechnik GmbH (Bamberg)
+[10:51:12]   OK: https://oppelt-shk.de/ | 23760b | email=info@oppelt-shk.de
+[10:51:14] [5/20] SPS Germany GmbH (Bamberg)
+[10:51:15] ==================================================
+[10:51:15] Website Enrichment V2 | start=0 batch=20
+[10:51:15] Need enrichment: 1043
+[10:51:15] [1/20] SPS Germany GmbH (Bamberg)
+[10:51:16] [3/20] SPS Germany GmbH (Bamberg)
+[10:51:17]   OK: https://www.spsglobal.com/de/transparenzinformation-sps-bamberg | 378158b | email=datenschutz@sph-consulting.de
+[10:51:19] [6/20] SteelCo.Tech Bamberg GmbH (Bamberg)
+[10:51:19] [4/20] SteelCo.Tech Bamberg GmbH (Bamberg)
+[10:51:19] [2/20] SteelCo.Tech Bamberg GmbH (Bamberg)
+[10:51:21]   OK: https://steelco.tech/de/ | 28558b | email=info@steelco.tech
+[10:51:21]   OK: https://steelco.tech/de/ | 28558b | email=info@steelco.tech
+[10:51:22]   OK: https://steelco.tech/de/ | 28558b | email=info@steelco.tech
+[10:51:23] [7/20] Anton Höllein GmbH (Bamberg)
+[10:51:23] [5/20] Anton Höllein GmbH (Bamberg)
+[10:51:24] [3/20] Anton Höllein GmbH (Bamberg)
+[10:51:25]   OK: https://www.anton-hoellein.de/ | 102479b | email=info@anton-hoellein-gmbh.de
+[10:51:27] [8/20] GEKA Bamberg (Bamberg)
+[10:51:27] [6/20] GEKA Bamberg (Bamberg)
+[10:51:28] [4/20] GEKA Bamberg (Bamberg)
+[10:51:31] [9/20] Bamberger Sandkerwa Veranstaltungs GmbH (Bamberg)
+[10:51:32] [7/20] Bamberger Sandkerwa Veranstaltungs GmbH (Bamberg)
+[10:51:32] [5/20] Bamberger Sandkerwa Veranstaltungs GmbH (Bamberg)
+[10:51:35] [10/20] Bauunternehmen Valentin Reinfelder (Bamberg)
+[10:51:36] [8/20] Bauunternehmen Valentin Reinfelder (Bamberg)
+[10:51:36] [6/20] Bauunternehmen Valentin Reinfelder (Bamberg)
+[10:51:40] [11/20] Trimedia Bamberg (Bamberg)
+[10:51:40] [9/20] Trimedia Bamberg (Bamberg)
+[10:51:44]   OK: https://reinfelder-bau.de/ | 74712b | email=info@reinfelder-bau.de
+[10:51:44] [12/20] Gerlicher GmbH - Frittieröllieferung & Altfettabholung (Bamberg)
+[10:51:44] [10/20] Gerlicher GmbH - Frittieröllieferung & Altfettabholung (Bamberg)
+[10:51:46] [7/20] Trimedia Bamberg (Bamberg)
+[10:51:48] [13/20] Bamberger Natursteinwerk Hermann Graser GmbH (Bamberg)
+[10:51:49] [11/20] Bamberger Natursteinwerk Hermann Graser GmbH (Bamberg)
+[10:51:50] [8/20] Gerlicher GmbH - Frittieröllieferung & Altfettabholung (Bamberg)
+[10:51:53] [14/20] Weyermann Specialty Malts (Bamberg)
+[10:51:53] [12/20] Weyermann Specialty Malts (Bamberg)
+[10:51:54] [9/20] Bamberger Natursteinwerk Hermann Graser GmbH (Bamberg)
+[10:51:57] [15/20] Brauerei Fässla Bamberg GmbH & Co KG (Bamberg)
+[10:51:57] [13/20] Brauerei Fässla Bamberg GmbH & Co KG (Bamberg)
+[10:51:59] [10/20] Weyermann Specialty Malts (Bamberg)
+[10:52:01] [16/20] Robert Bosch GmbH, Werk Bamberg, Werkteil 3 (Bamberg)
+[10:52:02] [14/20] Robert Bosch GmbH, Werk Bamberg, Werkteil 3 (Bamberg)
+[10:52:03] [11/20] Brauerei Fässla Bamberg GmbH & Co KG (Bamberg)
+[10:52:06] [17/20] Wieland Electric GmbH Werk 1 (Bamberg)
+[10:52:06] [15/20] Wieland Electric GmbH Werk 1 (Bamberg)
+[10:52:07] [12/20] Robert Bosch GmbH, Werk Bamberg, Werkteil 3 (Bamberg)
+[10:52:10] [18/20] Brauerei Mahrs (Bamberg)
+[10:52:10] [16/20] Brauerei Mahrs (Bamberg)
+[10:52:11] [13/20] Wieland Electric GmbH Werk 1 (Bamberg)
+[10:52:14] [19/20] 100% Bamberg e.K. (Bamberg)
+[10:52:14] [17/20] 100% Bamberg e.K. (Bamberg)
+[10:52:16] [14/20] Brauerei Mahrs (Bamberg)
+[10:52:18] [20/20] Kuhn GmbH (Bamberg)
+[10:52:19] [18/20] Kuhn GmbH (Bamberg)
+[10:52:20] [15/20] 100% Bamberg e.K. (Bamberg)
+[10:52:23] 
+Done! OK:3 Fail:0 NoWeb:17 | Total enriched:119
+[10:52:23] [19/20] Müllheizkraftwerk Bamberg (Bamberg)
+[10:52:24] [16/20] Kuhn GmbH (Bamberg)
+[10:52:26] ==================================================
+[10:52:26] Website Enrichment V2 | start=0 batch=20
+[10:52:26] Need enrichment: 1026
+[10:52:26] [1/20] upjers GmbH (Bamberg)
+[10:52:27] [20/20] upjers GmbH (Bamberg)
+[10:52:28] [17/20] Müllheizkraftwerk Bamberg (Bamberg)
+[10:52:30] [2/20] OKAL Musterhaus Bamberg (Bamberg)
+[10:52:32] 
+Done! OK:4 Fail:0 NoWeb:16 | Total enriched:121
+[10:52:33] [18/20] upjers GmbH (Bamberg)
+[10:52:34] ==================================================
+[10:52:34] Website Enrichment V2 | start=0 batch=20
+[10:52:34] Need enrichment: 1024
+[10:52:34] [1/20] STADTBAU GMBH BAMBERG (Bamberg)
+[10:52:35] [3/20] STADTBAU GMBH BAMBERG (Bamberg)
+[10:52:37] [19/20] OKAL Musterhaus Bamberg (Bamberg)
+[10:52:38] [2/20] Stadt Bamberg (Bamberg)
+[10:52:39] [4/20] Stadt Bamberg (Bamberg)
+[10:52:41] [20/20] STADTBAU GMBH BAMBERG (Bamberg)
+[10:52:42] [3/20] Technisches Rathaus Bamberg (Bamberg)
+[10:52:43] [5/20] Technisches Rathaus Bamberg (Bamberg)
+[10:52:46] 
+Done! OK:2 Fail:0 NoWeb:18 | Total enriched:123
+[10:52:47] [4/20] Staatliches Bauamt Bamberg (Bamberg)
+[10:52:47] [6/20] Staatliches Bauamt Bamberg (Bamberg)
+[10:52:49] ==================================================
+[10:52:49] Website Enrichment V2 | start=0 batch=20
+[10:52:49] Need enrichment: 1021
+[10:52:49] [1/20] Staatliches Bauamt Bamberg (Bamberg)
+[10:52:51] [5/20] Bamberger Kühlhaus GmbH & Co. KG (Bamberg)
+[10:52:52] [7/20] Bamberger Kühlhaus GmbH & Co. KG (Bamberg)
+[10:52:53] [2/20] Bamberger Kühlhaus GmbH & Co. KG (Bamberg)
+[10:52:55] [6/20] Wolfgang Grader (Bamberg)
+[10:52:56] [8/20] Wolfgang Grader (Bamberg)
+[10:52:57] [3/20] Wolfgang Grader (Bamberg)
+[10:53:00] [7/20] Marketing Gruppe Bamberg GmbH (Bamberg)
+[10:53:00] [9/20] Marketing Gruppe Bamberg GmbH (Bamberg)
+[10:53:02] [4/20] Marketing Gruppe Bamberg GmbH (Bamberg)
+[10:53:04] [8/20] Evernest Bamberg - Jakob Immobilien (Bamberg)
+[10:53:05] [10/20] Evernest Bamberg - Jakob Immobilien (Bamberg)
+[10:53:06] [5/20] Evernest Bamberg - Jakob Immobilien (Bamberg)
+[10:53:08] [9/20] VEIT Immobilien - Immobilienmakler Bamberg (Bamberg)
+[10:53:09] [11/20] VEIT Immobilien - Immobilienmakler Bamberg (Bamberg)
+[10:53:10] [6/20] VEIT Immobilien - Immobilienmakler Bamberg (Bamberg)
+[10:53:12] [10/20] Stadtplanungsamt (Bamberg)
+[10:53:13] [12/20] Stadtplanungsamt (Bamberg)
+[10:53:14] [7/20] Stadtplanungsamt (Bamberg)
+[10:53:17] [11/20] Handwerkskammer für Oberfranken - Bildungszentrum Bamberg (Bamberg)
+[10:53:17] [13/20] Handwerkskammer für Oberfranken - Bildungszentrum Bamberg (Bamberg)
+[10:53:19] [8/20] Handwerkskammer für Oberfranken - Bildungszentrum Bamberg (Bamberg)
+[10:53:21] [12/20] Lagarde Höfe Bamberg (Bamberg)
+[10:53:22] [14/20] Lagarde Höfe Bamberg (Bamberg)
+[10:53:23] [9/20] Lagarde Höfe Bamberg (Bamberg)
+[10:53:25] [13/20] Immobilien Zimmermann (Bamberg)
+[10:53:26] [15/20] Immobilien Zimmermann (Bamberg)
+[10:53:27] [10/20] Immobilien Zimmermann (Bamberg)
+[10:53:29] [14/20] Immobilienkanzlei Kerstin Hübner (Bamberg)
+[10:53:30] [16/20] Immobilienkanzlei Kerstin Hübner (Bamberg)
+[10:53:31] [11/20] Immobilienkanzlei Kerstin Hübner (Bamberg)
+[10:53:34] [15/20] Lagarde (Bamberg)
+[10:53:35] [17/20] Lagarde (Bamberg)
+[10:53:36] [12/20] Lagarde (Bamberg)
+[10:53:38] [16/20] Christian Heber (Bamberg)
+[10:53:39] [18/20] Christian Heber (Bamberg)
+[10:53:40] [13/20] Christian Heber (Bamberg)
+[10:53:42] [17/20] Arbeitsgericht Bamberg (Bamberg)
+[10:53:43] [19/20] Arbeitsgericht Bamberg (Bamberg)
+[10:53:44] [14/20] Arbeitsgericht Bamberg (Bamberg)
+[10:53:47] [18/20] E C+C Großmarkt (Bamberg)
+[10:53:47] [20/20] E C+C Großmarkt (Bamberg)
+[10:53:49] [15/20] E C+C Großmarkt (Bamberg)
+[10:53:51] [19/20] Volker Maisel Immobilien, Kunst & Denkmalpflege (Bamberg)
+[10:53:52] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:140
+[10:53:53] [16/20] Volker Maisel Immobilien, Kunst & Denkmalpflege (Bamberg)
+[10:53:55] ==================================================
+[10:53:55] Website Enrichment V2 | start=0 batch=20
+[10:53:55] Need enrichment: 1005
+[10:53:55] [1/20] Sandyk-Gaststättenbetriebe Josef Sandyk GmbH & Co. KG (Bamberg)
+[10:53:55] [20/20] Sandyk-Gaststättenbetriebe Josef Sandyk GmbH & Co. KG (Bamberg)
+[10:53:57] [17/20] Sandyk-Gaststättenbetriebe Josef Sandyk GmbH & Co. KG (Bamberg)
+[10:53:59] [2/20] Dennis Eldes - Ihre Finanz u. Versicherungsmakler DMF Geschäftsstelle Bamberg (Bamberg)
+[10:53:59] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:142
+[10:54:01] [18/20] Dennis Eldes - Ihre Finanz u. Versicherungsmakler DMF Geschäftsstelle Bamberg (Bamberg)
+[10:54:04] [3/20] MitMachKlima (Bamberg)
+[10:54:06] [19/20] MitMachKlima (Bamberg)
+[10:54:08] [4/20] getlight.de Leuchtenfachgeschäft Lichtexperten (Bamberg)
+[10:54:10] [20/20] getlight.de Leuchtenfachgeschäft Lichtexperten (Bamberg)
+[10:54:12] [5/20] KS-Baumontage (Bamberg)
+[10:54:14] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:145
+[10:54:17] [6/20] Kreishandwerkerschaft Bamberg (Bamberg)
+[10:54:20] ==================================================
+[10:54:20] Website Enrichment V2 | start=0 batch=20
+[10:54:20] Need enrichment: 999
+[10:54:20] [1/20] AVEcon GbR (Bamberg)
+[10:54:21] [7/20] AVEcon GbR (Bamberg)
+[10:54:24] [2/20] Malerbetrieb Frizler (Bamberg)
+[10:54:25] [8/20] Malerbetrieb Frizler (Bamberg)
+[10:54:29] [3/20] Christiana von Roit (Bamberg)
+[10:54:29] [9/20] Christiana von Roit (Bamberg)
+[10:54:33] [4/20] Arbeitsbeschaffungsstelle des Handwerks eG (Bamberg)
+[10:54:34] [10/20] Arbeitsbeschaffungsstelle des Handwerks eG (Bamberg)
+[10:54:37] [5/20] paveldesign Schuhmacherei und Lederhandwerk (Bamberg)
+[10:54:38] [11/20] paveldesign Schuhmacherei und Lederhandwerk (Bamberg)
+[10:54:41] [6/20] Husein Halilovic (Bamberg)
+[10:54:42] [12/20] Husein Halilovic (Bamberg)
+[10:54:46] [7/20] Ellwart Steinrestaurierung GmbH & Co. KG (Bamberg)
+[10:54:47] [13/20] Ellwart Steinrestaurierung GmbH & Co. KG (Bamberg)
+[10:54:50] [8/20] Offene Werkstatt Bamberg e.V. (Bamberg)
+[10:54:51] [14/20] Offene Werkstatt Bamberg e.V. (Bamberg)
+[10:54:54] [9/20] KRW Stuck Bamberg UG (haftungsbeschränkt) & Co. KG (Bamberg)
+[10:54:55] [15/20] KRW Stuck Bamberg UG (haftungsbeschränkt) & Co. KG (Bamberg)
+[10:54:58] [10/20] Malerbetrieb Förtsch GmbH (Bamberg)
+[10:54:59] [16/20] Malerbetrieb Förtsch GmbH (Bamberg)
+[10:55:03] [11/20] Piet's Montageservice (Bamberg)
+[10:55:04] [17/20] Piet's Montageservice (Bamberg)
+[10:55:07] [12/20] Schreinerei Herdegen (Bamberg)
+[10:55:08] [18/20] Schreinerei Herdegen (Bamberg)
+[10:55:11] [13/20] Allerliebst - Feines von Hand (Bamberg)
+[10:55:12] [19/20] Allerliebst - Feines von Hand (Bamberg)
+[10:55:16] [14/20] Schlüsselzentrale Heim GmbH (Bamberg)
+[10:55:17] [20/20] Schlüsselzentrale Heim GmbH (Bamberg)
+[10:55:20] [15/20] Keidel GmbH Maler- und Stuckateurbetrieb (Bamberg)
+[10:55:21] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:161
+[10:55:24] [16/20] Günter Köhler Maler- und Restaurationsbetrieb (Bamberg)
+[10:55:24] ==================================================
+[10:55:24] Website Enrichment V2 | start=0 batch=20
+[10:55:24] Need enrichment: 984
+[10:55:24] [1/20] Günter Köhler Maler- und Restaurationsbetrieb (Bamberg)
+[10:55:28] [17/20] Kaiserdom Specialitäten Brauerei GmbH Bamberg (Bamberg)
+[10:55:29] [2/20] Kaiserdom Specialitäten Brauerei GmbH Bamberg (Bamberg)
+[10:55:33] [18/20] Kronprinz Bamberg (Bamberg)
+[10:55:33] [3/20] Kronprinz Bamberg (Bamberg)
+[10:55:37] [19/20] KA Metallbau GmbH (Bamberg)
+[10:55:37] [4/20] KA Metallbau GmbH (Bamberg)
+[10:55:41] [20/20] Brauerei Spezial (Bamberg)
+[10:55:42] [5/20] Brauerei Spezial (Bamberg)
+[10:55:46] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:167
+[10:55:46] [6/20] Ambräusianum GmbH (Bamberg)
+[10:55:50] [7/20] Bamberg (Bamberg)
+[10:55:54] [8/20] Mussärol Bamberger Kräutergärtnerei (Bamberg)
+[10:55:59] [9/20] Schlüsseldienst Bamberg Herbert (Bamberg)
+[10:56:03] [10/20] Venezianische Goldschmiede (Bamberg)
+[10:56:07] [11/20] Schreinerei Alexander Elbel Möbelwerkstatt Meisterbetrieb (Bamberg)
+[10:56:12] [12/20] BMS Facility Management (Bamberg)
+[10:56:16] [13/20] Levertz Hauslogistik & Sicherheitsdienst GmbH (Bamberg)
+[10:56:20] [14/20] Tovar Reinigung Bamberg (Bamberg)
+[10:56:25] [15/20] VM SERVICE FACILITY (Bamberg)
+[10:56:29] [16/20] A&M – Renovierung, Haushaltsauflösung, Abbrucharbeiten & Entsorgung. (Bamberg)
+[10:56:33] [17/20] AZ- Europa Service GmbH Bamberg (Bamberg)
+[10:56:38] [18/20] Büroreinigung Eichfelder (Bamberg)
+[10:56:42] [19/20] STUBNERpersonalservice GmbH (Bamberg)
+[10:56:46] [20/20] Glanzwerk Bamberg, Entrümpelung, Entsorgung, Haushaltsauflösungen und Gebäudereinigung (Bamberg)
+[10:56:50] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:182
+[11:16:23] ==================================================
+[11:16:23] Website Enrichment V2 | start=0 batch=20
+[11:16:23] Need enrichment: 1014
+[11:16:23] [1/20] Immobilien Zimmermann (Bamberg)
+[11:17:06]   OK: https://www.dasistnah.de/immobilien-zimmermann-bamberg.html | 79828b | email=-
+[11:17:08] [2/20] Immobilienkanzlei Kerstin Hübner (Bamberg)
+[11:17:12] [3/20] Lagarde (Bamberg)
+[11:17:16] [4/20] Christian Heber (Bamberg)
+[11:17:39]   OK: https://autohaus-angora.de/christian-heber-in-bamberg-im-kramersfeld-18/ | 63690b | email=-
+[11:17:41] [5/20] Arbeitsgericht Bamberg (Bamberg)
+[11:17:45] [6/20] E C+C Großmarkt (Bamberg)
+[11:17:49] [7/20] Volker Maisel Immobilien, Kunst & Denkmalpflege (Bamberg)
+[11:17:57]   OK: http://www.atelier-maisel.de/ | 10264b | email=-
+[11:17:59] [8/20] Sandyk-Gaststättenbetriebe Josef Sandyk GmbH & Co. KG (Bamberg)
+[11:18:04] [9/20] Dennis Eldes - Ihre Finanz u. Versicherungsmakler DMF Geschäftsstelle Bamberg (Bamberg)
+[11:18:08] [10/20] MitMachKlima (Bamberg)
+[11:18:10]   OK: https://www.mitmachklima.de/ | 80893b | email=nachhaltig@stadt.bamberg.de
+[11:18:12] [11/20] getlight.de Leuchtenfachgeschäft Lichtexperten (Bamberg)
+[11:18:16] [12/20] KS-Baumontage (Bamberg)
+[11:18:21] [13/20] Kreishandwerkerschaft Bamberg (Bamberg)
+[11:18:26] ==================================================
+[11:18:26] Website Enrichment V2 | start=0 batch=20
+[11:18:26] Need enrichment: 1002
+[11:18:26] [1/20] Kreishandwerkerschaft Bamberg (Bamberg)
+[11:18:29]   OK: http://www.khs-bamberg.de/ | 27054b | email=kontakt@kreil-online.de
+[11:18:31] [2/20] AVEcon GbR (Bamberg)
+[11:18:32] ==================================================
+[11:18:32] Website Enrichment V2 | start=0 batch=20
+[11:18:32] Need enrichment: 1001
+[11:18:32] [1/20] AVEcon GbR (Bamberg)
+[11:18:35] [3/20] Malerbetrieb Frizler (Bamberg)
+[11:18:37] [2/20] Malerbetrieb Frizler (Bamberg)
+[11:18:39] [4/20] Christiana von Roit (Bamberg)
+[11:18:41] [3/20] Christiana von Roit (Bamberg)
+[11:18:44] [5/20] Arbeitsbeschaffungsstelle des Handwerks eG (Bamberg)
+[11:18:45] [4/20] Arbeitsbeschaffungsstelle des Handwerks eG (Bamberg)
+[11:18:48] [6/20] paveldesign Schuhmacherei und Lederhandwerk (Bamberg)
+[11:18:50] [5/20] paveldesign Schuhmacherei und Lederhandwerk (Bamberg)
+[11:18:52] [7/20] Husein Halilovic (Bamberg)
+[11:18:54] [6/20] Husein Halilovic (Bamberg)
+[11:18:57] [8/20] Ellwart Steinrestaurierung GmbH & Co. KG (Bamberg)
+[11:18:58] [7/20] Ellwart Steinrestaurierung GmbH & Co. KG (Bamberg)
+[11:19:01] [9/20] Offene Werkstatt Bamberg e.V. (Bamberg)
+[11:19:02] [8/20] Offene Werkstatt Bamberg e.V. (Bamberg)
+[11:19:05] [10/20] KRW Stuck Bamberg UG (haftungsbeschränkt) & Co. KG (Bamberg)
+[11:19:07] [9/20] KRW Stuck Bamberg UG (haftungsbeschränkt) & Co. KG (Bamberg)
+[11:19:10] [11/20] Malerbetrieb Förtsch GmbH (Bamberg)
+[11:19:11] [10/20] Malerbetrieb Förtsch GmbH (Bamberg)
+[11:19:14] [12/20] Piet's Montageservice (Bamberg)
+[11:19:15] [11/20] Piet's Montageservice (Bamberg)
+[11:19:18] [13/20] Schreinerei Herdegen (Bamberg)
+[11:19:19] [12/20] Schreinerei Herdegen (Bamberg)
+[11:19:22] [14/20] Allerliebst - Feines von Hand (Bamberg)
+[11:19:24] [13/20] Allerliebst - Feines von Hand (Bamberg)
+[11:19:27] [15/20] Schlüsselzentrale Heim GmbH (Bamberg)
+[11:19:28] [14/20] Schlüsselzentrale Heim GmbH (Bamberg)
+[11:19:31] [16/20] Keidel GmbH Maler- und Stuckateurbetrieb (Bamberg)
+[11:19:32] [15/20] Keidel GmbH Maler- und Stuckateurbetrieb (Bamberg)
+[11:19:35] [17/20] Günter Köhler Maler- und Restaurationsbetrieb (Bamberg)
+[11:19:37] [16/20] Günter Köhler Maler- und Restaurationsbetrieb (Bamberg)
+[11:19:40] [18/20] Kaiserdom Specialitäten Brauerei GmbH Bamberg (Bamberg)
+[11:19:41] [17/20] Kaiserdom Specialitäten Brauerei GmbH Bamberg (Bamberg)
+[11:19:44] [19/20] Kronprinz Bamberg (Bamberg)
+[11:19:45] [18/20] Kronprinz Bamberg (Bamberg)
+[11:19:48] [20/20] KA Metallbau GmbH (Bamberg)
+[11:19:49] [19/20] KA Metallbau GmbH (Bamberg)
+[11:19:52] 
+Done! OK:1 Fail:0 NoWeb:19 | Total enriched:164
+[11:19:54] [20/20] Brauerei Spezial (Bamberg)
+[11:19:56] ==================================================
+[11:19:56] Website Enrichment V2 | start=0 batch=20
+[11:19:56] Need enrichment: 982
+[11:19:56] [1/20] Brauerei Spezial (Bamberg)
+[11:19:58] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:165
+[11:20:00] [2/20] Ambräusianum GmbH (Bamberg)
+[11:20:00] ==================================================
+[11:20:00] Website Enrichment V2 | start=0 batch=20
+[11:20:00] Need enrichment: 981
+[11:20:00] [1/20] Ambräusianum GmbH (Bamberg)
+[11:20:04] [3/20] Bamberg (Bamberg)
+[11:20:05] [2/20] Bamberg (Bamberg)
+[11:20:09] [4/20] Mussärol Bamberger Kräutergärtnerei (Bamberg)
+[11:20:09] [3/20] Mussärol Bamberger Kräutergärtnerei (Bamberg)
+[11:20:13] [4/20] Schlüsseldienst Bamberg Herbert (Bamberg)
+[11:20:13] [5/20] Schlüsseldienst Bamberg Herbert (Bamberg)
+[11:20:17] [5/20] Venezianische Goldschmiede (Bamberg)
+[11:20:17] [6/20] Venezianische Goldschmiede (Bamberg)
+[11:20:22] [6/20] Schreinerei Alexander Elbel Möbelwerkstatt Meisterbetrieb (Bamberg)
+[11:20:22] [7/20] Schreinerei Alexander Elbel Möbelwerkstatt Meisterbetrieb (Bamberg)
+[11:20:26] [7/20] BMS Facility Management (Bamberg)
+[11:20:26] [8/20] BMS Facility Management (Bamberg)
+[11:20:30] [8/20] Levertz Hauslogistik & Sicherheitsdienst GmbH (Bamberg)
+[11:20:30] [9/20] Levertz Hauslogistik & Sicherheitsdienst GmbH (Bamberg)
+[11:20:34] [9/20] Tovar Reinigung Bamberg (Bamberg)
+[11:20:35] [10/20] Tovar Reinigung Bamberg (Bamberg)
+[11:20:39] [10/20] VM SERVICE FACILITY (Bamberg)
+[11:20:39] [11/20] VM SERVICE FACILITY (Bamberg)
+[11:20:43] [11/20] A&M – Renovierung, Haushaltsauflösung, Abbrucharbeiten & Entsorgung. (Bamberg)
+[11:20:43] [12/20] A&M – Renovierung, Haushaltsauflösung, Abbrucharbeiten & Entsorgung. (Bamberg)
+[11:20:45] ==================================================
+[11:20:45] Website Enrichment V2 | start=0 batch=30
+[11:20:45] Need enrichment: 971
+[11:20:45] [1/30] A&M – Renovierung, Haushaltsauflösung, Abbrucharbeiten & Entsorgung. (Bamberg)
+[11:20:47] [12/20] AZ- Europa Service GmbH Bamberg (Bamberg)
+[11:20:47] [13/20] AZ- Europa Service GmbH Bamberg (Bamberg)
+[11:20:49] [2/30] AZ- Europa Service GmbH Bamberg (Bamberg)
+[11:20:52] [13/20] Büroreinigung Eichfelder (Bamberg)
+[11:20:52] [14/20] Büroreinigung Eichfelder (Bamberg)
+[11:20:54] [3/30] Büroreinigung Eichfelder (Bamberg)
+[11:20:56] [14/20] STUBNERpersonalservice GmbH (Bamberg)
+[11:20:56] [15/20] STUBNERpersonalservice GmbH (Bamberg)
+[11:20:58] [4/30] STUBNERpersonalservice GmbH (Bamberg)
+[11:21:00] [15/20] Glanzwerk Bamberg, Entrümpelung, Entsorgung, Haushaltsauflösungen und Gebäudereinigung (Bamberg)
+[11:21:00] [16/20] Glanzwerk Bamberg, Entrümpelung, Entsorgung, Haushaltsauflösungen und Gebäudereinigung (Bamberg)
+[11:21:02] [5/30] Glanzwerk Bamberg, Entrümpelung, Entsorgung, Haushaltsauflösungen und Gebäudereinigung (Bamberg)
+[11:21:04] [16/20] CCS - Autoaufbereitung - Bamberg (Bamberg)
+[11:21:05] [17/20] CCS - Autoaufbereitung - Bamberg (Bamberg)
+[11:21:06] [6/30] CCS - Autoaufbereitung - Bamberg (Bamberg)
+[11:21:09] [17/20] Car Care Hull - KFZ Aufbereitung Bamberg (Bamberg)
+[11:21:09] [18/20] Car Care Hull - KFZ Aufbereitung Bamberg (Bamberg)
+[11:21:11] [7/30] Car Care Hull - KFZ Aufbereitung Bamberg (Bamberg)
+[11:21:13] [18/20] mohr. GmbH (Bamberg)
+[11:21:13] [19/20] mohr. GmbH (Bamberg)
+[11:21:15] [8/30] mohr. GmbH (Bamberg)
+[11:21:17] [19/20] Mischfutter Werke Mannheim GmbH - Lager Bamberg (Bamberg)
+[11:21:17] [20/20] Mischfutter Werke Mannheim GmbH - Lager Bamberg (Bamberg)
+[11:21:19] [9/30] Mischfutter Werke Mannheim GmbH - Lager Bamberg (Bamberg)
+[11:21:22] [20/20] IGZ Bamberg GmbH (Bamberg)
+[11:21:22] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:184
+[11:21:24] [10/30] IGZ Bamberg GmbH (Bamberg)
+[11:21:25] ==================================================
+[11:21:25] Website Enrichment V2 | start=0 batch=20
+[11:21:25] Need enrichment: 961
+[11:21:25] [1/20] IDEAL Automotive GmbH (Bamberg)
+[11:21:26] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:185
+[11:21:28] [11/30] IDEAL Automotive GmbH (Bamberg)
+[11:21:28] ==================================================
+[11:21:28] Website Enrichment V2 | start=0 batch=20
+[11:21:28] Need enrichment: 960
+[11:21:28] [1/20] Konrad Böhnlein GmbH (Bamberg)
+[11:21:29] [2/20] Konrad Böhnlein GmbH (Bamberg)
+[11:21:32] [12/30] Konrad Böhnlein GmbH (Bamberg)
+[11:21:32] [2/20] Fruchthof Bamberg Gmbh (Bamberg)
+[11:21:34] [3/20] Fruchthof Bamberg Gmbh (Bamberg)
+[11:21:36] [13/30] Fruchthof Bamberg Gmbh (Bamberg)
+[11:21:37] [3/20] Bayernwerk Netz GmbH Kundencenter Bamberg (Bamberg)
+[11:21:38] [4/20] Bayernwerk Netz GmbH Kundencenter Bamberg (Bamberg)
+[11:21:41] [14/30] Bayernwerk Netz GmbH Kundencenter Bamberg (Bamberg)
+[11:21:41] [4/20] Berufsförderungswerk Nürnberg gemeinnützige GmbH, Regionalzentrum Bamberg (Bamberg)
+[11:21:42] [5/20] Berufsförderungswerk Nürnberg gemeinnützige GmbH, Regionalzentrum Bamberg (Bamberg)
+[11:21:45] [15/30] Berufsförderungswerk Nürnberg gemeinnützige GmbH, Regionalzentrum Bamberg (Bamberg)
+[11:21:45] [5/20] Hager Vertriebsgesellschaft mbH & Co. KG Technisches Service Center Bamberg (Bamberg)
+[11:21:47] [6/20] Hager Vertriebsgesellschaft mbH & Co. KG Technisches Service Center Bamberg (Bamberg)
+[11:21:49] [16/30] Hager Vertriebsgesellschaft mbH & Co. KG Technisches Service Center Bamberg (Bamberg)
+[11:21:50] [6/20] Vion Bamberg GmbH (Bamberg)
+[11:21:51] [7/20] Vion Bamberg GmbH (Bamberg)
+[11:21:54] [17/30] Vion Bamberg GmbH (Bamberg)
+[11:21:54] [7/20] Neller GmbH & Co. KG, Bamberg (Bamberg)
+[11:21:55] [8/20] Neller GmbH & Co. KG, Bamberg (Bamberg)
+[11:21:58] [18/30] Neller GmbH & Co. KG, Bamberg (Bamberg)
+[11:21:58] [8/20] Eckerts Wirtshaus (Bamberg)
+[11:21:59] [9/20] Eckerts Wirtshaus (Bamberg)
+[11:22:02] [19/30] Eckerts Wirtshaus (Bamberg)
+[11:22:02] [9/20] Brüderla (Bamberg)
+[11:22:04] [10/20] Brüderla (Bamberg)
+[11:22:06] [20/30] Brüderla (Bamberg)
+[11:22:07] [10/20] Kachelofen Bamberg (Bamberg)
+[11:22:08] [11/20] Kachelofen Bamberg (Bamberg)
+[11:22:11] [21/30] Kachelofen Bamberg (Bamberg)
+[11:22:11] [11/20] Die Küche (Bamberg)
+[11:22:12] [12/20] Die Küche (Bamberg)
+[11:22:15] [22/30] Die Küche (Bamberg)
+[11:22:15] [12/20] HENRII - casual dining (Bamberg)
+[11:22:17] [13/20] HENRII - casual dining (Bamberg)
+[11:22:19] [23/30] HENRII - casual dining (Bamberg)
+[11:22:20] [13/20] Bolero Bamberg (Bamberg)
+[11:22:21] [14/20] Bolero Bamberg (Bamberg)
+[11:22:24] [24/30] Bolero Bamberg (Bamberg)
+[11:22:24] [14/20] Edelfrei Restaurant (Bamberg)
+[11:22:25] [15/20] Edelfrei Restaurant (Bamberg)
+[11:22:28] [25/30] Edelfrei Restaurant (Bamberg)
+[11:22:28] [15/20] Brauhaus Zum Sternla (Bamberg)
+[11:22:29] [16/20] Brauhaus Zum Sternla (Bamberg)
+[11:22:32] [26/30] Brauhaus Zum Sternla (Bamberg)
+[11:22:33] [16/20] Hofbräu (Bamberg)
+[11:22:34] [17/20] Hofbräu (Bamberg)
+[11:22:36] [27/30] Hofbräu (Bamberg)
+[11:22:37] [17/20] Kleehof in der Gärtnerstadt (Bamberg)
+[11:22:38] [18/20] Kleehof in der Gärtnerstadt (Bamberg)
+[11:22:41] [28/30] Kleehof in der Gärtnerstadt (Bamberg)
+[11:22:41] [18/20] Little Italy Bamberg (Bamberg)
+[11:22:42] [19/20] Little Italy Bamberg (Bamberg)
+[11:22:45] [29/30] Little Italy Bamberg (Bamberg)
+[11:22:47] [20/20] Osteria Cuatro Gatos (Bamberg)
+[11:22:49] [19/20] Osteria Cuatro Gatos (Bamberg)
+[11:22:49] [30/30] Osteria Cuatro Gatos (Bamberg)
+[11:22:51] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:205
+[11:22:53] [20/20] Saphir- Sri Lankan Kitchen (Bamberg)
+[11:22:54] 
+Done! OK:0 Fail:0 NoWeb:30 | Total enriched:205
+[11:22:54] ==================================================
+[11:22:54] Website Enrichment V2 | start=0 batch=30
+[11:22:54] Need enrichment: 941
+[11:22:54] [1/30] Saphir- Sri Lankan Kitchen (Bamberg)
+[11:22:54] ==================================================
+[11:22:54] Website Enrichment V2 | start=0 batch=20
+[11:22:54] Need enrichment: 941
+[11:22:54] [1/20] Saphir- Sri Lankan Kitchen (Bamberg)
+[11:22:57] 
+Done! OK:0 Fail:0 NoWeb:20 | Total enriched:206
+[11:22:58] [2/30] Klosterbräu Bamberg (Bamberg)
+[11:22:59] ==================================================
+[11:22:59] Website Enrichment V2 | start=0 batch=20
+[11:22:59] Need enrichment: 940
+[11:22:59] [1/20] Klosterbräu Bamberg (Bamberg)
+[11:23:03] [3/30] Taverna Georgios (Bamberg)
+[11:23:04] [2/20] Taverna Georgios (Bamberg)
+[11:23:07] [4/30] Hoffmanns Steak und Fisch (Bamberg)
+[11:23:11] [5/30] Restaurant Kuro Neko (Bamberg)
+[11:23:14] [2/20] Klosterbräu Bamberg (Bamberg)
+[11:23:23] [3/20] Hoffmanns Steak und Fisch (Bamberg)
+[11:23:27] [4/20] Restaurant Kuro Neko (Bamberg)
+[11:23:31] [6/30] L'Osteria Sarda (Bamberg)
+[11:23:32] [5/20] L'Osteria Sarda (Bamberg)
+[11:23:35] [7/30] Brasserie (Bamberg)
+[11:23:58] [3/20] Taverna Georgios (Bamberg)
+[11:24:02] [6/20] Brasserie (Bamberg)
+[11:24:05] [8/30] TOSCANINO Trattoria-Vinothek (Bamberg)
+[11:24:06] [7/20] TOSCANINO Trattoria-Vinothek (Bamberg)
+[11:24:10] [8/20] Salino Holzofenpizza (Bamberg)
+[11:24:15] [9/20] Basem kitchen (Bamberg)
+[11:24:17] [4/20] Hoffmanns Steak und Fisch (Bamberg)
+[11:24:19] [10/20] Restaurant Zeis (Bamberg)
+[11:24:21] [5/20] Restaurant Kuro Neko (Bamberg)
+[11:24:23] [11/20] Ristorante da Francesco (Bamberg)
+[11:24:27] [12/20] Komagene Bamberg (Bamberg)
+[11:24:32] [13/20] Gözlemix Bamberg (Bamberg)
+[11:24:35] [9/30] Salino Holzofenpizza (Bamberg)
+[11:24:45] [6/20] L'Osteria Sarda (Bamberg)
+[11:24:49] [7/20] Brasserie (Bamberg)
+[11:24:53] [8/20] TOSCANINO Trattoria-Vinothek (Bamberg)
+[11:25:01] ==================================================
+[11:25:01] Website Enrichment V2 | start=0 batch=20
+[11:25:01] Need enrichment: 934
+[11:25:01] [1/20] TOSCANINO Trattoria-Vinothek (Bamberg)
+[11:25:09] [10/30] Basem kitchen (Bamberg)
+[11:25:40] [11/30] Restaurant Zeis (Bamberg)
+[11:25:45]   OK: https://restaurant-zeis.eatbu.com/ | 347197b | email=info@restaurant-zeis.com
+[11:25:47] [12/30] Ristorante da Francesco (Bamberg)
+[11:25:51] [13/30] Komagene Bamberg (Bamberg)
+[11:25:57] [2/20] Salino Holzofenpizza (Bamberg)
+[11:26:17] [3/20] Basem kitchen (Bamberg)
+[11:26:36] [4/20] Restaurant Zeis (Bamberg)
+[11:26:54] [5/20] Ristorante da Francesco (Bamberg)

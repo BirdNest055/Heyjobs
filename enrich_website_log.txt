@@ -1,0 +1,561 @@
+[10:17:57] ============================================================
+[10:17:57] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:17:57] ============================================================
+[10:17:57] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:17:57] Already enriched: 0
+[10:17:57] Need enrichment: 1146
+[10:17:57] Processing batch: 0 to 49
+[10:17:57] 
+[1/50] Primetals Technologies Germany GmbH (Erlangen)
+[10:17:57]   Searching: Primetals Technologies Germany GmbH Erlangen
+[10:17:58]   Found: https://www.primetals.com/en/about-us/locations/primetals-germany/
+[10:18:00]   HTML saved: 266091 bytes
+[10:18:00]   Email: dsb@dsb.gv.at
+[10:18:01] 
+[2/50] Framatome GmbH (Erlangen)
+[10:18:01]   Searching: Framatome GmbH Erlangen
+[10:18:02]   Found: https://www.framatome.com/de/implantations/erlangen/
+[10:18:03]   HTML saved: 125318 bytes
+[10:18:03]   Email: kontakt.deutschland@framatome.com
+[10:18:04] 
+[3/50] Frör Kunststofftechnik (Erlangen)
+[10:18:04]   Searching: Frör Kunststofftechnik Erlangen
+[10:18:05]   Found: https://www.froer-group.de/de/
+[10:18:06]   HTML saved: 39715 bytes
+[10:18:16] 
+[4/50] Siemens Healthineers Headquarters (Erlangen)
+[10:18:16]   Searching: Siemens Healthineers Headquarters Erlangen
+[10:18:17]   Found: https://www.siemens-healthineers.com/press/features/pf-hq-opening
+[10:18:18]   HTML saved: 94489 bytes
+[10:18:26] 
+[5/50] Siemens AG, Gerätewerk Erlangen (Erlangen)
+[10:18:26]   Searching: Siemens AG, Gerätewerk Erlangen Erlangen
+[10:18:27]   Found: https://www.siemens.com/de/de/unternehmen/standorte/geraetewerk-erlangen.html
+[10:18:30]   HTML saved: 58818 bytes
+[10:18:30]   Email: bernhard.lott@siemens.com
+[10:18:31] 
+[6/50] Corscience GmbH & Co. KG (Erlangen)
+[10:18:31]   Searching: Corscience GmbH & Co. KG Erlangen
+[10:18:32]   Found: https://www.corscience.com/
+[10:18:34]   HTML saved: 79196 bytes
+[10:18:43] ============================================================
+[10:18:43] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:18:43] ============================================================
+[10:18:43] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:18:43] Already enriched: 5
+[10:18:43] Need enrichment: 1141
+[10:18:43] Processing batch: 0 to 49
+[10:18:43] 
+[1/50] Corscience GmbH & Co. KG (Erlangen)
+[10:18:43]   Searching: Corscience GmbH & Co. KG Erlangen
+[10:18:44]   Found: https://www.corscience.com/
+[10:18:45]   HTML saved: 79196 bytes
+[10:18:45]   Email: info@corscience.com
+[10:18:47] 
+[2/50] HEITEC AG - Erlangen (Erlangen)
+[10:18:47]   Searching: HEITEC AG - Erlangen Erlangen
+[10:18:48]   Found: https://www.heitec.de/ueber-heitec/standorte/deutschland/erlangen
+[10:18:49]   HTML saved: 179020 bytes
+[10:18:56] 
+[3/50] Valeo eAutomotive Germany GmbH (Erlangen)
+[10:18:56]   Searching: Valeo eAutomotive Germany GmbH Erlangen
+[10:18:57]   Found: https://www.valeo.com/de/erlangen-division-valeo-power/
+[10:19:00]   HTML saved: 218860 bytes
+[10:19:26] 
+[4/50] MAUSS BAU GmbH & Co. KG (Erlangen)
+[10:19:26]   Searching: MAUSS BAU GmbH & Co. KG Erlangen
+[10:19:27]   Found: https://mauss-bau.de/
+[10:19:30]   HTML saved: 397883 bytes
+[10:19:30]   Email: info@mauss-bau.de
+[10:19:31] 
+[5/50] Chemische Industrie Erlangen (Erlangen)
+[10:19:31]   Searching: Chemische Industrie Erlangen Erlangen
+[10:19:32]   Found: https://www.ching-coatings.com/
+[10:19:34]   HTML saved: 94926 bytes
+[10:19:34]   Email: info@ching-coatings.com
+[10:19:35] 
+[6/50] R O T E C Rohrtechnik GmbH (Erlangen)
+[10:19:35]   Searching: R O T E C Rohrtechnik GmbH Erlangen
+[10:19:36]   Retry: "R O T E C Rohrtechnik GmbH" Erlangen Webseite
+[10:19:36]   Found: https://teamshk.de/erlangen/r-o-t-e-c-rohrtechnik-gmbh
+[10:19:38]   HTML saved: 137631 bytes
+[10:19:48] 
+[7/50] Basel Dienstleistungen GmbH (Erlangen)
+[10:19:48]   Searching: Basel Dienstleistungen GmbH Erlangen
+[10:19:49]   Found: https://basel-gmbh.de/
+[10:19:53]   HTML saved: 96245 bytes
+[10:20:18] 
+[8/50] WaveLight GmbH (Erlangen)
+[10:20:18]   Searching: WaveLight GmbH Erlangen
+[10:20:19]   Found: https://www.alcon.com/de-DE/karriere-bei-wavelight/ueber-wavelight/
+[10:20:20]   HTML saved: 275734 bytes
+[10:20:33] 
+[9/50] AFRA Anwenderfreundliche Automatisierung GmbH (Erlangen)
+[10:20:33]   Searching: AFRA Anwenderfreundliche Automatisierung GmbH Erlangen
+[10:20:34]   Found: https://www.afra.de/
+[10:20:36]   HTML saved: 46141 bytes
+[10:20:36]   Email: info@afra.de
+[10:20:37] 
+[10/50] Sonepar Niederlassung Erlangen (Erlangen)
+[10:20:37]   Searching: Sonepar Niederlassung Erlangen Erlangen
+[10:20:38]   Found: https://www.sonepar.de/c/ueber-uns/standorte/erlangen
+[10:20:40]   HTML saved: 95096 bytes
+[10:20:40]   Email: info.erlangen@sonepar.de
+[10:20:41] 
+[11/50] Geis Industrie-Service GmbH | Kraftwerkstraße 21-23 Erlangen (Erlangen)
+[10:20:41]   Searching: Geis Industrie-Service GmbH | Kraftwerkstraße 21-23 Erlangen Erlangen
+[10:20:42]   Found: https://geis-group.eu/
+[10:20:44]   HTML saved: 107213 bytes
+[10:20:57] 
+[12/50] Friedrich Hofmann GmbH Erlangen (Erlangen)
+[10:20:57]   Searching: Friedrich Hofmann GmbH Erlangen Erlangen
+[10:20:58]   Found: https://hofmann-denkt.de/
+[10:21:07] ============================================================
+[10:21:07] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:21:07] ============================================================
+[10:21:07] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:21:07] Already enriched: 16
+[10:21:07] Need enrichment: 1130
+[10:21:07] Processing batch: 0 to 49
+[10:21:07] 
+[1/50] Friedrich Hofmann GmbH Erlangen (Erlangen)
+[10:21:07]   Searching: Friedrich Hofmann GmbH Erlangen Erlangen
+[10:21:08]   Found: https://hofmann-denkt.de/
+[10:21:13]   HTML download failed or non-HTML content
+[10:21:14] 
+[13/50] Dreyer Haustechnik GmbH (Erlangen)
+[10:21:14]   Searching: Dreyer Haustechnik GmbH Erlangen
+[10:21:15]   Found: https://dreyer-gmbh.de/
+[10:21:19]   HTML saved: 209406 bytes
+[10:21:19]   Email: u003einfo@dreyer-gmbh.de
+[10:21:20] 
+[14/50] LEY Elektrotechnik GmbH (Erlangen)
+[10:21:20]   Searching: LEY Elektrotechnik GmbH Erlangen
+[10:21:21]   Found: https://www.ley-elektrotechnik.de/
+[10:21:22]   HTML saved: 97106 bytes
+[10:21:22]   Email: info@ley-elektrotechnik.de
+[10:21:24] 
+[15/50] Geis Industrie-Service GmbH | Röthelheimpark Erlangen (Erlangen)
+[10:21:24]   Searching: Geis Industrie-Service GmbH | Röthelheimpark Erlangen Erlangen
+[10:21:25]   Found: https://firmania.de/erlangen/geis-industrie-service-gmbh-4405361
+[10:21:25]   HTML download failed or non-HTML content
+[10:21:26] 
+[16/50] Bauunternehmen Thomas Merkel & Sohn GmbH (Erlangen)
+[10:21:26]   Searching: Bauunternehmen Thomas Merkel & Sohn GmbH Erlangen
+[10:21:27]   Found: https://www.thomasmerkelbau.de/
+[10:21:39]   HTML saved: 589562 bytes
+[10:21:39]   Email: info@thomas-merkel-bau.de
+[10:21:41] 
+[17/50] Betonwerk Kurr GmbH (Erlangen)
+[10:21:41]   Searching: Betonwerk Kurr GmbH Erlangen
+[10:21:42]   Found: https://betonwerk-kurr.de/
+[10:21:45]   HTML saved: 102533 bytes
+[10:21:46]   Email: info@betonwerk-kurr.de
+[10:21:47] 
+[18/50] Geis Industrie-Service | Erlangen Kraftwerkstraße 25 (Erlangen)
+[10:21:47]   Searching: Geis Industrie-Service | Erlangen Kraftwerkstraße 25 Erlangen
+[10:21:48]   Found: https://firmania.de/erlangen/geis-industrie-service-gmbh-1613054
+[10:21:49]   HTML download failed or non-HTML content
+[10:21:51] 
+[19/50] Schlüsseldienst BY24 (Erlangen)
+[10:21:51]   Searching: Schlüsseldienst BY24 Erlangen
+[10:21:51]   Found: https://www.schlusseldienst.org/schlusseldienst/91052-erlangen/schlusseldienst-by24-91052-erlangen_460078.php
+[10:21:52]   HTML download failed or non-HTML content
+[10:21:53] 
+[20/50] GALERIA Erlangen (Erlangen)
+[10:21:53]   Searching: GALERIA Erlangen Erlangen
+[10:21:54]   Found: https://www.galeria.de/filialen/l/erlangen/nurnberger-strasse-30/001602
+[10:21:54]   HTML download failed or non-HTML content
+[10:21:56] 
+[21/50] Raphael Frasch GmbH | IT-Systemhaus (Erlangen)
+[10:21:56]   Searching: Raphael Frasch GmbH | IT-Systemhaus Erlangen
+[10:21:58]   Found: https://www.frasch.de/
+[10:21:59]   HTML saved: 124009 bytes
+[10:21:59]   Email: info@frasch.de
+[10:22:01] 
+[22/50] Flaschnerei Beck GmbH & Co.KG Bedachungen (Erlangen)
+[10:22:01]   Searching: Flaschnerei Beck GmbH & Co.KG Bedachungen Erlangen
+[10:22:02]   Found: https://beck-flaschnerei.de/
+[10:22:04]   HTML saved: 228996 bytes
+[10:22:04]   Email: info@beck-flaschnerei.de
+[10:22:05] 
+[23/50] Huwe Umzüge - Umzugsunternehmen Erlangen (Erlangen)
+[10:22:05]   Searching: Huwe Umzüge - Umzugsunternehmen Erlangen Erlangen
+[10:22:06]   Found: https://huweumzuege.de/
+[10:22:10]   HTML saved: 133557 bytes
+[10:22:14]   Email: info@huweumzuege.de
+[10:22:15] 
+[24/50] davero dialog GmbH (Erlangen)
+[10:22:15]   Searching: davero dialog GmbH Erlangen
+[10:22:16]   Found: https://www.davero.de/
+[10:22:17]   HTML saved: 80571 bytes
+[10:22:17]   Email: info@davero.de
+[10:22:19] 
+[25/50] NEXTWERK IT-Services GmbH (Erlangen)
+[10:22:19]   Searching: NEXTWERK IT-Services GmbH Erlangen
+[10:22:20]   Found: https://nextwerk.de/
+[10:22:22]   HTML saved: 218813 bytes
+[10:22:22]   Email: info@nextwerk.de
+[10:22:23] 
+[26/50] HOFMANN IT (Erlangen)
+[10:22:23]   Searching: HOFMANN IT Erlangen
+[10:22:24]   Found: https://duckduckgo.com/y.js?ad_domain=offertoday.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=LQGAqTLvgJJ0ISZ8QpjFCUO7wFfEdK_AgNhhZ9jJiQmvY5snmbXS5W5ubkAr0giF%2D2vSvwMkmOobuuazr1Ba7z0FMKkAe2idHV0in%2DBjHtYDjZ2dfwKBAYvmNRG_yf8c_gfUa4VkICW0%2Ddx5uZQ_OxyD2XR99pFqDhfvphfyNvI.45gGC%2D%2DkGti69fh%2DUABTKg&rut=14a4b11d28f9c8c94d603f141834228f3efc6b819887b6f36618bd34b109f435&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8eF2y1QSVrxcHrmvLgJisbTVUCUyrnQPRv0gBGI2bmxxcmGJ%2DCw51yO7Rn1nzy4ZcBdmPPSEuXwXEEw7gRJPnx2EYtQNKWmPxltPSa88_qOWTUHWOMyocU2WJ6HsBrtytXxZltkpaZk_7J5XD3hQQFCrxw6i2J5yFp2EuCPsooy2oFdDVRB%2DJ22hTZ8NBHM6Q31wzievxfnFI5G9XiCycizhyLUI%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cub2ZmZXJ0b2RheS5jb20lMmZyZWNydWl0ZXIlMmZsb2dpbkZvclNFTSUzZnNvdXJjZSUzZEJJTkdfR29vZ2xlJTJmY3liZXJrbGljayUyNnV0bV9zb3VyY2UlM2QxMTgxOTc2OTA1ODU5MzM3JTI2dXRtX21lZGl1bSUzZDczODc0MDExNDI5MzQzJTI2dXRtX2lkJTNkNTcwMDEzMTI5JTI2bXNjbGtpZCUzZDNmMGUxYzA2ZmM1MDExOTViMTZkNzYwMzVlMzA1Mjkz%26rlid%3D3f0e1c06fc501195b16d76035e305293&vqd=4-272773124437337256239919921182607565806&iurl=%7B1%7DIG%3D841A8081A5FE4DBCB56259F0FE84F894%26CID%3D1C65A5CA5BF765480744B2935AF264EA%26ID%3DDevEx%2C5046.1
+[10:22:25]   HTML saved: 11343 bytes
+[10:22:27] 
+[27/50] Keppler IT GmbH (Erlangen)
+[10:22:27]   Searching: Keppler IT GmbH Erlangen
+[10:22:27]   Found: https://keppler-it.de/
+[10:22:28]   HTML saved: 8088 bytes
+[10:22:35] 
+[28/50] Weingarten PC-Service GmbH (Erlangen)
+[10:22:35]   Searching: Weingarten PC-Service GmbH Erlangen
+[10:22:36]   Found: https://duckduckgo.com/y.js?ad_domain=topwinhk.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=c%2DOvnb13QBUIJi2wYUvoSXIVgQ4XKH%2DOBf33Ul6S5mhNMXFVGd%2DwqRVtBmBWSFmu4pv2hKNwD4_S0J5lyymuP0su3BcC7Qxnz8NqpJcB1olc5mY8EAFuGC4mOHQ8GX3V8LsQdsoKDIci8h1JPfibPqzziUd0RhUQGjxX2ycELzQ.YXRHmi7oYw8XTGbFgszJxw&rut=4aa5a82993083825841f27e24c4d5080cbd76e6a214f631c01b97286105cb4f9&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8BRkWw9wmb_VCEixJ5cHUojVUCUxyskT3DkQ2RcdZC7rq4REdesA6hxxLXWmKCDU6Q_SqrINZNagCJxwsJ%2DurXq7NsxBpPzgxryy%2DXUlKWlxJVoSi4KdBdc3mPiBKoYi0cRpERSos%2DR4sy5U1aQ58rnkfwoaIMwx8TwDSxqCmcAaUD62QaCd5S4ChnfZVRDaBye8HdiU03BRtWE%2Da3dEXvnTAZ_A%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cudG9wd2luaGsuY29tJTJmaXRfdGVjaCUzZm1zY2xraWQlM2RhNzcxYmY5YjMyMTkxMjJjMGE0MWQ1OWU5MDcyMWQ0ZiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFNlYXJjaC1DYW1wYWlnbl8wNDA5MjZfMTczMTQ3JTI2dXRtX3Rlcm0lM2RDb21wdXRlciUyNTIwcmVwYWlyJTI2dXRtX2NvbnRlbnQlM2RBZCUyNTIwR3JvdXAlMjUyMDE%26rlid%3Da771bf9b3219122c0a41d59e90721d4f&vqd=4-139922679573300783021545976390776846193&iurl=%7B1%7DIG%3DE9F4D54E58A841608BF1180B8123E283%26CID%3D1F0116ADFF086FE8079D01F4FEFA6EB1%26ID%3DDevEx%2C5046.1
+[10:22:37]   HTML saved: 27736 bytes
+[10:22:37]   Email: donate@opencart.com
+[10:22:38] 
+[29/50] codemanufaktur GmbH (Erlangen)
+[10:22:38]   Searching: codemanufaktur GmbH Erlangen
+[10:22:39]   Found: https://codemanufaktur.com/
+[10:22:41]   HTML saved: 297349 bytes
+[10:22:44]   Email: kontakt@codemanufaktur.com
+[10:22:46] 
+[30/50] GIANTS Software Entertainment GmbH (Erlangen)
+[10:22:46]   Searching: GIANTS Software Entertainment GmbH Erlangen
+[10:22:46]   Found: https://giants-software.com/contact.php
+[10:22:47]   HTML saved: 7219 bytes
+[10:22:58] 
+[31/50] e.solutions GmbH (Erlangen)
+[10:22:58]   Searching: e.solutions GmbH Erlangen
+[10:22:59]   Found: https://www.esolutions.de/
+[10:23:01]   HTML saved: 168599 bytes
+[10:23:01]   Email: info@esolutions.de
+[10:23:03] 
+[32/50] Aegis Software GmbH (Erlangen)
+[10:23:03]   Searching: Aegis Software GmbH Erlangen
+[10:23:04]   Found: https://www.aiscorp.com/de/
+[10:23:04]   HTML saved: 210154 bytes
+[10:23:06]   Email: infode@aiscorp.com
+[10:23:08] 
+[33/50] eOli.de it-services (Erlangen)
+[10:23:08]   Searching: eOli.de it-services Erlangen
+[10:23:09]   Found: https://www.eoli.de/
+[10:23:14]   HTML saved: 50933 bytes
+[10:23:14]   Email: der@eoli.de
+[10:23:15] 
+[34/50] Luminacid (Erlangen)
+[10:23:15]   Searching: Luminacid Erlangen
+[10:23:18]   Found: https://www.luminacid.com/
+[10:23:19]   HTML saved: 48167 bytes
+[10:23:22] 
+[35/50] bITma solutions GmbH (Erlangen)
+[10:23:22]   Searching: bITma solutions GmbH Erlangen
+[10:23:23]   Found: https://www.bitma.de/
+[10:23:24]   HTML saved: 17640 bytes
+[10:23:24]   Email: info@bitma.de
+[10:23:26] 
+[36/50] Serity GmbH (Erlangen)
+[10:23:26]   Searching: Serity GmbH Erlangen
+[10:23:27]   Found: https://duckduckgo.com/y.js?ad_domain=janus%2Dsicherheit.de&ad_provider=bingv7aa&ad_type=txad&click_metadata=X7tpSs%2D_51k7%2Ddq3pLuahCpBNUfjXg9mVf0K8sRSRxRS3IHrjjjag9wT_5V0PyzwBAe4MGjBH7oPNB1om8D8UyakiNFXTg_%2D0inKawedqVX3vhYlBdGOw8akb4yU1FRjlhNfdFzDUsqeSOjMQhCW3O_kKM5sydLRd2eFIRfP8%2DE.%2D65PiXlzmqk3csa%2DuS_C0A&rut=837df72ce47c73096668e4a38240cf782ffee1623b8e89eaf0f4c8e75ca13c68&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8KYBLRX%2Dk1Ejgy3AVKCj80jVUCUwEtgeaTmyBu4os4Fg5p6sGaqvMXOjrLOFNNhrRkA3bSRQO1lmrPyLeeVmVD7Ni3YbKYhdLACHKERgScBHUULGB_3frLnsHEFDDf_py4Ljkv5neG9rPgvjO7RHkJkpjRRPQsDpjBkGbxHt5W08vHvAcuu1qALAFui6ht26kY8Z6yTcUfeBVP43H3Ak%2DG49FBYo%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuamFudXMtc2ljaGVyaGVpdC5kZSUyZiUzZm1zY2xraWQlM2Q4Zjg1NDNjYTdiMGExNDQyMzRiMDI5Y2ZkOTk0OWQ2NiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDFfVW50ZXJuZWhtZW4lMjUyME1TUCUyNnV0bV90ZXJtJTNkJTI1MkJTZWN1cml0eSUyNTIwJTI1MkJGaXJtYSUyNnV0bV9jb250ZW50JTNkU2VjdXJpdHk%26rlid%3D8f8543ca7b0a144234b029cfd9949d66&vqd=4-115631230943771110370832103344202430349&iurl=%7B1%7DIG%3DD3E7715007024E30940ACAA4D319D70F%26CID%3D3CCC1B0D077A68DD025A0C54067F699C%26ID%3DDevEx%2C5046.1
+[10:23:29]   HTML saved: 113774 bytes
+[10:23:29]   Email: info@janus-sicherheit.de
+[10:23:30] 
+[37/50] WITTL Informationstechnologie GmbH & Co. KG (Erlangen)
+[10:23:30]   Searching: WITTL Informationstechnologie GmbH & Co. KG Erlangen
+[10:23:31]   Found: https://www.wittl-it.de/
+[10:23:32]   HTML saved: 9617 bytes
+[10:23:38] 
+[38/50] CLEAR IT GmbH (Erlangen)
+[10:23:38]   Searching: CLEAR IT GmbH Erlangen
+[10:23:39]   Found: https://www.11880.com/branchenbuch/erlangen/060374184B100988785/clear-it-gmbh.html
+[10:23:39]   HTML download failed or non-HTML content
+[10:23:40] 
+[39/50] softgate GmbH (Erlangen)
+[10:23:40]   Searching: softgate GmbH Erlangen
+[10:23:41]   Found: https://www.soft-gate.de/
+[10:23:44]   HTML saved: 293847 bytes
+[10:23:44]   Email: contact@soft-gate.de
+[10:23:46] 
+[40/50] MERLIN Kommunikationstechnik (Erlangen)
+[10:23:46]   Searching: MERLIN Kommunikationstechnik Erlangen
+[10:23:47]   Found: https://www.merlinedv.de/de/
+[10:23:48]   HTML saved: 17355 bytes
+[10:23:56] 
+[41/50] schmidt IT GmbH (Erlangen)
+[10:23:56]   Searching: schmidt IT GmbH Erlangen
+[10:23:57]   Found: https://www.msit-gmbh.de/
+[10:24:04]   HTML saved: 493101 bytes
+[10:24:04]   Email: info@msit-gmbh.de
+[10:24:05] 
+[42/50] LA2 GmbH (Erlangen)
+[10:24:05]   Searching: LA2 GmbH Erlangen
+[10:24:06]   Found: https://www.la2.de/
+[10:24:07]   HTML saved: 84840 bytes
+[10:24:08]   Email: la2@la2.de
+[10:24:10] 
+[43/50] GRAVITY STORE ERLANGEN (Erlangen)
+[10:24:10]   Searching: GRAVITY STORE ERLANGEN Erlangen
+[10:24:11]   Found: https://www.11880.com/branchenbuch/erlangen/061663729B112746417/gravity-store-erlangen.html
+[10:24:11]   HTML download failed or non-HTML content
+[10:24:12] 
+[44/50] Regionales Rechenzentrum Erlangen (RRZE) (Erlangen)
+[10:24:12]   Searching: Regionales Rechenzentrum Erlangen (RRZE) Erlangen
+[10:24:15]   Found: https://www.rrze.fau.de/
+[10:24:16]   HTML saved: 129048 bytes
+[10:24:16]   Email: rrze-redaktion@fau.de
+[10:24:18] 
+[45/50] K7 IT-Solutions GmbH (Erlangen)
+[10:24:18]   Searching: K7 IT-Solutions GmbH Erlangen
+[10:24:19]   Found: https://www.k7-it.de/
+[10:24:20]   HTML saved: 100414 bytes
+[10:24:20]   Email: info@k7-it.de
+[10:24:22] 
+[46/50] develop group Holding AG (Erlangen)
+[10:24:22]   Searching: develop group Holding AG Erlangen
+[10:24:23]   Found: https://www.develop-group.de/
+[10:24:24]   HTML saved: 29347 bytes
+[10:24:24]   Email: connect@develop-group.de
+[10:24:26] 
+[47/50] DS-networks (Erlangen)
+[10:24:26]   Searching: DS-networks Erlangen
+[10:24:26]   Found: https://ds-networks.de/de/
+[10:24:27]   HTML saved: 146509 bytes
+[10:24:33] 
+[48/50] Via Appia EDV GmbH (Erlangen)
+[10:24:33]   Searching: Via Appia EDV GmbH Erlangen
+[10:24:33]   Found: https://www.via-appia.de/
+[10:24:35]   HTML saved: 93581 bytes
+[10:25:00] 
+[49/50] KommunalBIT IT-Betreuung Schulen (Erlangen)
+[10:25:00]   Searching: KommunalBIT IT-Betreuung Schulen Erlangen
+[10:25:01]   Found: https://www.kommunalbit.de/
+[10:25:02]   HTML saved: 58403 bytes
+[10:25:03]   Email: kontakt@kommunalbit.de
+[10:25:04] 
+[50/50] Düsel IT - Webdesign (Erlangen)
+[10:25:04]   Searching: Düsel IT - Webdesign Erlangen
+[10:25:05]   Found: https://duckduckgo.com/y.js?ad_domain=sipgate.de&ad_provider=bingv7aa&ad_type=txad&click_metadata=1niaTrkyYZTGWrS6CU5CZQoQY00sSmZCnOZeQpgz9dk3duGVdrbefT6x%2D_0wS0YGmApmq_a%2DqXJf5S_FWHVwtutDFaLlbO_yw6GaCBcfaLjd6q7diJU9htsw68vKI5hXTULiU7sJHXUJrMF1eXwX0mNsw9CPjkH4YMB_FMhtMYQ.abxqlNDNVojowxR0xidlow&rut=68eaa92e96d8158d7008b6cba36635481a16c03a9a544b2b30b9befd79c33718&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8arj%2D_UbKp1wNhB5Eic96pjVUCUxmrzmv1FL5aaPBwIoaFg3yF4JMgIXQCOlz0rffd34ghyB7NTaqNGN54ybJ4UAQ7CtVeAZIT_esFTC9Z5tUGci318o66xRaQpsaLJJAeI4ufHvTFtqjA6XBFYu4HsmEb8G7eH_d9CJeQXyiZndDUbjftashhROvWUKDt3N6mKTVxNwy%2D5WVBEqRUn035cbqUBU%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuc2lwZ2F0ZS5kZSUzZm1zY2xraWQlM2QwOWI5MDU5MDAwNGQxODNkODk4MjZmOTVhMzRjYzc5YiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZE1pY3Jvc29mdF9ERV9zaXBnYXRlX1BlcmZvcm1hbmNlX1BNYXglMjZ1dG1fdGVybSUzZHd3dy5zaXBnYXRlLmRlJTI2dXRtX2NvbnRlbnQlM2RQZXJmb3JtYW5jZSUyNTIwU2V0JTI1MjBTZXB0JTI1MjAx%26rlid%3D09b90590004d183d89826f95a34cc79b&vqd=4-106683685544743856147042432951718017373&iurl=%7B1%7DIG%3DB4254E3452AE459893FEAFE766B3C775%26CID%3D1AAAF8627C1660710F32EF3B7DE461E3%26ID%3DDevEx%2C5039.1
+[10:25:06]   HTML download failed or non-HTML content
+[10:25:07] 
+============================================================
+[10:25:07] Batch complete!
+[10:25:07]   Websites found: 50/50
+[10:25:07]   HTML saved: 42
+[10:25:07]   Emails found: 28
+[10:25:07]   Total enriched: 55
+[10:25:07]   Remaining: 1091
+[10:25:07] ============================================================
+[10:25:07] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:25:07] ============================================================
+[10:25:07] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:25:07] Already enriched: 55
+[10:25:07] Need enrichment: 1091
+[10:25:07] Processing batch: 50 to 99
+[10:25:07] 
+[1/50] DHL Express Station Nürnberg (Erlangen)
+[10:25:07]   Searching: DHL Express Station Nürnberg Erlangen
+[10:25:08]   Found: https://mydhl.express.dhl/de/de/transactional/locator.html
+[10:25:09]   HTML saved: 248119 bytes
+[10:26:01] 
+[2/50] DEKRA Automobil GmbH Außenstelle Erlangen (Erlangen)
+[10:26:01]   Searching: DEKRA Automobil GmbH Außenstelle Erlangen Erlangen
+[10:26:02]   Found: https://www.dekra.de/de/erlangen/
+[10:26:04]   HTML saved: 419412 bytes
+[10:26:05]   Email: erlangen.automobil@dekra.com
+[10:26:06] 
+[3/50] Winner Spedition GmbH & Co. KG - Winner Spedition Erlangen (Erlangen)
+[10:26:06]   Searching: Winner Spedition GmbH & Co. KG - Winner Spedition Erlangen Erlangen
+[10:26:06]   Retry: "Winner Spedition GmbH & Co. KG - Winner Spedition Erlangen" Erlangen Webseite
+[10:26:07]   Found: https://firmania.de/erlangen/winner-spedition-gmbh-co-kg-winner-spedition-erlangen-4092053
+[10:26:07]   HTML download failed or non-HTML content
+[10:26:09] 
+[4/50] Möbius & Ruppert GmbH & Co. KG (Erlangen)
+[10:26:09]   Searching: Möbius & Ruppert GmbH & Co. KG Erlangen
+[10:26:09]   Found: https://www.moebius-ruppert.com/
+[10:26:12]   HTML saved: 176948 bytes
+[10:26:12]   Email: info@pagna.de
+[10:26:14] 
+[5/50] City Fitness Erlangen (Erlangen)
+[10:26:14]   Searching: City Fitness Erlangen Erlangen
+[10:26:15]   Found: https://hansefit.de/de/studio-finden/erlangen/fitnessstudio/city-fitness-erlangen/
+[10:26:16]   HTML saved: 58448 bytes
+[10:26:16]   Email: info@cityfitness.de
+[10:26:17] 
+[6/50] Alotec Haustechnik GmbH Erlangen Sanitär Heizung Badumbau Klima & Wasserschaden (Erlangen)
+[10:26:17]   Searching: Alotec Haustechnik GmbH Erlangen Sanitär Heizung Badumbau Klima & Wasserschaden Erlangen
+[10:26:18]   Found: https://alotec-gmbh.de/
+[10:26:19]   HTML saved: 78910 bytes
+[10:26:19]   Email: info@alotec-gmbh.de
+[10:26:21] 
+[7/50] Siemens (Erlangen)
+[10:26:21]   Searching: Siemens Erlangen
+[10:26:24]   Found: https://www.siemens.com/de/de/unternehmen/standorte/siemens-in-erlangen.html
+[10:26:29]   HTML saved: 54309 bytes
+[10:26:29]   Email: oliver.hartmann@siemens.com
+[10:26:30] 
+[8/50] Geis Industrie-Service GmbH | Pestalozziring Erlangen (Erlangen)
+[10:26:30]   Searching: Geis Industrie-Service GmbH | Pestalozziring Erlangen Erlangen
+[10:26:31]   Found: https://firmania.de/erlangen/geis-industrie-service-gmbh-4405377
+[10:26:31]   HTML download failed or non-HTML content
+[10:26:33] 
+[9/50] Müller & Müller Immobilien GmbH (Erlangen)
+[10:26:33]   Searching: Müller & Müller Immobilien GmbH Erlangen
+[10:26:33]   Found: https://m-m-immo.de/
+[10:26:35]   HTML saved: 214950 bytes
+[10:26:35]   Email: info@m-m-immo.de
+[10:26:37] 
+[10/50] Hafen Erlangen GmbH (Erlangen)
+[10:26:37]   Searching: Hafen Erlangen GmbH Erlangen
+[10:26:37]   Found: https://firmeneintrag.creditreform.de/91056/8190883903/HAFEN_ERLANGEN_GMBH
+[10:26:38]   HTML download failed or non-HTML content
+[10:26:40] 
+[11/50] Moldan GmbH (Erlangen)
+[10:26:40]   Searching: Moldan GmbH Erlangen
+[10:26:41]   Found: https://moldan.de/
+[10:26:45]   HTML saved: 36099 bytes
+[10:26:45]   Email: info@moldan.de
+[10:26:46] 
+[12/50] Telekom Shop (Erlangen)
+[10:26:46]   Searching: Telekom Shop Erlangen
+[10:26:47]   Found: https://shopseite.telekom.de/sued-ost/erlangen/hauptstr-17
+[10:26:49]   HTML saved: 128093 bytes
+[10:26:49]   Email: vp2680001.telekomshop@telekom.de
+[10:26:51] 
+[13/50] HOLZMANN IT SYSTEME (Erlangen)
+[10:26:51]   Searching: HOLZMANN IT SYSTEME Erlangen
+[10:26:51]   Found: https://holzmann-its.de/
+[10:26:52]   HTML saved: 17876 bytes
+[10:27:00] 
+[14/50] TRIBAR Software GmbH (Erlangen)
+[10:27:00]   Searching: TRIBAR Software GmbH Erlangen
+[10:27:00]   Retry: "TRIBAR Software GmbH" Erlangen Webseite
+[10:27:00]   Found: https://tribar.de/
+[10:27:09]   HTML saved: 458957 bytes
+[10:27:10]   Email: %20partner@tribar.de
+[10:27:11] 
+[15/50] INCHRON AG (Erlangen)
+[10:27:11]   Searching: INCHRON AG Erlangen
+[10:27:12]   Found: https://www.inchron.com/
+[10:27:13]   HTML saved: 300445 bytes
+[10:27:14]   Email: inchron@inchron.com
+[10:27:15] 
+[16/50] Algorithmus Schmiede (Erlangen)
+[10:27:15]   Searching: Algorithmus Schmiede Erlangen
+[10:27:16]   Found: https://www.algorithmus-schmiede.de/
+[10:27:18]   HTML saved: 184313 bytes
+[10:27:27]   Email: max.mustermann@t-online.de
+[10:27:29] 
+[17/50] emesit Innovative Maschinen und Software (Erlangen)
+[10:27:29]   Searching: emesit Innovative Maschinen und Software Erlangen
+[10:27:29]   Found: https://www.emesit.net/kontakt.php
+[10:27:31]   HTML saved: 6762 bytes
+[10:27:31]   Email: info@emesit.de
+[10:27:32] 
+[18/50] TKS Datentechnik GmbH (Erlangen)
+[10:27:32]   Searching: TKS Datentechnik GmbH Erlangen
+[10:27:33]   Found: https://www.11880.com/branchenbuch/erlangen/050331048B108945407/tks-datentechnik-gmbh.html
+[10:27:33]   HTML download failed or non-HTML content
+[10:27:35] 
+[19/50] CIP-Pool Maschinenbau (Erlangen)
+[10:27:35]   Searching: CIP-Pool Maschinenbau Erlangen
+[10:27:35]   Retry: "CIP-Pool Maschinenbau" Erlangen Webseite
+[10:27:35]   Found: https://www.department.mb.tf.fau.de/cip-pool/
+[10:27:38]   HTML saved: 169988 bytes
+[10:27:38]   Email: mb-cip@fau.de
+[10:27:39] 
+[20/50] defacto software GmbH (Erlangen)
+[10:27:39]   Searching: defacto software GmbH Erlangen
+[10:27:40]   Found: https://www.defacto.de/
+[10:27:43]   HTML saved: 629399 bytes
+[10:27:44]   Email: berit.eigl@defacto.de
+[10:27:45] 
+[21/50] ProFit (Erlangen)
+[10:27:45]   Searching: ProFit Erlangen
+[10:27:46]   Found: https://profitsoftware.de/
+[10:27:47]   HTML saved: 33338 bytes
+[10:27:54] 
+[22/50] B&W Software (Erlangen)
+[10:27:54]   Searching: B&W Software Erlangen
+[10:27:55]   Found: https://www.buw-soft.de/de/
+[10:27:58]   HTML saved: 146684 bytes
+[10:27:58]   Email: info@buw-soft.de
+[10:27:59] 
+[23/50] alpha-bit Gesellschaft für software engineering mbH (Erlangen)
+[10:27:59]   Searching: alpha-bit Gesellschaft für software engineering mbH Erlangen
+[10:28:00]   Found: https://www.alpha-bit.de/
+[10:28:03]   HTML saved: 123463 bytes
+[10:28:03]   Email: info22@alpha-bit.de
+[10:28:05] 
+[24/50] Cognitionteam (Erlangen)
+[10:28:05]   Searching: Cognitionteam Erlangen
+[10:28:06]   Found: https://cognitionteam.com/
+[10:28:06]   HTML saved: 3988 bytes
+[10:28:09] 
+[25/50] Sioux Technologies GmbH (Erlangen)
+[10:28:09]   Searching: Sioux Technologies GmbH Erlangen
+[10:28:10]   Found: https://www.sioux.eu/de
+[10:28:10]   HTML download failed or non-HTML content
+[10:28:10] ============================================================
+[10:28:10] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:28:10] ============================================================
+[10:28:10] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:28:10] Already enriched: 80
+[10:28:10] Need enrichment: 1066
+[10:28:10] Processing batch: 500 to 549
+[10:28:10] 
+[1/50] Hans Zienert GmbH & Co. KG (Erlangen)
+[10:28:10]   Searching: Hans Zienert GmbH & Co. KG Erlangen
+[10:28:10]   Retry: "Hans Zienert GmbH & Co. KG" Erlangen Webseite
+[10:28:11] 
+[26/50] UL Solutions (Erlangen)
+[10:28:11]   Searching: UL Solutions Erlangen
+[10:28:12]   Found: https://germany.ul.com/en/locations/
+[10:28:12]   Found: https://firmeneintrag.creditreform.de/91056/8190707626/HANS_ZIENERT_GMBH_CO_KG
+[10:28:13]   HTML download failed or non-HTML content
+[10:28:14]   HTML saved: 68089 bytes
+[10:28:14]   Email: info-mdt@ul.com
+[10:28:15] 
+[2/50] Quergfelder Metallbau (Erlangen)
+[10:28:15]   Searching: Quergfelder Metallbau Erlangen
+[10:28:15] 
+[27/50] infoteam Software AG (Erlangen)
+[10:28:15]   Searching: infoteam Software AG Erlangen
+[10:28:15]   Retry: "infoteam Software AG" Erlangen Webseite
+[10:28:16]   No website found
+[10:28:17] 
+[28/50] Giesse + Partner Software GmbH (Erlangen)
+[10:28:17]   Searching: Giesse + Partner Software GmbH Erlangen
+[10:28:18]   Found: https://firmeneintrag.creditreform.de/91052/8190094485/GIESSE_PARTNER_SOFTWARE_GMBH
+[10:28:19]   HTML download failed or non-HTML content
+[10:28:20] 
+[29/50] S I G M A Systementwicklungs und Datenverarbeitungs GmbH (Erlangen)
+[10:28:20]   Searching: S I G M A Systementwicklungs und Datenverarbeitungs GmbH Erlangen
+[10:28:21]   Found: https://firmeneintrag.creditreform.de/91058/8190026402/S_I_G_M_A_GESELLSCHAFT_FUER_SYSTEMENTWICKLUNG_UND_DATENVERARBEITUNG_MBH
+[10:28:22]   HTML download failed or non-HTML content
+[10:28:24] 
+[30/50] fiveD GmbH (Erlangen)
+[10:28:24]   Searching: fiveD GmbH Erlangen
+[10:28:25]   Found: https://fived.ai/
+[10:28:26]   HTML saved: 118202 bytes
+[10:28:26]   Email: contact@five-d.ai
+[10:28:28] 
+[31/50] ercas Software Solutions GmbH (Erlangen)
+[10:28:28]   Searching: ercas Software Solutions GmbH Erlangen
+[10:28:28]   Retry: "ercas Software Solutions GmbH" Erlangen Webseite
+[10:28:29]   Found: https://ercas.com/kontakt/kontaktdaten/
+[10:28:31]   HTML saved: 47986 bytes
+[10:28:31]   Email: kontakt@ercas.com
+[10:28:32] 
+[32/50] COI GmbH (Erlangen)
+[10:28:32]   Searching: COI GmbH Erlangen
+[10:28:33]   Found: https://www.coi.de/
+[10:28:34]   HTML saved: 183673 bytes
+[10:28:34]   Email: info@coi.de
+[10:28:36] 
+[33/50] TechHub by efs (Erlangen)
+[10:28:36]   Searching: TechHub by efs Erlangen
+[10:28:37]   Found: https://efs-techhub.com/
+[10:28:40]   HTML saved: 288498 bytes
+[10:28:40]   Email: info@geopard-digital.de
+[10:28:42] 
+[34/50] Datolution GmbH (Erlangen)
+[10:28:42]   Searching: Datolution GmbH Erlangen

@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>ProFit</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bs_override.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/profit_scripts.js"></script>
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+        <!-- Navigation Menubar -->
+        <nav id="fixed-topbar" class="navbar navbar-default profit-navbar">
+            <div class="container-fluid" id="nav-content">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.htm">
+                        <img src="images/profit.jpg" class="img-responsive">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="neuigkeiten.htm">Neuigkeiten</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produkte<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.profitsoftware.de/files/ProFit_Produktportfolio.pdf" target=__new>Produkt Portfolio</a></li>
+                            <li><a href="produkte_beratungstool.htm">ProFit Beratungstool</a></li>
+                            <li><a href="produkte_smart.htm">ProFit SMART</a></li>
+                            <li><a href="produkte_onlinevertrag.htm">ProFit Onlinevertrag</a></li>
+                            <li><a href="produkte_cube.htm">CUBE Trainingsmanager</a></li>
+                            <li><a href="produkte_trainerapp.htm">Trainer App</a></li>
+                            <li><a href="produkte_app.htm">Mitglieder App</a></li>
+                            <li><a href="produkte_ausweismedien.htm">Ausweismedien</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.profitsoftware.de/files/ProFit_Fernwartung.exe">Fernwartung</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hilfe<span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="min-width: 150px;">
+                            <li><a href="hilfe_faq.htm">Häufige Fragen</a></li>
+                            <li><a href="hilfe_websupport.htm">Websupport</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="partner.htm">Partner</a></li>
+                    <li><a href="jobs.htm">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="container-fluid" id="nav-content-small">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.htm">
+                        <img src="images/profit.jpg" class="img-responsive">
+                    </a>
+                </div>
+                <div class="hamburger" style="float:right;">
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="bar3"></div>
+                </div>
+            </div>
+            <div class="container-fluid hr-container">
+                <hr>
+            </div>
+            <div class="container-fluid mobile-sidemenu">
+                <ul>
+                    <li><span><a href="neuigkeiten.htm">Neuigkeiten</a></span></li>
+                    <li class="parent">
+                        <div>Produkte</div>
+                        <ul>
+                            <li><span><a href="produkte_beratungstool.htm">ProFit Beratungstool</a></span></li>
+                            <li><span><a href="produkte_smart.htm">ProFit SMART</a></span></li>
+                            <li><span><a href="produkte_onlinevertrag.htm">ProFit Onlinevertrag</a></span></li>
+                            <li><span><a href="produkte_cube.htm">CUBE Trainingsmanager</a></span></li>
+                            <li><span><a href="produkte_trainerapp.htm">Trainer App</a></span></li>
+                            <li><span><a href="produkte_app.htm">Mitglieder App</a></span></li>
+                            <li><span><a href="produkte_ausweismedien.htm">Ausweismedien</a></span></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.profitsoftware.de/files/ProFit_Fernwartung.exe">Fernwartung</a></li>
+                    <li class="parent">
+                        <div>Hilfe</div>
+                        <ul>
+                            <li><span><a href="hilfe_faq.htm">Häufige Fragen</a></span></li>
+                            <li><span><a href="hilfe_websupport.htm">Websupport</a></span></li>
+                        </ul>
+                    </li>
+                    <li><span><a href="partner.htm">Partner</a></span></li>
+                    <li><span><a href="jobs.htm">Jobs</a></span></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row" style="margin-bottom:0;padding-top:0;padding-bottom:0;"> <!-- title image -->
+
+                <div class="col-md-12 titleImage" style="text-align:left; vertical-align:middle; position:relative;">
+                    <img src="images/hero_easy.png" alt="" class="img-responsive" style="position:absolute;z-index:-1;">
+                    <div class="caption home-title-rs home-title0" style="padding-left:10%;">
+                        <div >
+                             Jetzt durchstarten<br>
+                             Mit Software von ProFit
+                            </div>
+                    </div>
+
+                    <a href="files/umstieg-von-magicline_250124_komprimiert.pdf" target="__new" class="buttonpc">
+                    <button type="button" class="btn btn-default purple" style="margin-left:10%;margin-right:auto;margin-top:-14rem;">
+                        <strong>von MagicLine zu ProFit wechseln</strong>
+                    </button>
+                    </a>
+                    <a href="files/umstieg-von-magicline_250124_komprimiert.pdf" target="__new" class="buttonmobil" style="margin-top: 30px">
+                    <button type="button" class="btn btn-default purple" style="margin-left:10%;margin-right:auto;margin-top:-10rem;">
+                        <strong>von MagicLine zu ProFit wechseln</strong>
+                    </button>
+                    </a>
+                </div>
+
+                <div class="col-md-12 titleImage" style="text-align:center;vertical-align:middle;position:relative;display:none;">
+                    <img src="images/hero.jpg" alt="" class="img-responsive" style="position:absolute;z-index:-1;">
+                    <div class="caption home-title-rs home-title1">
+                        <div>
+                             Software für<br>
+                             Fitness<br>
+                             Physiotherapie<br>
+                             Reha   
+                            </div>
+                    </div>
+                    <a href="files/ProFit_Produktportfolio.pdf" target="__new">
+                    <button type="button" class="btn btn-default purple" style="margin-left:auto;margin-right:auto;margin-top:-14rem;">
+                        <strong>Produkttour starten</strong>
+                    </button>
+                    </a>
+                </div>
+		<br><br>
+            </div>
+
+            <div class="row" style="text-align:center;"> <!-- carousel top -->
+                <div class="section-header">AKTUELLES</div>
+                <div id="carousel-top" class="carousel slide" data-ride="carousel" style="height:22.5rem;">
+                    <div class="carousel-inner carousel-profit">
+                        <div class="item active">
+                            <div class="col-md-4">
+                                <div class="item-content">
+                                    <div>
+                                        <div class="top">
+                                            18.12.2024 | nethos®<br>
+                                            <span class="item-header"><strong>Training noch leichter dokumentieren</strong></span>
+                                            <hr class="item-line">
+                                            <p>Tablett zur Trainingsdokumentation erweitert CUBE Trainingsmanager. Für hydraulische Kombinationsgeräte nethos® verfügbar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <div class="item-content">
+                                    <div>
+                                        <div class="top">
+                                            07.10.2024 | ProFit Sale<br>
+                                            <span class="item-header"><strong>Digitale-Mitgliedschaften</strong></span>
+                                            <hr class="item-line">
+                                            <p>Digitaler Verkauf von Mitgliedschaften spart Zeit und Druckkosten. Es stehen jetzt 3 Vertragsformulare zur Verfügung. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-md-4">
+                                <div class="item-content">
+                                    <div>
+                                        <div class="top">
+                                            14.11.2024 | WEB-Portal Gantner<br>
+                                            <span class="item-header"><strong>Optimierte Zutrittslösung</strong></span>
+                                            <hr class="item-line">
+                                            <p>Gantner Türöffner, GT7.2500 und Automatensteuerung alles jetzt in der Browser-Ansicht.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- left and right controls -->
+
+                    <a href="#carousel-top" data-slide="prev" class="left carousel-control">
+                        <div>
+                            <img src="images/arrowbutton2.png" class="img-responsive">
+                        </div>
+                    </a>
+                    <a href="#carousel-top" data-slide="next" class="right carousel-control">
+                        <div>
+                            <img src="images/arrowbutton.png" class="img-responsive">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row grey" style="text-align:center;margin-bottom:0;padding-bottom:0;"> <!-- Produkte header + image -->
+                <div class="section-header">PRODUKTE</div>
+                <img src="images/allinone.png" class="img-responsive" style="display:inline-block;">
+                <div style="text-align:center;margin-bottom:2.125rem;margin-top:2.125rem;"> <!-- Alles aus einer Hand section -->
+                    <div style="font-family:'Roboto bold','Verdana',sans-serif;font-size:2rem;">Alles aus einer Hand</div>
+                    <p style="font-size:1.875rem;padding-bottom:2.75rem;padding-top:1rem;line-spacing:1.5;">
+                        Damit in Ihrem Fitnessstudio alles rund läuft,
+                        bieten wir Ihnen mehr als nur Software. Wir liefern Ihnen auch Mitgliedskarten
+                        unterschiedlicher Techniken und statten Sie mit PCs und anderer Hardware
+                        aus, für Sie fertig eingerichtet und sofort einsatzbereit. Auch Netzwerkarbeiten
+                        übernehmen wir gerne.
+                    </p>
+                </div>
+			</div>
+            <div class="row grey" style="padding-left:0;padding-right:0;padding-top:0;">
+                <!-- min-width:30.10416vw; -->
+                <!-- height:65.3125vw; -->
+
+                 <!-- product list -->
+                 <div class="product-images" id="product-list" style="height:1254px;margin: 0 auto;"> <!-- rectangle images 1 -->
+                    <div style="width:100%;height:100%;">
+                         
+                        <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/beratungstool_01.jpg">
+                                 <img class="product-square" src="images/beratungstool_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         ProFit Beratungstool
+                                     </div>
+                                     <div class="product-content">
+                                         Präsentieren Sie Ihr Angebot<br>
+                                         und schließen Sie Verträge ab.
+                                         <a href="produkte_beratungstool.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/smart_01.jpg">
+                                 <img class="product-square" src="images/smart_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         ProFit SMART
+                                     </div>
+                                     <div class="product-content">
+                                        Die Komplettlösung für Ihre Studioverwaltung
+                                         <a href="produkte_smart.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/cube_01.jpg">
+                                 <img class="product-square" src="images/cube_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         CUBE<br>
+                                         Trainingsmanager
+                                     </div>
+                                     <div class="product-content">
+                                         Training planen, durchführen, auswerten
+                                         <a href="produkte_cube.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/trainerapp_01.jpg">
+                                 <img class="product-square" src="images/trainerapp_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         Trainer App
+                                     </div>
+                                     <div class="product-content">
+                                        Mobile Trainingsplanung auf dem Tablet
+                                         <a href="produkte_trainerapp.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/app_01.jpg">
+                                 <img class="product-square" src="images/app_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         Mitglieder App
+                                     </div>
+                                     <div class="product-content">
+                                         Bleiben Sie mit Ihren Mitgliedern in Kontakt
+                                         <a href="produkte_app.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/ausweismedien_01.jpg">
+                                 <img class="product-square" src="images/ausweismedien_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         Ausweismedien
+                                     </div>
+                                     <div class="product-content">
+                                         Für einen reibungslosen Ablauf
+                                         <a href="produkte_ausweismedien.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-xs-12" style="height:2.71132%;"></div>
+                        
+                         <div class="col-xs-12" style="height:22.966507%;">
+                             <div class="tile-container">
+                                 <img class="product-rect" src="images/onlinevertrag_01.jpg">
+                                 <img class="product-square" src="images/onlinevertrag_02.jpg">
+                                 <div class="product-caption-container" style="height:100%;width:100%;">
+                                     <div class="product-overlay"></div>
+                                     <div class="product-caption">
+                                         Onlinevertrag
+                                     </div>
+                                     <div class="product-content">
+                                        Der einfache Weg zu mehr neuen Mitgliedern
+                                         <a href="produkte_onlinevertrag.htm"><button type="button" class="btn btn-default purple">
+                                             <strong>Mehr erfahren</strong>
+                                         </button></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+
+                     </div>
+                 </div>
+
+
+                 <!-- product mosaic -->
+                <div class="product-images" id="product-mosaic" style="width:63.54vw;height:31.771vw;">
+
+                    <div style="width:23.6%;height:100%;background-color:#0000ff;padding:0;float:left;">
+                        <div class="tile-container">
+                            <img src="images/beratungstool_03.jpg">
+                            <div class="product-caption-container" style="height:100%;width:100%;">
+                                <div class="product-overlay"></div>
+                                <div class="product-caption">
+                                    ProFit Beratungstool
+                                </div>
+                                <div class="product-content-3">
+                                    Präsentieren Sie Ihr Angebot<br>
+                                    und schließen Sie Verträge ab.
+                                    <a href="produkte_beratungstool.htm"><button type="button" class="btn btn-default purple">
+                                        <strong>Mehr erfahren</strong>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10" style="height:100%;width:50%;padding:0;">
+                        <div class="col-sm-6" style="width:50%;height:50%;float:left;padding-left:3.64767%;padding-right:0;padding-bottom:1.82403%;">
+                            <div class="tile-container">
+                                <img src="images/smart_02.jpg">
+                                <div class="product-caption-container" style="height:100%;width:100%;">
+                                    <div class="product-overlay"></div>
+                                    <div class="product-caption">
+                                        ProFit SMART
+                                    </div>
+                                    <div class="product-content">
+                                        Die Komplettlösung für Ihre Studioverwaltung
+                                        <a href="produkte_smart.htm"><button type="button" class="btn btn-default purple">
+                                            <strong>Mehr erfahren</strong>
+                                        </button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style="width:50%;height:50%;padding:0;padding-bottom:1.82403%;padding-left:3.64767%;padding-right:0;">
+                            <div class="tile-container">
+                                <img src="images/ausweismedien_02.jpg">
+                                <div class="product-caption-container" style="height:100%;width:100%;">
+                                    <div class="product-overlay"></div>
+                                    <div class="product-caption">
+                                        Ausweis&shy;medien
+                                    </div>
+                                    <div class="product-content">
+                                        Für einen reibungslosen Ablauf
+                                        <a href="produkte_ausweismedien.htm"><button type="button" class="btn btn-default purple">
+                                            <strong>Mehr erfahren</strong>
+                                        </button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12" style="width:100%;height:50%;padding-left:3.64767%;padding-right:0;padding-top:1.82403%;">
+                            <div class="tile-container" style="float:right;">
+                                <img src="images/cube_01.jpg">
+                                <div class="product-caption-container" style="height:100%;width:100%;">
+                                    <div class="product-overlay"></div>
+                                    <div class="product-caption">
+                                        CUBE<br>
+                                        Trainingsmanager
+                                    </div>
+                                    <div class="product-content">
+                                        Training planen, durchführen, auswerten
+                                        <a href="produkte_cube.htm"><button type="button" class="btn btn-default purple">
+                                            <strong>Mehr erfahren</strong>
+                                        </button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="width:23.6%;height:100%;background-color:#ffffff;padding:0;float:left;padding-left:1.82403%;">
+                        <div class="tile-container">
+                            <img src="images/onlinevertrag_03.jpg">
+                            <div class="product-caption-container" style="height:100%;width:100%;">
+                                <div class="product-overlay"></div>
+                                <div class="product-caption">
+                                    Onlinevertrag
+                                </div>
+                                <div class="product-content-3">
+                                    Der einfache Weg zu mehr neuen Mitgliedern
+                                    <a href="produkte_onlinevertrag.htm"><button type="button" class="btn btn-default purple">
+                                        <strong>Mehr erfahren</strong>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12" style="height:50%;width:100%;padding:0;padding-left:0%;">
+                        <div class="col-sm-6" style="width:50%;height:100%;padding-left:0%;padding-top:1.82403%;padding-right:1%;">
+                            <div class="tile-container">
+                                <img src="images/trainerapp_01.jpg">
+                                <div class="product-caption-container" style="height:100%;width:100%;">
+                                    <div class="product-overlay"></div>
+                                    <div class="product-caption">
+                                        Trainer App
+                                    </div>
+                                    <div class="product-content">
+                                        Mobile Trainingsplanung auf dem Tablet
+                                        <a href="produkte_trainerapp.htm"><button type="button" class="btn btn-default purple">
+                                            <strong>Mehr erfahren</strong>
+                                        </button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6" style="width:50%;height:100%;padding-left:1%;padding-top:1.82403%;padding-right:2.80%;">
+                            <div class="tile-container">
+                                <img src="images/app_01.jpg">
+                                <div class="product-caption-container" style="height:100%;width:100%;">
+                                    <div class="product-overlay"></div>
+                                    <div class="product-caption">
+                                        Mitglieder App
+                                    </div>
+                                    <div class="product-content">
+                                        Bleiben Sie mit Ihren Mitgliedern in Kontakt
+                                        <a href="produkte_app.htm"><button type="button" class="btn btn-default purple">
+                                            <strong>Mehr erfahren</strong>
+                                        </button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row footer" style="margin-bottom:0;"> <!-- footer -->
+                <div id="left" class="col-xs-12" style="color:white;">
+                    <div class="col-md-2 col-xs-12" style="margin-top:1rem;text-align:left;">
+			Tel: +49 9131 798120<br>
+			Mo-Do: &nbsp;&nbsp;&nbsp;&nbsp;07:30-12:00<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:00-16:30<br>
+			Fr:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07:30-15:00<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div id="right" class="col-md-8 col-xs-12" style="float:right;text-align:right;">
+                        <div id="widescreen" class="col-xs-12">
+                            <span><a href="datenschutz.htm">Datenschutz</a></span>
+                            <span><a href="impressum.htm">Impressum</a></span>
+                            <span><a href="files/AGB2002Ausgabe2.pdf">AGB</a></span>
+                            <span><a href="disclaimer.htm">Disclaimer</a></span>
+                        </div>
+                        <div id="narrowscreen">
+                            <div class="col-xs-6" style="text-align:left;padding:0;">
+                                <span><a href="datenschutz.htm">Datenschutz</a></span><br>
+                                <span><a href="impressum.htm">Impressum</a></span>
+                            </div>
+                            <div class="col-xs-6" style="text-align:right;padding:0;">
+                                <span><a href="files/AGB2002Ausgabe2.pdf">AGB</a></span><br>
+                                <span><a href="disclaimer.htm">Disclaimer</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

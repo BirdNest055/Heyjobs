@@ -1,0 +1,16 @@
+[10:28:10] ============================================================
+[10:28:10] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
+[10:28:10] ============================================================
+[10:28:10] Total firms in Bamberg/Erlangen/Nürnberg: 1146
+[10:28:10] Already enriched: 80
+[10:28:10] Need enrichment: 1066
+[10:28:10] Processing batch: 500 to 549
+[10:28:10] 
+[1/50] Hans Zienert GmbH & Co. KG (Erlangen)
+[10:28:10]   Searching: Hans Zienert GmbH & Co. KG Erlangen
+[10:28:10]   Retry: "Hans Zienert GmbH & Co. KG" Erlangen Webseite
+[10:28:12]   Found: https://firmeneintrag.creditreform.de/91056/8190707626/HANS_ZIENERT_GMBH_CO_KG
+[10:28:13]   HTML download failed or non-HTML content
+[10:28:15] 
+[2/50] Quergfelder Metallbau (Erlangen)
+[10:28:15]   Searching: Quergfelder Metallbau Erlangen
