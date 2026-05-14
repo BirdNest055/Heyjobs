@@ -282,7 +282,10 @@
     "Roth|Versicherung",
     "Roth|Logistik",
     "Roth|Apotheke",
-    "Roth|Arzt"
+    "Roth|Arzt",
+    "Roth|Friseur",
+    "Roth|Bäckerei",
+    "Roth|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
