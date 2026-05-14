@@ -241,7 +241,11 @@
     "Eckental|Arzt",
     "Eckental|Friseur",
     "Eckental|Bäckerei",
-    "Eckental|Gastronomie"
+    "Eckental|Gastronomie",
+    "Ebermannstadt|IT",
+    "Ebermannstadt|Software",
+    "Ebermannstadt|Ingenieurbüro",
+    "Ebermannstadt|Consulting"
   ],
   "cities_done": [
     "Erlangen",
