@@ -1,13 +1,1 @@
-{
- "completed": [
-  "BMS Facility Management",
-  "CCS - Autoaufbereitung - Bamberg",
-  "A&M – Renovierung, Haushaltsauflösung, Abbrucharbeiten & Entsorgung.",
-  "Arbeitsbeschaffungsstelle des Handwerks eG",
-  "Basem kitchen",
-  "Arbeitsgericht Bamberg"
- ],
- "failed": [],
- "last_index": 6,
- "stats": {}
-}
+{"completed": [], "failed": [], "last_index": 0, "stats": {}}

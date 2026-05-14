@@ -638,17 +638,29 @@ class CloakScraper:
                 pass
 
             # Strategy 2: Text-based extraction from page content
+            # STRICT: Only extract lines that look like actual job titles
+            # Must have BOTH a job indicator AND an IT keyword
+            JOB_TITLE_INDICATORS = [
+                'junior', 'senior', 'lead', 'manager', 'engineer', 'entwickler',
+                'analyst', 'consultant', 'berater', 'administrator', 'admin',
+                'specialist', 'expert', 'architect', 'architekt', 'designer',
+                'developer', 'programmierer', 'praktikant', 'trainee',
+                'werkstudent', 'ausbildung', 'duales studium', 'absolvent',
+                'berufseinsteiger', 'einsteiger', '(m/w/d)', '(w/m/d)',
+                'fachinformatiker', 'it-', 'support', 'helpdesk',
+                'stelle', 'position', 'vacancy', 'referenz',
+            ]
             try:
                 page_text = page.evaluate('document.body.innerText')
                 if page_text:
-                    lines = [l.strip() for l in page_text.split('\n') if l.strip() and 8 < len(l.strip()) < 300]
+                    lines = [l.strip() for l in page_text.split('\n') if l.strip() and 15 < len(l.strip()) < 250]
                     for line in lines:
                         ll = line.lower()
+                        has_job_indicator = any(kw in ll for kw in JOB_TITLE_INDICATORS)
                         has_it = any(kw in ll for kw in IT_KEYWORDS)
-                        has_junior = any(kw in ll for kw in JUNIOR_KEYWORDS)
-                        has_job = any(kw in ll for kw in ['stelle', 'position', 'vacanc'])
                         is_sen = any(kw in ll for kw in SENIOR_EXCLUDE)
-                        if (has_it or has_junior or has_job) and not is_sen:
+                        # Must have BOTH job indicator AND IT keyword
+                        if has_job_indicator and has_it and not is_sen:
                             jobs.append({
                                 'title': line[:300],
                                 'url': career_url,
@@ -658,17 +670,19 @@ class CloakScraper:
                 pass
 
             # Strategy 3: Link extraction
+            # STRICT: Links must have BOTH a job keyword AND IT relevance
             try:
                 links = page.query_selector_all('a[href]')
                 for link in links:
                     text = (link.inner_text() or '').strip()
                     href = link.get_attribute('href') or ''
-                    if text and 8 < len(text) < 300:
+                    if text and 15 < len(text) < 250:
                         tl = text.lower()
                         has_it = any(kw in tl for kw in IT_KEYWORDS)
-                        has_junior = any(kw in tl for kw in JUNIOR_KEYWORDS)
+                        has_job = any(kw in tl for kw in ['junior', 'trainee', 'werkstudent', 'praktikum', 'ausbildung', 'duales studium', 'absolvent', 'berufseinsteiger', 'einsteiger', 'stelle', 'position', '(m/w/d)', '(w/m/d)', 'fachinformatiker', 'entwickler', 'developer', 'engineer', 'consultant', 'admin', 'support', 'analyst'])
                         is_sen = any(kw in tl for kw in SENIOR_EXCLUDE)
-                        if (has_it or has_junior) and not is_sen:
+                        # Must have IT keyword AND job keyword
+                        if has_it and has_job and not is_sen:
                             job_url = urljoin(career_url, href) if href else career_url
                             jobs.append({
                                 'title': text[:300],
