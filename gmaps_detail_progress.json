@@ -263,7 +263,14 @@
     "Ebermannstadt|Arzt",
     "Ebermannstadt|Friseur",
     "Ebermannstadt|Bäckerei",
-    "Ebermannstadt|Gastronomie"
+    "Ebermannstadt|Gastronomie",
+    "Roth|IT",
+    "Roth|Software",
+    "Roth|Ingenieurbüro",
+    "Roth|Consulting",
+    "Roth|Marketing",
+    "Roth|Steuerberater",
+    "Roth|Rechtsanwalt"
   ],
   "cities_done": [
     "Erlangen",
