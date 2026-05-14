@@ -197,3 +197,8 @@ Browser ready
   New: 0 | Total: 10807 | Push: 0
   Town Sengenthal done. Total: 10807
   [EXCEL] 10807 saved
+  [GIT] GMaps Phase1 DONE | 10807 total
+
+=== PHASE 2: Enriching ===
+Enrichment: 10767 (P1 web:7816 P2 plz:2951)
+  [EXCEL] 10807 saved

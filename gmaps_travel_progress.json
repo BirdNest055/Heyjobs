@@ -923,7 +923,18 @@
     "Sengenthal|Handwerk",
     "Sengenthal|Dienstleistung"
   ],
-  "enriched_companies": [],
+  "enriched_companies": [
+    "mauss bau gmbh & co. kg|erlangen",
+    "primetals technologies germany gmbh|erlangen",
+    "frör kunststofftechnik|erlangen",
+    "siemens ag, gerätewerk erlangen|erlangen",
+    "siemens healthineers headquarters|erlangen",
+    "corscience gmbh & co. kg|erlangen",
+    "heitec ag - erlangen|erlangen",
+    "valeo eautomotive germany gmbh|erlangen",
+    "framatome gmbh|erlangen",
+    "chemische industrie erlangen|erlangen"
+  ],
   "phase": "enrich_existing",
-  "last_enrich_idx": 0
+  "last_enrich_idx": 10
 }
