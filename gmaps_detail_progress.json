@@ -154,7 +154,28 @@
     "Forchheim|Friseur",
     "Forchheim|Bäckerei",
     "Forchheim|Gastronomie",
-    "Lauf an der Pegnitz|IT"
+    "Lauf an der Pegnitz|IT",
+    "Lauf an der Pegnitz|Software",
+    "Lauf an der Pegnitz|Ingenieurbüro",
+    "Lauf an der Pegnitz|Consulting",
+    "Lauf an der Pegnitz|Marketing",
+    "Lauf an der Pegnitz|Steuerberater",
+    "Lauf an der Pegnitz|Rechtsanwalt",
+    "Lauf an der Pegnitz|Architekt",
+    "Lauf an der Pegnitz|Handwerk",
+    "Lauf an der Pegnitz|Elektro",
+    "Lauf an der Pegnitz|Metallbau",
+    "Lauf an der Pegnitz|Maschinenbau",
+    "Lauf an der Pegnitz|Baufirma",
+    "Lauf an der Pegnitz|Kfz",
+    "Lauf an der Pegnitz|Immobilien",
+    "Lauf an der Pegnitz|Versicherung",
+    "Lauf an der Pegnitz|Logistik",
+    "Lauf an der Pegnitz|Apotheke",
+    "Lauf an der Pegnitz|Arzt",
+    "Lauf an der Pegnitz|Friseur",
+    "Lauf an der Pegnitz|Bäckerei",
+    "Lauf an der Pegnitz|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -168,6 +189,7 @@
     "Schwabach",
     "Schwabach",
     "Forchheim",
-    "Forchheim"
+    "Forchheim",
+    "Lauf an der Pegnitz"
   ]
 }
