@@ -22,9 +22,31 @@
     "Erlangen|Friseur",
     "Erlangen|Bäckerei",
     "Erlangen|Gastronomie",
-    "Nürnberg|IT"
+    "Nürnberg|IT",
+    "Nürnberg|Software",
+    "Nürnberg|Ingenieurbüro",
+    "Nürnberg|Consulting",
+    "Nürnberg|Marketing",
+    "Nürnberg|Steuerberater",
+    "Nürnberg|Rechtsanwalt",
+    "Nürnberg|Architekt",
+    "Nürnberg|Handwerk",
+    "Nürnberg|Elektro",
+    "Nürnberg|Metallbau",
+    "Nürnberg|Maschinenbau",
+    "Nürnberg|Baufirma",
+    "Nürnberg|Kfz",
+    "Nürnberg|Immobilien",
+    "Nürnberg|Versicherung",
+    "Nürnberg|Logistik",
+    "Nürnberg|Apotheke",
+    "Nürnberg|Arzt",
+    "Nürnberg|Friseur",
+    "Nürnberg|Bäckerei",
+    "Nürnberg|Gastronomie"
   ],
   "cities_done": [
-    "Erlangen"
+    "Erlangen",
+    "Nürnberg"
   ]
 }
