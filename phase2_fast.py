@@ -13,6 +13,7 @@ EXCEL_OUT = "/home/z/my-project/download/Junior_IT_Jobs_Bamberg_Erlangen_Nuernbe
 CAREER_HTML_DIR = "/home/z/my-project/download/career_pages_html"
 GIT_REPO = "/home/z/my-project"
 GITHUB_TOKEN = "GIT_TOKEN_REDACTED"
+COMMIT_EVERY = 10
 PROGRESS_FILE = "/home/z/my-project/download/phase2_progress.json"
 
 EMPLOYER_EXCEL = "/home/z/my-project/download/IT_Arbeitgeber_Bamberg_Erlangen_Nuernberg.xlsx"
