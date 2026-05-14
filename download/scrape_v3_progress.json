@@ -9,6 +9,7 @@
   "R O T E C Rohrtechnik GmbH",
   "IKS GmbH - pure IT-Dienstleistungen",
   "Renty - Veranstaltungstechnik mieten Erlangen",
+  "schmidt IT GmbH",
   "Technisches Rathaus Bamberg",
   "Siemens Healthineers AG",
   "Gerlicher GmbH - Frittieröllieferung & Altfettabholung",
@@ -50,6 +51,7 @@
   "K&S Autoaufbereitungsstudio Bamberg",
   "CLEAR IT GmbH",
   "Serity GmbH",
+  "infoteam Software AG",
   "ProFit",
   "eOli.de it-services",
   "Alotec Haustechnik GmbH Erlangen Sanitär Heizung Badumbau Klima & Wasserschaden",
@@ -58,6 +60,7 @@
   "TKS Datentechnik GmbH",
   "Asiamarkt Tofuhaus",
   "WITTL Informationstechnologie GmbH & Co. KG",
+  "persona service AG & Co. KG",
   "Technischer Dienst Uni-Erlangen",
   "Algorithmus Schmiede",
   "Dreyer Haustechnik GmbH",
@@ -75,10 +78,10 @@
   "KommunalBIT IT-Betreuung Schulen"
  ],
  "failed": [],
- "last_index": 73,
+ "last_index": 76,
  "stats": {
-  "career_found": 5,
-  "jobs_added": 6,
+  "career_found": 8,
+  "jobs_added": 11,
   "no_jobs": 1,
   "no_career": 1
  }
