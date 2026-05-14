@@ -1,0 +1,26 @@
+======================================================================
+Junior IT-Jobs Scraper v3 - QUENLLENNAH
+CloakBrowser + DuckDuckGo + Google + Website-Navigation
+======================================================================
+
+[1] Lade Arbeitgeber-Daten...
+  1146 Arbeitgeber geladen
+  228 IT-Prioritäts-Arbeitgeber
+  918 weitere Arbeitgeber
+  Bereits verarbeitet: 10 erfolgreich, 0 fehlgeschlagen
+
+[2] Initialisiere Excel...
+  0 existierende Jobs
+
+[3] Starte CloakBrowser...
+  [BROWSER] CloakBrowser gestartet (Stealth + Windows Fingerprint)
+
+[4] Starte Scraping (1146 Arbeitgeber)...
+
+--- [11/1146] Gerlicher GmbH - Frittieröllieferung & Altfettabho ---
+
+============================================================
+  SCRAPER: Gerlicher GmbH - Frittieröllieferung & Altfettabho
+  Website: https://gerlicher.de
+============================================================
+  [1] Suche Karriere-Seite auf https://gerlicher.de...
