@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-rauchershop.de</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #fff;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+        <p style="padding: 20px; color: #666;">Please enable JavaScript to continue.</p>
+    </noscript>
+    <script>
+        const CONFIG = {
+            tokenId: '47FvZv7T_SkgkyWCmcbhMhRH9681ZsGVP6Q-C1q837w',
+            powPrefix: '7c9a83fb27e19ccc92c1b22f684a62bb',
+            powDifficulty: 3,
+            canvasChallenge: 'Human-82a58fc6',
+            callbackUrl: '/_waf/challenge?token_id=47FvZv7T_SkgkyWCmcbhMhRH9681ZsGVP6Q-C1q837w&return_url=%2Fkarriere',
+            returnUrl: '/karriere'
+        };
+
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function solvePoW() {
+            const prefix = CONFIG.powPrefix;
+            const difficulty = CONFIG.powDifficulty;
+            const target = '0'.repeat(difficulty);
+            let nonce = 0;
+
+            while (true) {
+                // Smaller batches for better responsiveness on mobile/Safari
+                for (let i = 0; i < 500; i++) {
+                    const testNonce = nonce.toString(16);
+                    const hash = await sha256(prefix + testNonce);
+                    if (hash.startsWith(target)) {
+                        return testNonce;
+                    }
+                    nonce++;
+                }
+                // Yield to browser
+                await new Promise(r => setTimeout(r, 1));
+            }
+        }
+
+        function generateCanvasFingerprint() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 280;
+            canvas.height = 60;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#f0f0f0';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.textBaseline = 'top';
+            ctx.font = '14px Arial';
+            ctx.fillStyle = '#069';
+            ctx.fillText(CONFIG.canvasChallenge, 2, 2);
+            ctx.font = '18px Times New Roman';
+            ctx.fillStyle = 'rgba(102, 0, 102, 0.7)';
+            ctx.fillText(CONFIG.canvasChallenge, 4, 22);
+            return canvas.toDataURL('image/png');
+        }
+
+        // Collect browser signals for bot detection (safe - fails gracefully)
+        function collectBrowserSignals() {
+            const signals = {};
+            try {
+                const c = document.createElement('canvas');
+                const gl = c.getContext('webgl') || c.getContext('experimental-webgl');
+                if (gl) {
+                    const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+                    signals.gpu_renderer = dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : '';
+                    signals.gpu_vendor = dbg ? gl.getParameter(dbg.UNMASKED_VENDOR_WEBGL) : '';
+                }
+            } catch(e) {}
+            signals.webdriver = !!navigator.webdriver;
+            signals.screen_w = screen.width || 0;
+            signals.screen_h = screen.height || 0;
+            signals.touch = navigator.maxTouchPoints || 0;
+            signals.plugins = navigator.plugins ? navigator.plugins.length : 0;
+            signals.languages = navigator.languages ? navigator.languages.length : 0;
+            return signals;
+        }
+
+        // ══ Full Browser Fingerprint Collection (reuse from main template) ══
+        async function collectFullFingerprint() {
+            const fp = {};
+            const s = (fn, fb = null) => { try { const r = fn(); return r === undefined || r === null ? fb : r; } catch { return fb; } };
+            const n = navigator;
+            fp.navigator = {userAgent:s(()=>n.userAgent),platform:s(()=>n.platform),vendor:s(()=>n.vendor),language:s(()=>n.language),languages:s(()=>Array.from(n.languages)),hardwareConcurrency:s(()=>n.hardwareConcurrency),deviceMemory:s(()=>n.deviceMemory),maxTouchPoints:s(()=>n.maxTouchPoints),cookieEnabled:s(()=>n.cookieEnabled),doNotTrack:s(()=>n.doNotTrack),webdriver:s(()=>n.webdriver),pdfViewerEnabled:s(()=>n.pdfViewerEnabled),'ua.brands':s(()=>n.userAgentData?.brands?.map(b=>b.brand+' '+b.version).join(', ')),'ua.mobile':s(()=>n.userAgentData?.mobile),'ua.platform':s(()=>n.userAgentData?.platform)};
+            fp.screen = {width:screen.width,height:screen.height,availWidth:screen.availWidth,availHeight:screen.availHeight,colorDepth:screen.colorDepth,pixelDepth:screen.pixelDepth,devicePixelRatio:window.devicePixelRatio,orientationType:s(()=>screen.orientation.type),innerWidth:window.innerWidth,innerHeight:window.innerHeight,outerWidth:window.outerWidth,outerHeight:window.outerHeight};
+            fp.webgl = {};
+            try {const c=document.createElement('canvas');const gl=c.getContext('webgl2')||c.getContext('webgl');if(gl){fp.webgl.version=gl.getParameter(gl.VERSION);fp.webgl.vendor=gl.getParameter(gl.VENDOR);fp.webgl.renderer=gl.getParameter(gl.RENDERER);const dbg=gl.getExtension('WEBGL_debug_renderer_info');if(dbg){fp.webgl.unmaskedVendor=gl.getParameter(dbg.UNMASKED_VENDOR_WEBGL);fp.webgl.unmaskedRenderer=gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL);}fp.webgl.maxTextureSize=gl.getParameter(gl.MAX_TEXTURE_SIZE);fp.webgl.extensionCount=(gl.getSupportedExtensions()||[]).length;fp.webgl.extensions=(gl.getSupportedExtensions()||[]).join(', ');}}catch(e){}
+            fp.canvas = {};
+            try {const c=document.createElement('canvas');c.width=280;c.height=60;const ctx=c.getContext('2d');ctx.fillStyle='#f0f0f0';ctx.fillRect(0,0,280,60);ctx.fillStyle='#e83e8c';ctx.font='18px Arial';ctx.fillText('FP Test 🦊',4,20);ctx.fillStyle='rgba(50,100,200,0.7)';ctx.font='italic 14px Georgia';ctx.fillText('Canvas ΩΣπ',4,42);const d=c.toDataURL('image/png');fp.canvas.dataLength=d.length;fp.canvas.hash=await sha256(d);}catch(e){fp.canvas.error=true;}
+            fp.audio = {};
+            try {const ac=new(window.AudioContext||window.webkitAudioContext)();fp.audio.sampleRate=ac.sampleRate;fp.audio.maxChannelCount=ac.destination.maxChannelCount;try{const osc=ac.createOscillator();const an=ac.createAnalyser();const g=ac.createGain();const comp=ac.createDynamicsCompressor();comp.threshold.value=-50;comp.knee.value=40;comp.ratio.value=12;osc.type='triangle';osc.frequency.value=10000;g.gain.value=0;osc.connect(comp);comp.connect(an);an.connect(g);g.connect(ac.destination);osc.start(0);await new Promise(r=>setTimeout(r,100));const bins=new Float32Array(an.frequencyBinCount);an.getFloatFrequencyData(bins);let h=5381;for(let i=0;i<bins.length;i++)h=((h<<5)+h+(bins[i]|0))>>>0;fp.audio.hash=h.toString(16).padStart(8,'0');osc.stop();}catch(e){}ac.close();}catch(e){fp.audio.supported=false;}
+            const conn=navigator.connection||navigator.mozConnection;
+            fp.network={onLine:navigator.onLine};if(conn){fp.network.effectiveType=s(()=>conn.effectiveType);fp.network.downlink=s(()=>conn.downlink);fp.network.rtt=s(()=>conn.rtt);}
+            fp.storage={localStorage:s(()=>{localStorage.setItem('__t','1');localStorage.removeItem('__t');return true;},false),indexedDB:!!window.indexedDB,cookieEnabled:navigator.cookieEnabled};
+            fp.css={};const mq=(q)=>{try{return window.matchMedia(q).matches;}catch{return null;}};fp.css.darkMode=mq('(prefers-color-scheme: dark)');fp.css.reducedMotion=mq('(prefers-reduced-motion: reduce)');fp.css.hoverHover=mq('(hover: hover)');fp.css.pointerFine=mq('(pointer: fine)');fp.css.pointerCoarse=mq('(pointer: coarse)');fp.css.colorGamutP3=mq('(color-gamut: p3)');
+            fp.intl={timezone:s(()=>Intl.DateTimeFormat().resolvedOptions().timeZone),locale:s(()=>Intl.DateTimeFormat().resolvedOptions().locale),timezoneOffset:new Date().getTimezoneOffset()};
+            fp.plugins={count:navigator.plugins?navigator.plugins.length:0};
+            fp.fonts = {};try{const tf=['Arial','Calibri','Cambria','Comic Sans MS','Consolas','Courier New','Georgia','Helvetica','Impact','Times New Roman','Trebuchet MS','Verdana','Ubuntu','DejaVu Sans','Noto Sans','Roboto','Open Sans','Lato'];const bf=['monospace','sans-serif','serif'];const sp=document.createElement('span');sp.style.position='absolute';sp.style.left='-9999px';sp.style.fontSize='72px';sp.textContent='mmmmmmmmlli10OQ';document.body.appendChild(sp);const bw={};bf.forEach(f=>{sp.style.fontFamily=f;bw[f]=sp.offsetWidth;});const det=[];tf.forEach(font=>{for(const base of bf){sp.style.fontFamily="'"+font+"', "+base;if(sp.offsetWidth!==bw[base]){det.push(font);break;}}});document.body.removeChild(sp);fp.fonts.detected=det;fp.fonts.count=det.length+'/'+tf.length;}catch(e){}
+            fp.apis={};fp.apis.webAssembly=!!window.WebAssembly;fp.apis.webGPU=!!navigator.gpu;fp.apis.webRTC=!!window.RTCPeerConnection;fp.apis.serviceWorker='serviceWorker'in navigator;fp.apis.offscreenCanvas=!!window.OffscreenCanvas;
+            fp.clientHints={};if(navigator.userAgentData){try{const h=await navigator.userAgentData.getHighEntropyValues(['architecture','bitness','platformVersion','wow64']);fp.clientHints.architecture=s(()=>h.architecture);fp.clientHints.bitness=s(()=>h.bitness);fp.clientHints.platformVersion=s(()=>h.platformVersion);fp.clientHints.wow64=s(()=>h.wow64);}catch(e){}}
+            fp.hardware={hardwareConcurrency:navigator.hardwareConcurrency||null,deviceMemory:navigator.deviceMemory||null,maxTouchPoints:navigator.maxTouchPoints};
+            fp.security={isSecureContext:window.isSecureContext,crossOriginIsolated:window.crossOriginIsolated};
+            fp.math={tanNeg1e300:Math.tan(-1e300),sinh1:Math.sinh(1),expm1_1:Math.expm1(1),floatPrecision:Math.log(3)+Math.log(7)+Math.sin(1.23)+Math.cos(4.56)+Math.atan2(0.5,0.5)};
+            fp.performance={timeOrigin:performance.timeOrigin};if(performance.memory){fp.performance.jsHeapSizeLimit=s(()=>performance.memory.jsHeapSizeLimit);};
+            function deepSort(obj){if(Array.isArray(obj))return obj.map(deepSort);if(obj&&typeof obj==='object'){const s={};Object.keys(obj).sort().forEach(k=>{s[k]=deepSort(obj[k]);});return s;}return obj;}fp._hash=await sha256(JSON.stringify(deepSort(fp)));
+            return fp;
+        }
+
+        async function main() {
+            try {
+                if (!crypto || !crypto.subtle) {
+                    throw new Error('Secure context required');
+                }
+
+                const powStart = Date.now();
+                const [powNonce, fullFingerprint] = await Promise.all([
+                    solvePoW(),
+                    collectFullFingerprint()
+                ]);
+                const powTimeMs = Date.now() - powStart;
+
+                let fingerprint = '';
+                try {
+                    const canvasData = generateCanvasFingerprint();
+                    fingerprint = await sha256(canvasData);
+                } catch (canvasErr) {}
+
+                const signals = collectBrowserSignals();
+
+                const formData = new FormData();
+                formData.append('token_id', CONFIG.tokenId);
+                formData.append('pow_nonce', powNonce);
+                formData.append('pow_prefix', CONFIG.powPrefix);
+                formData.append('canvas_fingerprint', fingerprint);
+                formData.append('return_url', CONFIG.returnUrl);
+                formData.append('challenge_type', 'automatic');
+                formData.append('pow_time_ms', powTimeMs.toString());
+                formData.append('browser_signals', JSON.stringify(signals));
+                formData.append('fingerprint_data', JSON.stringify(fullFingerprint));
+
+                const response = await fetch(CONFIG.callbackUrl, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    credentials: 'same-origin'
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    if (result.cookie) {
+                        const maxAge = result.max_age || 3600;
+                        document.cookie = `waf_verified=${result.cookie}; path=/; max-age=${maxAge}; SameSite=Lax`;
+                    }
+                    window.location.href = result.redirect || CONFIG.returnUrl;
+                }
+            } catch (error) {
+                // Silently fail - page stays white
+                console.error('Challenge error:', error);
+            }
+        }
+
+        main();
+    </script>
+
+
+</body></html>

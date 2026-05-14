@@ -1,0 +1,406 @@
+<!DOCTYPE html><html lang="de" class="mti-inactive"><head>
+<meta charset="utf-8">
+
+<title>Folex | Home</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robots" content="index, follow">
+<meta name="author" content="REDAXO"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+/*<![CDATA[*/
+<!--
+ function UnCryptMailto(s) {
+	var n=0;
+	var r="";
+	for(var i=0; i < s.length; i++) {
+		n=s.charCodeAt(i);
+		if (n>=8364) {n = 128;}
+		r += String.fromCharCode(n-(1));
+	}
+	return r;
+ }
+ function linkTo_UnCryptMailto(s)	{
+	location.href=UnCryptMailto(s);
+ }
+// -->
+/*]]>*/
+</script>
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="https://folex.com/media/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="https://folex.com/media/favicon_32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://folex.com/media/favicon_16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://folex.com/media/favicon_180x180.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+
+<link rel="stylesheet" type="text/css" href="/layout/main_8.css" media="screen,print">
+<link rel="stylesheet" type="text/css" href="/layout/js/lytebox/lytebox.css" media="screen">
+
+<script type="text/javascript" src="/layout/js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript">document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+<script type="text/javascript" src="/layout/js/lytebox/lytebox.js"></script>
+<script type="text/javascript" src="/layout/js/redaxo_responisve_menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/layout/js/bwd_slidedown/bwd_slidedown.css" media="screen,print">
+<script type="text/javascript" src="/layout/js/bwd_slidedown/bwd_slidedown.js"></script>
+<link rel="stylesheet" type="text/css" href="/layout/js/site_slidedown/site_slidedown.css" media="screen,print">
+<link rel="stylesheet" type="text/css" href="/media/xform_1.css" media="screen,print">
+<script type="text/javascript">
+
+
+/* Liegt im js_default.inc.php im redx. incl.  */
+
+
+
+
+
+function getUrlVars() {
+
+    var vars = {};
+
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+
+    function(m,key,value) {
+
+      vars[key] = value;
+
+    });
+
+    return vars;
+
+}
+
+  
+
+var fType = getUrlVars()["katid"];
+
+var jQuery_site_slidedown = jQuery;
+
+
+
+jQuery_site_slidedown(document).ready( function( $ ){
+
+	var act_slidedown_id = "";
+
+    $(".hansis").hide();
+
+    
+
+	jQuery_site_slidedown(document).ready(function(){
+
+		
+
+		// Inhalte ausblenden
+
+if(getUrlVars()["open"]==75){
+	jQuery_site_slidedown(".site_slidedown_text").css('display','none');
+		jQuery_site_slidedown("#ss75").css('display','block');
+		$(".hansis").hide();
+		$("#sidebar .outer_box:first").hide(); 
+		$(".hansis#hansi75").show();
+		$("#site_slidedown_75 .site_slidedown_head").addClass("active");
+		
+}else{
+			jQuery_site_slidedown(".site_slidedown_text").css('display','none');
+
+	}
+
+		jQuery_site_slidedown('.site_slidedown_head').click(function(){
+
+			$("#sidebar .outer_box:first").hide(); 
+
+			
+
+			var act_id = "#" + jQuery_site_slidedown(this).parent().attr('id');
+
+			if( act_slidedown_id==""){ 
+
+				// 1) Erste mal benutzt, bzw. kein Inhalt offen
+
+				jQuery_site_slidedown(act_id+" .site_slidedown_text").slideDown("fast");
+
+				jQuery_site_slidedown(act_id+" .site_slidedown_head").addClass("active");
+
+				act_slidedown_id = act_id; 
+
+				$(".hansis").hide();
+
+				$(".hansis#hansi" + jQuery_site_slidedown(this).attr('id')).show();
+
+			}else if( act_slidedown_id==act_id){ 
+
+
+
+				// 2) Den offenen Inhalt schliessen
+
+				jQuery_site_slidedown(act_slidedown_id+" .site_slidedown_text").slideUp("fast");
+
+				jQuery_site_slidedown(act_id+" .site_slidedown_head").removeClass("active");
+
+				act_slidedown_id = ""; 
+
+			}else{ 
+
+
+
+				// 3) Ein neuer Inhalt soll geoeffnet werden. Zuvor den bisherigen schliessen
+
+				jQuery_site_slidedown(act_slidedown_id+" .site_slidedown_text").css('display','none');
+
+				jQuery_site_slidedown(act_slidedown_id+" .site_slidedown_head").removeClass("active");
+
+				jQuery_site_slidedown(act_id+" .site_slidedown_text").slideDown("fast");
+
+				jQuery_site_slidedown(act_id+" .site_slidedown_head").addClass("active");
+
+				act_slidedown_id = act_id; 	
+
+				$(".hansis").hide();
+
+				$(".hansis#hansi" + jQuery_site_slidedown(this).attr('id')).show();
+
+			}
+
+		});
+
+		$("#page_7 .site_slidedown_text#t0").show();
+
+		$("#page_7 .site_slidedown_head").addClass("active");
+		
+		$("#page_26 .site_slidedown_text").show();
+
+		$("#page_26 .site_slidedown_head").addClass("active");
+		
+		
+		$("#page_9 #site_slidedown_ .site_slidedown_text").show();
+
+		$("#page_9 #site_slidedown_.site_slidedown_head").addClass("active");		
+		
+	});
+
+});
+
+</script> 
+<link rel="stylesheet" type="text/css" href="/layout/js/nivo-slider/nivo-slider.css" media="screen">
+<script type="text/javascript" src="https://www.folex.com/layout/js/nivo-slider/jquery.nivo.slider.js"></script>
+<!-- <script type="text/javascript" src="https://folex.com/layout/js/nivo-slider/jquery.nivo.slider.js"></script>-->
+<style type="text/css" id="mti_stylesheet_a72f9130-4a44-4029-a806-6384b7185551">.mti_hide_element{visibility:hidden;}</style><script type="text/javascript" src="//fast.fonts.net/jsapi/a72f9130-4a44-4029-a806-6384b7185551.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/media/voxl_ext.css" media="screen">
+
+
+<script type="text/javascript">
+jQuery_site_slidedown(document).ready( function( $ ) 
+{
+
+if(getUrlVars()["open"]==75){
+$("#site_slidedown_75 .site_slidedown_head").addClass("active");
+}
+$("#site_slidedown_75 .site_slidedown_text").slideDown("fast");
+$("#site_slidedown_75 .site_slidedown_text").show();
+});
+
+});
+
+
+</script><style type="text/css" id="mti_fontface_a72f9130-4a44-4029-a806-6384b7185551">@font-face{
+font-family:"Zurich W01 Light";
+src:url("https://fast.fonts.net/dv2/14/520c32e4-e90f-47cc-83d3-692db5fd03af.woff2?d44f19a684109620e4841571af90e818d46385772a8536f1b8d551550b7374a748f367f6177215480a84953f5abc3d1e0640053b5f44533455e91811bc4a68260126eeb832e4bf390ebb982782f4e5b9a1243eb7c2df26878c68412bf84afa4c4d668f6de5b7a6afc7d9d0a47a2f2f6c6b07b19ac4b7a05250b83308b881145373744ecd7ae67d5b0e159ae0bd8837dd5245a40f5dda45d0b3dfb18ca5827aa2cb6a64efc9c1bcb26461e65aae387c7a5b1e9c56eb3182d509cd1df4&projectId=a72f9130-4a44-4029-a806-6384b7185551") format('woff2');}
+@font-face{
+font-family:"Zurich W01 Light Italic";
+src:url("https://fast.fonts.net/dv2/14/d7bbdc65-69fd-43c7-a47e-d347af8d0c47.woff2?d44f19a684109620e4841571af90e818d46385772a8536f1b8d551550b7374a748f367f6177215480a84953f5abc3d1e0640053b5f44533455e91811bc4a68260126eeb832e4bf390ebb982782f4e5b9a1243eb7c2df26878c68412bf84afa4c4d668f6de5b7a6afc7d9d0a47a2f2f6c6b07b19ac4b7a05250b83308b881145373744ecd7ae67d5b0e159ae0bd8837dd5245a40f5dda45d0b3dfb18ca5827aa2cb6a64efc9c1bcb26461e65aae387c7a5b1e9c56eb3182d509cd1df4&projectId=a72f9130-4a44-4029-a806-6384b7185551") format('woff2');}
+@font-face{
+font-family:"Zurich W01 Roman";
+src:url("https://fast.fonts.net/dv2/14/99e31e67-ba75-443b-b76d-278a38568cf8.woff2?d44f19a684109620e4841571af90e818d46385772a8536f1b8d551550b7374a748f367f6177215480a84953f5abc3d1e0640053b5f44533455e91811bc4a68260126eeb832e4bf390ebb982782f4e5b9a1243eb7c2df26878c68412bf84afa4c4d668f6de5b7a6afc7d9d0a47a2f2f6c6b07b19ac4b7a05250b83308b881145373744ecd7ae67d5b0e159ae0bd8837dd5245a40f5dda45d0b3dfb18ca5827aa2cb6a64efc9c1bcb26461e65aae387c7a5b1e9c56eb3182d509cd1df4&projectId=a72f9130-4a44-4029-a806-6384b7185551") format('woff2');}
+@font-face{
+font-family:"Zurich W01 Bold";
+src:url("https://fast.fonts.net/dv2/14/7f0f573b-ba73-4210-91f3-f80f08f98499.woff2?d44f19a684109620e4841571af90e818d46385772a8536f1b8d551550b7374a748f367f6177215480a84953f5abc3d1e0640053b5f44533455e91811bc4a68260126eeb832e4bf390ebb982782f4e5b9a1243eb7c2df26878c68412bf84afa4c4d668f6de5b7a6afc7d9d0a47a2f2f6c6b07b19ac4b7a05250b83308b881145373744ecd7ae67d5b0e159ae0bd8837dd5245a40f5dda45d0b3dfb18ca5827aa2cb6a64efc9c1bcb26461e65aae387c7a5b1e9c56eb3182d509cd1df4&projectId=a72f9130-4a44-4029-a806-6384b7185551") format('woff2');}
+</style>
+<link id="MonoTypeFontApiFontTracker" type="text/css" rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=js&amp;projectid=a72f9130-4a44-4029-a806-6384b7185551"></head>
+
+<body id="page_1" class="js" style="">
+
+<div id="page_bg">
+<div id="page" class="clearfix">
+
+<a id="menu-link" href="#menu">Menu</a>
+<ul class="language"><li><a href="/" title="deutsch">de</a></li><li>|</li><li><a href="/en/" title="english">en</a></li></ul>
+<div id="navigation_if_responsive"></div>
+
+
+<div id="header" class="clearfix">
+<div id="logo"><a href="https://www.folex.com/de/" title="folex - the fine art of coating"><img src="https://folex.com/layout/folex.png" alt="Folex - the fine art of coating" title="folex - the fine art of coating"></a></div>
+<div id="logo_responsive"><a href="https://www.folex.com/de/" title="folex - the art of coating"><img src="https://folex.com/layout/folex.png" alt="folex - the art of coating" title="folex - the art of coating" style="max-width: 350px;"></a></div>
+
+<div id="sprachumschalter">
+
+<a href="/?clang=1" title="deutsch">DE</a> | <a href="/en/?clang=2" title="english">EN</a>
+</div>
+<div id="header_search_form">
+
+<form class="search_it-form" id="search_it-form1" action="/de/extras/suche-ausgabe/" method="get">
+    <fieldset>
+        <legend>{{ Suche }}</legend>
+        <div class="search_it-flex">
+            <input type="hidden" name="article_id" value="45">
+            <input type="hidden" name="clang" value="1">
+            <label for="search"></label>
+            <input type="text" class="search" name="search" value="" placeholder="Suche">
+            <input class="search_it-button submit" type="submit" value="">
+        </div>
+    </fieldset>
+</form><!--
+    <form id="rexsearch_form" action="/de/extras/suche-ausgabe/" method="get">
+    <fieldset><input type="hidden" name="clang" value="1" />
+    <input type="hidden" name="article_id" value="45" /><input type="hidden" name="clang" value="1" />
+    <input type="text" class="search" name="rexsearch" value="Suche" onfocus="if(this.value=='Suche') this.value = '';" />
+    <input type="submit" name="submit" class="submit" value="" />
+    </fieldset>
+    </form>-->
+</div></div>
+<div id="navigation_not_responsive">
+<div id="navigation" class="clearfix">
+<div class="big">
+<ul class="rex-navi1 rex-navi-depth-1 rex-navi-has-7-elements"><li class="rex-article-2 rex-normal"><a class="" href="/de/wir/">Wir</a></li><li class="rex-article-4 rex-normal"><a class="" href="/de/druck-industrie/">Druck- industrie</a></li><li class="rex-article-5 rex-normal"><a class="" href="/de/digital-druck/">Digital- druck</a></li><li class="rex-article-6 rex-normal"><a class="" href="/de/elektronik-industrie/">Elektronik- industrie</a></li><li class="rex-article-7 rex-normal"><a class="" href="/de/lohn-beschichtung/">Lohn- beschichtung</a></li><li class="rex-article-8 rex-normal"><a class="" href="/de/spezial-produkte/">Spezial- produkte</a></li><li class="rex-article-9 rex-normal"><a class="" href="/de/news/">News</a></li></ul>
+</div>
+<!--<ul class="wk"><li class="rex-article-9 rex-normal"><a class="" href="index.php?article_id=9&amp;clang=[clang not found]"><span>Warenkorb</span></a></li></ul>-->
+<div class="small">
+
+<ul><li class="rex-article-2 rex-normal"><a class="" href="index.php?article_id=2&amp;clang=[clang not found]"><span>Wir</span></a></li><li class="rex-article-4 rex-normal"><a class="" href="/de/druck-industrie/"><span>Druckindustrie</span></a></li><li class="rex-article-5 rex-normal"><a class="" href="/de/digital-druck/"><span>Digitaldruck</span></a></li><li class="rex-article-6 rex-normal"><a class="" href="/de/elektronik-industrie/"><span>Elektronikindustrie</span></a></li><li class="rex-article-7 rex-normal"><a class="" href="/de/lohn-beschichtung/"><span>Lohnbeschichtung</span></a></li><li class="rex-article-8 rex-normal"><a class="" href="/de/spezial-produkte/"><span>Spezialprodukte</span></a></li><li class="rex-article-9 rex-normal"><a class="" href="/de/news/"><span>News</span></a></li><!--
+<li class="rex-article-9 rex-normal"><a class="" href="index.php?article_id=9&amp;clang=[clang not found]"><span>Warenkorb</span></a></li>-->
+<!--<li class="voxl-lang rex-normal"><a href="/" title="deutsch">DE</a></li><li class="voxl-lang rex-normal"><a href="/" title="english">EN</a></li>--></ul>
+
+</div>
+
+</div>
+</div>
+<div id="wrapper" class="clearfix">
+
+<div class="breadcrumb">
+<a href="index.php?article_id=1&amp;clang=1">Home</a> &gt; <a href="index.php?clang=1&amp;article_id=1">Home</a> </div>
+<div id="content_full" class="clearfix">
+<div class="news_voxl"><div class="news_voxl_wrap">
+<h2><a title="News" href="index.php?article_id=9&amp;clang=[clang not found]">News</a></h2>
+<!--<a title="News" href="index.php?article_id=9&clang=[clang not found]"><img src="media/news.png" alt="Folex News"/></a>-->
+<!--
+<p>Neue selbstklebende Folien <a href="index.php?article_id=9&clang=[clang not found]">mehr</a></p>
+<p>Fespa 2015 in Shanghai <a href="index.php?article_id=9&clang=[clang not found]">mehr</a></p>
+<p>Fespa 2016 in Amsterdam <a href="index.php?article_id=9&clang=[clang not found]">mehr</a></p>
+-->
+<p>15.4.25 |&nbsp;NEU: FOLACOAT SPEED HOCHLEISTUNGS-LACKPLATTE <a title="1776262654" href="https://www.folex.com/index.php?article_id=9&amp;clang=1&amp;newsid=159">mehr</a></p><p>3.2.26 I FOLEX AUF DER LOPEC 2026 IN MÜNCHEN <a title="1770130098" href="https://www.folex.com/index.php?article_id=9&amp;clang=1&amp;newsid=158">mehr</a></p><p>06.05.2025 |&nbsp;POLYPROPYLEN ROLL-UP BANNER MIT EXTRA PERFORMANCE <a title="1746521584" href="https://www.folex.com/index.php?article_id=9&amp;clang=1&amp;newsid=154">mehr</a></p></div>
+<div class="videolink">
+<a href="/de/infos-services/videos/">VIDEOS</a>
+</div>
+<div class="shoplink">
+<a href="https://shop.folex.com" target="_blank">B2B-SHOP</a>
+</div>
+</div>
+
+<div id="nivoSliderBox">
+<div id="slider_59" class="nivoSlider">
+
+<img src="https://folex.com/media/fespa_2026_startbild_web_de.jpg" title="Header Start Fespa 2026 DE" alt="">
+
+<a class="nr2" target="_blank" href="https://www.folex.com/de/druck-industrie/index.php?article_id=10&amp;clang=1&amp;produktid=482&amp;n=Folacoat+Speed"><img src="https://folex.com/media/slider_start_folacoat_speed_de.jpg" title="Header Start Folacoat Speed DE" alt=""></a>
+
+<a class="nr2" target="_blank" href="NULL"><img src="https://folex.com/media/startseite_keyvisual_allgemein_de.jpg" title="Keyvisual Folien allgemein DE" alt=""></a>
+
+<a class="nr2" target="_blank" href="https://www.folex.com/de/druck-industrie/"><img src="https://folex.com/media/header_start_systemloesung_druck_de.jpg" title="Header Start Systemlösung Druckindustrie DE 11_2024" alt=""></a>
+
+<a class="nr2" target="_blank" href="https://www.folex.com/de/digital-druck/"><img src="https://folex.com/media/header_start_digitaldruck_de.jpg" title="Header Image NEU Digitaldruck DE" alt=""></a>
+
+<a class="nr2" target="_blank" href="https://www.folex.com/de/elektronik-industrie/"><img src="https://folex.com/media/header_start_elektronikindustrie_mts_de.jpg" title="Header Image NEU Elektronikindustrie MTS DE" alt=""></a>
+
+<a class="nr2" target="_blank" href="https://www.folex.com/de/elektronik-industrie/"><img src="https://folex.com/media/header_start_elektronikindustrie_de.jpg" title="Header Image NEU Elektronikindustrie DE" alt=""></a>
+
+<a class="nr1" href="/de/lohn-beschichtung/"><img src="https://folex.com/media/header_start_lohnbeschichtung_de.jpg" title="Header Image NEU Lohnbeschichtung DE" alt=""></a>
+
+<a class="nr1" href="/de/spezial-produkte/"><img src="https://folex.com/media/header_start_spezialprodukte_de.jpg" title="Header Image NEU Spezialprodukte DE" alt=""></a>
+</div>
+<div class="flClear"></div>
+
+<script type="text/javascript">
+var $nivoSlider = jQuery;
+$nivoSlider(window).load(function() {
+	$nivoSlider('#slider_59').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+		// choose from: random, sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 4000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: false, // Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', // Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
+        keyboardNav: true, // Use left & right arrows
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        captionOpacity: 1.0, // Universal caption opacity
+        prevText: 'Zurück', // Prev directionNav text
+        nextText: 'Weiter', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+	});
+});
+</script>
+
+</div></div>
+</div></div>
+<div id="footer_bg">
+<div id="footer" class="clearfix">
+<div id="footer_nav_1">
+<div class="footer_headline">Auf einen Blick</div>
+<!--<a href="/de/listenansicht/" title=""><i>Produktliste</i></a>-->
+<a href="/" title="Startseite">Startseite</a>
+<a href="/de/wir/" title="Startseite">Wir</a>
+<a href="/de/druck-industrie/" title="Druckindustrie">Druckindustrie</a>
+<a href="/de/digital-druck/" title="Digitaldruck">Digitaldruck</a>
+<a href="/de/elektronik-industrie/" title="Elektronikindustrie">Elektronikindustrie</a>
+<a href="/de/lohn-beschichtung/" title="Lohnfertigung">Lohnbeschichtung</a>
+<a href="/de/spezial-produkte/" title="Spezialprodukte">Spezialprodukte</a>
+<a href="/de/news/" title="Spezialprodukte">News</a>
+</div>
+<div id="footer_nav_2">
+<div class="footer_headline">Infos + Service</div>
+<a href="/de/infos-services/standorte/" title="Kontakt">Standorte</a>
+<a href="/de/infos-services/standorte/kontaktformular/" title="Kontakt">Kontaktformular</a>
+<a href="/de/wir/?open=75" title="Downloads">Karriere</a>
+<a href="/de/infos-services/download/" title="Downloads">Downloads</a>
+<!--<a href="/de/infos-services/mediathek/" title="Mediathek">Youtube</a>-->
+<a href="/de/infos-services/newsletter/" title="Newsletter">Newsletter</a>
+<a href="/de/infos-services/presse/" title="Presse">Presse</a>
+
+<!--<a href="/de/infos-services/sitemap/" title="Sitemap">Sitemap</a>-->
+<a href="/de/infos-services/impressum/" title="Impressum">Impressum</a>
+<a href="/de/infos-services/datenschutz/" title="Kontakt">Datenschutz</a>
+</div>
+
+<div id="footer_nav_3">
+<div class="footer_headline">Social Media</div>
+<p class="linkedin">
+<a href="https://www.linkedin.com/company/folex-gruppe/?viewAsMember=true" target="_blank">Linkedin</a>
+</p>
+<p class="youtube">
+<a href="https://www.youtube.com/channel/UCo_GVtg7VTwk8ns3MVO4vwA/featured?disable_polymer=1" target="_blank">Youtube</a></p>
+</div>
+
+<div id="guetesiegel"></div>
+<div id="footer_copyright">© Folex 2026</div>
+</div>
+</div></div>
+
+
+</body></html>
