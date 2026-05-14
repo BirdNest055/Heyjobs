@@ -276,7 +276,13 @@
     "Roth|Elektro",
     "Roth|Metallbau",
     "Roth|Maschinenbau",
-    "Roth|Baufirma"
+    "Roth|Baufirma",
+    "Roth|Kfz",
+    "Roth|Immobilien",
+    "Roth|Versicherung",
+    "Roth|Logistik",
+    "Roth|Apotheke",
+    "Roth|Arzt"
   ],
   "cities_done": [
     "Erlangen",
