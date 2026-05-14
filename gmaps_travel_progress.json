@@ -924,6 +924,8 @@
     "Sengenthal|Dienstleistung"
   ],
   "enriched_companies": [
+    "schlüsseldienst by24|erlangen",
+    "geis industrie-service | erlangen kraftwerkstraße 25|erlangen",
     "siemens ag, gerätewerk erlangen|erlangen",
     "corscience gmbh & co. kg|erlangen",
     "sonepar niederlassung erlangen|erlangen",
@@ -931,20 +933,28 @@
     "mauss bau gmbh & co. kg|erlangen",
     "ley elektrotechnik gmbh|erlangen",
     "friedrich hofmann gmbh erlangen|erlangen",
+    "galeria erlangen|erlangen",
     "frör kunststofftechnik|erlangen",
+    "nextwerk it-services gmbh|erlangen",
+    "betonwerk kurr gmbh|erlangen",
+    "huwe umzüge - umzugsunternehmen erlangen|erlangen",
+    "bauunternehmen thomas merkel & sohn gmbh|erlangen",
     "dreyer haustechnik gmbh|erlangen",
     "primetals technologies germany gmbh|erlangen",
     "r o t e c rohrtechnik gmbh|erlangen",
     "heitec ag - erlangen|erlangen",
     "valeo eautomotive germany gmbh|erlangen",
     "afra anwenderfreundliche automatisierung gmbh|erlangen",
+    "flaschnerei beck gmbh & co.kg bedachungen|erlangen",
+    "hofmann it|erlangen",
     "geis industrie-service gmbh | kraftwerkstraße 21-23 erlangen|erlangen",
     "wavelight gmbh|erlangen",
+    "raphael frasch gmbh | it-systemhaus|erlangen",
     "geis industrie-service gmbh | röthelheimpark erlangen|erlangen",
     "siemens healthineers headquarters|erlangen",
     "basel dienstleistungen gmbh|erlangen",
     "chemische industrie erlangen|erlangen"
   ],
   "phase": "enrich_existing",
-  "last_enrich_idx": 20
+  "last_enrich_idx": 30
 }
