@@ -1,0 +1,13 @@
+=== Batch SDK Enrichment v2 ===
+
+file:///home/z/my-project/enrich_batch_v2.mjs:15
+    const fs = require('fs');
+               ^
+
+ReferenceError: Cannot determine intended module format because both 'require' and top-level await are present. If the code is intended to be CommonJS, wrap await in an async function. If the code is intended to be an ES module, replace require() with import.
+    at query (file:///home/z/my-project/enrich_batch_v2.mjs:15:16)
+    at file:///home/z/my-project/enrich_batch_v2.mjs:43:14 {
+  code: 'ERR_AMBIGUOUS_MODULE_SYNTAX'
+}
+
+Node.js v24.15.0

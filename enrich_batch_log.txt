@@ -1,11 +1,41 @@
-[10:21:07] ============================================================
-[10:21:07] Website Enrichment + HTML Download - Bamberg/Erlangen/Nürnberg
-[10:21:07] ============================================================
-[10:21:07] Total firms in Bamberg/Erlangen/Nürnberg: 1146
-[10:21:07] Already enriched: 16
-[10:21:07] Need enrichment: 1130
-[10:21:07] Processing batch: 0 to 49
-[10:21:07] 
-[1/50] Friedrich Hofmann GmbH Erlangen (Erlangen)
-[10:21:07]   Searching: Friedrich Hofmann GmbH Erlangen Erlangen
-[10:21:08]   Found: https://hofmann-denkt.de/
+=== Batch SDK Enrichment ===
+
+/bin/sh: 1: SELECT: not found
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: execute expected at least 1 argument, got 0
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: python3 -c "import sqlite3,json;c=sqlite3.connect('/home/z/my-project/download/it_employers.db');print(json.dumps([list(r) for r in c.execute(`SELECT id, firmenname, ort, it_relevanz_score FROM employers WHERE website_url='' AND hat_it_jobs=1 ORDER BY it_relevanz_score DESC`).fetchall()]))"
+/bin/sh: 1: SELECT: not found
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: execute expected at least 1 argument, got 0
+
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execSync (node:child_process:997:15)
+    at query (file:///home/z/my-project/enrich_batch.mjs:15:20)
+    at file:///home/z/my-project/enrich_batch.mjs:25:14 {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    '',
+    '/bin/sh: 1: SELECT: not found\n' +
+      'Traceback (most recent call last):\n' +
+      '  File "<string>", line 1, in <module>\n' +
+      'TypeError: execute expected at least 1 argument, got 0\n'
+  ],
+  pid: 6681,
+  stdout: '',
+  stderr: '/bin/sh: 1: SELECT: not found\n' +
+    'Traceback (most recent call last):\n' +
+    '  File "<string>", line 1, in <module>\n' +
+    'TypeError: execute expected at least 1 argument, got 0\n'
+}
+
+Node.js v24.15.0
