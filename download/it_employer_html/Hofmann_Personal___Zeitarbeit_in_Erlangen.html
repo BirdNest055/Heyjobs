@@ -1,0 +1,192 @@
+<!doctype html><html lang="en" class="notranslate" translate="no"><head><script>!function(){if(n=window&&window.navigator,window&&location&&n&&["www.offertoday.com","www-pre.offertoday.com"].some(function(o){return o===window.location.host})&&!(null===(i=window.navigator)||void 0===i||null===(o=i.userAgent)||void 0===o?void 0:o.includes("spabot"))&&(("MacIntel"===navigator.platform||/Mac OS X/i.test(window.navigator.userAgent))&&("ontouchstart"in window||navigator.maxTouchPoints>0)||n&&/Mobile|Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|IEMobile/i.test(window.navigator.userAgent))){var o,i,n,t=window.location.pathname,e=window.location.search,r="https://m.offertoday.com";if("/unsubscribe"!==t)if(function(){var o=window.location.href,i=w(o,"source"),n=w(o,"email"),t=w(o,"userId");if(!i||!n||!t)return!1;var e=i.split("-");return!(!e||"crawlerRecommendBdNotice"!==e[1])}())window.location.replace(r+"/contact"+e);else if("/get"!==t)if(/^\/(noLoginActivity|activity)/.test(t)){var a=t.replace("noLoginActivity","activity");window.location.replace(r+"/recruiter"+a+e)}else{var c=new URLSearchParams(e);c.set("desktop_url",window.location.href),window.location.href=r+"/recruiter/download?"+c.toString()}else window.location.href=r+"/wap/lead-pc?source="+encodeURIComponent(window.location.href)}function w(o,i){var n=o.split("?")[1];if(!n)return null;for(var t=n.split("&"),e=0;e<t.length;e++){var r=t[e].split("=");if(r[0]===i)return r[1]||""}return null}}();</script><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="google" content="notranslate"/><script src="https://static.zhipin.com/assets/sdk/apm/patas.2.0.1.min.js" crossorigin="anonymous"></script><script>(function () {
+        if (!window.APM) {
+          return;
+        }
+
+        function getCookie(name) {
+          const value = `; ${document.cookie}`;
+          const parts = value.split(`; ${name}=`);
+          if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+
+        function getQueryParam(name) {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(name);
+        }
+
+        const deviceId = getCookie('device_id');
+        const customUid = getCookie('zp_at');
+        const utmCampaign = getQueryParam('utm_campaign');
+        const source = utmCampaign || document.referrer;
+
+        const isProd =
+          window.location.hostname.includes('www.offertoday.com') ||
+          window.location.hostname.includes('v.offertoday.com');
+
+        window.APM.init({
+          appKey: isProd ? '59WpMS37wjDPcXt3' : '179zS0sLY6Nwq81h',
+          customUid,
+          extraData: {
+            deviceId,
+            source,
+            buildVersion: '739',
+            buildTimestamp: '260514_2013',
+          },
+          ignoreUrls: [
+            'www.googletagmanager.com',
+            'www.google-analytics.com',
+            'maps.googleapis.com',
+            'bat.bing.com',
+            'snap.licdn.com',
+            'mpc2-prod-28-is5qnl632q-ue.a.run.app',
+            'px.ads.linkedin.com',
+            /.*\.taboola\.com/,
+            /.*\.google\.com/,
+            /.*\.facebook\.(com|net)/,
+            /.*\.hcaptcha\.com/,
+            /.*\.geetest\.com/,
+            /\.webp$/,
+            /\.png$/,
+          ],
+          ignoreErrors: [
+            'https://accounts.google.com/gsi/client',
+            "Cannot read properties of undefined (reading 'version')",
+            'bat.bing.com',
+            'www.googletagmanager.com',
+            'cdn.taboola.com',
+            'snap.licdn.com',
+            'www.google-analytics.com',
+            'maps.googleapis.com',
+          ],
+          ignoreErrorPatterns: [
+            '1002',
+            'Network Error',
+            'Object Not Found Matching Id',
+            /creact-virtuoso/,
+            // TODO：APM暂不支持通过js名称过滤错误上报，此处为临时解决方案，屏蔽指定安全框架的js错误
+            "Cannot read properties of undefined (reading 'version')",
+          ],
+          isBizResponseError: response => {
+            try {
+              // 正常情况，返回0或不返回code，不上报
+              if (response.code === 0 || !response.code) {
+                return false;
+              }
+
+              const ignoreBizCode = [1002, 2002, 1027, 2009];
+
+              // 正常业务逻辑，无需上报
+              if (ignoreBizCode.includes(response.code)) {
+                return false;
+              }
+
+              return true;
+            } catch (e) {
+              return true;
+            }
+          },
+        });
+      })();</script><link rel="icon" href="https://m.offertoday.com/favicon.ico" type="image/x-icon"/><link rel="dns-prefetch" href="//img.offertoday.com/"/><meta name="emotion-insertion-point" content=""/><meta name="google-site-verification" content="EA2JrUWQ7koRy7S83CXczwoDHJrru-iyUxWjSZ1MAAU"/><meta name="facebook-domain-verification" content="vblp7qehgw9c3fr1p3n9bsdzbcwder"/><meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width"/><link rel="manifest" href="/recruiter/manifest.json"/><script type="module" crossorigin src="/recruiter/js/index-BbcSe8YJ.js"></script><link rel="stylesheet" crossorigin href="/recruiter/assets/business-BQyUQFXI.css"><link rel="stylesheet" crossorigin href="/recruiter/assets/index-DclMa3wC.css"><script>window.__PUBLIC_PATH__ = "/recruiter/";window.__STATIC_VERSION__ = 1778760836264</script><script>function reportWhiteScreen(options){try{var isWhiteScreen=function isWhiteScreen(){var _root_textContent;var root=document.getElementById("root");if(!root){return true}if(root.children.length===0){return true}if(((_root_textContent=root.textContent)===null||_root_textContent===void 0?void 0:_root_textContent.trim())===""){return true}var computedStyle=window.getComputedStyle(root);if(computedStyle.display==="none"||computedStyle.visibility==="hidden"){return true}return false};var getCookie=function(name){var value="; ".concat(document.cookie);var parts=value.split("; ".concat(name,"="));if(parts.length===2){return decodeURIComponent(parts.pop().split(";").shift())}return""};var report=function(){var url="https://t.offertoday.com/z.gif";var _performance_timing;var params={appKey:options.appKey,errorType:"collectData",sceneType:options.sceneType,performanceTiming:JSON.stringify((_performance_timing=performance.timing)!==null&&_performance_timing!==void 0?_performance_timing:{}),page:encodeURIComponent(location.href),reportingTime:new Date().toISOString(),ua:navigator.userAgent,href:window.location.href,referrer:document.referrer,openId:getCookie("openId"),deviceInfo:JSON.stringify({screenWidth:window.screen.width,screenHeight:window.screen.height,innerWidth:window.innerWidth,innerHeight:window.innerHeight})};var img=new Image;img.src="".concat(url,"?").concat(new URLSearchParams(params).toString())};window.addEventListener("load",function(){setTimeout(function(){try{if(isWhiteScreen()){report()}}catch(e){console.error(e)}},5e3)})}catch(error){console.error(error)}}reportWhiteScreen({appKey:"e83782094cdb965c0bb91",sceneType:"fb58499845e2297c41a0b017c20a2cb8"});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-P1Q0ZXKCC8"></script><script>window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-P1Q0ZXKCC8');
+  gtag('config', 'AW-16858673856');</script><script>function initMetaPixel() {
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
+    fbq('init', '1260720745388272');
+    fbq('track', 'PageView');
+  }
+  // 只有非中国大陆IP才需要初始化Meta Pixel，避免大陆访问网站 tab 一直 loading
+  try {
+    fetch('/wapi/ip/getIpLocation')
+      .then(r => r.json())
+      .then(res => {
+        if (!res) {
+          return;
+        }
+        const { data } = res;
+        if (!data) {
+          return;
+        }
+        const { chinaMainlandIp } = data;
+        if (!chinaMainlandIp) {
+          initMetaPixel();
+        }
+      });
+  } catch {
+    initMetaPixel();
+  }</script><script>(function (w, d, t, r, u) {
+    var f, n, i;
+    (w[u] = w[u] || []),
+      (f = function () {
+        var o = { ti: '187202624', enableAutoSpaTracking: true };
+        (o.q = w[u]), (w[u] = new UET(o)), w[u].push('pageLoad');
+      }),
+      (n = d.createElement(t)),
+      (n.src = r),
+      (n.async = 1),
+      (n.onload = n.onreadystatechange =
+        function () {
+          var s = this.readyState;
+          (s && s !== 'loaded' && s !== 'complete') ||
+            (f(), (n.onload = n.onreadystatechange = null));
+        }),
+      (i = d.getElementsByTagName(t)[0]),
+      i.parentNode.insertBefore(n, i);
+  })(window, document, 'script', '//bat.bing.com/bat.js', 'uetq');</script><script>window._tfa = window._tfa || [];
+  window._tfa.push({ notify: 'event', name: 'page_view', id: 1884469 });
+  !(function (t, f, a, x) {
+    if (!document.getElementById(x)) {
+      t.async = 1;
+      t.src = a;
+      t.id = x;
+      f.parentNode.insertBefore(t, f);
+    }
+  })(
+    document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    '//cdn.taboola.com/libtrc/unip/1884469/tfa.js',
+    'tb_tfa_script'
+  );</script></head><body id="body-box"><div id="root"></div><audio id="audio_player"></audio><script crossorigin="anonymous" src="//at.alicdn.com/t/c/font_4410944_juguk4fdjx.js" async></script><script src="https://img.offertodayhk.com/static/file/js/bsk54q18.js" async></script><script crossorigin="anonymous" src="https://static.zhipin.com/assets/sdk/nebula-web/nebulartc-2.3.11.js"></script><script>(function () {
+        var script = document.createElement('script');
+        script.src = '/web/security/entry/index.js';
+        document.body.appendChild(script);
+      })();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1260720745388272&ev=PageView&noscript=1"/></noscript><script>_linkedin_partner_id = '7203266';
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);</script><script>(function (l) {
+    if (!l) {
+      window.lintrk = function (a, b) {
+        window.lintrk.q.push([a, b]);
+      };
+      window.lintrk.q = [];
+    }
+    var s = document.getElementsByTagName('script')[0];
+    var b = document.createElement('script');
+    b.type = 'text/javascript';
+    b.async = true;
+    b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+    s.parentNode.insertBefore(b, s);
+  })(window.lintrk);</script><noscript><img height="1" width="1" style="display:none" alt="" src="https://px.ads.linkedin.com/collect/?pid=7203266&fmt=gif"/></noscript></body></html>
