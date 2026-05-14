@@ -220,7 +220,28 @@
     "Neustadt an der Aisch|Friseur",
     "Neustadt an der Aisch|Bäckerei",
     "Neustadt an der Aisch|Gastronomie",
-    "Eckental|IT"
+    "Eckental|IT",
+    "Eckental|Software",
+    "Eckental|Ingenieurbüro",
+    "Eckental|Consulting",
+    "Eckental|Marketing",
+    "Eckental|Steuerberater",
+    "Eckental|Rechtsanwalt",
+    "Eckental|Architekt",
+    "Eckental|Handwerk",
+    "Eckental|Elektro",
+    "Eckental|Metallbau",
+    "Eckental|Maschinenbau",
+    "Eckental|Baufirma",
+    "Eckental|Kfz",
+    "Eckental|Immobilien",
+    "Eckental|Versicherung",
+    "Eckental|Logistik",
+    "Eckental|Apotheke",
+    "Eckental|Arzt",
+    "Eckental|Friseur",
+    "Eckental|Bäckerei",
+    "Eckental|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -240,6 +261,7 @@
     "Hersbruck",
     "Hersbruck",
     "Neustadt an der Aisch",
-    "Neustadt an der Aisch"
+    "Neustadt an der Aisch",
+    "Eckental"
   ]
 }
