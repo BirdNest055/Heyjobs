@@ -272,7 +272,9 @@
     "Roth|Steuerberater",
     "Roth|Rechtsanwalt",
     "Roth|Architekt",
-    "Roth|Handwerk"
+    "Roth|Handwerk",
+    "Roth|Elektro",
+    "Roth|Metallbau"
   ],
   "cities_done": [
     "Erlangen",
