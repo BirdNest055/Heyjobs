@@ -1,0 +1,12 @@
+Junior IT-Jobs Batch Runner
+==================================================
+254 employers (74 IT priority)
+Already completed: 1, failed: 0
+
+[2/254] Firmengruppe Veit
+  SCRAPING: Firmengruppe Veit
+  [BROWSER] CloakBrowser gestartet
+  Firmengruppe Veit -> keine Karriere-Seite
+RESULT: 0 jobs
+
+[3/254] Gerlicher GmbH - Frittieröllieferung & Altfet

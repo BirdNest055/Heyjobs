@@ -1,10 +1,1 @@
-{
- "completed": [
-  "Computerservice Bamberg"
- ],
- "failed": [],
- "last_index": 1,
- "stats": {
-  "no_career": 1
- }
-}
+{"completed": [], "failed": [], "last_index": 0, "stats": {}}

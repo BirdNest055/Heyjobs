@@ -423,26 +423,31 @@ class CloakScraper:
         self.stats = Counter()
 
     def start_browser(self):
-        from cloakbrowser import launch
-        self.browser = launch(
+        from playwright.sync_api import sync_playwright
+        self._pw = sync_playwright().start()
+        self.browser = self._pw.chromium.launch(
             headless=True,
-            args=['--fingerprint=42', '--fingerprint-platform=windows'],
+            args=['--disable-blink-features=AutomationControlled', '--no-sandbox'],
         )
         self.context = self.browser.new_context(
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             viewport={'width': 1920, 'height': 1080},
             locale='de-DE',
             timezone_id='Europe/Berlin',
         )
-        print("  [BROWSER] CloakBrowser gestartet")
+        print("  [BROWSER] Playwright gestartet")
 
     def stop_browser(self):
         for obj in [self.context, self.browser]:
             if obj:
                 try: obj.close()
                 except: pass
+        if hasattr(self, '_pw') and self._pw:
+            try: self._pw.stop()
+            except: pass
         self.browser = None
         self.context = None
+        self._pw = None
 
     def _dismiss_cookies(self, page):
         for sel in ['button:has-text("Akzeptieren")', 'button:has-text("Alle akzeptieren")',
