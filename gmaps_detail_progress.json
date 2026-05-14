@@ -247,7 +247,23 @@
     "Ebermannstadt|Ingenieurbüro",
     "Ebermannstadt|Consulting",
     "Ebermannstadt|Marketing",
-    "Ebermannstadt|Steuerberater"
+    "Ebermannstadt|Steuerberater",
+    "Ebermannstadt|Rechtsanwalt",
+    "Ebermannstadt|Architekt",
+    "Ebermannstadt|Handwerk",
+    "Ebermannstadt|Elektro",
+    "Ebermannstadt|Metallbau",
+    "Ebermannstadt|Maschinenbau",
+    "Ebermannstadt|Baufirma",
+    "Ebermannstadt|Kfz",
+    "Ebermannstadt|Immobilien",
+    "Ebermannstadt|Versicherung",
+    "Ebermannstadt|Logistik",
+    "Ebermannstadt|Apotheke",
+    "Ebermannstadt|Arzt",
+    "Ebermannstadt|Friseur",
+    "Ebermannstadt|Bäckerei",
+    "Ebermannstadt|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -269,6 +285,7 @@
     "Neustadt an der Aisch",
     "Neustadt an der Aisch",
     "Eckental",
-    "Eckental"
+    "Eckental",
+    "Ebermannstadt"
   ]
 }
