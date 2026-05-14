@@ -201,7 +201,25 @@
     "Neustadt an der Aisch|IT",
     "Neustadt an der Aisch|Software",
     "Neustadt an der Aisch|Ingenieurbüro",
-    "Neustadt an der Aisch|Consulting"
+    "Neustadt an der Aisch|Consulting",
+    "Neustadt an der Aisch|Marketing",
+    "Neustadt an der Aisch|Steuerberater",
+    "Neustadt an der Aisch|Rechtsanwalt",
+    "Neustadt an der Aisch|Architekt",
+    "Neustadt an der Aisch|Handwerk",
+    "Neustadt an der Aisch|Elektro",
+    "Neustadt an der Aisch|Metallbau",
+    "Neustadt an der Aisch|Maschinenbau",
+    "Neustadt an der Aisch|Baufirma",
+    "Neustadt an der Aisch|Kfz",
+    "Neustadt an der Aisch|Immobilien",
+    "Neustadt an der Aisch|Versicherung",
+    "Neustadt an der Aisch|Logistik",
+    "Neustadt an der Aisch|Apotheke",
+    "Neustadt an der Aisch|Arzt",
+    "Neustadt an der Aisch|Friseur",
+    "Neustadt an der Aisch|Bäckerei",
+    "Neustadt an der Aisch|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -219,6 +237,7 @@
     "Lauf an der Pegnitz",
     "Lauf an der Pegnitz",
     "Hersbruck",
-    "Hersbruck"
+    "Hersbruck",
+    "Neustadt an der Aisch"
   ]
 }
