@@ -1,0 +1,7 @@
+=== GMaps Detail Re-Scraper ===
+Loaded 10807 companies
+Cities to process: 17
+Xvfb started
+Browser ready
+
+=== Erlangen ===

@@ -476,7 +476,7 @@ def main():
             start = progress.get("last_enrich_idx", 0)
             done = 0
 
-            for i in range(start, min(start + 50, len(need))):  # Process 50 per run
+            for i in range(start, min(start + 200, len(need))):  # Process 200 per run
                 pri, key, comp = need[i]
                 name = comp.get("name", "")
                 town = comp.get("city", comp.get("search_town", ""))
@@ -545,7 +545,7 @@ def main():
 
             save_json(RESULTS_FILE, list(all_companies.values()))
             progress["enriched_companies"] = list(enriched)[-500:]
-            progress["last_enrich_idx"] = min(start + 50, len(need))
+            progress["last_enrich_idx"] = min(start + 200, len(need))
             save_json(PROGRESS_FILE, progress)
             create_excel(list(all_companies.values()))
             git_push(f"GMaps Enrich batch done | {len(all_companies)} total")

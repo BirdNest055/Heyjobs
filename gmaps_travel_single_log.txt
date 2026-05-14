@@ -212,3 +212,6 @@ Enrichment: 10767 (P1 web:7816 P2 plz:2951)
   [EXCEL] 10807 saved
   [GIT] GMaps Enrich: 50 done | 10807 total
   [EXCEL] 10807 saved
+  [GIT] GMaps Enrich batch done | 10807 total
+
+=== Run complete | 10807 companies ===
