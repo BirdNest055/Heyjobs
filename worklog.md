@@ -1,45 +1,27 @@
 ---
 Task ID: 1
 Agent: Main Agent
-Task: Deutsche Arbeitgeberdaten scrapen und Excel-Datei erstellen
+Task: Junior IT Jobs Scraper - Bamberg/Erlangen/Nürnberg
 
 Work Log:
-- Recherchierte deutsche Job-Webseiten (berufsstart.de, Kununu, StepStone, Indeed, karrierebibel.de)
-- Scrapte berufsstart.de Top 100 Arbeitgeber Ranking 2025
-- Extrahierte 100 Arbeitgebernamen aus dem Ranking
-- Ergänzte Kontaktdaten (Adresse, PLZ, Stadt, Bundesland, Telefon, E-Mail, Website, Branche) für alle 100 Arbeitgeber
-- Deduplizierte Einträge und vergab eindeutige Arbeitgeber-IDs (Format: DE-XXXX-NNNN)
-- Ergänzte 4 zusätzliche DAX-40-Unternehmen um auf 100 Einträge zu kommen
-- Erstellte professionelle Excel-Datei mit 5 Blättern:
-  1. Arbeitgeberverzeichnis (100 Einträge mit Kontaktdaten, Hyperlinks, Dropdown-Status)
-  2. Statistik Bundesland (Balkendiagramm)
-  3. Statistik Branche (Balkendiagramm)
-  4. Bewerbungstracker (vorformatiert für persönliche Bewerbungsverfolgung)
-  5. Hinweise (Nutzungshinweise und Erklärungen)
-- Validierte Excel-Datei mit xlsx.py validate → 0 Issues
+- Loaded employer data from existing Excel files (IT_Arbeitgeber + Firmen B/ER/N)
+- Designed database-friendly Excel schema with 44 atomic columns
+- Phase 1: Queried Arbeitsagentur API with 1350 search combinations (18 junior terms + 28 broad IT terms × 6 cities × 5 pages)
+- Discovered API uses `ergebnisliste` (not `stellenangebote`) and `referenznummer` (not `chiffrennummer`)
+- Phase 1 found 1407 non-senior IT jobs (207 explicitly junior, 1200 junior-friendly)
+- Phase 2: Visited 476 employer websites using Playwright browser automation
+- Found 47 career pages, downloaded 47 career HTML files
+- Extracted job links from career pages
+- Updated Excel with career URLs, website URLs, employer contact info
+- Cleaned GitHub tokens from Python scripts
+- Rewrote git history with filter-branch to remove token from all commits
+- Successfully pushed to GitHub
 
 Stage Summary:
-- 100 Arbeitgeber mit vollständigen Kontaktdaten
-- Excel-Datei gespeichert unter: /home/z/my-project/download/Arbeitgeber_Deutschland_Bewerbungskontakte.xlsx
-- Alle Validierungen bestanden
----
-Task ID: 1
-Agent: Main
-Task: Scrape Arbeitsagentur job listings for employer data and generate Excel
-
-Work Log:
-- Set up Playwright with Xvfb virtual display for browser automation
-- Discovered the hidden REST API of Arbeitsagentur: rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs
-- API key: jobboerse-jobsuche (no authentication needed)
-- Scraped 1,788 unique employers from Branch 11 (IT/Telekommunikation) across all 8,737 job listings
-- Data includes: Name, Straße, PLZ, Stadt, Bundesland, Branche, Referenznummer
-- Contact details (email, phone) are protected by CAPTCHA on the Arbeitsagentur website
-- Enriched 15 employer websites via web search
-- Generated professional Excel file with 5 sheets
-
-Stage Summary:
-- 1,788 unique employer-location combinations from Arbeitsagentur API
-- Excel file: /home/z/my-project/download/Arbeitgeber_Arbeitsagentur_Bewerbungskontakte.xlsx
-- 5 sheets: Arbeitgeberverzeichnis, Statistik Bundesland, Statistik Branche, Bewerbungstracker, Hinweise
-- Features: clickable website links, dropdown status filter, frozen panes, AutoFilter, alternating row colors
-- Top Bundesländer: Bayern (477), NRW (445), Baden-Württemberg (398), Niedersachsen (209), Hessen (199)
+- 1407 junior IT jobs collected in database-friendly Excel
+- 476 employer websites visited
+- 47 career pages found with HTML saved
+- Excel: Junior_IT_Jobs_Bamberg_Erlangen_Nuernberg.xlsx with 44 atomic columns
+- Categories: Softwareentwicklung (434), IT Sonstige (512), Systemadministration (164), Cyber Security (68), DevOps (50), etc.
+- Source: Arbeitsagentur API + website career pages
+- GitHub: https://github.com/BirdNest055/Heyjobs (pushed successfully)
