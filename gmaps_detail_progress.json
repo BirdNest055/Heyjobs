@@ -44,10 +44,32 @@
     "Nürnberg|Friseur",
     "Nürnberg|Bäckerei",
     "Nürnberg|Gastronomie",
-    "Fürth|IT"
+    "Fürth|IT",
+    "Fürth|Software",
+    "Fürth|Ingenieurbüro",
+    "Fürth|Consulting",
+    "Fürth|Marketing",
+    "Fürth|Steuerberater",
+    "Fürth|Rechtsanwalt",
+    "Fürth|Architekt",
+    "Fürth|Handwerk",
+    "Fürth|Elektro",
+    "Fürth|Metallbau",
+    "Fürth|Maschinenbau",
+    "Fürth|Baufirma",
+    "Fürth|Kfz",
+    "Fürth|Immobilien",
+    "Fürth|Versicherung",
+    "Fürth|Logistik",
+    "Fürth|Apotheke",
+    "Fürth|Arzt",
+    "Fürth|Friseur",
+    "Fürth|Bäckerei",
+    "Fürth|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
-    "Nürnberg"
+    "Nürnberg",
+    "Fürth"
   ]
 }
