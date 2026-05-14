@@ -110,7 +110,28 @@
     "Herzogenaurach|Friseur",
     "Herzogenaurach|Bäckerei",
     "Herzogenaurach|Gastronomie",
-    "Schwabach|IT"
+    "Schwabach|IT",
+    "Schwabach|Software",
+    "Schwabach|Ingenieurbüro",
+    "Schwabach|Consulting",
+    "Schwabach|Marketing",
+    "Schwabach|Steuerberater",
+    "Schwabach|Rechtsanwalt",
+    "Schwabach|Architekt",
+    "Schwabach|Handwerk",
+    "Schwabach|Elektro",
+    "Schwabach|Metallbau",
+    "Schwabach|Maschinenbau",
+    "Schwabach|Baufirma",
+    "Schwabach|Kfz",
+    "Schwabach|Immobilien",
+    "Schwabach|Versicherung",
+    "Schwabach|Logistik",
+    "Schwabach|Apotheke",
+    "Schwabach|Arzt",
+    "Schwabach|Friseur",
+    "Schwabach|Bäckerei",
+    "Schwabach|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -120,6 +141,7 @@
     "Bamberg",
     "Bamberg",
     "Herzogenaurach",
-    "Herzogenaurach"
+    "Herzogenaurach",
+    "Schwabach"
   ]
 }
