@@ -1,7 +1,29 @@
 {
   "completed_searches": [
     "Erlangen|IT",
-    "Erlangen|Software"
+    "Erlangen|Software",
+    "Erlangen|Ingenieurbüro",
+    "Erlangen|Consulting",
+    "Erlangen|Marketing",
+    "Erlangen|Steuerberater",
+    "Erlangen|Rechtsanwalt",
+    "Erlangen|Architekt",
+    "Erlangen|Handwerk",
+    "Erlangen|Elektro",
+    "Erlangen|Metallbau",
+    "Erlangen|Maschinenbau",
+    "Erlangen|Baufirma",
+    "Erlangen|Kfz",
+    "Erlangen|Immobilien",
+    "Erlangen|Versicherung",
+    "Erlangen|Logistik",
+    "Erlangen|Apotheke",
+    "Erlangen|Arzt",
+    "Erlangen|Friseur",
+    "Erlangen|Bäckerei",
+    "Erlangen|Gastronomie"
   ],
-  "cities_done": []
+  "cities_done": [
+    "Erlangen"
+  ]
 }
