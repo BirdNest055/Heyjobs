@@ -888,8 +888,13 @@ def main():
         ort = ws_emp.cell(r, 7).value or ''
         plz = ws_emp.cell(r, 6).value or ''
         kategorie = ws_emp.cell(r, 4).value or ''
-        website = website_found if website_found and website_found.lower() not in ['ja', 'nein', 'n/a', '-'] else website_gm
-        if name:
+        # Only use actual URLs, not 'Ja'/'Nein' flags
+        website = ''
+        if website_found and website_found.startswith('http'):
+            website = website_found
+        elif website_gm and website_gm.startswith('http'):
+            website = website_gm
+        if name and website:
             employers.append({'name': name, 'website': website, 'city': ort, 'plz': plz, 'industry': kategorie})
 
     # Priority: IT employers first
@@ -924,18 +929,24 @@ def main():
                 continue
 
             try:
+                print(f"\n[{idx+1}/{len(priority_employers)}] ", end='', flush=True)
                 scraper.scrape_employer(employer)
                 completed_names.add(employer['name'])
             except Exception as e:
-                print(f"  [✗] {str(e)[:60]}")
+                print(f" [✗] ERROR: {str(e)[:80]}", flush=True)
+                traceback.print_exc()
                 # Restart browser on error
                 try: scraper.stop_browser()
                 except: pass
-                time.sleep(2)
-                scraper.start_browser()
+                time.sleep(3)
+                try:
+                    scraper.start_browser()
+                except Exception as e2:
+                    print(f" [✗] Browser restart failed: {e2}", flush=True)
+                    break
 
-            # Save progress every 5 employers
-            if idx % 5 == 0:
+            # Save progress every 3 employers
+            if idx % 3 == 0:
                 progress['completed'] = list(completed_names)
                 progress['last_index'] = idx + 1
                 progress['stats'] = dict(scraper.stats)
