@@ -88,7 +88,28 @@
     "Bamberg|Friseur",
     "Bamberg|Bäckerei",
     "Bamberg|Gastronomie",
-    "Herzogenaurach|IT"
+    "Herzogenaurach|IT",
+    "Herzogenaurach|Software",
+    "Herzogenaurach|Ingenieurbüro",
+    "Herzogenaurach|Consulting",
+    "Herzogenaurach|Marketing",
+    "Herzogenaurach|Steuerberater",
+    "Herzogenaurach|Rechtsanwalt",
+    "Herzogenaurach|Architekt",
+    "Herzogenaurach|Handwerk",
+    "Herzogenaurach|Elektro",
+    "Herzogenaurach|Metallbau",
+    "Herzogenaurach|Maschinenbau",
+    "Herzogenaurach|Baufirma",
+    "Herzogenaurach|Kfz",
+    "Herzogenaurach|Immobilien",
+    "Herzogenaurach|Versicherung",
+    "Herzogenaurach|Logistik",
+    "Herzogenaurach|Apotheke",
+    "Herzogenaurach|Arzt",
+    "Herzogenaurach|Friseur",
+    "Herzogenaurach|Bäckerei",
+    "Herzogenaurach|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -96,6 +117,7 @@
     "Fürth",
     "Fürth",
     "Bamberg",
-    "Bamberg"
+    "Bamberg",
+    "Herzogenaurach"
   ]
 }
