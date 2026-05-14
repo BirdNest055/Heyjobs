@@ -925,7 +925,11 @@
   ],
   "enriched_companies": [
     "schlüsseldienst by24|erlangen",
+    "weingarten pc-service gmbh|erlangen",
+    "bitma solutions gmbh|erlangen",
+    "codemanufaktur gmbh|erlangen",
     "geis industrie-service | erlangen kraftwerkstraße 25|erlangen",
+    "aegis software gmbh|erlangen",
     "siemens ag, gerätewerk erlangen|erlangen",
     "corscience gmbh & co. kg|erlangen",
     "sonepar niederlassung erlangen|erlangen",
@@ -935,6 +939,8 @@
     "friedrich hofmann gmbh erlangen|erlangen",
     "galeria erlangen|erlangen",
     "frör kunststofftechnik|erlangen",
+    "giants software entertainment gmbh|erlangen",
+    "eoli.de it-services|erlangen",
     "nextwerk it-services gmbh|erlangen",
     "betonwerk kurr gmbh|erlangen",
     "huwe umzüge - umzugsunternehmen erlangen|erlangen",
@@ -946,15 +952,19 @@
     "valeo eautomotive germany gmbh|erlangen",
     "afra anwenderfreundliche automatisierung gmbh|erlangen",
     "flaschnerei beck gmbh & co.kg bedachungen|erlangen",
+    "luminacid|erlangen",
     "hofmann it|erlangen",
+    "serity gmbh|erlangen",
     "geis industrie-service gmbh | kraftwerkstraße 21-23 erlangen|erlangen",
     "wavelight gmbh|erlangen",
     "raphael frasch gmbh | it-systemhaus|erlangen",
     "geis industrie-service gmbh | röthelheimpark erlangen|erlangen",
+    "e.solutions gmbh|erlangen",
     "siemens healthineers headquarters|erlangen",
+    "keppler it gmbh|erlangen",
     "basel dienstleistungen gmbh|erlangen",
     "chemische industrie erlangen|erlangen"
   ],
   "phase": "enrich_existing",
-  "last_enrich_idx": 30
+  "last_enrich_idx": 40
 }
