@@ -29,3 +29,171 @@ Browser ready
     [14] Error: ElementHandle.click: Element is not attached to th
   New: 4 | Total: 10807 | Push: 11
   [EXCEL] 10807 saved
+  [GIT] GMaps: Ansbach +11 | 10807 total
+  [WARN] Cannot load: Ansbach GmbH
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach IT
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Industrie
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Handel
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Gastronomie
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Steuerberater
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Ansbach Elektro
+  New: 0 | Total: 10807 | Push: 0
+  Town Ansbach done. Total: 10807
+
+--- Hilpoltstein (tier 4, 5 terms) ---
+  [WARN] Cannot load: Hilpoltstein Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Hilpoltstein Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Hilpoltstein Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Hilpoltstein Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Hilpoltstein Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Hilpoltstein done. Total: 10807
+
+--- Pelchenhofen (tier 4, 5 terms) ---
+  [WARN] Cannot load: Pelchenhofen Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pelchenhofen Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pelchenhofen Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pelchenhofen Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pelchenhofen Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Pelchenhofen done. Total: 10807
+
+--- Neumarkt in der Oberpfalz (tier 3, 7 terms) ---
+  [WARN] Cannot load: Neumarkt in der Oberpfalz Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz GmbH
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz Handel
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Neumarkt in der Oberpfalz IT
+  New: 0 | Total: 10807 | Push: 0
+  Town Neumarkt in der Oberpfalz done. Total: 10807
+
+--- Thalmässing (tier 4, 5 terms) ---
+  [WARN] Cannot load: Thalmässing Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Thalmässing Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Thalmässing Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Thalmässing Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Thalmässing Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Thalmässing done. Total: 10807
+
+--- Lauterhofen (tier 4, 5 terms) ---
+  [WARN] Cannot load: Lauterhofen Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Lauterhofen Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Lauterhofen Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Lauterhofen Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Lauterhofen Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Lauterhofen done. Total: 10807
+
+--- Pölling (tier 4, 5 terms) ---
+  [WARN] Cannot load: Pölling Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pölling Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pölling Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pölling Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pölling Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Pölling done. Total: 10807
+
+--- Freystadt (tier 4, 5 terms) ---
+  [WARN] Cannot load: Freystadt Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Freystadt Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Freystadt Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Freystadt Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Freystadt Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Freystadt done. Total: 10807
+
+--- Heideck (tier 4, 5 terms) ---
+  [WARN] Cannot load: Heideck Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Heideck Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Heideck Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Heideck Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Heideck Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Heideck done. Total: 10807
+
+--- Deining (tier 4, 5 terms) ---
+  [WARN] Cannot load: Deining Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Deining Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Deining Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Deining Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Deining Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Deining done. Total: 10807
+
+--- Pleinfeld (tier 4, 5 terms) ---
+  [WARN] Cannot load: Pleinfeld Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pleinfeld Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pleinfeld Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pleinfeld Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Pleinfeld Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Pleinfeld done. Total: 10807
+
+--- Sengenthal (tier 4, 5 terms) ---
+  [WARN] Cannot load: Sengenthal Firma
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Sengenthal Unternehmen
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Sengenthal Gewerbe
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Sengenthal Handwerk
+  New: 0 | Total: 10807 | Push: 0
+  [WARN] Cannot load: Sengenthal Dienstleistung
+  New: 0 | Total: 10807 | Push: 0
+  Town Sengenthal done. Total: 10807
+  [EXCEL] 10807 saved
