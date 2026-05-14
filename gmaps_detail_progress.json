@@ -132,7 +132,28 @@
     "Schwabach|Friseur",
     "Schwabach|Bäckerei",
     "Schwabach|Gastronomie",
-    "Forchheim|IT"
+    "Forchheim|IT",
+    "Forchheim|Software",
+    "Forchheim|Ingenieurbüro",
+    "Forchheim|Consulting",
+    "Forchheim|Marketing",
+    "Forchheim|Steuerberater",
+    "Forchheim|Rechtsanwalt",
+    "Forchheim|Architekt",
+    "Forchheim|Handwerk",
+    "Forchheim|Elektro",
+    "Forchheim|Metallbau",
+    "Forchheim|Maschinenbau",
+    "Forchheim|Baufirma",
+    "Forchheim|Kfz",
+    "Forchheim|Immobilien",
+    "Forchheim|Versicherung",
+    "Forchheim|Logistik",
+    "Forchheim|Apotheke",
+    "Forchheim|Arzt",
+    "Forchheim|Friseur",
+    "Forchheim|Bäckerei",
+    "Forchheim|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -144,6 +165,7 @@
     "Herzogenaurach",
     "Herzogenaurach",
     "Schwabach",
-    "Schwabach"
+    "Schwabach",
+    "Forchheim"
   ]
 }
