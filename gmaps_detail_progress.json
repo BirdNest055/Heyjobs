@@ -274,7 +274,9 @@
     "Roth|Architekt",
     "Roth|Handwerk",
     "Roth|Elektro",
-    "Roth|Metallbau"
+    "Roth|Metallbau",
+    "Roth|Maschinenbau",
+    "Roth|Baufirma"
   ],
   "cities_done": [
     "Erlangen",
