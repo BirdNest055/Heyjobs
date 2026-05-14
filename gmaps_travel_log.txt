@@ -1,0 +1,6 @@
+Loaded 10784 existing + 0 travel = 10784 merged companies
+Missing towns (13): ['Oberdachstetten', 'Ansbach', 'Hilpoltstein', 'Pelchenhofen', 'Neumarkt in der Oberpfalz', 'Thalmässing', 'Lauterhofen', 'Pölling', 'Freystadt', 'Heideck', 'Deining', 'Pleinfeld', 'Sengenthal']
+
+=== PHASE 1: Searching 13 missing towns ===
+
+--- Oberdachstetten (tier 4, 5 terms) ---
