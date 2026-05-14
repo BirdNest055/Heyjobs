@@ -1,0 +1,31 @@
+=== GMaps Travel Scraper (single-town mode) ===
+Loaded 10796 companies
+Missing towns (12): ['Ansbach', 'Hilpoltstein', 'Pelchenhofen', 'Neumarkt in der Oberpfalz', 'Thalmässing']...
+Xvfb started
+Browser ready
+
+--- Ansbach (tier 2, 11 terms) ---
+  [Ansbach Firma] 8 unique results
+    [1/8] OECHSLER AG | web=http://www.oechsler.com/ | plz=91522 | cat=Kunststoffhersteller
+    [3/8] Mondi Wellpappe Ansbach GmbH | web=https://www.mondigroup.com/de/stand | plz=91522 | cat=Verpackungsunternehm
+    [4/8] Robert Bosch GmbH | web=http://www.bosch.de/ | plz=91522 | cat=Hersteller
+    [5/8] Reel Company GmbH | web=http://www.reelcompany.com/ | plz=91522 | cat=Verpackungsunternehm
+    [6/8] Vario Pack Ansbach | web=https://www.diehl.com/metering/en/ | plz=91522 | cat=Reinigungsunternehme
+    [7/8] Heinlein Plastik-Technik GmbH A MEM | web=http://www.heinlein-plastik.de/ | plz=91522 | cat=Hersteller
+    [8/8] Tradebyte Software GmbH | web=https://www.tradebyte.com/ | plz=91522 | cat=Softwareentwickler/-
+  New: 7 | Total: 10803 | Push: 7
+  [Ansbach Unternehmen] 106 unique results
+    [1/106] OECHSLER AG | web=http://www.oechsler.com/ | plz=91522 | cat=Kunststoffhersteller
+    [2/106] Diehl Metering, Ansbach | web=https://www.diehl.com/metering/en/ | plz=91522 | cat=Business-to-Business
+    [4/106] Mondi Wellpappe Ansbach GmbH | web=https://www.mondigroup.com/de/stand | plz=91522 | cat=Verpackungsunternehm
+    [5/106] Vario Pack Ansbach | web=http://www.heinlein-plastik.de/ | plz=91522 | cat=Reinigungsunternehme
+    [6/106] Robert Bosch GmbH | web=http://www.bosch.de/ | plz=91522 | cat=Hersteller
+    [7/106] Reel Company GmbH | web=http://www.reelcompany.com/ | plz=91522 | cat=Verpackungsunternehm
+    [8/106] Hermes Logistikzentrum Ansbach – He | web=https://www.hermes-fulfilment.de/un | plz=91522 | cat=Warenlager
+    [9/106] OECHSLER Motion GmbH | web=https://www.oechsler-motion.com/ | plz=91522 | cat=Kunststoffhersteller
+    [11/106] Tradebyte Software GmbH | web=https://www.tradebyte.com/ | plz=91522 | cat=Softwareentwickler/-
+    [12/106] surfAN IT GmbH & Co. KG - Systemhau | web=http://www.surfan-it.de/ | plz=91522 | cat=IT-Berater
+    [13] Error: ElementHandle.click: Element is not attached to th
+    [14] Error: ElementHandle.click: Element is not attached to th
+  New: 4 | Total: 10807 | Push: 11
+  [EXCEL] 10807 saved

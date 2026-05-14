@@ -1,0 +1,10 @@
+=== Starting Google Maps Travel Scraper v2 ===
+Merged: 10784 existing + 10796 travel = 10796 total
+Missing towns (12): ['Ansbach', 'Hilpoltstein', 'Pelchenhofen', 'Neumarkt in der Oberpfalz', 'Thalmässing', 'Lauterhofen', 'Pölling', 'Freystadt', 'Heideck', 'Deining', 'Pleinfeld', 'Sengenthal']
+Xvfb started
+Launching browser...
+Browser ready!
+
+=== PHASE 1: 12 missing towns ===
+
+--- Ansbach (tier 2, 11 terms) ---
