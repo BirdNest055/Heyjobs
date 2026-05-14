@@ -9,7 +9,9 @@
   "HOFMANN IT",
   "UG Systems GmbH & Co. KG",
   "AFRA Anwenderfreundliche Automatisierung GmbH",
+  "INCHRON AG",
   "GIANTS Software Entertainment GmbH",
+  "INVENT Umwelt- und Verfahrenstechnik AG",
   "Lagerraum Bamberg easyBOXit! mobile selfstorage",
   "GRAVITY STORE ERLANGEN",
   "ESS - Erlanger Sicherheits-Service GmbH",
@@ -32,6 +34,7 @@
   "Oppelt Energie- und Gebäudetechnik GmbH",
   "City Fitness Erlangen",
   "IKS GmbH - pure IT-Dienstleistungen",
+  "HOLZMANN IT SYSTEME",
   "Genauigkeits Maschinenbau Nürnberg GmbH Sitz Erlangen",
   "Geis Industrie-Service GmbH | Pestalozziring Erlangen",
   "Computerservice Bamberg",
@@ -39,11 +42,11 @@
   "Geis Eurocargo Erlangen-Frauenaurach"
  ],
  "failed": [],
- "last_index": 37,
+ "last_index": 40,
  "stats": {
-  "no_career": 1,
-  "career_found": 2,
-  "jobs_added": 2,
+  "no_career": 2,
+  "career_found": 4,
+  "jobs_added": 7,
   "no_jobs": 1
  }
 }
