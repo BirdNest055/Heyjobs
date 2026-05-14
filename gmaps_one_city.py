@@ -137,6 +137,8 @@ def create_excel(companies):
 def main():
     print(f"=== Scraping {CITY} ===",flush=True)
     subprocess.run(["pkill","-9","Xvfb"],capture_output=True)
+    subprocess.run(["rm","-f","/tmp/.X99-lock"],capture_output=True)
+    subprocess.run(["rm","-f","/tmp/.X11-unix/X99"],capture_output=True)
     subprocess.run(["pkill","-9","chromium"],capture_output=True)
     time.sleep(2)
 
