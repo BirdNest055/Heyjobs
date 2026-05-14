@@ -1,1 +1,24 @@
-{"completed": [], "failed": [], "last_index": 0, "stats": {}}
+{
+ "completed": [
+  "K&S Autoaufbereitungsstudio Bamberg",
+  "IKS GmbH - pure IT-Dienstleistungen",
+  "Lagerraum Bamberg easyBOXit! mobile selfstorage",
+  "Oppelt Energie- und Gebäudetechnik GmbH",
+  "Firmengruppe Veit",
+  "Computerservice Bamberg",
+  "Gerlicher GmbH - Frittieröllieferung & Altfettabholung",
+  "Technisches Rathaus Bamberg",
+  "UG Systems GmbH & Co. KG",
+  "SteelCo.Tech Bamberg GmbH",
+  "MitMachKlima",
+  "ABEX 24/7 GIENGER & FUNK HAUSTECHNIK",
+  "VEIT Immobilien - Immobilienmakler Bamberg"
+ ],
+ "failed": [],
+ "last_index": 13,
+ "stats": {
+  "no_career": 3,
+  "career_found": 3,
+  "jobs_added": 3
+ }
+}

@@ -1,0 +1,20 @@
+======================================================================
+Junior IT-Jobs Scraper v4 - QUELLENNAH
+CloakBrowser + DuckDuckGo + Website-Navigation
+======================================================================
+
+[1] Lade Arbeitgeber...
+  254 Arbeitgeber (77 IT-Priorität)
+  Bereits verarbeitet: 0
+  0 existierende Jobs
+  [BROWSER] Playwright gestartet
+
+[1/254]   Computerservice Bamberg -> keine Karriere-Seite
+
+[2/254]   Firmengruppe Veit -> keine Karriere-Seite
+
+[3/254]   Gerlicher GmbH - Frittieröllieferung & Altfet -> Karriere (website_) -> 1 Junior-IT (1 neu)
+
+[4/254]   IKS GmbH - pure IT-Dienstleistungen -> Karriere (website_) -> 1 Junior-IT (1 neu)
+
+[5/254]   K&S Autoaufbereitungsstudio Bamberg

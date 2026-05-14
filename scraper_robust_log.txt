@@ -1,0 +1,28 @@
+=== Attempt 1 (remaining: 247) ===
+Thu May 14 18:38:50 UTC 2026
+======================================================================
+Junior IT-Jobs Scraper v4 - QUELLENNAH
+CloakBrowser + DuckDuckGo + Website-Navigation
+======================================================================
+
+[1] Lade Arbeitgeber...
+  254 Arbeitgeber (77 IT-Priorität)
+  Bereits verarbeitet: 7
+  1 existierende Jobs
+  [BROWSER] Playwright gestartet
+
+[8/254]   Oppelt Energie- und Gebäudetechnik GmbH -> keine Karriere-Seite
+
+[9/254]   SteelCo.Tech Bamberg GmbH -> Karriere (website_) -> 1 Junior-IT (1 neu)
+
+[10/254]   Technisches Rathaus Bamberg -> Karriere (website_) -> 1 Junior-IT (1 neu)
+
+[11/254]   UG Systems GmbH & Co. KG -> keine Karriere-Seite
+
+[12/254]   VEIT Immobilien - Immobilienmakler Bamberg -> keine Karriere-Seite
+
+[13/254]   ABEX 24/7 GIENGER & FUNK HAUSTECHNIK -> Karriere (website_) -> 1 Junior-IT (1 neu)
+
+[14/254]   AFRA Anwenderfreundliche Automatisierung GmbH -> Karriere (url_patt) -> 3 Junior-IT (1 neu)
+
+[15/254]   Aegis Software GmbH -> Karriere (website_)=== Exit code: 124 ===

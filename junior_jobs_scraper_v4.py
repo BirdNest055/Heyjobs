@@ -466,15 +466,17 @@ class CloakScraper:
 
     def _safe_page(self, url, timeout=HOME_TIMEOUT):
         """Create a new page and navigate with error handling."""
-        page = self.context.new_page()
+        page = None
         try:
+            page = self.context.new_page()
             page.goto(url, timeout=timeout, wait_until='domcontentloaded')
             time.sleep(1.5)
             self._dismiss_cookies(page)
             return page
         except Exception as e:
-            try: page.close()
-            except: pass
+            if page:
+                try: page.close()
+                except: pass
             return None
 
     def search_duckduckgo(self, query, max_results=5):
@@ -874,7 +876,15 @@ class CloakScraper:
 # MAIN
 # ============================================================
 
+import signal
+
 def main():
+    # Ignore SIGPIPE to prevent crashes when running in background
+    try:
+        signal.signal(signal.SIGPIPE, signal.SIG_IGN)
+    except:
+        pass
+    
     print("=" * 70)
     print("Junior IT-Jobs Scraper v4 - QUELLENNAH")
     print("CloakBrowser + DuckDuckGo + Website-Navigation")
