@@ -924,17 +924,27 @@
     "Sengenthal|Dienstleistung"
   ],
   "enriched_companies": [
-    "mauss bau gmbh & co. kg|erlangen",
-    "primetals technologies germany gmbh|erlangen",
-    "frör kunststofftechnik|erlangen",
     "siemens ag, gerätewerk erlangen|erlangen",
-    "siemens healthineers headquarters|erlangen",
     "corscience gmbh & co. kg|erlangen",
+    "sonepar niederlassung erlangen|erlangen",
+    "framatome gmbh|erlangen",
+    "mauss bau gmbh & co. kg|erlangen",
+    "ley elektrotechnik gmbh|erlangen",
+    "friedrich hofmann gmbh erlangen|erlangen",
+    "frör kunststofftechnik|erlangen",
+    "dreyer haustechnik gmbh|erlangen",
+    "primetals technologies germany gmbh|erlangen",
+    "r o t e c rohrtechnik gmbh|erlangen",
     "heitec ag - erlangen|erlangen",
     "valeo eautomotive germany gmbh|erlangen",
-    "framatome gmbh|erlangen",
+    "afra anwenderfreundliche automatisierung gmbh|erlangen",
+    "geis industrie-service gmbh | kraftwerkstraße 21-23 erlangen|erlangen",
+    "wavelight gmbh|erlangen",
+    "geis industrie-service gmbh | röthelheimpark erlangen|erlangen",
+    "siemens healthineers headquarters|erlangen",
+    "basel dienstleistungen gmbh|erlangen",
     "chemische industrie erlangen|erlangen"
   ],
   "phase": "enrich_existing",
-  "last_enrich_idx": 10
+  "last_enrich_idx": 20
 }
