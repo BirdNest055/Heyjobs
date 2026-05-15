@@ -345,7 +345,10 @@
     "Zirndorf|Friseur",
     "Zirndorf|Bäckerei",
     "Zirndorf|Gastronomie",
-    "Strullendorf|Maschinenbau"
+    "Strullendorf|Maschinenbau",
+    "Strullendorf|Baufirma",
+    "Strullendorf|Kfz",
+    "Strullendorf|Immobilien"
   ],
   "cities_done": [
     "Erlangen",
