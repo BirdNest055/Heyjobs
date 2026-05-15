@@ -336,7 +336,15 @@
     "Höchstadt an der Aisch|Ingenieurbüro",
     "Höchstadt an der Aisch|Consulting",
     "Zirndorf|Baufirma",
-    "Zirndorf|Kfz"
+    "Zirndorf|Kfz",
+    "Zirndorf|Immobilien",
+    "Zirndorf|Versicherung",
+    "Zirndorf|Logistik",
+    "Zirndorf|Apotheke",
+    "Zirndorf|Arzt",
+    "Zirndorf|Friseur",
+    "Zirndorf|Bäckerei",
+    "Zirndorf|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -362,6 +370,7 @@
     "Ebermannstadt",
     "Roth",
     "Altdorf bei Nürnberg",
-    "Altdorf bei Nürnberg"
+    "Altdorf bei Nürnberg",
+    "Zirndorf"
   ]
 }
