@@ -1,0 +1,55 @@
+[2026-05-15 16:40:45] Starting batch of 5 companies
+[2026-05-15 16:40:49] 
+[1/5] SINTEC Informatik GmbH (score: 8)
+[2026-05-15 16:40:49]   🌐 Main: https://www.sintec.de
+[2026-05-15 16:40:57]   🔗 12 career links
+[2026-05-15 16:40:57]   📄 https://www.sintec.de/karriere/
+[2026-05-15 16:41:03]   📄 https://www.sintec.de/karriere/arbeiten-bei-sintec/
+[2026-05-15 16:41:09]   📄 https://www.sintec.de/karriere/jobs/
+[2026-05-15 16:41:19]   ✅ 14 IT jobs found
+[2026-05-15 16:41:34]   ✅ Found 5 IT job(s)!
+[2026-05-15 16:41:35] 
+[2/5] advantage it software & service GmbH (score: 8)
+[2026-05-15 16:41:35]   🌐 Main: https://www.advantage-its.de
+[2026-05-15 16:41:41]   🔗 10 career links
+[2026-05-15 16:41:41]   📄 https://www.advantage-its.de/karriere/
+[2026-05-15 16:41:47]   📄 https://www.advantage-its.de/karriere
+[2026-05-15 16:41:53]   📄 https://www.advantage-its.de/jobs
+[2026-05-15 16:41:59]   📄 https://www.advantage-its.de/stellenangebote
+[2026-05-15 16:42:05]   📄 https://www.advantage-its.de/career
+[2026-05-15 16:42:11]   📄 https://www.advantage-its.de/careers
+[2026-05-15 16:42:22]   ✅ Found 1 IT job(s)!
+[2026-05-15 16:42:23] 
+[3/5] HWS Gruppe (score: 8)
+[2026-05-15 16:42:23]   🌐 Main: https://hws-gruppe.de
+[2026-05-15 16:42:29]   🔗 15 career links
+[2026-05-15 16:42:29]   📄 https://hws-gruppe.de/karriere/
+[2026-05-15 16:42:34]   ✅ 2 IT jobs found
+[2026-05-15 16:42:34]   📄 https://hws-gruppe.de/karriere/#offene-stellen
+[2026-05-15 16:42:39]   ✅ 2 IT jobs found
+[2026-05-15 16:42:39]   📄 https://hws-gruppe.de/karriere/#prozess
+[2026-05-15 16:42:43]   ✅ 2 IT jobs found
+[2026-05-15 16:42:48]   ✅ Found 3 IT job(s)!
+[2026-05-15 16:42:49] 
+[4/5] PureSolution GmbH (score: 7)
+[2026-05-15 16:42:49]   🌐 Main: https://www.puresolution.de
+[2026-05-15 16:42:53]   🔗 12 career links
+[2026-05-15 16:42:53]   📄 https://www.puresolution.de/karriere/
+[2026-05-15 16:43:00]   📄 javascript:;
+[2026-05-15 16:43:00]   📄 https://www.puresolution.de/?page_id=83
+[2026-05-15 16:43:01] Starting batch of 3 companies
+[2026-05-15 16:43:06]   📄 https://www.puresolution.de/karriere
+[2026-05-15 16:43:12]   📄 https://www.puresolution.de/jobs
+[2026-05-15 16:43:17]   📄 https://www.puresolution.de/stellenangebote
+[2026-05-15 16:43:28]   ✅ Found 5 IT job(s)!
+[2026-05-15 16:43:28] 
+[5/5] Victoria Consulting GmbH (score: 7)
+[2026-05-15 16:43:28]   🌐 Main: http://www.victoria-consulting.de
+[2026-05-15 16:43:34]   🔗 15 career links
+[2026-05-15 16:43:34]   📄 https://www.victoria-consulting.de/bewerber/Fuer_Bewerber.ph
+[2026-05-15 16:43:39]   ✅ 1 IT jobs found
+[2026-05-15 16:43:39]   📄 https://www.victoria-consulting.de/stellenboerse/index.php
+[2026-05-15 16:43:45]   ✅ 7 IT jobs found
+[2026-05-15 16:44:00]   ✅ Found 5 IT job(s)!
+[2026-05-15 16:44:00] Batch done! 5 companies, 19 new jobs, 19 total
+[2026-05-15 16:44:00] 📊 Saved: /home/z/my-project/download/Bewerbungen_Junior_IT.xlsx (19 jobs)

@@ -1,0 +1,15 @@
+[2026-05-15 16:26:47] ============================================================
+[2026-05-15 16:26:47] Job Application Scraper v4 - Starting
+[2026-05-15 16:26:47] ============================================================
+[2026-05-15 16:26:47] JS extractor written to /home/z/my-project/js_job_extractor.js
+[2026-05-15 16:26:50] Loaded 1024 companies with websites
+[2026-05-15 16:26:50] Previously processed: 0
+[2026-05-15 16:26:50] Jobs so far: 0
+[2026-05-15 16:26:50] Remaining: 1024
+[2026-05-15 16:26:51] 
+[1/500] SINTEC Informatik GmbH (score: 8)
+[2026-05-15 16:26:51]   🌐 Main: https://www.sintec.de
+[2026-05-15 16:38:20] ============================================================
+[2026-05-15 16:38:20] Job Application Scraper v4 - Starting
+[2026-05-15 16:38:20] ============================================================
+[2026-05-15 16:38:20] JS extractor written to /home/z/my-project/js_job_extractor.js

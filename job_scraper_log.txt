@@ -1,0 +1,63 @@
+[2026-05-15 15:43:36] ============================================================
+[2026-05-15 15:43:36] Job Application Scraper - Starting
+[2026-05-15 15:43:36] ============================================================
+[2026-05-15 15:43:39] Loaded 1024 companies with websites (sorted by IT relevance)
+[2026-05-15 15:43:39]   - 16 confirmed IT employers (from Arbeitsagentur)
+[2026-05-15 15:43:39]   - 357 likely IT employers
+[2026-05-15 15:43:39]   - 651 other employers with websites
+[2026-05-15 15:43:39] Already processed: 0 companies
+[2026-05-15 15:43:39] Jobs found so far: 0
+[2026-05-15 15:43:39] Starting from index: 0
+[2026-05-15 15:43:39] Companies to process: 1024
+[2026-05-15 15:43:39] Processing up to 300 this run
+[2026-05-15 15:43:55] 
+[1/300] advantage it software & service GmbH (score: 8)
+[2026-05-15 15:43:55]   🌐 Visiting https://www.advantage-its.de/
+[2026-05-15 15:44:05]   🔗 Found 21 potential career links
+[2026-05-15 15:44:15]   ℹ️ No IT jobs found
+[2026-05-15 15:44:16] 
+[2/300] ercas Software Solutions GmbH (score: 7)
+[2026-05-15 15:44:16]   🌐 Visiting https://ercas.com/
+[2026-05-15 15:44:20]   🔗 Found 24 potential career links
+[2026-05-15 15:44:25]   ℹ️ No IT jobs found
+[2026-05-15 15:44:26] 
+[3/300] Schaeffler Technologies AG & Co. KG (score: 7)
+[2026-05-15 15:44:26]   🌐 Visiting http://www.schaeffler.de/
+[2026-05-15 15:44:33]   🔗 Found 54 potential career links
+[2026-05-15 15:44:38]   ℹ️ No IT jobs found
+[2026-05-15 15:44:39] 
+[4/300] SINTEC Informatik GmbH (score: 7)
+[2026-05-15 15:44:39]   🌐 Visiting https://www.sintec.de/
+[2026-05-15 15:44:47]   🔗 Found 23 potential career links
+[2026-05-15 15:44:59]   ℹ️ No IT jobs found
+[2026-05-15 15:45:00] 
+[5/300] HWS Gruppe (score: 7)
+[2026-05-15 15:45:00]   🌐 Visiting https://hws-gruppe.de/
+[2026-05-15 15:45:08]   🔗 Found 25 potential career links
+[2026-05-15 15:45:24]   ℹ️ No IT jobs found
+[2026-05-15 15:45:25] 
+[6/300] PureSolution GmbH (score: 7)
+[2026-05-15 15:45:25]   🌐 Visiting https://www.puresolution.de/
+[2026-05-15 15:45:30]   🔗 Found 22 potential career links
+[2026-05-15 15:45:36]   ℹ️ No IT jobs found
+[2026-05-15 15:45:37] 
+[7/300] Siemens Healthineers AG (score: 6)
+[2026-05-15 15:45:37]   🌐 Visiting https://www.siemens-healthineers.com/deu
+[2026-05-15 15:45:44]   🔗 Found 22 potential career links
+[2026-05-15 15:45:50]   ℹ️ No IT jobs found
+[2026-05-15 15:45:51] 
+[8/300] M.IT Connect GmbH & Co. KG (score: 6)
+[2026-05-15 15:45:51]   🌐 Visiting http://www.m-it-connect.de/
+[2026-05-15 15:45:58]   🔗 Found 22 potential career links
+[2026-05-15 15:46:05]   ℹ️ No IT jobs found
+[2026-05-15 15:46:06] 
+[9/300] BES Systemhaus GmbH (score: 6)
+[2026-05-15 15:46:06]   🌐 Visiting https://www.bes-systemhaus.de/
+[2026-05-15 15:46:26]   ⚠️ Failed to load https://www.bes-systemhaus.de/: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.bes-systemhaus.de/", w
+[2026-05-15 15:46:26]   ℹ️ No IT jobs found
+[2026-05-15 15:46:27] 
+[10/300] MR Datentechnik Vertriebs- und Service GmbH | IT Systemhaus (score: 6)
+[2026-05-15 15:46:27]   🌐 Visiting https://mr-daten.de/unternehmen/it-systemhaus-bamberg/
+[2026-05-15 15:46:34]   🔗 Found 26 potential career links

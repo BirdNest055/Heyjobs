@@ -1,0 +1,47 @@
+[2026-05-15 16:32:05] ============================================================
+[2026-05-15 16:32:05] Job Application Scraper v4 - Starting
+[2026-05-15 16:32:05] ============================================================
+[2026-05-15 16:32:05] JS extractor written to /home/z/my-project/js_job_extractor.js
+[2026-05-15 16:32:08] Loaded 1024 companies with websites
+[2026-05-15 16:32:08] Previously processed: 0
+[2026-05-15 16:32:08] Jobs so far: 0
+[2026-05-15 16:32:08] Remaining: 1024
+[2026-05-15 16:32:10] 
+[1/500] SINTEC Informatik GmbH (score: 8)
+[2026-05-15 16:32:10]   🌐 Main: https://www.sintec.de
+[2026-05-15 16:32:18]   🔗 13 career links
+[2026-05-15 16:32:18]   📄 Career: https://www.sintec.de/karriere
+[2026-05-15 16:35:53] ============================================================
+[2026-05-15 16:35:53] Job Application Scraper v4 - Starting
+[2026-05-15 16:35:53] ============================================================
+[2026-05-15 16:35:53] JS extractor written to /home/z/my-project/js_job_extractor.js
+[2026-05-15 16:35:56] Loaded 1024 companies with websites
+[2026-05-15 16:35:56] Previously processed: 0
+[2026-05-15 16:35:56] Jobs so far: 0
+[2026-05-15 16:35:56] Remaining: 1024
+[2026-05-15 16:35:57] 
+[1/500] SINTEC Informatik GmbH (score: 8)
+[2026-05-15 16:35:57]   🌐 Main: https://www.sintec.de
+[2026-05-15 16:36:05]   🔗 13 career links
+[2026-05-15 16:36:05]   📄 Career: https://www.sintec.de/karriere
+[2026-05-15 16:36:12]   🔍 IT subpage: Lesen Sie mehr über diese Zwecke
+[2026-05-15 16:36:17]   🔍 IT subpage: Impressum
+[2026-05-15 16:36:23]   🔍 IT subpage: Individuelle Softwareentwicklung
+[2026-05-15 16:36:29]   📄 Career: https://www.sintec.de/jobs
+[2026-05-15 16:36:40]   ✅ 14 IT jobs found
+[2026-05-15 16:37:02]   ✅ Found 5 IT job(s)!
+[2026-05-15 16:37:02] 
+[2/500] advantage it software & service GmbH (score: 8)
+[2026-05-15 16:37:02]   🌐 Main: https://www.advantage-its.de
+[2026-05-15 16:37:35]   🔗 13 career links
+[2026-05-15 16:37:35]   📄 Career: https://www.advantage-its.de/karriere
+[2026-05-15 16:37:41]   🔍 IT subpage: 
+[2026-05-15 16:37:47]   🔍 IT subpage: Software
+[2026-05-15 16:37:53]   🔍 IT subpage: Handwerk –advantage it crafts
+[2026-05-15 16:38:05]   ✅ 2 jobs on IT subpage
+[2026-05-15 16:38:05]   📄 Career: https://www.advantage-its.de/jobs
+[2026-05-15 16:38:12]   📄 Career: https://www.advantage-its.de/stellenangebote
+[2026-05-15 16:38:20] ============================================================
+[2026-05-15 16:38:20] Job Application Scraper v4 - Starting
+[2026-05-15 16:38:20] ============================================================
+[2026-05-15 16:38:20] JS extractor written to /home/z/my-project/js_job_extractor.js

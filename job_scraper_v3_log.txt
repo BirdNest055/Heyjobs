@@ -1,0 +1,19 @@
+[2026-05-15 16:13:21] ============================================================
+[2026-05-15 16:13:21] Job Application Scraper v3 - Starting
+[2026-05-15 16:13:21] ============================================================
+[2026-05-15 16:13:24] Loaded 1024 companies with websites
+[2026-05-15 16:13:24] Previously processed: 0
+[2026-05-15 16:13:24] Jobs so far: 0
+[2026-05-15 16:13:24] Remaining: 1024
+[2026-05-15 16:13:25] 
+[1/500] SINTEC Informatik GmbH (score: 8)
+[2026-05-15 16:13:25]   🌐 Main: https://www.sintec.de
+[2026-05-15 16:13:35]   🔗 19 career links
+[2026-05-15 16:13:35]   📄 Career: https://www.sintec.de/karriere/
+[2026-05-15 16:13:42]   🔍 IT subpage: IT-Betreuung & Support
+[2026-05-15 16:13:47]   ✅ 1 jobs on IT subpage
+[2026-05-15 16:13:47]   🔍 IT subpage: Zum Stellenangebot
+[2026-05-15 16:13:57]   ✅ 2 jobs on IT subpage
+[2026-05-15 16:13:57]   🔍 IT subpage: Zum Stellenangebot
+[2026-05-15 16:14:02]   📄 Career: https://www.sintec.de/karriere/arbeiten-bei-sintec/
+[2026-05-15 16:14:09]   📄 Career: https://www.sintec.de/karriere/jobs/

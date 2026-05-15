@@ -1,44 +1,40 @@
 #!/bin/bash
+# Continuous scraper runner - processes companies in small batches
+# Each batch is a separate process to avoid crashes
 cd /home/z/my-project
-export PYTHONUNBUFFERED=1
 export DISPLAY=:99
 
-MAX_RETRIES=50
-RETRY=0
+BATCH_SIZE=3
+TOTAL_COMPANIES=1024
+MAX_BATCHES=200  # Safety limit
 
-while [ $RETRY -lt $MAX_RETRIES ]; do
-    echo "=== Starting scraper (attempt $((RETRY+1))) ===" >> scrape_wrapper_log.txt
-    date >> scrape_wrapper_log.txt
+echo "Starting continuous scraper (batch size: $BATCH_SIZE)"
+
+for i in $(seq 1 $MAX_BATCHES); do
+    echo ""
+    echo "=== BATCH $i ==="
     
-    timeout 600 python3 -u junior_jobs_scraper_v4.py >> scrape_wrapper_log.txt 2>&1
+    # Run one batch
+    timeout 300 python3 -u job_application_scraper_v5.py $BATCH_SIZE 2>&1
+    
     EXIT_CODE=$?
+    echo "Batch exit code: $EXIT_CODE"
     
-    echo "=== Scraper exited with code $EXIT_CODE ===" >> scrape_wrapper_log.txt
-    date >> scrape_wrapper_log.txt
-    
-    if [ $EXIT_CODE -eq 0 ]; then
-        echo "Scraper completed successfully!" >> scrape_wrapper_log.txt
-        break
+    # Check progress
+    if [ -f job_scraper_v5_progress.json ]; then
+        PROCESSED=$(python3 -c "import json; print(len(json.load(open('job_scraper_v5_progress.json'))['processed']))" 2>/dev/null || echo "?")
+        JOBS=$(python3 -c "import json; print(len(json.load(open('job_scraper_v5_progress.json'))['jobs']))" 2>/dev/null || echo "?")
+        echo "Progress: $PROCESSED companies, $JOBS jobs"
+        
+        # Stop if we've processed enough
+        if [ "$PROCESSED" != "?" ] && [ "$PROCESSED" -ge "$TOTAL_COMPANIES" ]; then
+            echo "All companies processed!"
+            break
+        fi
     fi
     
-    # Check if there are still employers to process
-    python3 -c "
-import json
-p = json.load(open('download/scrape_v3_progress.json'))
-remaining = 254 - len(p.get('completed', []))
-print(f'Remaining: {remaining}')
-if remaining <= 0:
-    exit(1)  # Signal to stop
-" 2>/dev/null
-    
-    if [ $? -ne 0 ]; then
-        echo "All employers processed!" >> scrape_wrapper_log.txt
-        break
-    fi
-    
-    RETRY=$((RETRY+1))
-    echo "Waiting 10s before retry..." >> scrape_wrapper_log.txt
-    sleep 10
+    # Brief pause between batches
+    sleep 2
 done
 
-echo "=== Wrapper finished ===" >> scrape_wrapper_log.txt
+echo "Scraper runner finished."
