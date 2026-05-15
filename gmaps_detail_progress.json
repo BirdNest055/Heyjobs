@@ -321,7 +321,9 @@
     "Strullendorf|Ingenieurbüro",
     "Strullendorf|Consulting",
     "Strullendorf|Marketing",
-    "Zirndorf|Handwerk"
+    "Zirndorf|Handwerk",
+    "Zirndorf|Elektro",
+    "Zirndorf|Metallbau"
   ],
   "cities_done": [
     "Erlangen",
