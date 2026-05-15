@@ -328,7 +328,12 @@
     "Strullendorf|Steuerberater",
     "Strullendorf|Rechtsanwalt",
     "Strullendorf|Architekt",
-    "Strullendorf|Handwerk"
+    "Strullendorf|Handwerk",
+    "Strullendorf|Elektro",
+    "Strullendorf|Metallbau",
+    "Höchstadt an der Aisch|IT",
+    "Höchstadt an der Aisch|Software",
+    "Höchstadt an der Aisch|Ingenieurbüro"
   ],
   "cities_done": [
     "Erlangen",
