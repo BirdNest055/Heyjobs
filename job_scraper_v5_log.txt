@@ -91,3 +91,37 @@
 [2026-05-15 16:50:51]   ✅ Found 5 IT job(s)!
 [2026-05-15 16:50:52] Batch done! 3 companies, 11 new jobs, 30 total
 [2026-05-15 16:50:52] 📊 Saved: /home/z/my-project/download/Bewerbungen_Junior_IT.xlsx (30 jobs)
+[2026-05-15 16:50:54] ✅ Pushed: Job Scraper v5: 3 co | 30 jobs | 05-15 16:50
+[2026-05-15 16:50:57] Starting batch of 3 companies
+[2026-05-15 16:51:01] 
+[1/3] AlphaConsult KG (score: 6)
+[2026-05-15 16:51:01]   🌐 Main: http://www.alphaconsult.org
+[2026-05-15 16:51:08]   🔗 14 career links
+[2026-05-15 16:51:08]   📄 https://jobs.alphaconsult.org/jobs
+[2026-05-15 16:51:17]   📄 https://alphaconsult.org/stellenangebote
+[2026-05-15 16:51:22]   📄 https://alphaconsult.org/interne-karriere
+[2026-05-15 16:51:28]   📄 mailto:bewerbung.leipzig@alphaconsult.org
+[2026-05-15 16:51:28]   📄 mailto:bewerbung.mg@alphaconsult.org
+[2026-05-15 16:51:28]   📄 http://www.alphaconsult.org/karriere
+[2026-05-15 16:51:38]   ✅ Found 2 IT job(s)!
+[2026-05-15 16:51:38] 
+[2/3] Siemens AG (score: 5)
+[2026-05-15 16:51:38]   🌐 Main: https://www.siemens.com/de-de/company/global-locations/germany/erlangen
+[2026-05-15 16:51:44]   🔗 11 career links
+[2026-05-15 16:51:44]   📄 https://www.siemens.com/de-de/company/innovation/collaborati
+[2026-05-15 16:51:50]   ✅ 5 IT jobs found
+[2026-05-15 16:51:56]   ✅ Found 5 IT job(s)!
+[2026-05-15 16:51:57] 
+[3/3] Siemens Healthineers AG (score: 5)
+[2026-05-15 16:51:57]   🌐 Main: https://www.siemens-healthineers.com/deu
+[2026-05-15 16:52:00]   🔗 11 career links
+[2026-05-15 16:52:00]   📄 https://www.siemens-healthineers.com/deu/careers
+[2026-05-15 16:52:07]   ✅ 3 IT jobs found
+[2026-05-15 16:52:07]   📄 https://www.siemens-healthineers.com/deu/careers/faq
+[2026-05-15 16:52:12]   📄 https://www.siemens-healthineers.com/karriere
+[2026-05-15 16:52:18]   📄 https://www.siemens-healthineers.com/jobs
+[2026-05-15 16:52:24]   📄 https://www.siemens-healthineers.com/stellenangebote
+[2026-05-15 16:52:29]   📄 https://www.siemens-healthineers.com/career
+[2026-05-15 16:52:47]   ✅ Found 4 IT job(s)!
+[2026-05-15 16:52:48] Batch done! 3 companies, 11 new jobs, 41 total
+[2026-05-15 16:52:48] 📊 Saved: /home/z/my-project/download/Bewerbungen_Junior_IT.xlsx (41 jobs)

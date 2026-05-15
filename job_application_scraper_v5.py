@@ -92,7 +92,7 @@ def customize_email(stelle, firma, ansprechpartner=""):
             anrede_suffix = "r"
             anrede_target = ansprechpartner
     else:
-        anrede_suffix = "r"
+        anrede_suffix = ""
         anrede_target = "Damen und Herren"
     return EMAIL_BODY.format(anrede_suffix=anrede_suffix, anrede_target=anrede_target, stelle=stelle)
 
