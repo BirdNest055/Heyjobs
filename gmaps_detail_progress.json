@@ -358,7 +358,8 @@
     "Strullendorf|Apotheke",
     "Strullendorf|Arzt",
     "Strullendorf|Friseur",
-    "Strullendorf|Bäckerei"
+    "Strullendorf|Bäckerei",
+    "Strullendorf|Gastronomie"
   ],
   "cities_done": [
     "Erlangen",
@@ -386,6 +387,7 @@
     "Altdorf bei Nürnberg",
     "Altdorf bei Nürnberg",
     "Zirndorf",
-    "Zirndorf"
+    "Zirndorf",
+    "Strullendorf"
   ]
 }
