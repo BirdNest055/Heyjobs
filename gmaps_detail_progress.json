@@ -323,7 +323,12 @@
     "Strullendorf|Marketing",
     "Zirndorf|Handwerk",
     "Zirndorf|Elektro",
-    "Zirndorf|Metallbau"
+    "Zirndorf|Metallbau",
+    "Zirndorf|Maschinenbau",
+    "Strullendorf|Steuerberater",
+    "Strullendorf|Rechtsanwalt",
+    "Strullendorf|Architekt",
+    "Strullendorf|Handwerk"
   ],
   "cities_done": [
     "Erlangen",
