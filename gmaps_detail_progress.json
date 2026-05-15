@@ -317,7 +317,10 @@
     "Zirndorf|Rechtsanwalt",
     "Zirndorf|Architekt",
     "Strullendorf|IT",
-    "Strullendorf|Software"
+    "Strullendorf|Software",
+    "Strullendorf|Ingenieurbüro",
+    "Strullendorf|Consulting",
+    "Strullendorf|Marketing"
   ],
   "cities_done": [
     "Erlangen",
